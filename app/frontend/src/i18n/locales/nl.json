@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "home": {
+      "title": "HEIC naar JPG Converter — Gratis Online, Geen Upload | OpenMyHEIC",
+      "description": "Converteer HEIC naar JPG, PNG, WebP, PDF en meer — direct in je browser. 100% gratis, privé en snel. Je iPhone-foto's verlaten nooit je apparaat."
+    },
+    "jpg": {
+      "title": "HEIC naar JPG Converter — Gratis Online, Geen Upload | OpenMyHEIC",
+      "description": "Converteer HEIC naar JPG direct in je browser. Gratis, privé, geen upload nodig. Zet iPhone-foto's om naar JPG met instelbare kwaliteit."
+    },
+    "png": {
+      "title": "HEIC naar PNG Converter — Verliesvrije Kwaliteit, Gratis | OpenMyHEIC",
+      "description": "Converteer HEIC naar PNG met verliesvrije kwaliteit. Gratis online converter in je browser. Geen upload, geen registratie."
+    },
+    "webp": {
+      "title": "HEIC naar WebP Converter — Modern Formaat, Gratis | OpenMyHEIC",
+      "description": "Converteer HEIC naar WebP voor geoptimaliseerde webafbeeldingen. Gratis browsergebaseerde converter met instelbare kwaliteit."
+    },
+    "bmp": {
+      "title": "HEIC naar BMP Converter — Ongecomprimeerde Kwaliteit, Gratis | OpenMyHEIC",
+      "description": "Converteer HEIC naar BMP voor ongecomprimeerde beeldkwaliteit. Gratis online tool, geen upload nodig."
+    },
+    "gif": {
+      "title": "HEIC naar GIF Converter — Animeer Live Photos, Gratis | OpenMyHEIC",
+      "description": "Converteer HEIC Live Photos naar geanimeerde GIF's. Gratis, privé, in je browser."
+    },
+    "pdf": {
+      "title": "HEIC naar PDF Converter — Maak PDF's van Foto's, Gratis | OpenMyHEIC",
+      "description": "Converteer een of meerdere HEIC-afbeeldingen naar één PDF-document. Gratis online tool zonder upload."
+    },
+    "batch": {
+      "title": "Batch HEIC Converter — Converteer Meerdere Bestanden Tegelijk | OpenMyHEIC",
+      "description": "Converteer meerdere HEIC-bestanden naar JPG, PNG of WebP. Download alle geconverteerde bestanden als ZIP."
+    }
+  },
+  "nav": {
+    "heicToJpg": "HEIC naar JPG",
+    "png": "PNG",
+    "webp": "WebP",
+    "pdf": "PDF",
+    "gif": "GIF",
+    "bmp": "BMP",
+    "batch": "Batch"
+  },
+  "hero": {
+    "title": "HEIC naar JPG Converteren —",
+    "titleHighlight": "Gratis, Privé, Direct",
+    "subtitle": "Je iPhone-foto's in seconden geconverteerd. Geen upload nodig — alles gebeurt in je browser."
+  },
+  "intro": {
+    "home": "Kun je HEIC-bestanden niet openen op je Windows-pc of Android-telefoon? OpenMyHEIC converteert je iPhone-foto's direct in je browser naar universeel compatibele formaten — zonder uploads, zonder servers, zonder privacyzorgen. Sleep, drop en download."
+  },
+  "converter": {
+    "privacyBadge": "Je bestanden verlaten nooit je apparaat. Alle conversie gebeurt in je browser.",
+    "dropTitle": "Sleep je HEIC-bestanden hierheen of klik om te bladeren",
+    "dropSubtitle": "Accepteert .heic en .heif bestanden",
+    "dropSubtitleMultiple": "Accepteert .heic en .heif bestanden (meerdere bestanden mogelijk)",
+    "selectFiles": "Bestanden Selecteren",
+    "outputQuality": "Uitvoerkwaliteit",
+    "smallerFile": "Kleiner bestand",
+    "higherQuality": "Hogere kwaliteit",
+    "converting": "Converteren...",
+    "conversionFailed": "Conversie Mislukt",
+    "conversionComplete": "Conversie Voltooid!",
+    "convertTo": "Converteren naar",
+    "cancel": "Annuleren",
+    "download": "Downloaden",
+    "convertAnother": "Nog Een Converteren",
+    "tryAgain": "Opnieuw Proberen",
+    "startOver": "Opnieuw Beginnen",
+    "invalidFiles": "Selecteer geldige HEIC- of HEIF-bestanden.",
+    "addMoreFiles": "+ Meer bestanden toevoegen"
+  },
+  "batch": {
+    "title": "Batch HEIC Converter — Meerdere Bestanden Tegelijk",
+    "subtitle": "Upload meerdere HEIC-bestanden, kies het uitvoerformaat en download alles als ZIP.",
+    "selectMultiple": "Selecteer meerdere .heic of .heif bestanden",
+    "outputFormat": "Uitvoerformaat",
+    "quality": "Kwaliteit",
+    "overallProgress": "Totale Voortgang",
+    "conversionComplete": "Conversie Voltooid!",
+    "filesConverted": "{success} van {total} bestanden geconverteerd",
+    "filesFailed": "({failed} mislukt)",
+    "convertFiles": "{count} Bestanden Converteren",
+    "clearAll": "Alles Wissen",
+    "downloadZip": "ZIP Downloaden ({count} bestanden)",
+    "convertMore": "Meer Converteren",
+    "formatJpg": "JPG (JPEG)",
+    "formatPng": "PNG (Verliesvrij)",
+    "formatWebp": "WebP (Modern)"
+  },
+  "formats": {
+    "moreFormats": "Meer Conversieformaten",
+    "heicToPng": "HEIC naar PNG",
+    "heicToPngDesc": "Verliesvrije kwaliteitsconversie",
+    "heicToPdf": "HEIC naar PDF",
+    "heicToPdfDesc": "PDF-documenten maken",
+    "heicToWebp": "HEIC naar WebP",
+    "heicToWebpDesc": "Modern webformaat",
+    "heicToGif": "HEIC naar GIF",
+    "heicToGifDesc": "Live Photos animeren",
+    "heicToBmp": "HEIC naar BMP",
+    "heicToBmpDesc": "Ongecomprimeerd formaat",
+    "batchConvert": "Batchconversie",
+    "batchConvertDesc": "Meerdere bestanden tegelijk",
+    "otherTools": "Andere Conversietools"
+  },
+  "why": {
+    "title": "Waarom Onze Converter Gebruiken?",
+    "privateTitle": "100% Privé",
+    "privateDesc": "Je bestanden verlaten nooit je apparaat. Alle conversie gebeurt lokaal in je browser — geen uploads, geen servers.",
+    "speedTitle": "Directe Snelheid",
+    "speedDesc": "Converteer HEIC-bestanden in seconden met de verwerkingskracht van je apparaat. Geen wachten op serveruploads of downloads.",
+    "freeTitle": "Volledig Gratis",
+    "freeDesc": "Geen limieten, geen watermerken, geen registratie. Converteer zoveel bestanden als je wilt, voor altijd gratis.",
+    "qualityTitle": "Instelbare Kwaliteit",
+    "qualityDesc": "Stel de uitvoerkwaliteit nauwkeurig in van 1-100%. Balanceer bestandsgrootte en beeldkwaliteit naar je behoeften."
+  },
+  "faq": {
+    "title": "Veelgestelde Vragen",
+    "items": [
+      {
+        "question": "Is deze HEIC-converter veilig?",
+        "answer": "Ja, absoluut. Alle bestandsconversie gebeurt direct in je browser met JavaScript. Je bestanden worden nooit naar een server geüpload. Je foto's blijven 100% privé op je apparaat."
+      },
+      {
+        "question": "Wat is een HEIC-bestand?",
+        "answer": "HEIC (High Efficiency Image Container) is het standaard fotoformaat van Apple iPhones en iPads sinds iOS 11. Het biedt betere compressie dan JPEG met behoud van hogere beeldkwaliteit, maar wordt niet universeel ondersteund."
+      },
+      {
+        "question": "Is er een bestandsgroottelimiet?",
+        "answer": "Er is geen strikte limiet omdat alle verwerking in je browser plaatsvindt. Zeer grote bestanden (meer dan 50MB) kunnen echter langer duren afhankelijk van de verwerkingskracht van je apparaat."
+      },
+      {
+        "question": "Moet ik een account aanmaken?",
+        "answer": "Nee. Onze converter is volledig gratis zonder registratie, zonder account en zonder limiet op het aantal conversies."
+      },
+      {
+        "question": "Welk uitvoerformaat moet ik kiezen?",
+        "answer": "JPG is het beste voor algemeen gebruik en delen. PNG is ideaal voor verliesvrije kwaliteit of transparantie. WebP biedt de beste compressie voor webgebruik. PDF is uitstekend voor het maken van documenten van foto's."
+      }
+    ]
+  },
+  "convert": {
+    "h1": {
+      "jpg": "HEIC naar JPG Online Converteren — Gratis & Privé",
+      "png": "HEIC naar PNG Converteren — Verliesvrije Kwaliteit",
+      "webp": "HEIC naar WebP Converteren — Modern Webformaat",
+      "bmp": "HEIC naar BMP Converteren — Ongecomprimeerd Formaat",
+      "gif": "HEIC naar GIF Converteren — Animeer Je Live Photos",
+      "pdf": "HEIC naar PDF Converteren — Maak PDF-documenten van Foto's"
+    },
+    "formatDesc": {
+      "jpg": "JPEG is het meest breed ondersteunde afbeeldingsformaat, perfect voor foto's en webgebruik.",
+      "png": "PNG biedt verliesvrije compressie, ideaal voor afbeeldingen die transparantie of maximale kwaliteit vereisen.",
+      "webp": "WebP is een modern formaat dat superieure compressie biedt voor webafbeeldingen.",
+      "bmp": "BMP is een ongecomprimeerd formaat dat elke pixel van je afbeelding bewaart.",
+      "gif": "GIF ondersteunt animatie en is perfect voor het extraheren van Live Photo-frames.",
+      "pdf": "PDF is een universeel documentformaat, ideaal voor het delen en afdrukken van foto's."
+    },
+    "freePrivateInstant": "Gratis, privé en direct — geen upload vereist."
+  },
+  "blog": {
+    "backToConverter": "Terug naar Converter",
+    "updated": "Bijgewerkt maart 2026",
+    "readTime": "5 min leestijd",
+    "readyToConvert": "Klaar om Je HEIC-bestanden te Converteren?",
+    "readyToConvertDesc": "Gratis, privé en direct. Geen upload nodig.",
+    "openConverter": "Converter Openen",
+    "relatedArticles": "Gerelateerde Artikelen",
+    "pageNotFound": "Pagina Niet Gevonden",
+    "pageNotFoundDesc": "Het artikel dat je zoekt bestaat niet.",
+    "backToHome": "Terug naar Home"
+  },
+  "footer": {
+    "tagline": "Gratis, privé HEIC-converter. Je bestanden verlaten nooit je apparaat.",
+    "browserBased": "100% Browsergebaseerd",
+    "conversionTools": "Conversietools",
+    "resources": "Bronnen",
+    "whatIsHeic": "Wat is HEIC?",
+    "convertOnWindows": "Converteren op Windows",
+    "convertOnMac": "Converteren op Mac",
+    "privacyPolicy": "Privacybeleid",
+    "termsOfUse": "Gebruiksvoorwaarden",
+    "contact": "Contact",
+    "copyright": "© {year} OpenMyHEIC.com — Alle rechten voorbehouden.",
+    "privacyNote": "Je bestanden worden volledig in je browser verwerkt. We uploaden, bewaren of openen nooit je foto's."
+  },
+  "privacy": {
+    "metaTitle": "Privacybeleid — OpenMyHEIC",
+    "metaDescription": "Ontdek hoe OpenMyHEIC je privacy beschermt. Alle conversies vinden plaats in je browser — we uploaden, bewaren of openen nooit je foto's.",
+    "title": "Privacybeleid",
+    "lastUpdated": "Laatst bijgewerkt: maart 2026",
+    "introTitle": "Inleiding",
+    "introText": "Bij OpenMyHEIC.com zijn we toegewijd aan het beschermen van je privacy. Dit Privacybeleid legt uit hoe we omgaan met informatie wanneer je onze HEIC-conversieservice gebruikt. Ons kernprincipe is eenvoudig: je bestanden verlaten nooit je apparaat.",
+    "dataCollectionTitle": "Informatie die We Verzamelen",
+    "dataCollectionText": "OpenMyHEIC is ontworpen om bestanden volledig in je browser te verwerken. We verzamelen, uploaden, bewaren of hebben GEEN toegang tot bestanden die je converteert. We kunnen anonieme gebruiksgegevens verzamelen zoals paginaweergaven, browsertype en algemene geografische regio via standaard webanalysetools om onze service te verbeteren.",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "We gebruiken essentiële cookies om de goede werking van onze website te garanderen, zoals het onthouden van je taalvoorkeur. Diensten van derden zoals Google AdSense kunnen cookies gebruiken om gepersonaliseerde advertenties te tonen. Je kunt cookievoorkeuren beheren via je browserinstellingen.",
+    "thirdPartyTitle": "Diensten van Derden",
+    "thirdPartyText": "We gebruiken Google AdSense om advertenties op onze website weer te geven. Google AdSense kan cookies en webbakens gebruiken om informatie te verzamelen over je bezoeken aan deze en andere websites om relevante advertenties te bieden. Je kunt gepersonaliseerde advertenties uitschakelen via Google Advertentie-instellingen (https://adssettings.google.com).",
+    "userRightsTitle": "Jouw Rechten",
+    "userRightsText": "Aangezien we geen persoonlijke gegevens verzamelen via onze conversieservice, zijn er doorgaans geen persoonlijke gegevens om namens jou te beheren. Als je echter gelooft dat we persoonlijke informatie over je bezitten, heb je het recht om: toegang tot je gegevens te vragen, correctie van onjuiste gegevens te vragen, verwijdering van je gegevens te vragen en bezwaar te maken tegen verwerking van je gegevens. Neem contact op via contact@openmyheic.com.",
+    "changesTitle": "Wijzigingen in Dit Beleid",
+    "changesText": "We kunnen dit Privacybeleid van tijd tot tijd bijwerken. Wijzigingen worden op deze pagina gepubliceerd met een bijgewerkte revisiedatum. We raden je aan dit beleid regelmatig te bekijken.",
+    "contactTitle": "Contact",
+    "contactText": "Als je vragen hebt over dit Privacybeleid, neem dan contact met ons op via contact@openmyheic.com."
+  },
+  "terms": {
+    "metaTitle": "Gebruiksvoorwaarden — OpenMyHEIC",
+    "metaDescription": "Lees de Gebruiksvoorwaarden van OpenMyHEIC.com. Begrijp de voorwaarden voor het gebruik van onze gratis HEIC-conversieservice.",
+    "title": "Gebruiksvoorwaarden",
+    "lastUpdated": "Laatst bijgewerkt: maart 2026",
+    "acceptanceTitle": "Aanvaarding van Voorwaarden",
+    "acceptanceText": "Door OpenMyHEIC.com te bezoeken en te gebruiken, ga je akkoord met deze Gebruiksvoorwaarden. Als je niet akkoord gaat, gebruik onze service dan niet.",
+    "serviceTitle": "Beschrijving van de Service",
+    "serviceText": "OpenMyHEIC.com biedt een gratis, browsergebaseerde HEIC-conversieservice. Alle bestandsverwerking vindt lokaal plaats in je webbrowser. We uploaden, bewaren of verwerken je bestanden niet op een server. De service converteert HEIC/HEIF-afbeeldingsbestanden naar diverse formaten waaronder JPG, PNG, WebP, BMP, GIF en PDF.",
+    "usageTitle": "Aanvaardbaar Gebruik",
+    "usageText": "Je stemt ermee in OpenMyHEIC.com alleen voor wettige doeleinden te gebruiken. Je mag deze service niet gebruiken om bestanden te converteren waarop je geen rechten hebt, of voor doeleinden die toepasselijke wetten schenden. Je bent als enige verantwoordelijk voor de inhoud van de bestanden die je converteert.",
+    "intellectualPropertyTitle": "Intellectueel Eigendom",
+    "intellectualPropertyText": "De OpenMyHEIC.com website, inclusief design, logo's, tekst en code, is beschermd door intellectuele eigendomswetten. Je mag geen inhoud van onze website reproduceren, distribueren of afgeleide werken maken zonder voorafgaande schriftelijke toestemming. Je geconverteerde bestanden blijven volledig jouw eigendom.",
+    "limitationTitle": "Beperking van Aansprakelijkheid",
+    "limitationText": "OpenMyHEIC.com wordt geleverd \"zoals het is\" zonder enige garantie. We garanderen niet dat de service ononderbroken, foutloos zal zijn, of dat conversieresultaten aan je specifieke eisen zullen voldoen.",
+    "disclaimerTitle": "Disclaimer",
+    "disclaimerText": "Hoewel we streven naar nauwkeurige en betrouwbare conversies, geven we geen garanties over de kwaliteit, nauwkeurigheid of volledigheid van geconverteerde bestanden. Gebruikers moeten de resultaten van conversies verifiëren voor hun specifieke gebruikssituaties.",
+    "changesTitle": "Wijzigingen in Voorwaarden",
+    "changesText": "We behouden ons het recht voor deze Gebruiksvoorwaarden op elk moment te wijzigen. Wijzigingen worden onmiddellijk van kracht na publicatie op deze pagina. Voortgezet gebruik van de service na wijzigingen geldt als aanvaarding van de nieuwe voorwaarden.",
+    "governingLawTitle": "Toepasselijk Recht",
+    "governingLawText": "Deze Gebruiksvoorwaarden worden beheerst door en geïnterpreteerd in overeenstemming met toepasselijk recht. Geschillen worden opgelost via de juiste juridische kanalen."
+  },
+  "contact": {
+    "metaTitle": "Contact — OpenMyHEIC",
+    "metaDescription": "Neem contact op met het OpenMyHEIC-team. We helpen je graag met vragen over onze gratis HEIC-converter.",
+    "title": "Contact",
+    "introText": "Heb je een vraag, suggestie of hulp nodig met onze HEIC-converter? We horen graag van je. Neem contact op via de onderstaande opties.",
+    "emailTitle": "E-mail Ons",
+    "emailText": "Voor algemene vragen, ondersteuning of zakelijke aangelegenheden:",
+    "feedbackTitle": "Feedback & Suggesties",
+    "feedbackText": "We zijn altijd op zoek naar manieren om OpenMyHEIC te verbeteren. Als je ideeën hebt voor nieuwe functies, formaatondersteuning of verbeteringen in gebruiksvriendelijkheid, stuur ons een e-mail. Je feedback helpt ons de tool voor iedereen te verbeteren.",
+    "privacyReminderTitle": "Privacy Herinnering",
+    "privacyReminderText": "Onthoud dat OpenMyHEIC alle bestanden lokaal in je browser verwerkt. Als je conversieproblemen ervaart, vermeld dan je browsernaam en versie in je bericht — maar stuur ons nooit je HEIC-bestanden.",
+    "responseTimeTitle": "Reactietijd",
+    "responseTimeText": "We streven ernaar alle vragen binnen 48 uur op werkdagen te beantwoorden. Voor dringende zaken, vermeld dit in het onderwerp van je e-mail."
+  },
+  "language": {
+    "switchLanguage": "Taal wisselen"
+  }
+}

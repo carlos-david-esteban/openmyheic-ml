@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "home": {
+      "title": "HEIC in JPG umwandeln — Kostenlos online, kein Upload | OpenMyHEIC",
+      "description": "HEIC in JPG, PNG, WebP, PDF und mehr umwandeln — sofort im Browser. 100% kostenlos, privat und schnell. Ihre iPhone-Fotos verlassen nie Ihr Gerät."
+    },
+    "jpg": {
+      "title": "HEIC in JPG umwandeln — Kostenlos online, kein Upload | OpenMyHEIC",
+      "description": "HEIC sofort im Browser in JPG umwandeln. Kostenlos, privat, kein Upload nötig. iPhone-Fotos in JPG-Format mit einstellbarer Qualität konvertieren."
+    },
+    "png": {
+      "title": "HEIC in PNG umwandeln — Verlustfreie Qualität, kostenlos | OpenMyHEIC",
+      "description": "HEIC in PNG mit verlustfreier Qualität umwandeln. Kostenloser Online-Konverter direkt im Browser. Kein Upload, keine Registrierung erforderlich."
+    },
+    "webp": {
+      "title": "HEIC in WebP umwandeln — Modernes Format, kostenlos | OpenMyHEIC",
+      "description": "HEIC in WebP für optimierte Webbilder umwandeln. Kostenloser browserbasierter Konverter mit einstellbarer Qualität."
+    },
+    "bmp": {
+      "title": "HEIC in BMP umwandeln — Unkomprimierte Qualität, kostenlos | OpenMyHEIC",
+      "description": "HEIC in BMP-Format für unkomprimierte Bildqualität umwandeln. Kostenloses Online-Tool, kein Upload nötig."
+    },
+    "gif": {
+      "title": "HEIC in GIF umwandeln — Live Photos animieren, kostenlos | OpenMyHEIC",
+      "description": "HEIC Live Photos in animierte GIFs umwandeln. Kostenlos, privat, browserbasiert."
+    },
+    "pdf": {
+      "title": "HEIC in PDF umwandeln — PDFs aus Fotos erstellen, kostenlos | OpenMyHEIC",
+      "description": "Ein oder mehrere HEIC-Bilder in ein einzelnes PDF-Dokument umwandeln. Kostenloses Online-Tool ohne Upload."
+    },
+    "batch": {
+      "title": "Stapel-HEIC-Konverter — Mehrere Dateien auf einmal umwandeln | OpenMyHEIC",
+      "description": "Mehrere HEIC-Dateien gleichzeitig in JPG, PNG oder WebP umwandeln. Alle konvertierten Dateien als ZIP herunterladen."
+    }
+  },
+  "nav": {
+    "heicToJpg": "HEIC zu JPG",
+    "png": "PNG",
+    "webp": "WebP",
+    "pdf": "PDF",
+    "gif": "GIF",
+    "bmp": "BMP",
+    "batch": "Stapel"
+  },
+  "hero": {
+    "title": "HEIC in JPG umwandeln —",
+    "titleHighlight": "Kostenlos, Privat, Sofort",
+    "subtitle": "Ihre iPhone-Fotos in Sekunden konvertiert. Kein Upload nötig — alles passiert direkt in Ihrem Browser."
+  },
+  "intro": {
+    "home": "HEIC-Dateien lassen sich auf Windows-PCs oder Android-Geräten oft nicht öffnen? OpenMyHEIC wandelt Ihre iPhone-Fotos direkt im Browser in universell kompatible Formate um — ohne Upload, ohne Server, ohne Datenschutzbedenken. Einfach ziehen, ablegen und herunterladen."
+  },
+  "converter": {
+    "privacyBadge": "Ihre Dateien verlassen nie Ihr Gerät. Die gesamte Konvertierung erfolgt in Ihrem Browser.",
+    "dropTitle": "HEIC-Dateien hier ablegen oder klicken zum Durchsuchen",
+    "dropSubtitle": "Akzeptiert .heic und .heif Dateien",
+    "dropSubtitleMultiple": "Akzeptiert .heic und .heif Dateien (mehrere Dateien möglich)",
+    "selectFiles": "Dateien auswählen",
+    "outputQuality": "Ausgabequalität",
+    "smallerFile": "Kleinere Datei",
+    "higherQuality": "Höhere Qualität",
+    "converting": "Konvertierung...",
+    "conversionFailed": "Konvertierung fehlgeschlagen",
+    "conversionComplete": "Konvertierung abgeschlossen!",
+    "convertTo": "Umwandeln in",
+    "cancel": "Abbrechen",
+    "download": "Herunterladen",
+    "convertAnother": "Weitere konvertieren",
+    "tryAgain": "Erneut versuchen",
+    "startOver": "Neu beginnen",
+    "invalidFiles": "Bitte wählen Sie gültige HEIC- oder HEIF-Dateien aus.",
+    "addMoreFiles": "+ Weitere Dateien hinzufügen"
+  },
+  "batch": {
+    "title": "Stapel-HEIC-Konverter — Mehrere Dateien auf einmal",
+    "subtitle": "Laden Sie mehrere HEIC-Dateien hoch, wählen Sie das Ausgabeformat und laden Sie alles als ZIP herunter.",
+    "selectMultiple": "Mehrere .heic oder .heif Dateien auswählen",
+    "outputFormat": "Ausgabeformat",
+    "quality": "Qualität",
+    "overallProgress": "Gesamtfortschritt",
+    "conversionComplete": "Konvertierung abgeschlossen!",
+    "filesConverted": "{success} von {total} Dateien konvertiert",
+    "filesFailed": "({failed} fehlgeschlagen)",
+    "convertFiles": "{count} Dateien konvertieren",
+    "clearAll": "Alle löschen",
+    "downloadZip": "ZIP herunterladen ({count} Dateien)",
+    "convertMore": "Weitere konvertieren",
+    "formatJpg": "JPG (JPEG)",
+    "formatPng": "PNG (Verlustfrei)",
+    "formatWebp": "WebP (Modern)"
+  },
+  "formats": {
+    "moreFormats": "Weitere Konvertierungsformate",
+    "heicToPng": "HEIC zu PNG",
+    "heicToPngDesc": "Verlustfreie Qualitätskonvertierung",
+    "heicToPdf": "HEIC zu PDF",
+    "heicToPdfDesc": "PDF-Dokumente erstellen",
+    "heicToWebp": "HEIC zu WebP",
+    "heicToWebpDesc": "Modernes Webformat",
+    "heicToGif": "HEIC zu GIF",
+    "heicToGifDesc": "Live Photos animieren",
+    "heicToBmp": "HEIC zu BMP",
+    "heicToBmpDesc": "Unkomprimiertes Format",
+    "batchConvert": "Stapelkonvertierung",
+    "batchConvertDesc": "Mehrere Dateien auf einmal",
+    "otherTools": "Weitere Konvertierungstools"
+  },
+  "why": {
+    "title": "Warum unseren Konverter nutzen?",
+    "privateTitle": "100% Privat",
+    "privateDesc": "Ihre Dateien verlassen nie Ihr Gerät. Die gesamte Konvertierung erfolgt lokal in Ihrem Browser — keine Uploads, keine Server.",
+    "speedTitle": "Sofortige Geschwindigkeit",
+    "speedDesc": "HEIC-Dateien in Sekunden konvertieren mit der Rechenleistung Ihres Geräts. Kein Warten auf Server-Uploads oder Downloads.",
+    "freeTitle": "Komplett kostenlos",
+    "freeDesc": "Keine Limits, keine Wasserzeichen, keine Registrierung. Konvertieren Sie so viele Dateien wie Sie möchten, für immer kostenlos.",
+    "qualityTitle": "Einstellbare Qualität",
+    "qualityDesc": "Ausgabequalität von 1-100% fein abstimmen. Balance zwischen Dateigröße und Bildqualität nach Ihren Bedürfnissen."
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "question": "Ist dieser HEIC-Konverter sicher?",
+        "answer": "Ja, absolut. Die gesamte Dateikonvertierung erfolgt direkt in Ihrem Browser mit JavaScript. Ihre Dateien werden nie auf einen Server hochgeladen. Ihre Fotos bleiben zu 100% privat auf Ihrem Gerät."
+      },
+      {
+        "question": "Was ist eine HEIC-Datei?",
+        "answer": "HEIC (High Efficiency Image Container) ist das Standard-Fotoformat von Apple iPhones und iPads seit iOS 11. Es bietet bessere Komprimierung als JPEG bei gleichzeitig höherer Bildqualität, wird aber nicht von allen Geräten und Software unterstützt."
+      },
+      {
+        "question": "Gibt es eine Dateigrößenbeschränkung?",
+        "answer": "Es gibt keine strikte Dateigrößenbeschränkung, da die gesamte Verarbeitung in Ihrem Browser stattfindet. Sehr große Dateien (über 50MB) können je nach Rechenleistung Ihres Geräts länger dauern."
+      },
+      {
+        "question": "Muss ich ein Konto erstellen?",
+        "answer": "Nein. Unser Konverter ist komplett kostenlos nutzbar ohne Registrierung, ohne Konto und ohne Begrenzung der Anzahl der Konvertierungen."
+      },
+      {
+        "question": "Welches Ausgabeformat sollte ich wählen?",
+        "answer": "JPG eignet sich am besten für den allgemeinen Gebrauch und zum Teilen. PNG ist ideal für verlustfreie Qualität oder Transparenz. WebP bietet die beste Komprimierung für Webnutzung. PDF eignet sich hervorragend zum Erstellen von Dokumenten aus Fotos."
+      }
+    ]
+  },
+  "convert": {
+    "h1": {
+      "jpg": "HEIC in JPG online umwandeln — Kostenlos & Privat",
+      "png": "HEIC in PNG umwandeln — Verlustfreie Qualität",
+      "webp": "HEIC in WebP umwandeln — Modernes Webformat",
+      "bmp": "HEIC in BMP umwandeln — Unkomprimiertes Format",
+      "gif": "HEIC in GIF umwandeln — Live Photos animieren",
+      "pdf": "HEIC in PDF umwandeln — PDF-Dokumente aus Fotos erstellen"
+    },
+    "formatDesc": {
+      "jpg": "JPEG ist das am weitesten verbreitete Bildformat, perfekt für Fotos und Webnutzung.",
+      "png": "PNG bietet verlustfreie Komprimierung, ideal für Bilder mit Transparenz oder maximaler Qualität.",
+      "webp": "WebP ist ein modernes Format mit überlegener Komprimierung für Webbilder.",
+      "bmp": "BMP ist ein unkomprimiertes Format, das jedes Pixel Ihres Bildes bewahrt.",
+      "gif": "GIF unterstützt Animation und eignet sich perfekt zum Extrahieren von Live Photo-Frames.",
+      "pdf": "PDF ist ein universelles Dokumentformat, ideal zum Teilen und Drucken von Fotos."
+    },
+    "freePrivateInstant": "Kostenlos, privat und sofort — kein Upload erforderlich."
+  },
+  "blog": {
+    "backToConverter": "Zurück zum Konverter",
+    "updated": "Aktualisiert März 2026",
+    "readTime": "5 Min. Lesezeit",
+    "readyToConvert": "Bereit, Ihre HEIC-Dateien umzuwandeln?",
+    "readyToConvertDesc": "Kostenlos, privat und sofort. Kein Upload nötig.",
+    "openConverter": "Konverter öffnen",
+    "relatedArticles": "Verwandte Artikel",
+    "pageNotFound": "Seite nicht gefunden",
+    "pageNotFoundDesc": "Der gesuchte Artikel existiert nicht.",
+    "backToHome": "Zurück zur Startseite"
+  },
+  "footer": {
+    "tagline": "Kostenloser, privater HEIC-Konverter. Ihre Dateien verlassen nie Ihr Gerät.",
+    "browserBased": "100% Browserbasiert",
+    "conversionTools": "Konvertierungstools",
+    "resources": "Ressourcen",
+    "whatIsHeic": "Was ist HEIC?",
+    "convertOnWindows": "Konvertieren unter Windows",
+    "convertOnMac": "Konvertieren auf dem Mac",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfUse": "Nutzungsbedingungen",
+    "contact": "Kontakt",
+    "copyright": "© {year} OpenMyHEIC.com — Alle Rechte vorbehalten.",
+    "privacyNote": "Ihre Dateien werden vollständig in Ihrem Browser verarbeitet. Wir laden, speichern oder greifen nie auf Ihre Fotos zu."
+  },
+  "privacy": {
+    "metaTitle": "Datenschutzrichtlinie — OpenMyHEIC",
+    "metaDescription": "Erfahren Sie, wie OpenMyHEIC Ihre Privatsphäre schützt. Alle Konvertierungen finden in Ihrem Browser statt — wir laden, speichern oder greifen nie auf Ihre Fotos zu.",
+    "title": "Datenschutzrichtlinie",
+    "lastUpdated": "Letzte Aktualisierung: März 2026",
+    "introTitle": "Einleitung",
+    "introText": "Bei OpenMyHEIC.com sind wir dem Schutz Ihrer Privatsphäre verpflichtet. Diese Datenschutzrichtlinie erklärt, wie wir mit Informationen umgehen, wenn Sie unseren HEIC-Konvertierungsdienst nutzen. Unser Grundprinzip ist einfach: Ihre Dateien verlassen nie Ihr Gerät.",
+    "dataCollectionTitle": "Informationen, die wir erheben",
+    "dataCollectionText": "OpenMyHEIC ist so konzipiert, dass Dateien vollständig in Ihrem Browser verarbeitet werden. Wir erheben, laden, speichern oder haben KEINEN Zugriff auf Dateien, die Sie konvertieren. Wir können anonyme Nutzungsdaten wie Seitenaufrufe, Browsertyp und allgemeine geografische Region durch Standard-Webanalyse-Tools erheben, um unseren Service zu verbessern. Es werden keine personenbezogenen Daten durch den Konvertierungsprozess erhoben.",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "Wir verwenden wesentliche Cookies, um die ordnungsgemäße Funktion unserer Website sicherzustellen, z.B. das Speichern Ihrer Spracheinstellung. Drittanbieter wie Google AdSense können Cookies verwenden, um personalisierte Werbung basierend auf Ihrem Browserverlauf anzuzeigen. Sie können Cookie-Einstellungen über Ihre Browsereinstellungen verwalten. Durch die Nutzung unserer Website stimmen Sie der Verwendung von Cookies wie in dieser Richtlinie beschrieben zu.",
+    "thirdPartyTitle": "Drittanbieter-Dienste",
+    "thirdPartyText": "Wir verwenden Google AdSense zur Anzeige von Werbung auf unserer Website. Google AdSense kann Cookies und Web-Beacons verwenden, um Informationen über Ihre Besuche auf dieser und anderen Websites zu sammeln, um relevante Werbung bereitzustellen. Die Verwendung von Werbe-Cookies durch Google ermöglicht es Google und seinen Partnern, Anzeigen basierend auf Ihrem Besuch unserer Website und/oder anderer Websites im Internet zu schalten. Sie können die personalisierte Werbung unter den Google-Anzeigeneinstellungen (https://adssettings.google.com) deaktivieren.",
+    "userRightsTitle": "Ihre Rechte",
+    "userRightsText": "Da wir keine personenbezogenen Daten durch unseren Konvertierungsdienst erheben, gibt es in der Regel keine personenbezogenen Daten, die wir in Ihrem Namen verwalten. Wenn Sie jedoch glauben, dass wir persönliche Informationen über Sie besitzen, haben Sie das Recht: Zugang zu Ihren Daten zu verlangen, Berichtigung ungenauer Daten zu verlangen, Löschung Ihrer Daten zu verlangen und der Verarbeitung Ihrer Daten zu widersprechen. Um eines dieser Rechte auszuüben, kontaktieren Sie uns unter contact@openmyheic.com.",
+    "changesTitle": "Änderungen dieser Richtlinie",
+    "changesText": "Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Änderungen werden auf dieser Seite mit einem aktualisierten Revisionsdatum veröffentlicht. Wir empfehlen Ihnen, diese Richtlinie regelmäßig zu überprüfen.",
+    "contactTitle": "Kontakt",
+    "contactText": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns unter contact@openmyheic.com."
+  },
+  "terms": {
+    "metaTitle": "Nutzungsbedingungen — OpenMyHEIC",
+    "metaDescription": "Lesen Sie die Nutzungsbedingungen von OpenMyHEIC.com. Verstehen Sie die Bedingungen für die Nutzung unseres kostenlosen HEIC-Konvertierungsdienstes.",
+    "title": "Nutzungsbedingungen",
+    "lastUpdated": "Letzte Aktualisierung: März 2026",
+    "acceptanceTitle": "Annahme der Bedingungen",
+    "acceptanceText": "Durch den Zugriff auf und die Nutzung von OpenMyHEIC.com erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie diesen Bedingungen nicht zustimmen, nutzen Sie unseren Dienst bitte nicht.",
+    "serviceTitle": "Beschreibung des Dienstes",
+    "serviceText": "OpenMyHEIC.com bietet einen kostenlosen, browserbasierten HEIC-Konvertierungsdienst. Die gesamte Dateiverarbeitung erfolgt lokal in Ihrem Webbrowser. Wir laden, speichern oder verarbeiten Ihre Dateien nicht auf einem Server. Der Dienst konvertiert HEIC/HEIF-Bilddateien in verschiedene Formate wie JPG, PNG, WebP, BMP, GIF und PDF.",
+    "usageTitle": "Zulässige Nutzung",
+    "usageText": "Sie stimmen zu, OpenMyHEIC.com nur für rechtmäßige Zwecke zu nutzen. Sie dürfen diesen Dienst nicht verwenden, um Dateien zu konvertieren, für die Sie keine Rechte besitzen, oder für Zwecke, die gegen geltende lokale, nationale oder internationale Gesetze verstoßen. Sie sind allein verantwortlich für den Inhalt der Dateien, die Sie konvertieren.",
+    "intellectualPropertyTitle": "Geistiges Eigentum",
+    "intellectualPropertyText": "Die Website OpenMyHEIC.com, einschließlich Design, Logos, Text und Code, ist durch Gesetze zum Schutz geistigen Eigentums geschützt. Sie dürfen Inhalte unserer Website ohne vorherige schriftliche Genehmigung nicht reproduzieren, verbreiten oder abgeleitete Werke erstellen. Ihre konvertierten Dateien bleiben vollständig Ihr Eigentum — wir beanspruchen keine Rechte an Dateien, die Sie mit unserem Dienst verarbeiten.",
+    "limitationTitle": "Haftungsbeschränkung",
+    "limitationText": "OpenMyHEIC.com wird \"wie besehen\" ohne jegliche Garantien bereitgestellt. Wir garantieren nicht, dass der Dienst unterbrechungsfrei, fehlerfrei ist oder dass die Konvertierungsergebnisse Ihren spezifischen Anforderungen entsprechen. In keinem Fall haftet OpenMyHEIC.com für indirekte, zufällige, besondere oder Folgeschäden.",
+    "disclaimerTitle": "Haftungsausschluss",
+    "disclaimerText": "Obwohl wir uns um genaue und zuverlässige Konvertierungen bemühen, geben wir keine Garantien hinsichtlich der Qualität, Genauigkeit oder Vollständigkeit der konvertierten Dateien. Benutzer sollten die Ergebnisse der Konvertierungen für ihre spezifischen Anwendungsfälle überprüfen. Wir sind nicht verantwortlich für Datenverluste während des Konvertierungsprozesses.",
+    "changesTitle": "Änderungen der Bedingungen",
+    "changesText": "Wir behalten uns das Recht vor, diese Nutzungsbedingungen jederzeit zu ändern. Änderungen werden sofort nach Veröffentlichung auf dieser Seite wirksam. Ihre fortgesetzte Nutzung des Dienstes nach Änderungen gilt als Annahme der neuen Bedingungen.",
+    "governingLawTitle": "Anwendbares Recht",
+    "governingLawText": "Diese Nutzungsbedingungen unterliegen dem anwendbaren Recht. Streitigkeiten aus diesen Bedingungen oder der Nutzung unseres Dienstes werden über die entsprechenden rechtlichen Kanäle gelöst."
+  },
+  "contact": {
+    "metaTitle": "Kontakt — OpenMyHEIC",
+    "metaDescription": "Nehmen Sie Kontakt mit dem OpenMyHEIC-Team auf. Wir helfen Ihnen gerne bei Fragen zu unserem kostenlosen HEIC-Konverter.",
+    "title": "Kontakt",
+    "introText": "Haben Sie eine Frage, einen Vorschlag oder benötigen Sie Hilfe mit unserem HEIC-Konverter? Wir freuen uns von Ihnen zu hören. Kontaktieren Sie uns über die folgenden Optionen.",
+    "emailTitle": "E-Mail",
+    "emailText": "Für allgemeine Anfragen, Support oder geschäftliche Angelegenheiten:",
+    "feedbackTitle": "Feedback & Vorschläge",
+    "feedbackText": "Wir suchen immer nach Möglichkeiten, OpenMyHEIC zu verbessern. Wenn Sie Ideen für neue Funktionen, Formatunterstützung oder Verbesserungen der Benutzerfreundlichkeit haben, senden Sie uns eine E-Mail. Ihr Feedback hilft uns, das Tool für alle zu verbessern.",
+    "privacyReminderTitle": "Datenschutz-Hinweis",
+    "privacyReminderText": "Denken Sie daran, OpenMyHEIC verarbeitet alle Dateien lokal in Ihrem Browser. Wenn Sie Konvertierungsprobleme haben, geben Sie bitte Ihren Browsernamen und die Version in Ihrer Nachricht an — senden Sie uns aber niemals Ihre HEIC-Dateien, da wir sie zur Fehlerbehebung nicht benötigen.",
+    "responseTimeTitle": "Antwortzeit",
+    "responseTimeText": "Wir bemühen uns, alle Anfragen innerhalb von 48 Stunden an Werktagen zu beantworten. Für dringende Angelegenheiten kennzeichnen Sie dies bitte in der Betreffzeile Ihrer E-Mail."
+  },
+  "language": {
+    "switchLanguage": "Sprache wechseln"
+  }
+}

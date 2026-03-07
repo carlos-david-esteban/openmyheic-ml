@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "home": {
+      "title": "HEIC→JPG変換 — 無料オンライン、アップロード不要 | OpenMyHEIC",
+      "description": "HEIC→JPG、PNG、WebP、PDFなどに即座にブラウザで変換。100%無料、プライベート、高速。iPhoneの写真がデバイスから出ることはありません。"
+    },
+    "jpg": {
+      "title": "HEIC→JPG変換 — 無料オンライン、アップロード不要 | OpenMyHEIC",
+      "description": "ブラウザでHEICをJPGに即座に変換。無料、プライベート、アップロード不要。品質調整可能なiPhone写真変換ツール。"
+    },
+    "png": {
+      "title": "HEIC→PNG変換 — ロスレス品質、無料オンライン | OpenMyHEIC",
+      "description": "ロスレス品質でHEICをPNGに変換。ブラウザで動作する無料オンラインコンバーター。アップロード・登録不要。"
+    },
+    "webp": {
+      "title": "HEIC→WebP変換 — モダンフォーマット、無料オンライン | OpenMyHEIC",
+      "description": "Web画像最適化のためにHEICをWebPに変換。品質調整可能な無料ブラウザベースコンバーター。"
+    },
+    "bmp": {
+      "title": "HEIC→BMP変換 — 非圧縮品質、無料 | OpenMyHEIC",
+      "description": "非圧縮画像品質のためにHEICをBMP形式に変換。アップロード不要の無料オンラインツール。"
+    },
+    "gif": {
+      "title": "HEIC→GIF変換 — Live Photosをアニメーション化、無料 | OpenMyHEIC",
+      "description": "HEIC Live Photosをアニメーションに変換。無料、プライベート、ブラウザベース。"
+    },
+    "pdf": {
+      "title": "HEIC→PDF変換 — 写真からPDF作成、無料 | OpenMyHEIC",
+      "description": "1枚または複数のHEIC画像を1つのPDFドキュメントに変換。アップロード不要の無料オンラインツール。"
+    },
+    "batch": {
+      "title": "一括HEIC変換 — 複数ファイルを一度に変換 | OpenMyHEIC",
+      "description": "複数のHEICファイルをJPG、PNG、WebPに一括変換。変換済みファイルをZIPでダウンロード。"
+    }
+  },
+  "nav": {
+    "heicToJpg": "HEIC→JPG",
+    "png": "PNG",
+    "webp": "WebP",
+    "pdf": "PDF",
+    "gif": "GIF",
+    "bmp": "BMP",
+    "batch": "一括"
+  },
+  "hero": {
+    "title": "HEICをJPGに変換 —",
+    "titleHighlight": "無料、プライベート、即座",
+    "subtitle": "iPhoneの写真を数秒で変換。アップロード不要 — すべてブラウザ内で完結します。"
+  },
+  "intro": {
+    "home": "WindowsパソコンやAndroidスマートフォンでHEICファイルが開けなくて困っていませんか？OpenMyHEICなら、iPhoneの写真をブラウザ上で直接、どのデバイスでも開ける形式に変換できます。サーバーへのアップロードは一切不要。ドラッグ＆ドロップするだけで、すぐにダウンロードできます。"
+  },
+  "converter": {
+    "privacyBadge": "ファイルはデバイスから出ることはありません。すべての変換はブラウザ内で行われます。",
+    "dropTitle": "HEICファイルをここにドロップまたはクリックして選択",
+    "dropSubtitle": ".heicと.heifファイルに対応",
+    "dropSubtitleMultiple": ".heicと.heifファイルに対応（複数ファイル可）",
+    "selectFiles": "ファイルを選択",
+    "outputQuality": "出力品質",
+    "smallerFile": "小さいファイル",
+    "higherQuality": "高品質",
+    "converting": "変換中...",
+    "conversionFailed": "変換に失敗しました",
+    "conversionComplete": "変換完了！",
+    "convertTo": "変換先",
+    "cancel": "キャンセル",
+    "download": "ダウンロード",
+    "convertAnother": "別のファイルを変換",
+    "tryAgain": "再試行",
+    "startOver": "最初からやり直す",
+    "invalidFiles": "有効なHEICまたはHEIFファイルを選択してください。",
+    "addMoreFiles": "+ ファイルを追加"
+  },
+  "batch": {
+    "title": "一括HEIC変換 — 複数ファイルを一度に変換",
+    "subtitle": "複数のHEICファイルをアップロードし、出力形式を選択して、すべてをZIPでダウンロード。",
+    "selectMultiple": "複数の.heicまたは.heifファイルを選択",
+    "outputFormat": "出力形式",
+    "quality": "品質",
+    "overallProgress": "全体の進捗",
+    "conversionComplete": "変換完了！",
+    "filesConverted": "{total}ファイル中{success}ファイル変換済み",
+    "filesFailed": "（{failed}ファイル失敗）",
+    "convertFiles": "{count}ファイルを変換",
+    "clearAll": "すべてクリア",
+    "downloadZip": "ZIPをダウンロード（{count}ファイル）",
+    "convertMore": "さらに変換",
+    "formatJpg": "JPG (JPEG)",
+    "formatPng": "PNG (ロスレス)",
+    "formatWebp": "WebP (モダン)"
+  },
+  "formats": {
+    "moreFormats": "その他の変換形式",
+    "heicToPng": "HEIC→PNG",
+    "heicToPngDesc": "ロスレス品質変換",
+    "heicToPdf": "HEIC→PDF",
+    "heicToPdfDesc": "PDFドキュメント作成",
+    "heicToWebp": "HEIC→WebP",
+    "heicToWebpDesc": "モダンWeb形式",
+    "heicToGif": "HEIC→GIF",
+    "heicToGifDesc": "Live Photosをアニメーション化",
+    "heicToBmp": "HEIC→BMP",
+    "heicToBmpDesc": "非圧縮形式",
+    "batchConvert": "一括変換",
+    "batchConvertDesc": "複数ファイルを一度に",
+    "otherTools": "その他の変換ツール"
+  },
+  "why": {
+    "title": "なぜ当社のコンバーターを使うのか？",
+    "privateTitle": "100%プライベート",
+    "privateDesc": "ファイルはデバイスから出ることはありません。すべての変換はブラウザ内でローカルに行われます。アップロードもサーバーも不要。",
+    "speedTitle": "即座の速度",
+    "speedDesc": "デバイスの処理能力を使ってHEICファイルを数秒で変換。サーバーへのアップロードやダウンロードを待つ必要はありません。",
+    "freeTitle": "完全無料",
+    "freeDesc": "制限なし、透かしなし、登録不要。好きなだけファイルを変換できます。永久無料。",
+    "qualityTitle": "品質調整可能",
+    "qualityDesc": "1-100%の出力品質を細かく調整。ファイルサイズと画質のバランスをニーズに合わせて調整できます。"
+  },
+  "faq": {
+    "title": "よくある質問",
+    "items": [
+      {
+        "question": "このHEICコンバーターは安全ですか？",
+        "answer": "はい、完全に安全です。すべてのファイル変換はJavaScriptを使用してブラウザ内で直接行われます。ファイルがサーバーにアップロードされることは一切ありません。写真は100%デバイス上でプライベートに保たれます。"
+      },
+      {
+        "question": "HEICファイルとは何ですか？",
+        "answer": "HEIC（High Efficiency Image Container）は、iOS 11以降のApple iPhoneおよびiPadで使用されるデフォルトの写真形式です。JPEGよりも優れた圧縮率で高画質を維持しますが、すべてのデバイスやソフトウェアで対応しているわけではありません。"
+      },
+      {
+        "question": "ファイルサイズの制限はありますか？",
+        "answer": "すべての処理がブラウザ内で行われるため、厳密なファイルサイズ制限はありません。ただし、非常に大きなファイル（50MB以上）は、デバイスの処理能力によっては変換に時間がかかる場合があります。"
+      },
+      {
+        "question": "アカウントを作成する必要がありますか？",
+        "answer": "いいえ。当社のコンバーターは登録不要、アカウント不要、変換回数の制限なしで完全に無料でご利用いただけます。"
+      },
+      {
+        "question": "どの出力形式を選べばよいですか？",
+        "answer": "JPGは一般的な使用や共有に最適です。PNGはロスレス品質や透過が必要な場合に理想的です。WebPはWeb利用に最適な圧縮を提供します。PDFは写真からドキュメントを作成するのに最適です。"
+      }
+    ]
+  },
+  "convert": {
+    "h1": {
+      "jpg": "HEICをJPGにオンライン変換 — 無料＆プライベート",
+      "png": "HEICをPNGに変換 — ロスレス品質変換",
+      "webp": "HEICをWebPに変換 — モダンWeb形式",
+      "bmp": "HEICをBMPに変換 — 非圧縮形式",
+      "gif": "HEICをGIFに変換 — Live Photosをアニメーション化",
+      "pdf": "HEICをPDFに変換 — 写真からPDFドキュメント作成"
+    },
+    "formatDesc": {
+      "jpg": "JPEGは最も広くサポートされている画像形式で、写真やWeb利用に最適です。",
+      "png": "PNGはロスレス圧縮を提供し、透過や最高品質が必要な画像に理想的です。",
+      "webp": "WebPはWeb画像に優れた圧縮を提供するモダンな形式です。",
+      "bmp": "BMPは画像のすべてのピクセルを保持する非圧縮形式です。",
+      "gif": "GIFはアニメーションをサポートし、Live Photoフレームの抽出に最適です。",
+      "pdf": "PDFは写真の共有や印刷に最適なユニバーサルドキュメント形式です。"
+    },
+    "freePrivateInstant": "無料、プライベート、即座 — アップロード不要。"
+  },
+  "blog": {
+    "backToConverter": "コンバーターに戻る",
+    "updated": "2026年3月更新",
+    "readTime": "5分で読めます",
+    "readyToConvert": "HEICファイルを変換する準備はできましたか？",
+    "readyToConvertDesc": "無料、プライベート、即座。アップロード不要。",
+    "openConverter": "コンバーターを開く",
+    "relatedArticles": "関連記事",
+    "pageNotFound": "ページが見つかりません",
+    "pageNotFoundDesc": "お探しの記事は存在しません。",
+    "backToHome": "ホームに戻る"
+  },
+  "footer": {
+    "tagline": "無料でプライベートなHEICコンバーター。ファイルはデバイスから出ることはありません。",
+    "browserBased": "100%ブラウザベース",
+    "conversionTools": "変換ツール",
+    "resources": "リソース",
+    "whatIsHeic": "HEICとは？",
+    "convertOnWindows": "Windowsで変換",
+    "convertOnMac": "Macで変換",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfUse": "利用規約",
+    "contact": "お問い合わせ",
+    "copyright": "© {year} OpenMyHEIC.com — 全著作権所有。",
+    "privacyNote": "ファイルはすべてブラウザ内で処理されます。写真のアップロード、保存、アクセスは一切行いません。"
+  },
+  "privacy": {
+    "metaTitle": "プライバシーポリシー — OpenMyHEIC",
+    "metaDescription": "OpenMyHEICがどのようにプライバシーを保護するかをご覧ください。すべての変換はブラウザ内で行われ、写真のアップロード、保存、アクセスは一切行いません。",
+    "title": "プライバシーポリシー",
+    "lastUpdated": "最終更新日：2026年3月",
+    "introTitle": "はじめに",
+    "introText": "OpenMyHEIC.comでは、お客様のプライバシー保護に取り組んでいます。このプライバシーポリシーは、HEIC変換サービスをご利用いただく際の情報の取り扱いについて説明します。基本原則はシンプルです：お客様のファイルはデバイスから出ることはありません。",
+    "dataCollectionTitle": "収集する情報",
+    "dataCollectionText": "OpenMyHEICは、ファイルを完全にブラウザ内で処理するよう設計されています。変換するファイルの収集、アップロード、保存、アクセスは一切行いません。サービス改善のため、ページビュー、ブラウザの種類、一般的な地域情報などの匿名の利用データを標準的なウェブ分析ツールを通じて収集する場合があります。",
+    "cookiesTitle": "Cookie",
+    "cookiesText": "言語設定の記憶など、ウェブサイトの適切な機能を確保するために必要なCookieを使用しています。Google AdSenseなどのサードパーティサービスは、閲覧履歴に基づいてパーソナライズされた広告を配信するためにCookieを使用する場合があります。ブラウザの設定からCookieの設定を管理できます。",
+    "thirdPartyTitle": "サードパーティサービス",
+    "thirdPartyText": "ウェブサイトに広告を表示するためにGoogle AdSenseを使用しています。Google AdSenseは、関連性の高い広告を提供するために、このサイトや他のサイトへの訪問に関する情報を収集するためにCookieやウェブビーコンを使用する場合があります。Googleの広告設定（https://adssettings.google.com）でパーソナライズされた広告をオプトアウトできます。",
+    "userRightsTitle": "お客様の権利",
+    "userRightsText": "変換サービスを通じて個人データを収集していないため、通常、お客様に代わって管理する個人データはありません。ただし、当社がお客様の個人情報を保持していると思われる場合は、データへのアクセス要求、不正確なデータの修正要求、データの削除要求、データ処理への異議申し立ての権利があります。これらの権利を行使するには、contact@openmyheic.comまでご連絡ください。",
+    "changesTitle": "ポリシーの変更",
+    "changesText": "このプライバシーポリシーは随時更新される場合があります。変更は更新された日付とともにこのページに掲載されます。定期的にこのポリシーを確認されることをお勧めします。",
+    "contactTitle": "お問い合わせ",
+    "contactText": "このプライバシーポリシーについてご質問がある場合は、contact@openmyheic.comまでお問い合わせください。"
+  },
+  "terms": {
+    "metaTitle": "利用規約 — OpenMyHEIC",
+    "metaDescription": "OpenMyHEIC.comの利用規約をお読みください。無料のHEIC変換サービスの利用条件をご確認ください。",
+    "title": "利用規約",
+    "lastUpdated": "最終更新日：2026年3月",
+    "acceptanceTitle": "規約の承諾",
+    "acceptanceText": "OpenMyHEIC.comにアクセスし使用することにより、これらの利用規約に拘束されることに同意するものとします。これらの規約に同意しない場合は、当サービスを使用しないでください。",
+    "serviceTitle": "サービスの説明",
+    "serviceText": "OpenMyHEIC.comは、無料のブラウザベースHEIC変換サービスを提供します。すべてのファイル処理はウェブブラウザ内でローカルに行われます。サーバー上でファイルのアップロード、保存、処理は行いません。HEIC/HEIF画像ファイルをJPG、PNG、WebP、BMP、GIF、PDFなどの形式に変換します。",
+    "usageTitle": "許容される使用",
+    "usageText": "OpenMyHEIC.comを合法的な目的のみに使用することに同意するものとします。権利のないファイルの変換や、適用される法律に違反する目的での使用は禁止されています。変換するファイルの内容については、お客様が全責任を負います。",
+    "intellectualPropertyTitle": "知的財産",
+    "intellectualPropertyText": "OpenMyHEIC.comウェブサイトは、デザイン、ロゴ、テキスト、コードを含め、知的財産法により保護されています。事前の書面による許可なく、ウェブサイトのコンテンツを複製、配布、派生物を作成することはできません。変換されたファイルは完全にお客様の所有物です。",
+    "limitationTitle": "責任の制限",
+    "limitationText": "OpenMyHEIC.comは、明示または黙示を問わず、いかなる種類の保証もなく「現状のまま」提供されます。サービスが中断なく、エラーなく動作すること、または変換結果がお客様の特定の要件を満たすことを保証するものではありません。",
+    "disclaimerTitle": "免責事項",
+    "disclaimerText": "正確で信頼性の高い変換の提供に努めていますが、変換されたファイルの品質、正確性、完全性について保証するものではありません。ユーザーは特定の使用目的に合わせて変換結果を確認する必要があります。変換プロセス中に発生するデータ損失については責任を負いません。",
+    "changesTitle": "規約の変更",
+    "changesText": "これらの利用規約はいつでも変更する権利を留保します。変更はこのページに掲載された時点で直ちに有効となります。変更後のサービスの継続使用は、新しい規約の承諾とみなされます。",
+    "governingLawTitle": "準拠法",
+    "governingLawText": "これらの利用規約は、適用される法律に準拠し解釈されるものとします。これらの規約またはサービスの使用に起因する紛争は、適切な法的手段により解決されるものとします。"
+  },
+  "contact": {
+    "metaTitle": "お問い合わせ — OpenMyHEIC",
+    "metaDescription": "OpenMyHEICチームにお問い合わせください。無料のHEICコンバーターに関するご質問にお答えします。",
+    "title": "お問い合わせ",
+    "introText": "HEICコンバーターについてご質問、ご提案、またはサポートが必要ですか？以下のオプションからお問い合わせください。",
+    "emailTitle": "メールでのお問い合わせ",
+    "emailText": "一般的なお問い合わせ、サポート、ビジネスに関する事項：",
+    "feedbackTitle": "フィードバックとご提案",
+    "feedbackText": "OpenMyHEICの改善に常に取り組んでいます。新機能、フォーマットサポート、使いやすさの改善についてのアイデアがあれば、メールでお知らせください。皆様のフィードバックがツールの改善に役立ちます。",
+    "privacyReminderTitle": "プライバシーに関するお知らせ",
+    "privacyReminderText": "OpenMyHEICはすべてのファイルをブラウザ内でローカルに処理します。変換の問題が発生した場合は、メッセージにブラウザ名とバージョンを含めてください。ただし、HEICファイルは送らないでください。トラブルシューティングに必要ありません。",
+    "responseTimeTitle": "回答時間",
+    "responseTimeText": "営業日の48時間以内にすべてのお問い合わせに回答するよう努めています。緊急の場合は、メールの件名にその旨を記載してください。"
+  },
+  "language": {
+    "switchLanguage": "言語を切り替え"
+  }
+}

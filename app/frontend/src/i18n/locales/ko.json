@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "home": {
+      "title": "HEIC를 JPG로 변환 — 무료 온라인, 업로드 불필요 | OpenMyHEIC",
+      "description": "HEIC를 JPG, PNG, WebP, PDF 등으로 브라우저에서 즉시 변환. 100% 무료, 개인정보 보호, 빠른 속도. iPhone 사진이 기기를 떠나지 않습니다."
+    },
+    "jpg": {
+      "title": "HEIC를 JPG로 변환 — 무료 온라인, 업로드 불필요 | OpenMyHEIC",
+      "description": "브라우저에서 HEIC를 JPG로 즉시 변환. 무료, 개인정보 보호, 업로드 불필요. 조절 가능한 품질로 iPhone 사진을 JPG로 변환."
+    },
+    "png": {
+      "title": "HEIC를 PNG로 변환 — 무손실 품질, 무료 온라인 | OpenMyHEIC",
+      "description": "무손실 품질로 HEIC를 PNG로 변환. 브라우저에서 작동하는 무료 온라인 변환기. 업로드, 회원가입 불필요."
+    },
+    "webp": {
+      "title": "HEIC를 WebP로 변환 — 최신 포맷, 무료 온라인 | OpenMyHEIC",
+      "description": "최적화된 웹 이미지를 위해 HEIC를 WebP로 변환. 품질 조절 가능한 무료 브라우저 기반 변환기."
+    },
+    "bmp": {
+      "title": "HEIC를 BMP로 변환 — 비압축 품질, 무료 | OpenMyHEIC",
+      "description": "비압축 이미지 품질을 위해 HEIC를 BMP 형식으로 변환. 업로드 불필요한 무료 온라인 도구."
+    },
+    "gif": {
+      "title": "HEIC를 GIF로 변환 — Live Photos 애니메이션, 무료 | OpenMyHEIC",
+      "description": "HEIC Live Photos를 애니메이션 GIF로 변환. 무료, 개인정보 보호, 브라우저 기반."
+    },
+    "pdf": {
+      "title": "HEIC를 PDF로 변환 — 사진으로 PDF 만들기, 무료 | OpenMyHEIC",
+      "description": "하나 또는 여러 HEIC 이미지를 하나의 PDF 문서로 변환. 업로드 불필요한 무료 온라인 도구."
+    },
+    "batch": {
+      "title": "일괄 HEIC 변환 — 여러 파일 한 번에 변환 | OpenMyHEIC",
+      "description": "여러 HEIC 파일을 JPG, PNG 또는 WebP로 일괄 변환. 변환된 모든 파일을 ZIP으로 다운로드."
+    }
+  },
+  "nav": {
+    "heicToJpg": "HEIC→JPG",
+    "png": "PNG",
+    "webp": "WebP",
+    "pdf": "PDF",
+    "gif": "GIF",
+    "bmp": "BMP",
+    "batch": "일괄"
+  },
+  "hero": {
+    "title": "HEIC를 JPG로 변환 —",
+    "titleHighlight": "무료, 개인정보 보호, 즉시",
+    "subtitle": "iPhone 사진을 몇 초 만에 변환. 업로드 불필요 — 모든 것이 브라우저에서 처리됩니다."
+  },
+  "intro": {
+    "home": "Windows PC나 Android 폰에서 HEIC 파일이 열리지 않나요? OpenMyHEIC는 iPhone 사진을 브라우저에서 직접 범용 포맷으로 변환합니다. 서버 업로드 없이, 회원가입 없이, 완벽한 개인정보 보호. 드래그, 드롭, 다운로드하세요."
+  },
+  "converter": {
+    "privacyBadge": "파일이 기기를 떠나지 않습니다. 모든 변환은 브라우저에서 이루어집니다.",
+    "dropTitle": "HEIC 파일을 여기에 드롭하거나 클릭하여 찾아보기",
+    "dropSubtitle": ".heic 및 .heif 파일 지원",
+    "dropSubtitleMultiple": ".heic 및 .heif 파일 지원 (여러 파일 가능)",
+    "selectFiles": "파일 선택",
+    "outputQuality": "출력 품질",
+    "smallerFile": "작은 파일",
+    "higherQuality": "높은 품질",
+    "converting": "변환 중...",
+    "conversionFailed": "변환 실패",
+    "conversionComplete": "변환 완료!",
+    "convertTo": "변환 대상",
+    "cancel": "취소",
+    "download": "다운로드",
+    "convertAnother": "다른 파일 변환",
+    "tryAgain": "다시 시도",
+    "startOver": "처음부터 다시",
+    "invalidFiles": "유효한 HEIC 또는 HEIF 파일을 선택해 주세요.",
+    "addMoreFiles": "+ 파일 추가"
+  },
+  "batch": {
+    "title": "일괄 HEIC 변환 — 여러 파일 한 번에",
+    "subtitle": "여러 HEIC 파일을 업로드하고 출력 형식을 선택한 후 모두 ZIP으로 다운로드하세요.",
+    "selectMultiple": "여러 .heic 또는 .heif 파일 선택",
+    "outputFormat": "출력 형식",
+    "quality": "품질",
+    "overallProgress": "전체 진행률",
+    "conversionComplete": "변환 완료!",
+    "filesConverted": "{total}개 중 {success}개 파일 변환됨",
+    "filesFailed": "({failed}개 실패)",
+    "convertFiles": "{count}개 파일 변환",
+    "clearAll": "모두 지우기",
+    "downloadZip": "ZIP 다운로드 ({count}개 파일)",
+    "convertMore": "더 변환하기",
+    "formatJpg": "JPG (JPEG)",
+    "formatPng": "PNG (무손실)",
+    "formatWebp": "WebP (최신)"
+  },
+  "formats": {
+    "moreFormats": "더 많은 변환 형식",
+    "heicToPng": "HEIC→PNG",
+    "heicToPngDesc": "무손실 품질 변환",
+    "heicToPdf": "HEIC→PDF",
+    "heicToPdfDesc": "PDF 문서 만들기",
+    "heicToWebp": "HEIC→WebP",
+    "heicToWebpDesc": "최신 웹 형식",
+    "heicToGif": "HEIC→GIF",
+    "heicToGifDesc": "Live Photos 애니메이션",
+    "heicToBmp": "HEIC→BMP",
+    "heicToBmpDesc": "비압축 형식",
+    "batchConvert": "일괄 변환",
+    "batchConvertDesc": "여러 파일 한 번에",
+    "otherTools": "기타 변환 도구"
+  },
+  "why": {
+    "title": "왜 우리 변환기를 사용해야 하나요?",
+    "privateTitle": "100% 개인정보 보호",
+    "privateDesc": "파일이 기기를 떠나지 않습니다. 모든 변환은 브라우저에서 로컬로 이루어집니다 — 업로드 없음, 서버 없음.",
+    "speedTitle": "즉시 속도",
+    "speedDesc": "기기의 처리 능력을 사용하여 HEIC 파일을 몇 초 만에 변환. 서버 업로드나 다운로드를 기다릴 필요 없음.",
+    "freeTitle": "완전 무료",
+    "freeDesc": "제한 없음, 워터마크 없음, 회원가입 없음. 원하는 만큼 파일을 변환하세요, 영원히 무료.",
+    "qualityTitle": "품질 조절 가능",
+    "qualityDesc": "1-100%의 출력 품질을 세밀하게 조정. 필요에 따라 파일 크기와 이미지 품질의 균형을 맞추세요."
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "items": [
+      {
+        "question": "이 HEIC 변환기는 안전한가요?",
+        "answer": "네, 완전히 안전합니다. 모든 파일 변환은 JavaScript를 사용하여 브라우저에서 직접 이루어집니다. 파일이 서버에 업로드되는 일은 절대 없습니다. 사진은 100% 기기에서 비공개로 유지됩니다."
+      },
+      {
+        "question": "HEIC 파일이란 무엇인가요?",
+        "answer": "HEIC(High Efficiency Image Container)는 iOS 11 이후 Apple iPhone 및 iPad에서 사용하는 기본 사진 형식입니다. JPEG보다 더 나은 압축률로 높은 이미지 품질을 유지하지만, 모든 기기와 소프트웨어에서 지원되지는 않습니다."
+      },
+      {
+        "question": "파일 크기 제한이 있나요?",
+        "answer": "모든 처리가 브라우저에서 이루어지므로 엄격한 파일 크기 제한은 없습니다. 다만, 매우 큰 파일(50MB 이상)은 기기의 처리 능력에 따라 변환에 더 오래 걸릴 수 있습니다."
+      },
+      {
+        "question": "계정을 만들어야 하나요?",
+        "answer": "아니요. 우리 변환기는 회원가입 없이, 계정 없이, 변환 횟수 제한 없이 완전히 무료로 사용할 수 있습니다."
+      },
+      {
+        "question": "어떤 출력 형식을 선택해야 하나요?",
+        "answer": "JPG는 일반적인 사용과 공유에 가장 적합합니다. PNG는 무손실 품질이나 투명도가 필요할 때 이상적입니다. WebP는 웹 사용에 최적의 압축을 제공합니다. PDF는 사진으로 문서를 만들기에 좋습니다."
+      }
+    ]
+  },
+  "convert": {
+    "h1": {
+      "jpg": "HEIC를 JPG로 온라인 변환 — 무료 & 개인정보 보호",
+      "png": "HEIC를 PNG로 변환 — 무손실 품질 변환",
+      "webp": "HEIC를 WebP로 변환 — 최신 웹 형식",
+      "bmp": "HEIC를 BMP로 변환 — 비압축 형식",
+      "gif": "HEIC를 GIF로 변환 — Live Photos 애니메이션",
+      "pdf": "HEIC를 PDF로 변환 — 사진으로 PDF 문서 만들기"
+    },
+    "formatDesc": {
+      "jpg": "JPEG는 가장 널리 지원되는 이미지 형식으로, 사진과 웹 사용에 완벽합니다.",
+      "png": "PNG는 무손실 압축을 제공하며, 투명도나 최대 품질이 필요한 이미지에 이상적입니다.",
+      "webp": "WebP는 웹 이미지에 우수한 압축을 제공하는 최신 형식입니다.",
+      "bmp": "BMP는 이미지의 모든 픽셀을 보존하는 비압축 형식입니다.",
+      "gif": "GIF는 애니메이션을 지원하며 Live Photo 프레임 추출에 완벽합니다.",
+      "pdf": "PDF는 사진 공유 및 인쇄에 적합한 범용 문서 형식입니다."
+    },
+    "freePrivateInstant": "무료, 개인정보 보호, 즉시 — 업로드 불필요."
+  },
+  "blog": {
+    "backToConverter": "변환기로 돌아가기",
+    "updated": "2026년 3월 업데이트",
+    "readTime": "5분 읽기",
+    "readyToConvert": "HEIC 파일을 변환할 준비가 되셨나요?",
+    "readyToConvertDesc": "무료, 개인정보 보호, 즉시. 업로드 불필요.",
+    "openConverter": "변환기 열기",
+    "relatedArticles": "관련 기사",
+    "pageNotFound": "페이지를 찾을 수 없습니다",
+    "pageNotFoundDesc": "찾고 있는 기사가 존재하지 않습니다.",
+    "backToHome": "홈으로 돌아가기"
+  },
+  "footer": {
+    "tagline": "무료 개인정보 보호 HEIC 변환기. 파일이 기기를 떠나지 않습니다.",
+    "browserBased": "100% 브라우저 기반",
+    "conversionTools": "변환 도구",
+    "resources": "리소스",
+    "whatIsHeic": "HEIC란?",
+    "convertOnWindows": "Windows에서 변환",
+    "convertOnMac": "Mac에서 변환",
+    "privacyPolicy": "개인정보 처리방침",
+    "termsOfUse": "이용약관",
+    "contact": "문의",
+    "copyright": "© {year} OpenMyHEIC.com — 모든 권리 보유.",
+    "privacyNote": "파일은 전적으로 브라우저에서 처리됩니다. 사진을 업로드, 저장 또는 접근하지 않습니다."
+  },
+  "privacy": {
+    "metaTitle": "개인정보 처리방침 — OpenMyHEIC",
+    "metaDescription": "OpenMyHEIC가 어떻게 개인정보를 보호하는지 알아보세요. 모든 변환은 브라우저에서 이루어지며, 사진을 업로드, 저장 또는 접근하지 않습니다.",
+    "title": "개인정보 처리방침",
+    "lastUpdated": "최종 업데이트: 2026년 3월",
+    "introTitle": "소개",
+    "introText": "OpenMyHEIC.com에서는 귀하의 개인정보 보호에 최선을 다하고 있습니다. 이 개인정보 처리방침은 HEIC 파일 변환 서비스를 이용할 때 정보를 어떻게 처리하는지 설명합니다. 핵심 원칙은 간단합니다: 귀하의 파일은 기기를 떠나지 않습니다.",
+    "dataCollectionTitle": "수집하는 정보",
+    "dataCollectionText": "OpenMyHEIC는 파일을 완전히 브라우저에서 처리하도록 설계되었습니다. 변환하는 파일을 수집, 업로드, 저장하거나 접근하지 않습니다. 서비스 개선을 위해 페이지 조회수, 브라우저 유형, 일반 지역 정보 등의 익명 사용 데이터를 표준 웹 분석 도구를 통해 수집할 수 있습니다.",
+    "cookiesTitle": "쿠키",
+    "cookiesText": "언어 설정 기억 등 웹사이트의 적절한 기능을 보장하기 위해 필수 쿠키를 사용합니다. Google AdSense와 같은 제3자 서비스는 맞춤형 광고를 제공하기 위해 쿠키를 사용할 수 있습니다. 브라우저 설정을 통해 쿠키 기본 설정을 관리할 수 있습니다.",
+    "thirdPartyTitle": "제3자 서비스",
+    "thirdPartyText": "웹사이트에 광고를 표시하기 위해 Google AdSense를 사용합니다. Google AdSense는 관련 광고를 제공하기 위해 쿠키와 웹 비콘을 사용하여 이 사이트 및 다른 사이트 방문에 대한 정보를 수집할 수 있습니다. Google 광고 설정(https://adssettings.google.com)에서 맞춤형 광고를 비활성화할 수 있습니다.",
+    "userRightsTitle": "귀하의 권리",
+    "userRightsText": "변환 서비스를 통해 개인 데이터를 수집하지 않으므로 일반적으로 귀하를 대신하여 관리할 개인 데이터가 없습니다. 그러나 당사가 귀하의 개인 정보를 보유하고 있다고 생각되는 경우, 데이터 접근 요청, 부정확한 데이터 수정 요청, 데이터 삭제 요청, 데이터 처리에 대한 이의 제기 권리가 있습니다. 이러한 권리를 행사하려면 contact@openmyheic.com으로 연락하세요.",
+    "changesTitle": "정책 변경",
+    "changesText": "이 개인정보 처리방침은 수시로 업데이트될 수 있습니다. 변경 사항은 업데이트된 날짜와 함께 이 페이지에 게시됩니다. 정기적으로 이 정책을 검토하시기 바랍니다.",
+    "contactTitle": "문의",
+    "contactText": "이 개인정보 처리방침에 대한 질문이 있으시면 contact@openmyheic.com으로 문의해 주세요."
+  },
+  "terms": {
+    "metaTitle": "이용약관 — OpenMyHEIC",
+    "metaDescription": "OpenMyHEIC.com의 이용약관을 읽어보세요. 무료 HEIC 변환 서비스의 이용 조건을 확인하세요.",
+    "title": "이용약관",
+    "lastUpdated": "최종 업데이트: 2026년 3월",
+    "acceptanceTitle": "약관 동의",
+    "acceptanceText": "OpenMyHEIC.com에 접속하고 사용함으로써 이 이용약관에 동의하는 것으로 간주됩니다. 이 약관에 동의하지 않는 경우 서비스를 사용하지 마세요.",
+    "serviceTitle": "서비스 설명",
+    "serviceText": "OpenMyHEIC.com은 무료 브라우저 기반 HEIC 파일 변환 서비스를 제공합니다. 모든 파일 처리는 웹 브라우저에서 로컬로 이루어집니다. 서버에서 파일을 업로드, 저장 또는 처리하지 않습니다. HEIC/HEIF 이미지 파일을 JPG, PNG, WebP, BMP, GIF, PDF 등의 형식으로 변환합니다.",
+    "usageTitle": "허용되는 사용",
+    "usageText": "OpenMyHEIC.com을 합법적인 목적으로만 사용하는 데 동의합니다. 권리가 없는 파일을 변환하거나 적용 가능한 법률을 위반하는 목적으로 이 서비스를 사용해서는 안 됩니다. 변환하는 파일의 내용에 대한 책임은 전적으로 귀하에게 있습니다.",
+    "intellectualPropertyTitle": "지적 재산권",
+    "intellectualPropertyText": "OpenMyHEIC.com 웹사이트는 디자인, 로고, 텍스트, 코드를 포함하여 지적 재산권법에 의해 보호됩니다. 사전 서면 허가 없이 웹사이트 콘텐츠를 복제, 배포하거나 파생 작품을 만들 수 없습니다. 변환된 파일은 전적으로 귀하의 소유입니다.",
+    "limitationTitle": "책임 제한",
+    "limitationText": "OpenMyHEIC.com은 명시적이든 묵시적이든 어떠한 종류의 보증 없이 \"있는 그대로\" 제공됩니다. 서비스가 중단 없이, 오류 없이 작동하거나 변환 결과가 특정 요구 사항을 충족한다는 것을 보장하지 않습니다.",
+    "disclaimerTitle": "면책 조항",
+    "disclaimerText": "정확하고 신뢰할 수 있는 변환을 제공하기 위해 노력하지만, 변환된 파일의 품질, 정확성 또는 완전성에 대해 보증하지 않습니다. 사용자는 특정 사용 목적에 맞게 변환 결과를 확인해야 합니다. 변환 과정에서 발생할 수 있는 데이터 손실에 대해 책임지지 않습니다.",
+    "changesTitle": "약관 변경",
+    "changesText": "이 이용약관은 언제든지 수정할 수 있는 권리를 보유합니다. 변경 사항은 이 페이지에 게시된 즉시 효력이 발생합니다. 변경 후 서비스의 계속 사용은 새로운 약관에 대한 동의로 간주됩니다.",
+    "governingLawTitle": "준거법",
+    "governingLawText": "이 이용약관은 적용 가능한 법률에 따라 규율되고 해석됩니다. 이 약관 또는 서비스 사용으로 인한 분쟁은 적절한 법적 수단을 통해 해결됩니다."
+  },
+  "contact": {
+    "metaTitle": "문의하기 — OpenMyHEIC",
+    "metaDescription": "OpenMyHEIC 팀에 문의하세요. 무료 HEIC 변환기에 대한 질문에 답변해 드립니다.",
+    "title": "문의하기",
+    "introText": "HEIC 변환기에 대한 질문, 제안 또는 도움이 필요하신가요? 아래 옵션을 통해 연락해 주세요.",
+    "emailTitle": "이메일 문의",
+    "emailText": "일반 문의, 지원 또는 비즈니스 관련 사항:",
+    "feedbackTitle": "피드백 및 제안",
+    "feedbackText": "OpenMyHEIC를 항상 개선하고자 합니다. 새로운 기능, 형식 지원 또는 사용성 개선에 대한 아이디어가 있으시면 이메일을 보내주세요. 여러분의 피드백이 모든 사용자를 위한 도구 개선에 도움이 됩니다.",
+    "privacyReminderTitle": "개인정보 보호 안내",
+    "privacyReminderText": "OpenMyHEIC는 모든 파일을 브라우저에서 로컬로 처리합니다. 변환 문제가 발생하면 메시지에 브라우저 이름과 버전을 포함해 주세요. 단, HEIC 파일은 보내지 마세요. 문제 해결에 필요하지 않습니다.",
+    "responseTimeTitle": "응답 시간",
+    "responseTimeText": "영업일 기준 48시간 이내에 모든 문의에 답변하도록 노력합니다. 긴급한 사항은 이메일 제목에 표시해 주세요."
+  },
+  "language": {
+    "switchLanguage": "언어 변경"
+  }
+}

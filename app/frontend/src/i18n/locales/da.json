@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "home": {
+      "title": "HEIC til JPG Konverter — Gratis Online, Ingen Upload | OpenMyHEIC",
+      "description": "Konverter HEIC til JPG, PNG, WebP, PDF og mere — direkte i din browser. 100% gratis, privat og hurtigt. Dine iPhone-fotos forlader aldrig din enhed."
+    },
+    "jpg": {
+      "title": "HEIC til JPG Konverter — Gratis Online, Ingen Upload | OpenMyHEIC",
+      "description": "Konverter HEIC til JPG direkte i din browser. Gratis, privat, ingen upload nødvendig."
+    },
+    "png": {
+      "title": "HEIC til PNG Konverter — Tabsfri Kvalitet, Gratis | OpenMyHEIC",
+      "description": "Konverter HEIC til PNG med tabsfri kvalitet. Gratis online-konverter i din browser."
+    },
+    "webp": {
+      "title": "HEIC til WebP Konverter — Moderne Format, Gratis | OpenMyHEIC",
+      "description": "Konverter HEIC til WebP for optimerede webbilleder. Gratis browserbaseret konverter."
+    },
+    "bmp": {
+      "title": "HEIC til BMP Konverter — Ukomprimeret Kvalitet, Gratis | OpenMyHEIC",
+      "description": "Konverter HEIC til BMP-format for ukomprimeret billedkvalitet. Gratis online-værktøj."
+    },
+    "gif": {
+      "title": "HEIC til GIF Konverter — Animer Live Photos, Gratis | OpenMyHEIC",
+      "description": "Konverter HEIC Live Photos til animerede GIF'er. Gratis, privat, browserbaseret."
+    },
+    "pdf": {
+      "title": "HEIC til PDF Konverter — Opret PDF'er fra Fotos, Gratis | OpenMyHEIC",
+      "description": "Konverter et eller flere HEIC-billeder til ét enkelt PDF-dokument. Gratis online-værktøj."
+    },
+    "batch": {
+      "title": "Batch HEIC Konverter — Konverter Flere Filer på Én Gang | OpenMyHEIC",
+      "description": "Konverter flere HEIC-filer til JPG, PNG eller WebP. Download alle konverterede filer som ZIP."
+    }
+  },
+  "nav": {
+    "heicToJpg": "HEIC til JPG",
+    "png": "PNG",
+    "webp": "WebP",
+    "pdf": "PDF",
+    "gif": "GIF",
+    "bmp": "BMP",
+    "batch": "Batch"
+  },
+  "hero": {
+    "title": "Konverter HEIC til JPG —",
+    "titleHighlight": "Gratis, Privat, Øjeblikkeligt",
+    "subtitle": "Dine iPhone-fotos konverteret på sekunder. Ingen upload nødvendig — alt sker i din browser."
+  },
+  "intro": {
+    "home": "Kan du ikke åbne HEIC-filer på din Windows-pc eller Android-telefon? OpenMyHEIC konverterer dine iPhone-fotos til universelt kompatible formater direkte i browseren — uden upload, uden servere, helt privat. Træk, slip og download."
+  },
+  "converter": {
+    "privacyBadge": "Dine filer forlader aldrig din enhed. Al konvertering sker i din browser.",
+    "dropTitle": "Slip dine HEIC-filer her eller klik for at gennemse",
+    "dropSubtitle": "Accepterer .heic og .heif filer",
+    "dropSubtitleMultiple": "Accepterer .heic og .heif filer (flere filer muligt)",
+    "selectFiles": "Vælg Filer",
+    "outputQuality": "Outputkvalitet",
+    "smallerFile": "Mindre fil",
+    "higherQuality": "Højere kvalitet",
+    "converting": "Konverterer...",
+    "conversionFailed": "Konvertering Mislykkedes",
+    "conversionComplete": "Konvertering Fuldført!",
+    "convertTo": "Konverter til",
+    "cancel": "Annuller",
+    "download": "Download",
+    "convertAnother": "Konverter En Mere",
+    "tryAgain": "Prøv Igen",
+    "startOver": "Start Forfra",
+    "invalidFiles": "Vælg venligst gyldige HEIC- eller HEIF-filer.",
+    "addMoreFiles": "+ Tilføj flere filer"
+  },
+  "batch": {
+    "title": "Batch HEIC Konverter — Flere Filer på Én Gang",
+    "subtitle": "Upload flere HEIC-filer, vælg outputformat og download alt som ZIP.",
+    "selectMultiple": "Vælg flere .heic eller .heif filer",
+    "outputFormat": "Outputformat",
+    "quality": "Kvalitet",
+    "overallProgress": "Samlet Fremskridt",
+    "conversionComplete": "Konvertering Fuldført!",
+    "filesConverted": "{success} af {total} filer konverteret",
+    "filesFailed": "({failed} mislykkedes)",
+    "convertFiles": "Konverter {count} Filer",
+    "clearAll": "Ryd Alt",
+    "downloadZip": "Download ZIP ({count} filer)",
+    "convertMore": "Konverter Flere",
+    "formatJpg": "JPG (JPEG)",
+    "formatPng": "PNG (Tabsfri)",
+    "formatWebp": "WebP (Moderne)"
+  },
+  "formats": {
+    "moreFormats": "Flere Konverteringsformater",
+    "heicToPng": "HEIC til PNG",
+    "heicToPngDesc": "Tabsfri kvalitetskonvertering",
+    "heicToPdf": "HEIC til PDF",
+    "heicToPdfDesc": "Opret PDF-dokumenter",
+    "heicToWebp": "HEIC til WebP",
+    "heicToWebpDesc": "Moderne webformat",
+    "heicToGif": "HEIC til GIF",
+    "heicToGifDesc": "Animer Live Photos",
+    "heicToBmp": "HEIC til BMP",
+    "heicToBmpDesc": "Ukomprimeret format",
+    "batchConvert": "Batchkonvertering",
+    "batchConvertDesc": "Flere filer på én gang",
+    "otherTools": "Andre Konverteringsværktøjer"
+  },
+  "why": {
+    "title": "Hvorfor Bruge Vores Konverter?",
+    "privateTitle": "100% Privat",
+    "privateDesc": "Dine filer forlader aldrig din enhed. Al konvertering sker lokalt i din browser — ingen uploads, ingen servere.",
+    "speedTitle": "Øjeblikkelig Hastighed",
+    "speedDesc": "Konverter HEIC-filer på sekunder med din enheds processorkraft. Ingen ventetid på serveruploads.",
+    "freeTitle": "Helt Gratis",
+    "freeDesc": "Ingen begrænsninger, ingen vandmærker, ingen registrering. Konverter så mange filer du vil, gratis for altid.",
+    "qualityTitle": "Justerbar Kvalitet",
+    "qualityDesc": "Finjuster outputkvaliteten fra 1-100%. Balancer filstørrelse og billedkvalitet efter dine behov."
+  },
+  "faq": {
+    "title": "Ofte Stillede Spørgsmål",
+    "items": [
+      {
+        "question": "Er denne HEIC-konverter sikker?",
+        "answer": "Ja, absolut. Al filkonvertering sker direkte i din browser med JavaScript. Dine filer uploades aldrig til nogen server. Dine fotos forbliver 100% private på din enhed."
+      },
+      {
+        "question": "Hvad er en HEIC-fil?",
+        "answer": "HEIC (High Efficiency Image Container) er standardfotoformatet for Apple iPhones og iPads siden iOS 11. Det tilbyder bedre komprimering end JPEG med bibeholdt højere billedkvalitet, men understøttes ikke universelt."
+      },
+      {
+        "question": "Er der en filstørrelsesgrænse?",
+        "answer": "Der er ingen streng grænse, da al behandling sker i din browser. Meget store filer (over 50MB) kan dog tage længere tid afhængigt af din enheds processorkraft."
+      },
+      {
+        "question": "Skal jeg oprette en konto?",
+        "answer": "Nej. Vores konverter er helt gratis uden registrering, uden konto og uden begrænsning på antallet af konverteringer."
+      },
+      {
+        "question": "Hvilket outputformat skal jeg vælge?",
+        "answer": "JPG er bedst til generel brug og deling. PNG er ideelt til tabsfri kvalitet eller gennemsigtighed. WebP tilbyder den bedste komprimering til webbrug. PDF er fremragende til at oprette dokumenter fra fotos."
+      }
+    ]
+  },
+  "convert": {
+    "h1": {
+      "jpg": "Konverter HEIC til JPG Online — Gratis & Privat",
+      "png": "Konverter HEIC til PNG — Tabsfri Kvalitet",
+      "webp": "Konverter HEIC til WebP — Moderne Webformat",
+      "bmp": "Konverter HEIC til BMP — Ukomprimeret Format",
+      "gif": "Konverter HEIC til GIF — Animer Dine Live Photos",
+      "pdf": "Konverter HEIC til PDF — Opret PDF-dokumenter fra Fotos"
+    },
+    "formatDesc": {
+      "jpg": "JPEG er det mest understøttede billedformat, perfekt til fotos og webbrug.",
+      "png": "PNG tilbyder tabsfri komprimering, ideelt til billeder der kræver gennemsigtighed eller maksimal kvalitet.",
+      "webp": "WebP er et moderne format der tilbyder overlegen komprimering til webbilleder.",
+      "bmp": "BMP er et ukomprimeret format der bevarer hver pixel i dit billede.",
+      "gif": "GIF understøtter animation og er perfekt til at udtrække Live Photo-rammer.",
+      "pdf": "PDF er et universelt dokumentformat, perfekt til at dele og udskrive fotos."
+    },
+    "freePrivateInstant": "Gratis, privat og øjeblikkeligt — ingen upload nødvendig."
+  },
+  "blog": {
+    "backToConverter": "Tilbage til Konverteren",
+    "updated": "Opdateret marts 2026",
+    "readTime": "5 min læsning",
+    "readyToConvert": "Klar til at Konvertere Dine HEIC-filer?",
+    "readyToConvertDesc": "Gratis, privat og øjeblikkeligt. Ingen upload nødvendig.",
+    "openConverter": "Åbn Konverteren",
+    "relatedArticles": "Relaterede Artikler",
+    "pageNotFound": "Siden Blev Ikke Fundet",
+    "pageNotFoundDesc": "Artiklen du leder efter findes ikke.",
+    "backToHome": "Tilbage til Forsiden"
+  },
+  "footer": {
+    "tagline": "Gratis, privat HEIC-konverter. Dine filer forlader aldrig din enhed.",
+    "browserBased": "100% Browserbaseret",
+    "conversionTools": "Konverteringsværktøjer",
+    "resources": "Ressourcer",
+    "whatIsHeic": "Hvad er HEIC?",
+    "convertOnWindows": "Konverter på Windows",
+    "convertOnMac": "Konverter på Mac",
+    "privacyPolicy": "Privatlivspolitik",
+    "termsOfUse": "Brugsvilkår",
+    "contact": "Kontakt",
+    "copyright": "© {year} OpenMyHEIC.com — Alle rettigheder forbeholdes.",
+    "privacyNote": "Dine filer behandles helt i din browser. Vi uploader, gemmer eller tilgår aldrig dine fotos."
+  },
+  "privacy": {
+    "metaTitle": "Privatlivspolitik — OpenMyHEIC",
+    "metaDescription": "Læs om hvordan OpenMyHEIC beskytter dit privatliv. Alle konverteringer sker i din browser — vi uploader, gemmer eller tilgår aldrig dine fotos.",
+    "title": "Privatlivspolitik",
+    "lastUpdated": "Sidst opdateret: marts 2026",
+    "introTitle": "Introduktion",
+    "introText": "Hos OpenMyHEIC.com er vi forpligtet til at beskytte dit privatliv. Denne Privatlivspolitik forklarer, hvordan vi håndterer information, når du bruger vores HEIC-konverteringstjeneste. Vores grundprincip er enkelt: dine filer forlader aldrig din enhed.",
+    "dataCollectionTitle": "Information Vi Indsamler",
+    "dataCollectionText": "OpenMyHEIC er designet til at behandle filer helt i din browser. Vi indsamler, uploader, gemmer eller har IKKE adgang til nogen filer, du konverterer. Vi kan indsamle anonyme brugsdata som sidevisninger, browsertype og generel geografisk region gennem standard webanalyseværktøjer for at forbedre vores tjeneste.",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "Vi bruger nødvendige cookies for at sikre korrekt funktion af vores websted, som at huske din sprogpræference. Tredjepartstjenester som Google AdSense kan bruge cookies til at vise personaliserede annoncer. Du kan administrere cookieindstillinger via dine browserindstillinger.",
+    "thirdPartyTitle": "Tredjepartstjenester",
+    "thirdPartyText": "Vi bruger Google AdSense til at vise annoncer på vores websted. Google AdSense kan bruge cookies og web-beacons til at indsamle information om dine besøg på dette og andre websteder for at levere relevante annoncer. Du kan fravælge personaliseret annoncering via Googles annonceindstillinger (https://adssettings.google.com).",
+    "userRightsTitle": "Dine Rettigheder",
+    "userRightsText": "Da vi ikke indsamler personoplysninger gennem vores konverteringstjeneste, er der typisk ingen personoplysninger at administrere på dine vegne. Hvis du dog mener, at vi har personlige oplysninger om dig, har du ret til at: anmode om adgang til dine data, anmode om rettelse af unøjagtige data, anmode om sletning af dine data og gøre indsigelse mod behandling af dine data. Kontakt os på contact@openmyheic.com.",
+    "changesTitle": "Ændringer i Denne Politik",
+    "changesText": "Vi kan opdatere denne Privatlivspolitik fra tid til anden. Ændringer vil blive offentliggjort på denne side med en opdateret revisionsdato. Vi opfordrer dig til at gennemgå denne politik regelmæssigt.",
+    "contactTitle": "Kontakt Os",
+    "contactText": "Hvis du har spørgsmål om denne Privatlivspolitik, kontakt os på contact@openmyheic.com."
+  },
+  "terms": {
+    "metaTitle": "Brugsvilkår — OpenMyHEIC",
+    "metaDescription": "Læs Brugsvilkårene for OpenMyHEIC.com. Forstå betingelserne for brug af vores gratis HEIC-konverteringstjeneste.",
+    "title": "Brugsvilkår",
+    "lastUpdated": "Sidst opdateret: marts 2026",
+    "acceptanceTitle": "Accept af Vilkår",
+    "acceptanceText": "Ved at tilgå og bruge OpenMyHEIC.com accepterer du at være bundet af disse Brugsvilkår. Hvis du ikke accepterer disse vilkår, bedes du ikke bruge vores tjeneste.",
+    "serviceTitle": "Beskrivelse af Tjenesten",
+    "serviceText": "OpenMyHEIC.com tilbyder en gratis, browserbaseret HEIC-konverteringstjeneste. Al filbehandling sker lokalt i din webbrowser. Vi uploader, gemmer eller behandler ikke dine filer på nogen server. Tjenesten konverterer HEIC/HEIF-billedfiler til forskellige formater herunder JPG, PNG, WebP, BMP, GIF og PDF.",
+    "usageTitle": "Acceptabel Brug",
+    "usageText": "Du accepterer at bruge OpenMyHEIC.com kun til lovlige formål. Du må ikke bruge denne tjeneste til at konvertere filer, du ikke har ret til at behandle, eller til formål der overtræder gældende love. Du er eneansvarlig for indholdet af de filer, du konverterer.",
+    "intellectualPropertyTitle": "Immaterielle Rettigheder",
+    "intellectualPropertyText": "Webstedet OpenMyHEIC.com, herunder design, logoer, tekst og kode, er beskyttet af immaterialretlige love. Du må ikke reproducere, distribuere eller skabe afledte værker fra vores webstedsindhold uden forudgående skriftlig tilladelse. Dine konverterede filer forbliver helt din ejendom.",
+    "limitationTitle": "Ansvarsbegrænsning",
+    "limitationText": "OpenMyHEIC.com leveres \"som den er\" uden garantier af nogen art. Vi garanterer ikke, at tjenesten vil være uafbrudt, fejlfri, eller at konverteringsresultater vil opfylde dine specifikke krav.",
+    "disclaimerTitle": "Ansvarsfraskrivelse",
+    "disclaimerText": "Selvom vi bestræber os på at levere nøjagtige og pålidelige konverteringer, giver vi ingen garantier vedrørende kvalitet, nøjagtighed eller fuldstændighed af konverterede filer. Brugere bør verificere konverteringsresultater for deres specifikke anvendelsestilfælde.",
+    "changesTitle": "Ændringer i Vilkår",
+    "changesText": "Vi forbeholder os retten til at ændre disse Brugsvilkår til enhver tid. Ændringer træder i kraft umiddelbart efter offentliggørelse på denne side. Fortsat brug af tjenesten efter ændringer udgør accept af de nye vilkår.",
+    "governingLawTitle": "Gældende Lov",
+    "governingLawText": "Disse Brugsvilkår skal reguleres af og fortolkes i overensstemmelse med gældende lov. Tvister der opstår fra disse vilkår eller brugen af vores tjeneste skal løses gennem passende juridiske kanaler."
+  },
+  "contact": {
+    "metaTitle": "Kontakt — OpenMyHEIC",
+    "metaDescription": "Kontakt OpenMyHEIC-teamet. Vi er her for at hjælpe med spørgsmål om vores gratis HEIC-konverter.",
+    "title": "Kontakt Os",
+    "introText": "Har du et spørgsmål, forslag eller brug for hjælp med vores HEIC-konverter? Vi vil gerne høre fra dig. Kontakt os via mulighederne nedenfor.",
+    "emailTitle": "Send Os en E-mail",
+    "emailText": "For generelle henvendelser, support eller forretningsanliggender:",
+    "feedbackTitle": "Feedback & Forslag",
+    "feedbackText": "Vi leder altid efter måder at forbedre OpenMyHEIC. Hvis du har idéer til nye funktioner, formatunderstøttelse eller brugervenligheds-forbedringer, send os en e-mail. Din feedback hjælper os med at forbedre værktøjet for alle.",
+    "privacyReminderTitle": "Privatlivspåmindelse",
+    "privacyReminderText": "Husk at OpenMyHEIC behandler alle filer lokalt i din browser. Hvis du oplever konverteringsproblemer, angiv venligst dit browsernavn og version i din besked — men send os aldrig dine HEIC-filer.",
+    "responseTimeTitle": "Svartid",
+    "responseTimeText": "Vi bestræber os på at svare på alle henvendelser inden for 48 timer på hverdage. For hastende sager, angiv dette i emnelinjen på din e-mail."
+  },
+  "language": {
+    "switchLanguage": "Skift sprog"
+  }
+}
