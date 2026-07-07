@@ -1,0 +1,30 @@
+# OpenMyHEIC
+
+> Free online HEIC converter. Converts iPhone HEIC/HEIF photos to JPG, PNG, WebP, PDF, GIF or BMP entirely in the browser — files never leave the user's device (no upload, 100% private, no signup, no watermarks, unlimited conversions). Available in 11 languages.
+
+OpenMyHEIC is a client-side web tool: conversion runs locally via WebAssembly/JavaScript (heic2any), so it is safe for sensitive photos and works without sending data to any server. Batch conversion and ZIP download supported.
+
+## Converter tools
+
+- [HEIC to JPG](https://openmyheic.com/heic-to-jpg): Convert HEIC to JPG online, free, no upload
+- [HEIC to PNG](https://openmyheic.com/heic-to-png): Convert HEIC to PNG with transparency support
+- [HEIC to WebP](https://openmyheic.com/heic-to-webp): Convert HEIC to WebP for the web
+- [HEIC to PDF](https://openmyheic.com/heic-to-pdf): Convert one or many HEIC photos into a PDF
+- [HEIC to GIF](https://openmyheic.com/heic-to-gif): Convert HEIC to GIF
+- [HEIC to BMP](https://openmyheic.com/heic-to-bmp): Convert HEIC to BMP
+- [Batch convert](https://openmyheic.com/batch-convert): Convert many HEIC files at once, download as ZIP
+
+## Guides
+
+- [What is a HEIC file?](https://openmyheic.com/what-is-heic): HEIC/HEIF format explained
+- [Convert HEIC to JPG on Windows](https://openmyheic.com/how-to-convert-heic-to-jpg-windows): Step-by-step for Windows 10/11
+- [Convert HEIC to JPG on Mac](https://openmyheic.com/how-to-convert-heic-to-jpg-mac): Step-by-step for macOS
+
+## Languages
+
+English (default, https://openmyheic.com/), plus the same tools and guides under language prefixes: [Deutsch](https://openmyheic.com/de), [Français](https://openmyheic.com/fr), [Español](https://openmyheic.com/es), [Português](https://openmyheic.com/pt), [日本語](https://openmyheic.com/ja), [한국어](https://openmyheic.com/ko), [Nederlands](https://openmyheic.com/nl), [Svenska](https://openmyheic.com/sv), [Norsk](https://openmyheic.com/no), [Dansk](https://openmyheic.com/da).
+
+## Contact
+
+- [Contact](https://openmyheic.com/contact)
+- [Privacy policy](https://openmyheic.com/privacy-policy) — no files are uploaded; conversion is 100% local

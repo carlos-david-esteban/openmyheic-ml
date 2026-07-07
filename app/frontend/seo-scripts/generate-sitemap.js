@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-const baseUrl = "https://atoms.template.com";
+const baseUrl = "https://openmyheic.com";
 const distDir = "./dist";
 const outFile = "./dist/sitemap.xml";
 const contentDir = "./seo/content";
@@ -57,14 +57,6 @@ function collectHtmlFiles(dir, basePath = "") {
 // Collect all HTML files
 const urls = [];
 
-if (fs.existsSync(path.join(distDir, "index.html"))) {
-  const stat = fs.statSync(path.join(distDir, "index.html"));
-  urls.push({
-    url: baseUrl,
-    lastmod: stat.mtime.toISOString()
-  });
-}
-
 // Collect HTML files in blog directory
 const blogDir = path.join(distDir, "blog");
 if (fs.existsSync(blogDir)) {
@@ -79,19 +71,35 @@ if (fs.existsSync(seoDir)) {
   urls.push(...seoUrls);
 }
 
-// Generate sitemap.xml
-let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+// Base: the hand-maintained static sitemap (public/sitemap.xml) with all app
+// routes + hreflang. We only APPEND blog/seo URLs generated at build time.
+const staticSitemapPath = "./public/sitemap.xml";
+let xml;
 
-urls.forEach(item => {
-  xml += `  <url>\n`;
-  xml += `    <loc>${item.url}</loc>\n`;
-  xml += `    <lastmod>${item.lastmod}</lastmod>\n`;
-  xml += `  </url>\n`;
-});
-
-xml += `</urlset>`;
+if (fs.existsSync(staticSitemapPath)) {
+  const staticXml = fs.readFileSync(staticSitemapPath, "utf-8");
+  let blogXml = "";
+  urls.forEach(item => {
+    blogXml += `  <url>\n`;
+    blogXml += `    <loc>${item.url}</loc>\n`;
+    blogXml += `    <lastmod>${item.lastmod}</lastmod>\n`;
+    blogXml += `  </url>\n`;
+  });
+  xml = staticXml.replace(/<\/urlset>\s*$/, blogXml + "</urlset>");
+} else {
+  // Fallback: generate from scratch (home + blog)
+  if (fs.existsSync(path.join(distDir, "index.html"))) {
+    const stat = fs.statSync(path.join(distDir, "index.html"));
+    urls.unshift({ url: baseUrl + "/", lastmod: stat.mtime.toISOString() });
+  }
+  xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+  urls.forEach(item => {
+    xml += `  <url>\n    <loc>${item.url}</loc>\n    <lastmod>${item.lastmod}</lastmod>\n  </url>\n`;
+  });
+  xml += `</urlset>`;
+}
 
 fs.writeFileSync(outFile, xml, "utf-8");
 
-console.log(`✓ sitemap.xml generated (${urls.length} URL(s))`);
+console.log(`\u2713 sitemap.xml generated (static routes + ${urls.length} blog/seo URL(s))`);
