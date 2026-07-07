@@ -413,13 +413,19 @@ function renderPage(p) {
 // Write files
 // ---------------------------------------------------------------------------
 
+// IMPORTANT: flat .html files (dist/fr/heic-to-jpg.html), NOT dir/index.html.
+// Cloudflare Pages serves foo.html at /foo with HTTP 200; dir/index.html would
+// 308-redirect /foo -> /foo/ and break the existing (indexed) URLs.
 const pages = buildPages();
 let count = 0;
 for (const p of pages) {
   const urlPath = localizedPath(p.route, p.lang) || "/";
-  const outDir = urlPath === "/" ? distDir : path.join(distDir, urlPath.replace(/^\//, ""));
-  fs.mkdirSync(outDir, { recursive: true });
-  fs.writeFileSync(path.join(outDir, "index.html"), renderPage(p), "utf-8");
+  const outFile =
+    urlPath === "/"
+      ? path.join(distDir, "index.html")
+      : path.join(distDir, `${urlPath.replace(/^\//, "")}.html`);
+  fs.mkdirSync(path.dirname(outFile), { recursive: true });
+  fs.writeFileSync(outFile, renderPage(p), "utf-8");
   count++;
 }
 
