@@ -13,7 +13,7 @@ export interface FAQ {
 
 export const SITE_NAME = "OpenMyHEIC";
 export const SITE_URL = "https://openmyheic.com";
-export const OG_IMAGE = "https://mgx-backend-cdn.metadl.com/generate/images/952471/2026-03-06/c5b1b128-eacb-4f15-b0d5-6916677fdaca.png";
+export const OG_IMAGE = "https://openmyheic.com/images/og-image.jpg";
 
 export const formatInfo: Record<string, { label: string; mime: string; ext: string; description: string; supportsQuality: boolean }> = {
   jpg: {
