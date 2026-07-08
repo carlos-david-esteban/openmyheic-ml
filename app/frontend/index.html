@@ -21,7 +21,11 @@
     <!-- Bing Webmaster Tools verification code (injected via VITE_BING_VERIFICATION env var) -->
     <meta name="msvalidate.01" content="%VITE_BING_VERIFICATION%" />
 
-    <!-- AdSense and GA4 scripts are conditionally injected via SharedHead.tsx -->
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4206688541097867"
+      crossorigin="anonymous"></script>
+
+    <!-- GA4 injected via SharedHead.tsx (VITE_GA4_ID) -->
   </head>
 
   <body>

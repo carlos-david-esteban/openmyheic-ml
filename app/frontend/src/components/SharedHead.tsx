@@ -3,7 +3,6 @@ import { useLocation } from "react-router-dom";
 import { LANGUAGES, buildLocalizedPath, getPathWithoutLang } from "@/i18n/config";
 
 const GA4_ID = import.meta.env.VITE_GA4_ID;
-const ADSENSE_ID = import.meta.env.VITE_ADSENSE_ID;
 
 const SITE_URL = "https://openmyheic.com";
 
@@ -13,15 +12,6 @@ export default function SharedHead() {
 
   return (
     <Helmet>
-      {/* Google AdSense — only injected when VITE_ADSENSE_ID is set */}
-      {ADSENSE_ID && (
-        <script
-          async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`}
-          crossOrigin="anonymous"
-        />
-      )}
-
       {/* Google Analytics 4 — only injected when VITE_GA4_ID is set */}
       {GA4_ID && (
         <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`} />
