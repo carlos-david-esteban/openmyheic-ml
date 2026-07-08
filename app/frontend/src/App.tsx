@@ -8,6 +8,7 @@ import { detectBrowserLanguage, DEFAULT_LANG, LANGUAGES } from "@/i18n/config";
 import Index from "./pages/Index";
 import ConvertPage from "./pages/ConvertPage";
 import BatchConvert from "./pages/BatchConvert";
+import HeicViewer from "./pages/HeicViewer";
 import BlogPage from "./pages/BlogPage";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
@@ -46,6 +47,7 @@ function AppRoutes() {
       <Route path="/heic-to-gif" element={<ConvertPage />} />
       <Route path="/heic-to-pdf" element={<ConvertPage />} />
       <Route path="/batch-convert" element={<BatchConvert />} />
+      <Route path="/heic-viewer" element={<HeicViewer />} />
       <Route path="/what-is-heic" element={<BlogPage />} />
       <Route path="/how-to-convert-heic-to-jpg-windows" element={<BlogPage />} />
       <Route path="/how-to-convert-heic-to-jpg-mac" element={<BlogPage />} />
@@ -62,6 +64,7 @@ function AppRoutes() {
       <Route path="/:lang/heic-to-gif" element={<ConvertPage />} />
       <Route path="/:lang/heic-to-pdf" element={<ConvertPage />} />
       <Route path="/:lang/batch-convert" element={<BatchConvert />} />
+      <Route path="/:lang/heic-viewer" element={<HeicViewer />} />
       <Route path="/:lang/what-is-heic" element={<BlogPage />} />
       <Route path="/:lang/how-to-convert-heic-to-jpg-windows" element={<BlogPage />} />
       <Route path="/:lang/how-to-convert-heic-to-jpg-mac" element={<BlogPage />} />

@@ -137,6 +137,7 @@ function navHeader(lang) {
     ["/heic-to-gif", t.nav.gif],
     ["/heic-to-bmp", t.nav.bmp],
     ["/batch-convert", t.nav.batch],
+    ["/heic-viewer", t.nav.viewer],
   ];
   return `<header class="border-b border-gray-200 bg-white"><div class="max-w-6xl mx-auto px-4"><div class="flex items-center justify-between h-16">
 <a href="${localizedPath("/", lang) || "/"}" class="flex items-center gap-2 font-bold text-gray-900">OpenMyHEIC</a>
@@ -156,12 +157,14 @@ function footerHtml(lang) {
     ["/heic-to-gif", `HEIC ${t.nav.gif}`],
     ["/heic-to-bmp", `HEIC ${t.nav.bmp}`],
     ["/batch-convert", t.nav.batch],
+    ["/heic-viewer", t.footer.heicViewer],
   ];
   const resources = [
     ["/what-is-heic", t.footer.whatIsHeic],
     ["/how-to-convert-heic-to-jpg-windows", t.footer.convertOnWindows],
     ["/how-to-convert-heic-to-jpg-mac", t.footer.convertOnMac],
   ];
+  const blogLink = `<li><a href="/blog/" class="text-sm text-gray-500">${escText(t.footer.blog || "Blog")}</a></li>`;
   const legal = [
     ["/privacy-policy", t.footer.privacyPolicy],
     ["/terms-of-use", t.footer.termsOfUse],
@@ -172,7 +175,7 @@ function footerHtml(lang) {
   return `<footer class="border-t border-gray-200 bg-gray-50 mt-16"><div class="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-8">
 <div><p class="font-bold text-gray-900 mb-2">OpenMyHEIC</p><p class="text-sm text-gray-500">${escText(t.footer.tagline || "")}</p></div>
 <div><p class="font-semibold text-gray-900 mb-3">${escText(t.footer.conversionTools || "Tools")}</p><ul class="space-y-2">${list(tools)}</ul></div>
-<div><p class="font-semibold text-gray-900 mb-3">${escText(t.footer.resources || "Resources")}</p><ul class="space-y-2">${list(resources)}${list(legal)}</ul></div>
+<div><p class="font-semibold text-gray-900 mb-3">${escText(t.footer.resources || "Resources")}</p><ul class="space-y-2">${list(resources)}${blogLink}${list(legal)}</ul></div>
 </div></footer>`;
 }
 
@@ -285,6 +288,27 @@ function buildPages() {
         hreflang: hreflangLinks(route),
         schemas: [webAppSchema(lang, t.meta.batch.description, canonical), faqSchema(lang, "batch")],
         body: pageBody(lang, { h1: t.batch.title, intro: t.batch.subtitle, excludeFormat: "batch", pageKey: "batch" }),
+      });
+    }
+
+    // HEIC Viewer
+    {
+      const route = "/heic-viewer";
+      const canonical = `${SITE_URL}${localizedPath(route, lang)}`;
+      pages.push({
+        route,
+        lang,
+        title: t.meta.viewer.title,
+        description: t.meta.viewer.description,
+        canonical,
+        hreflang: hreflangLinks(route),
+        schemas: [webAppSchema(lang, t.meta.viewer.description, canonical), faqSchema(lang, "viewer")],
+        body: pageBody(lang, {
+          h1: t.viewer.h1,
+          intro: `${t.viewer.intro} ${t.convert.freePrivateInstant || ""}`,
+          extra: `<div class="max-w-3xl mx-auto"><h2 class="text-2xl font-bold text-gray-900 mb-4">${escText(t.viewer.aboutTitle)}</h2><p class="text-gray-600 leading-relaxed mb-4">${escText(t.viewer.aboutText1)}</p><p class="text-gray-600 leading-relaxed">${escText(t.viewer.aboutText2)}</p></div>`,
+          pageKey: "viewer",
+        }),
       });
     }
 

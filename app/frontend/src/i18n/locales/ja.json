@@ -31,6 +31,10 @@
     "batch": {
       "title": "HEIC JPEG一括変換 — 複数ファイルをまとめて変換 | OpenMyHEIC",
       "description": "複数のHEICファイルをJPEG・PNG・WebPに一括変換。変換した画像はZIPでまとめてダウンロード。無料・アップロード不要で、Windows・Macどちらでも使えます。"
+    },
+    "viewer": {
+      "title": "HEICビューア — HEICファイルを開く・表示（無料・オンライン） | OpenMyHEIC",
+      "description": "HEICが開けない？ブラウザでHEICファイルを無料で表示できるHEICビューア。ソフト不要・アップロード不要。WindowsでもiPhoneの写真をすぐ確認でき、JPEG保存も可能です。"
     }
   },
   "nav": {
@@ -40,7 +44,8 @@
     "pdf": "PDF",
     "gif": "GIF",
     "bmp": "BMP",
-    "batch": "一括"
+    "batch": "一括",
+    "viewer": "ビューア"
   },
   "hero": {
     "title": "HEICをJPEG/JPGに変換 —",
@@ -224,6 +229,24 @@
           "question": "変換したファイルをまとめてダウンロードするには？",
           "answer": "一括変換が終わったら「ZIPをダウンロード」を押してください。変換済み画像がすべて入った1つのZIPファイルが手に入ります。"
         }
+      ],
+      "viewer": [
+        {
+          "question": "ソフトをインストールせずにHEICファイルを開くには？",
+          "answer": "HEICファイルをこのページにドロップするだけです。ブラウザ内でデコードしてすぐに表示します。コーデックもアプリも登録も不要で、Windows 10/11、Mac、Linux、Chromebookで動作します。"
+        },
+        {
+          "question": "写真はサーバーにアップロードされますか？",
+          "answer": "いいえ。すべての処理はブラウザ内でローカルに行われます。写真が端末の外に出ることはないため、プライベートな写真でも安心です。"
+        },
+        {
+          "question": "複数のHEICファイルを同時に表示できますか？",
+          "answer": "はい。好きなだけ選択またはドロップすると、ギャラリー形式で表示されます。写真をクリックすると原寸で確認できます。"
+        },
+        {
+          "question": "写真をJPEGで保存できますか？",
+          "answer": "はい。各写真にJPEGダウンロードボタンがあります。フォルダごと変換したい場合は、一括変換でZIPとしてダウンロードできます。"
+        }
       ]
     }
   },
@@ -270,7 +293,9 @@
     "termsOfUse": "利用規約",
     "contact": "お問い合わせ",
     "copyright": "© {year} OpenMyHEIC.com — 全著作権所有。",
-    "privacyNote": "ファイルはすべてブラウザ内で処理されます。写真のアップロード、保存、アクセスは一切行いません。"
+    "privacyNote": "ファイルはすべてブラウザ内で処理されます。写真のアップロード、保存、アクセスは一切行いません。",
+    "heicViewer": "HEICビューア",
+    "blog": "ブログ"
   },
   "privacy": {
     "metaTitle": "プライバシーポリシー — OpenMyHEIC",
@@ -330,5 +355,16 @@
   },
   "language": {
     "switchLanguage": "言語を切り替え"
+  },
+  "viewer": {
+    "h1": "HEICビューア — HEICファイルをブラウザで開く・表示",
+    "intro": "iPhoneの写真が開けない？HEICファイルをここにドロップするだけで、すぐに表示できます。ソフトのインストールもアップロードも不要です。",
+    "dropTitle": "HEICファイルをここにドロップして表示",
+    "decoding": "写真をデコード中…",
+    "yourPhotos": "あなたの写真（{count}枚）",
+    "previewUnavailable": "プレビューを表示できません",
+    "aboutTitle": "なぜHEICファイルが開けないのですか？",
+    "aboutText1": "HEICはiOS 11以降のiPhoneが標準で使う写真形式です。容量を節約できる一方、Windows 10や多くのAndroid端末、古いソフト、ほとんどのWebサイトでは追加コーデックなしに表示できません。",
+    "aboutText2": "このHEICビューアはブラウザ内で直接写真をデコードします。ファイルが端末の外に送信されることはありません。Windows・Mac・Linux・Chromebookなど、モダンブラウザがあればどこでも動作。写真を確認して、必要なものはJPEGでダウンロードできます。大量のファイルは一括変換をご利用ください。"
   }
 }

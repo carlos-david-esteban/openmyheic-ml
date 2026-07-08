@@ -31,6 +31,10 @@
     "batch": {
       "title": "Batch HEIC Converter — Bulk Convert HEIC to JPG Free | OpenMyHEIC",
       "description": "Batch convert HEIC to JPG, PNG or WebP free. Bulk convert multiple HEIC files at once in your browser and download everything as a ZIP. No upload, no limits."
+    },
+    "viewer": {
+      "title": "HEIC Viewer — Open HEIC Files Online Free, No Upload | OpenMyHEIC",
+      "description": "Open and view HEIC photos online free. Works on Windows, Mac, Chromebook — no software, no upload. View HEIC files instantly in your browser and save them as JPG."
     }
   },
   "nav": {
@@ -40,7 +44,8 @@
     "pdf": "PDF",
     "gif": "GIF",
     "bmp": "BMP",
-    "batch": "Batch"
+    "batch": "Batch",
+    "viewer": "Viewer"
   },
   "hero": {
     "title": "Convert HEIC to JPG —",
@@ -236,6 +241,28 @@
           "question": "Can I batch convert HEIC to PNG or WebP too?",
           "answer": "Yes. Before converting, choose PNG (lossless) or WebP (smallest files) as the output format instead of JPG."
         }
+      ],
+      "viewer": [
+        {
+          "question": "How do I open a HEIC file without installing anything?",
+          "answer": "Drag your HEIC files onto this page. The viewer decodes them in your browser and shows them instantly — no codecs, no apps, no account. It works on Windows 10 and 11, Mac, Linux, and Chromebooks."
+        },
+        {
+          "question": "Are my photos uploaded to a server?",
+          "answer": "No. Everything happens locally in your browser using JavaScript. Your photos never leave your device, which makes this viewer safe for private pictures."
+        },
+        {
+          "question": "Can I view multiple HEIC files at once?",
+          "answer": "Yes — select or drop as many files as you want and they'll appear in a gallery. Click any photo to see it full size in a new tab."
+        },
+        {
+          "question": "Can I save the photos as JPG?",
+          "answer": "Yes. Every photo in the gallery has a JPG download button. For whole folders, the batch converter downloads everything as a single ZIP."
+        },
+        {
+          "question": "Why does Windows say it needs a codec to open HEIC?",
+          "answer": "Windows needs the HEIF Image Extensions (and often the paid HEVC codec) to decode HEIC natively. This viewer skips that entirely by decoding the image in your browser."
+        }
       ]
     }
   },
@@ -282,7 +309,9 @@
     "termsOfUse": "Terms of Use",
     "contact": "Contact",
     "copyright": "© {year} OpenMyHEIC.com — All rights reserved.",
-    "privacyNote": "Your files are processed entirely in your browser. We never upload, store, or access your photos."
+    "privacyNote": "Your files are processed entirely in your browser. We never upload, store, or access your photos.",
+    "heicViewer": "HEIC Viewer",
+    "blog": "Blog"
   },
   "privacy": {
     "metaTitle": "Privacy Policy — OpenMyHEIC",
@@ -342,5 +371,16 @@
   },
   "language": {
     "switchLanguage": "Switch Language"
+  },
+  "viewer": {
+    "h1": "HEIC Viewer — Open and View HEIC Files Online",
+    "intro": "Can't open your iPhone photos? Drop your HEIC files below and see them instantly — no software to install, nothing uploaded.",
+    "dropTitle": "Drop your HEIC files here to view them",
+    "decoding": "Decoding your photos…",
+    "yourPhotos": "Your photos ({count})",
+    "previewUnavailable": "Preview unavailable",
+    "aboutTitle": "Why can't I open HEIC files?",
+    "aboutText1": "HEIC is the photo format iPhones use by default since iOS 11. It saves storage, but Windows 10, many Android devices, older software, and most websites can't display it without extra codecs. That's why a photo that looks fine on your iPhone shows an error on your PC.",
+    "aboutText2": "This HEIC viewer decodes your photos directly in your browser using JavaScript — your files never leave your device. It works on any system with a modern browser: Windows, Mac, Linux, Chromebooks. View your photos, check them full size, and download the ones you need as JPG — or convert entire folders with the batch converter."
   }
 }

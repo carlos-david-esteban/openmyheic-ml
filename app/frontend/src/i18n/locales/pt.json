@@ -31,6 +31,10 @@
     "batch": {
       "title": "Conversor HEIC em lote — Vários arquivos de uma vez | OpenMyHEIC",
       "description": "Converta vários arquivos HEIC de uma vez para JPG, PNG ou WebP — grátis, no navegador. Baixe todas as imagens convertidas em um único ZIP."
+    },
+    "viewer": {
+      "title": "Visualizador HEIC — Abrir arquivo HEIC online grátis | OpenMyHEIC",
+      "description": "Abra e visualize arquivos HEIC online grátis, sem instalar nada. O visualizador HEIC funciona no navegador, sem upload — e você pode salvar as fotos em JPG."
     }
   },
   "nav": {
@@ -40,7 +44,8 @@
     "pdf": "PDF",
     "gif": "GIF",
     "bmp": "BMP",
-    "batch": "Lote"
+    "batch": "Lote",
+    "viewer": "Visualizador"
   },
   "hero": {
     "title": "Converter HEIC para JPG —",
@@ -224,6 +229,24 @@
           "question": "Como baixo todas as imagens convertidas?",
           "answer": "Quando o lote terminar, clique em 'Baixar ZIP' e você recebe um único arquivo ZIP com todas as imagens convertidas."
         }
+      ],
+      "viewer": [
+        {
+          "question": "Como abrir um arquivo HEIC sem instalar nada?",
+          "answer": "Arraste seus arquivos HEIC para esta página. O visualizador os decodifica no navegador e os exibe na hora — sem codecs, sem aplicativos, sem cadastro. Funciona no Windows 10/11, Mac, Linux e Chromebook."
+        },
+        {
+          "question": "Minhas fotos são enviadas para algum servidor?",
+          "answer": "Não. Tudo acontece localmente no seu navegador. Suas fotos nunca saem do seu dispositivo — seguro até para imagens privadas."
+        },
+        {
+          "question": "Posso visualizar vários arquivos HEIC de uma vez?",
+          "answer": "Sim — selecione ou solte quantos arquivos quiser e eles aparecem em uma galeria. Clique em qualquer foto para vê-la em tamanho real."
+        },
+        {
+          "question": "Posso salvar as fotos em JPG?",
+          "answer": "Sim. Cada foto tem um botão de download em JPG. Para pastas inteiras, o conversor em lote baixa tudo em um único ZIP."
+        }
       ]
     }
   },
@@ -270,7 +293,9 @@
     "termsOfUse": "Termos de Uso",
     "contact": "Contato",
     "copyright": "© {year} OpenMyHEIC.com — Todos os direitos reservados.",
-    "privacyNote": "Seus arquivos são processados inteiramente no seu navegador. Nunca enviamos, armazenamos ou acessamos suas fotos."
+    "privacyNote": "Seus arquivos são processados inteiramente no seu navegador. Nunca enviamos, armazenamos ou acessamos suas fotos.",
+    "heicViewer": "Visualizador HEIC",
+    "blog": "Blog"
   },
   "privacy": {
     "metaTitle": "Política de Privacidade — OpenMyHEIC",
@@ -330,5 +355,16 @@
   },
   "language": {
     "switchLanguage": "Mudar idioma"
+  },
+  "viewer": {
+    "h1": "Visualizador HEIC — Abrir e ver arquivos HEIC online",
+    "intro": "Não consegue abrir as fotos do iPhone? Solte seus arquivos HEIC abaixo e veja-os na hora — sem instalar nada, sem enviar nada.",
+    "dropTitle": "Solte seus arquivos HEIC aqui para visualizá-los",
+    "decoding": "Decodificando suas fotos…",
+    "yourPhotos": "Suas fotos ({count})",
+    "previewUnavailable": "Pré-visualização indisponível",
+    "aboutTitle": "Por que não consigo abrir arquivos HEIC?",
+    "aboutText1": "HEIC é o formato de foto padrão dos iPhones desde o iOS 11. Ele economiza armazenamento, mas o Windows 10, muitos aparelhos Android, programas antigos e a maioria dos sites não conseguem exibi-lo sem codecs adicionais.",
+    "aboutText2": "Este visualizador HEIC decodifica suas fotos diretamente no navegador — seus arquivos nunca saem do seu dispositivo. Funciona em qualquer sistema com um navegador moderno: Windows, Mac, Linux, Chromebook. Veja suas fotos, confira em tamanho real e baixe as que precisar em JPG — ou converta pastas inteiras com o conversor em lote."
   }
 }

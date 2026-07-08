@@ -38,7 +38,7 @@ export default function Layout({
   const seo = customSEO || {
     title: metaData.title,
     description: metaData.description,
-    canonical: `${SITE_URL}${localizedPath(format === "home" ? "/" : format === "batch" ? "/batch-convert" : `/heic-to-${format}`)}`,
+    canonical: `${SITE_URL}${localizedPath(format === "home" ? "/" : format === "batch" ? "/batch-convert" : format === "viewer" ? "/heic-viewer" : `/heic-to-${format}`)}`,
   };
 
   // FAQ from translations (per-page override with generic fallback)
@@ -53,6 +53,7 @@ export default function Layout({
     { href: localizedPath("/heic-to-gif"), label: t.nav.gif },
     { href: localizedPath("/heic-to-bmp"), label: t.nav.bmp },
     { href: localizedPath("/batch-convert"), label: t.nav.batch },
+    { href: localizedPath("/heic-viewer"), label: t.nav.viewer },
   ];
 
   const footerTools = [
@@ -63,6 +64,7 @@ export default function Layout({
     { href: localizedPath("/heic-to-gif"), label: `HEIC ${t.nav.gif}` },
     { href: localizedPath("/heic-to-bmp"), label: `HEIC ${t.nav.bmp}` },
     { href: localizedPath("/batch-convert"), label: t.nav.batch },
+    { href: localizedPath("/heic-viewer"), label: t.footer.heicViewer },
   ];
 
   const footerResources = [
@@ -227,6 +229,14 @@ export default function Layout({
                       </Link>
                     </li>
                   ))}
+                  <li>
+                    <a
+                      href="/blog/"
+                      className="text-sm text-gray-500 hover:text-emerald-600 transition-colors"
+                    >
+                      {t.footer.blog}
+                    </a>
+                  </li>
                 </ul>
               </div>
 

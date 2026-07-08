@@ -31,6 +31,10 @@
     "batch": {
       "title": "Batch HEIC Konverterare — Konvertera Flera Filer Samtidigt | OpenMyHEIC",
       "description": "Konvertera flera HEIC-filer till JPG, PNG eller WebP. Ladda ner alla konverterade filer som ZIP."
+    },
+    "viewer": {
+      "title": "HEIC-visare — Öppna och visa HEIC-filer online gratis | OpenMyHEIC",
+      "description": "Öppna och visa HEIC-filer gratis online utan program. HEIC-visaren körs i din webbläsare — inga filer laddas upp. Spara som JPG med ett klick."
     }
   },
   "nav": {
@@ -40,7 +44,8 @@
     "pdf": "PDF",
     "gif": "GIF",
     "bmp": "BMP",
-    "batch": "Batch"
+    "batch": "Batch",
+    "viewer": "Visare"
   },
   "hero": {
     "title": "Konvertera HEIC till JPG —",
@@ -224,6 +229,24 @@
           "question": "Hur laddar jag ner alla konverterade filer?",
           "answer": "När batchen är klar trycker du på 'Ladda ner ZIP' och får ett enda ZIP-arkiv med alla konverterade bilder."
         }
+      ],
+      "viewer": [
+        {
+          "question": "Hur öppnar jag en HEIC-fil utan att installera något?",
+          "answer": "Dra dina HEIC-filer till den här sidan. Visaren avkodar dem i webbläsaren och visar dem direkt — utan kodekar, appar eller konto. Fungerar på Windows 10/11, Mac, Linux och Chromebook."
+        },
+        {
+          "question": "Laddas mina bilder upp till en server?",
+          "answer": "Nej. Allt sker lokalt i din webbläsare. Dina bilder lämnar aldrig din enhet — säkert även för privata bilder."
+        },
+        {
+          "question": "Kan jag visa flera HEIC-filer samtidigt?",
+          "answer": "Ja — välj eller släpp så många filer du vill, de visas i ett galleri. Klicka på en bild för att se den i full storlek."
+        },
+        {
+          "question": "Kan jag spara bilderna som JPG?",
+          "answer": "Ja, varje bild har en JPG-nedladdningsknapp. För hela mappar laddar batchkonverteraren ner allt som en enda ZIP."
+        }
       ]
     }
   },
@@ -270,7 +293,9 @@
     "termsOfUse": "Användarvillkor",
     "contact": "Kontakt",
     "copyright": "© {year} OpenMyHEIC.com — Alla rättigheter förbehållna.",
-    "privacyNote": "Dina filer bearbetas helt i din webbläsare. Vi laddar aldrig upp, lagrar eller kommer åt dina foton."
+    "privacyNote": "Dina filer bearbetas helt i din webbläsare. Vi laddar aldrig upp, lagrar eller kommer åt dina foton.",
+    "heicViewer": "HEIC-visare",
+    "blog": "Blogg"
   },
   "privacy": {
     "metaTitle": "Integritetspolicy — OpenMyHEIC",
@@ -330,5 +355,16 @@
   },
   "language": {
     "switchLanguage": "Byt språk"
+  },
+  "viewer": {
+    "h1": "HEIC-visare — Öppna och visa HEIC-filer online",
+    "intro": "Kan du inte öppna dina iPhone-bilder? Släpp dina HEIC-filer nedan och se dem direkt — utan program, utan uppladdning.",
+    "dropTitle": "Släpp dina HEIC-filer här för att visa dem",
+    "decoding": "Avkodar dina bilder…",
+    "yourPhotos": "Dina bilder ({count})",
+    "previewUnavailable": "Förhandsvisning saknas",
+    "aboutTitle": "Varför kan jag inte öppna HEIC-filer?",
+    "aboutText1": "HEIC är det fotoformat som iPhone använder som standard sedan iOS 11. Det sparar lagringsutrymme, men Windows 10, många Android-enheter, äldre program och de flesta webbplatser kan inte visa det utan extra kodekar.",
+    "aboutText2": "Den här HEIC-visaren avkodar dina bilder direkt i webbläsaren — dina filer lämnar aldrig din enhet. Den fungerar på alla system med en modern webbläsare: Windows, Mac, Linux, Chromebook. Visa dina bilder i full storlek och ladda ner dem du behöver som JPG — eller konvertera hela mappar med batchkonverteraren."
   }
 }

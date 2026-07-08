@@ -31,6 +31,10 @@
     "batch": {
       "title": "HEIC bulk omzetten naar JPG — Meerdere bestanden tegelijk | OpenMyHEIC",
       "description": "Zet meerdere HEIC-bestanden tegelijk om naar JPG, PNG of WebP — gratis in je browser. Download alle omgezette afbeeldingen als één ZIP."
+    },
+    "viewer": {
+      "title": "HEIC Viewer — HEIC bestanden openen en bekijken online | OpenMyHEIC",
+      "description": "Open en bekijk HEIC-bestanden gratis online, zonder software. De HEIC-viewer werkt in je browser — niets wordt geüpload. Opslaan als JPG kan met één klik."
     }
   },
   "nav": {
@@ -40,7 +44,8 @@
     "pdf": "PDF",
     "gif": "GIF",
     "bmp": "BMP",
-    "batch": "Batch"
+    "batch": "Batch",
+    "viewer": "Viewer"
   },
   "hero": {
     "title": "HEIC naar JPG Converteren —",
@@ -224,6 +229,24 @@
           "question": "Hoe download ik alle omgezette bestanden?",
           "answer": "Klik na afloop op 'Download ZIP' en je krijgt één ZIP-archief met alle omgezette afbeeldingen."
         }
+      ],
+      "viewer": [
+        {
+          "question": "Hoe open ik een HEIC-bestand zonder iets te installeren?",
+          "answer": "Sleep je HEIC-bestanden naar deze pagina. De viewer decodeert ze in je browser en toont ze direct — zonder codecs, apps of account. Werkt op Windows 10/11, Mac, Linux en Chromebook."
+        },
+        {
+          "question": "Worden mijn foto's naar een server geüpload?",
+          "answer": "Nee. Alles gebeurt lokaal in je browser. Je foto's verlaten je apparaat nooit — ook veilig voor privéfoto's."
+        },
+        {
+          "question": "Kan ik meerdere HEIC-bestanden tegelijk bekijken?",
+          "answer": "Ja — selecteer of sleep zoveel bestanden als je wilt, ze verschijnen in een galerij. Klik op een foto om hem op ware grootte te zien."
+        },
+        {
+          "question": "Kan ik de foto's opslaan als JPG?",
+          "answer": "Ja, elke foto heeft een JPG-downloadknop. Voor hele mappen downloadt de batch-converter alles als één ZIP."
+        }
       ]
     }
   },
@@ -270,7 +293,9 @@
     "termsOfUse": "Gebruiksvoorwaarden",
     "contact": "Contact",
     "copyright": "© {year} OpenMyHEIC.com — Alle rechten voorbehouden.",
-    "privacyNote": "Je bestanden worden volledig in je browser verwerkt. We uploaden, bewaren of openen nooit je foto's."
+    "privacyNote": "Je bestanden worden volledig in je browser verwerkt. We uploaden, bewaren of openen nooit je foto's.",
+    "heicViewer": "HEIC Viewer",
+    "blog": "Blog"
   },
   "privacy": {
     "metaTitle": "Privacybeleid — OpenMyHEIC",
@@ -330,5 +355,16 @@
   },
   "language": {
     "switchLanguage": "Taal wisselen"
+  },
+  "viewer": {
+    "h1": "HEIC Viewer — HEIC-bestanden openen en bekijken",
+    "intro": "Kun je je iPhone-foto's niet openen? Sleep je HEIC-bestanden hieronder en bekijk ze direct — zonder software, zonder upload.",
+    "dropTitle": "Sleep je HEIC-bestanden hierheen om ze te bekijken",
+    "decoding": "Foto's worden gedecodeerd…",
+    "yourPhotos": "Jouw foto's ({count})",
+    "previewUnavailable": "Voorbeeld niet beschikbaar",
+    "aboutTitle": "Waarom kan ik HEIC-bestanden niet openen?",
+    "aboutText1": "HEIC is het standaard fotoformaat van iPhones sinds iOS 11. Het bespaart opslagruimte, maar Windows 10, veel Android-toestellen, oudere software en de meeste websites kunnen het zonder extra codecs niet weergeven.",
+    "aboutText2": "Deze HEIC-viewer decodeert je foto's direct in je browser — je bestanden verlaten je apparaat nooit. Hij werkt op elk systeem met een moderne browser: Windows, Mac, Linux, Chromebook. Bekijk je foto's op ware grootte en download wat je nodig hebt als JPG — of zet hele mappen om met de batch-converter."
   }
 }

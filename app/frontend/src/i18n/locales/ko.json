@@ -31,6 +31,10 @@
     "batch": {
       "title": "HEIC 일괄변환 — 여러 파일 한 번에 JPG/PNG로 | OpenMyHEIC",
       "description": "여러 HEIC 파일을 한 번에 JPG, PNG 또는 WebP로 일괄변환 — 무료, 브라우저에서 처리. 변환된 이미지는 ZIP 파일로 한 번에 다운로드."
+    },
+    "viewer": {
+      "title": "HEIC 뷰어 — HEIC 파일 온라인으로 열기·보기 (무료) | OpenMyHEIC",
+      "description": "HEIC 파일이 안 열리나요? 설치 없이 브라우저에서 HEIC 사진을 바로 보는 무료 HEIC 뷰어. 업로드 없이 기기에서 처리되며 JPG로 저장할 수도 있습니다."
     }
   },
   "nav": {
@@ -40,7 +44,8 @@
     "pdf": "PDF",
     "gif": "GIF",
     "bmp": "BMP",
-    "batch": "일괄"
+    "batch": "일괄",
+    "viewer": "뷰어"
   },
   "hero": {
     "title": "HEIC를 JPG로 변환 —",
@@ -224,6 +229,24 @@
           "question": "변환된 파일을 한 번에 받으려면?",
           "answer": "일괄변환이 끝나면 'ZIP 다운로드'를 누르세요. 변환된 이미지가 모두 담긴 ZIP 파일 하나를 받게 됩니다."
         }
+      ],
+      "viewer": [
+        {
+          "question": "설치 없이 HEIC 파일을 여는 방법은?",
+          "answer": "HEIC 파일을 이 페이지에 끌어다 놓기만 하면 됩니다. 브라우저에서 디코딩해 바로 표시합니다. 코덱, 앱, 가입 모두 필요 없으며 Windows 10/11, Mac, Linux, 크롬북에서 작동합니다."
+        },
+        {
+          "question": "사진이 서버에 업로드되나요?",
+          "answer": "아니요. 모든 처리는 브라우저 안에서 로컬로 이루어집니다. 사진이 기기 밖으로 나가지 않아 개인 사진도 안전합니다."
+        },
+        {
+          "question": "여러 HEIC 파일을 한 번에 볼 수 있나요?",
+          "answer": "네. 원하는 만큼 선택하거나 끌어다 놓으면 갤러리로 표시됩니다. 사진을 클릭하면 원본 크기로 볼 수 있습니다."
+        },
+        {
+          "question": "사진을 JPG로 저장할 수 있나요?",
+          "answer": "네. 각 사진에 JPG 다운로드 버튼이 있습니다. 폴더 전체는 일괄 변환기로 ZIP 하나로 내려받을 수 있습니다."
+        }
       ]
     }
   },
@@ -270,7 +293,9 @@
     "termsOfUse": "이용약관",
     "contact": "문의",
     "copyright": "© {year} OpenMyHEIC.com — 모든 권리 보유.",
-    "privacyNote": "파일은 전적으로 브라우저에서 처리됩니다. 사진을 업로드, 저장 또는 접근하지 않습니다."
+    "privacyNote": "파일은 전적으로 브라우저에서 처리됩니다. 사진을 업로드, 저장 또는 접근하지 않습니다.",
+    "heicViewer": "HEIC 뷰어",
+    "blog": "블로그"
   },
   "privacy": {
     "metaTitle": "개인정보 처리방침 — OpenMyHEIC",
@@ -330,5 +355,16 @@
   },
   "language": {
     "switchLanguage": "언어 변경"
+  },
+  "viewer": {
+    "h1": "HEIC 뷰어 — HEIC 파일 열기 및 보기",
+    "intro": "아이폰 사진이 안 열리나요? 아래에 HEIC 파일을 끌어다 놓으면 바로 볼 수 있습니다. 설치도, 업로드도 필요 없습니다.",
+    "dropTitle": "HEIC 파일을 여기에 놓으면 바로 표시됩니다",
+    "decoding": "사진을 디코딩하는 중…",
+    "yourPhotos": "내 사진 ({count}장)",
+    "previewUnavailable": "미리보기를 사용할 수 없음",
+    "aboutTitle": "왜 HEIC 파일이 열리지 않나요?",
+    "aboutText1": "HEIC는 iOS 11부터 아이폰이 기본으로 사용하는 사진 형식입니다. 저장 공간은 절약되지만 Windows 10, 많은 안드로이드 기기, 오래된 프로그램, 대부분의 웹사이트는 추가 코덱 없이 표시하지 못합니다.",
+    "aboutText2": "이 HEIC 뷰어는 브라우저에서 직접 사진을 디코딩합니다. 파일이 기기 밖으로 나가지 않습니다. Windows, Mac, Linux, 크롬북 등 최신 브라우저가 있는 모든 시스템에서 작동합니다. 사진을 확인하고 필요한 것은 JPG로 다운로드하세요. 폴더 전체는 일괄 변환을 이용하면 됩니다."
   }
 }

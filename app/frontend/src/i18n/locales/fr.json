@@ -31,6 +31,10 @@
     "batch": {
       "title": "Convertisseur HEIC par lot — Plusieurs fichiers à la fois | OpenMyHEIC",
       "description": "Convertissez plusieurs fichiers HEIC à la fois en JPG, PNG ou WebP — gratuitement, dans votre navigateur. Téléchargez toutes les images converties en un seul ZIP."
+    },
+    "viewer": {
+      "title": "Visionneuse HEIC — Ouvrir un fichier HEIC en ligne gratuit | OpenMyHEIC",
+      "description": "Ouvrez et affichez vos fichiers HEIC en ligne gratuitement, sans logiciel ni envoi de fichiers. La visionneuse HEIC fonctionne dans votre navigateur — enregistrez ensuite vos photos en JPG."
     }
   },
   "nav": {
@@ -40,7 +44,8 @@
     "pdf": "PDF",
     "gif": "GIF",
     "bmp": "BMP",
-    "batch": "Par lot"
+    "batch": "Par lot",
+    "viewer": "Visionneuse"
   },
   "hero": {
     "title": "Convertir HEIC en JPG —",
@@ -224,6 +229,24 @@
           "question": "Comment télécharger toutes les images converties ?",
           "answer": "À la fin de la conversion, cliquez sur « Télécharger le ZIP » : vous obtenez une seule archive contenant toutes vos images converties."
         }
+      ],
+      "viewer": [
+        {
+          "question": "Comment ouvrir un fichier HEIC sans rien installer ?",
+          "answer": "Glissez vos fichiers HEIC sur cette page. La visionneuse les décode dans votre navigateur et les affiche instantanément — sans codec, sans application, sans compte. Fonctionne sous Windows 10/11, Mac, Linux et Chromebook."
+        },
+        {
+          "question": "Mes photos sont-elles envoyées sur un serveur ?",
+          "answer": "Non. Tout se passe localement dans votre navigateur. Vos photos ne quittent jamais votre appareil — idéal pour les images privées."
+        },
+        {
+          "question": "Puis-je afficher plusieurs fichiers HEIC à la fois ?",
+          "answer": "Oui — sélectionnez ou déposez autant de fichiers que vous voulez, ils s'affichent en galerie. Cliquez sur une photo pour la voir en taille réelle."
+        },
+        {
+          "question": "Puis-je enregistrer les photos en JPG ?",
+          "answer": "Oui, chaque photo dispose d'un bouton de téléchargement JPG. Pour des dossiers entiers, le convertisseur par lots télécharge tout dans un seul ZIP."
+        }
       ]
     }
   },
@@ -270,7 +293,9 @@
     "termsOfUse": "Conditions d'utilisation",
     "contact": "Contact",
     "copyright": "© {year} OpenMyHEIC.com — Tous droits réservés.",
-    "privacyNote": "Vos fichiers sont traités entièrement dans votre navigateur. Nous ne téléchargeons, stockons ni accédons jamais à vos photos."
+    "privacyNote": "Vos fichiers sont traités entièrement dans votre navigateur. Nous ne téléchargeons, stockons ni accédons jamais à vos photos.",
+    "heicViewer": "Visionneuse HEIC",
+    "blog": "Blog"
   },
   "privacy": {
     "metaTitle": "Politique de Confidentialité — OpenMyHEIC",
@@ -330,5 +355,16 @@
   },
   "language": {
     "switchLanguage": "Changer de langue"
+  },
+  "viewer": {
+    "h1": "Visionneuse HEIC — Ouvrir et afficher vos fichiers HEIC",
+    "intro": "Impossible d'ouvrir vos photos iPhone ? Déposez vos fichiers HEIC ci-dessous et affichez-les instantanément — sans logiciel, sans envoi.",
+    "dropTitle": "Déposez vos fichiers HEIC ici pour les afficher",
+    "decoding": "Décodage de vos photos…",
+    "yourPhotos": "Vos photos ({count})",
+    "previewUnavailable": "Aperçu indisponible",
+    "aboutTitle": "Pourquoi mes fichiers HEIC ne s'ouvrent-ils pas ?",
+    "aboutText1": "HEIC est le format photo par défaut des iPhone depuis iOS 11. Il économise de l'espace de stockage, mais Windows 10, de nombreux appareils Android, les logiciels anciens et la plupart des sites web ne peuvent pas l'afficher sans codecs supplémentaires.",
+    "aboutText2": "Cette visionneuse HEIC décode vos photos directement dans votre navigateur — vos fichiers ne quittent jamais votre appareil. Elle fonctionne sur tout système doté d'un navigateur moderne : Windows, Mac, Linux, Chromebook. Affichez vos photos, vérifiez-les en taille réelle et téléchargez celles qu'il vous faut en JPG — ou convertissez des dossiers entiers avec le convertisseur par lots."
   }
 }
