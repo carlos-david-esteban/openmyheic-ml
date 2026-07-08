@@ -196,7 +196,12 @@ function footerHtml(lang) {
     ["/how-to-convert-heic-to-jpg-windows", t.footer.convertOnWindows],
     ["/how-to-convert-heic-to-jpg-mac", t.footer.convertOnMac],
   ];
-  const blogLink = `<li><a href="/blog/" class="text-sm text-gray-500">${escText(t.footer.blog || "Blog")}</a></li>`;
+  // Link to the localized blog index when that language has posts (seo/content/<lang>/)
+  const localizedBlogDir = path.resolve(root, "seo", "content", lang);
+  const hasLocalizedBlog = lang !== "en" && fs.existsSync(localizedBlogDir) &&
+    fs.readdirSync(localizedBlogDir).some((f) => f.endsWith(".md"));
+  const blogHref = hasLocalizedBlog ? `/${lang}/blog/` : "/blog/";
+  const blogLink = `<li><a href="${blogHref}" class="text-sm text-gray-500">${escText(t.footer.blog || "Blog")}</a></li>`;
   const legal = [
     ["/privacy-policy", t.footer.privacyPolicy],
     ["/terms-of-use", t.footer.termsOfUse],

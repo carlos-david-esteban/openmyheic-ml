@@ -35,15 +35,17 @@ function collectHtmlFiles(dir, basePath = "") {
 
       // Use markdown file's mtime for blog posts (HTML is regenerated each build)
       if (basePath.includes('/blog') && file === 'index.html') {
-        const pathParts = relativePath.split('/');
-        const slug = pathParts[pathParts.length - 2];
-
-        if (slug && slug !== 'blog') {
-          const mdPath = path.join(contentDir, `${slug}.md`);
-          if (fs.existsSync(mdPath)) {
-            const mdStat = fs.statSync(mdPath);
-            lastmod = mdStat.mtime.toISOString();
-          }
+        // relativePath: /blog/<slug>/index.html or /<lang>/blog/<slug>/index.html
+        const parts = relativePath.replace(/^\//, '').split('/');
+        let mdPath = null;
+        if (parts.length === 3 && parts[0] === 'blog') {
+          mdPath = path.join(contentDir, `${parts[1]}.md`);
+        } else if (parts.length === 4 && parts[1] === 'blog') {
+          mdPath = path.join(contentDir, parts[0], `${parts[2]}.md`);
+        }
+        if (mdPath && fs.existsSync(mdPath)) {
+          const mdStat = fs.statSync(mdPath);
+          lastmod = mdStat.mtime.toISOString();
         }
       }
 
@@ -63,6 +65,16 @@ if (fs.existsSync(blogDir)) {
   const blogUrls = collectHtmlFiles(blogDir, "/blog");
   urls.push(...blogUrls);
 }
+
+// Collect localized blog directories (dist/<lang>/blog)
+fs.readdirSync(distDir).forEach(entry => {
+  if (entry === "blog" || entry === "seo" || entry === "assets") return;
+  const full = path.join(distDir, entry);
+  const langBlog = path.join(full, "blog");
+  if (fs.statSync(full).isDirectory() && fs.existsSync(langBlog)) {
+    urls.push(...collectHtmlFiles(langBlog, `/${entry}/blog`));
+  }
+});
 
 // Collect HTML files in other directories (if any)
 const seoDir = path.join(distDir, "seo");

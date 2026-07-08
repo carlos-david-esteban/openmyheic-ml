@@ -9,6 +9,7 @@ tags:
   - Guides
 author: OpenMyHEIC Team
 lang: en
+translationKey: open-heic-files
 ---
 
 # How to Open HEIC Files on Windows 11, Windows 10, and Mac

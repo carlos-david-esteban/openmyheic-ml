@@ -22,6 +22,20 @@ const siblingBlogDir = path.resolve(projectRoot, '..', 'seo', 'content');
 const blogDir = fs.existsSync(localBlogDir) ? localBlogDir : siblingBlogDir;
 const distBlogDir = path.resolve(projectRoot, 'dist', 'blog');
 
+// Language subdirectories of seo/content that hold localized posts.
+// A post at seo/content/de/<slug>.md is published at /de/blog/<slug>/
+const SUPPORTED_POST_LANGS = ['de', 'ja', 'es', 'fr', 'pt', 'ko', 'nl', 'sv', 'no', 'da'];
+
+// Localized UI strings for the blog templates (fallback: en)
+const BLOG_UI = {
+  en: { allArticles: '\u2190 All Articles', home: 'Home', blog: 'Blog', contents: 'Contents', articles: 'Articles', subtitle: 'Thoughts, stories and ideas', backToHome: '\u2190 Back to Home', articleWord: ['article', 'articles'], dateLocale: 'en-US' },
+  de: { allArticles: '\u2190 Alle Artikel', home: 'Startseite', blog: 'Blog', contents: 'Inhalt', articles: 'Artikel', subtitle: 'Anleitungen und Tipps rund um HEIC-Dateien', backToHome: '\u2190 Zur Startseite', articleWord: ['Artikel', 'Artikel'], dateLocale: 'de-DE' },
+  fr: { allArticles: '\u2190 Tous les articles', home: 'Accueil', blog: 'Blog', contents: 'Sommaire', articles: 'Articles', subtitle: 'Guides et astuces sur les fichiers HEIC', backToHome: "\u2190 Retour \u00e0 l'accueil", articleWord: ['article', 'articles'], dateLocale: 'fr-FR' },
+  es: { allArticles: '\u2190 Todos los art\u00edculos', home: 'Inicio', blog: 'Blog', contents: 'Contenido', articles: 'Art\u00edculos', subtitle: 'Gu\u00edas y trucos sobre archivos HEIC', backToHome: '\u2190 Volver al inicio', articleWord: ['art\u00edculo', 'art\u00edculos'], dateLocale: 'es-ES' },
+  pt: { allArticles: '\u2190 Todos os artigos', home: 'In\u00edcio', blog: 'Blog', contents: '\u00cdndice', articles: 'Artigos', subtitle: 'Guias e dicas sobre arquivos HEIC', backToHome: '\u2190 Voltar ao in\u00edcio', articleWord: ['artigo', 'artigos'], dateLocale: 'pt-BR' },
+  ja: { allArticles: '\u2190 \u8a18\u4e8b\u4e00\u89a7', home: '\u30db\u30fc\u30e0', blog: '\u30d6\u30ed\u30b0', contents: '\u76ee\u6b21', articles: '\u8a18\u4e8b\u4e00\u89a7', subtitle: 'HEIC\u30d5\u30a1\u30a4\u30eb\u306e\u30ac\u30a4\u30c9\u3068\u30d2\u30f3\u30c8', backToHome: '\u2190 \u30db\u30fc\u30e0\u306b\u623b\u308b', articleWord: ['\u4ef6\u306e\u8a18\u4e8b', '\u4ef6\u306e\u8a18\u4e8b'], dateLocale: 'ja-JP' },
+};
+
 function getHtmlTemplate(title, content, datePublished, dateModified, meta = {}) {
   const tags = meta.tags || [];
   const keywords = meta.keywords || tags.join(', ');
@@ -33,6 +47,12 @@ function getHtmlTemplate(title, content, datePublished, dateModified, meta = {})
   const toc = meta.toc || '';
   const slug = meta.slug || '';
   const lang = meta.lang || 'en';
+  const prefix = meta.prefix || '';
+  const ui = meta.ui || BLOG_UI[lang] || BLOG_UI.en;
+  const hreflangHtml = meta.hreflangHtml || '';
+  const postUrl = `${baseUrl}${prefix}/blog/${slug}/`;
+  const blogIndexUrl = `${baseUrl}${prefix}/blog/`;
+  const homeUrl = prefix ? `${baseUrl}${prefix}` : baseUrl;
 
   const ogLocaleMap = {
     'zh': 'zh_CN',
@@ -71,20 +91,20 @@ function getHtmlTemplate(title, content, datePublished, dateModified, meta = {})
       {
         "@type": "ListItem",
         "position": 1,
-        "name": "Home",
-        "item": baseUrl
+        "name": ui.home,
+        "item": homeUrl
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Blog",
-        "item": `${baseUrl}/blog/`
+        "name": ui.blog,
+        "item": blogIndexUrl
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": title,
-        "item": `${baseUrl}/blog/${slug}/`
+        "item": postUrl
       }
     ]
   };
@@ -97,10 +117,10 @@ function getHtmlTemplate(title, content, datePublished, dateModified, meta = {})
   <meta name="description" content="${description}">
   ${keywords ? `<meta name="keywords" content="${keywords}">` : ''}
   
-  <link rel="canonical" href="${baseUrl}/blog/${slug}/">
-  
+  <link rel="canonical" href="${postUrl}">${hreflangHtml}
+
   <meta property="og:type" content="article">
-  <meta property="og:url" content="${baseUrl}/blog/${slug}/">
+  <meta property="og:url" content="${postUrl}">
   <meta property="og:title" content="${title}">
   <meta property="og:description" content="${description}">
   <meta property="og:locale" content="${ogLocale}">
@@ -109,7 +129,7 @@ function getHtmlTemplate(title, content, datePublished, dateModified, meta = {})
   ${tags.map(tag => `<meta property="article:tag" content="${tag}">`).join('\n  ')}
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="${baseUrl}/blog/${slug}/">
+  <meta name="twitter:url" content="${postUrl}">
   <meta name="twitter:title" content="${title}">
   <meta name="twitter:description" content="${description}">
   
@@ -458,14 +478,14 @@ ${JSON.stringify(breadcrumbSchema, null, 2)}
 <body>
   <main class="container">
     <nav class="nav">
-      <a href="/blog/" class="nav-btn">← All Articles</a>
-      <a href="/" class="nav-btn">Home</a>
+      <a href="${prefix}/blog/" class="nav-btn">${ui.allArticles}</a>
+      <a href="${prefix || '/'}" class="nav-btn">${ui.home}</a>
     </nav>
-    
+
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="/">Home</a>
+      <a href="${prefix || '/'}">${ui.home}</a>
       <span class="breadcrumb-separator">/</span>
-      <a href="/blog/">Blog</a>
+      <a href="${prefix}/blog/">${ui.blog}</a>
       <span class="breadcrumb-separator">/</span>
       <span class="breadcrumb-current">${escapeHtml(title)}</span>
     </nav>
@@ -474,7 +494,7 @@ ${JSON.stringify(breadcrumbSchema, null, 2)}
       <header>
         <h1>${escapeHtml(title)}</h1>
         <div class="meta">
-          ${displayDate ? `<div class="meta-item"><time datetime="${isoDate}">${formatDate(displayDate)}</time></div>` : ''}
+          ${displayDate ? `<div class="meta-item"><time datetime="${isoDate}">${formatDate(displayDate, ui.dateLocale)}</time></div>` : ''}
           ${tags.length > 0 ? `<div class="meta-item">${tags.join(' · ')}</div>` : ''}
         </div>
       </header>
@@ -501,11 +521,11 @@ function escapeHtml(text) {
   return text.replace(/[&<>"']/g, m => map[m]);
 }
 
-function formatDate(dateString) {
+function formatDate(dateString, locale = 'en-US') {
   if (!dateString) return '';
   try {
     const date = new Date(dateString);
-    return date.toLocaleDateString('en-US', {
+    return date.toLocaleDateString(locale, {
       year: 'numeric',
       month: 'long',
       day: 'numeric'
@@ -596,7 +616,7 @@ function slugify(text) {
 }
 
 // Generate table of contents
-function generateTOC(htmlContent) {
+function generateTOC(htmlContent, tocTitle = 'Contents') {
   const headings = [];
   const regex = /<h([23])[^>]*>(.*?)<\/h\1>/gi;
   let match;
@@ -645,7 +665,7 @@ function generateTOC(htmlContent) {
   });
 
   // Generate TOC HTML
-  let tocHtml = '<nav class="toc"><div class="toc-title">Contents</div><ul class="toc-list">';
+  let tocHtml = `<nav class="toc"><div class="toc-title">${tocTitle}</div><ul class="toc-list">`;
   headings.forEach(heading => {
     const indent = heading.level === 3 ? 'toc-item-h3' : 'toc-item-h2';
     tocHtml += `<li class="toc-item ${indent}"><a href="#${heading.id}">${heading.text}</a></li>`;
@@ -661,10 +681,11 @@ marked.setOptions({
   gfm: true,
 });
 
-// Process a single markdown file
-function processMarkdownFile(filePath) {
-  const content = fs.readFileSync(filePath, 'utf-8');
-  const { frontmatter, markdown } = parseFrontmatter(content);
+// Process a single markdown file.
+// entry: { filePath, lang, prefix, frontmatter, markdown, slug, hreflangHtml }
+function processMarkdownFile(entry) {
+  const { filePath, lang, prefix, frontmatter, markdown } = entry;
+  const ui = BLOG_UI[lang] || BLOG_UI.en;
 
   // Get file system dates
   // This is more reliable than markdown frontmatter date which may be inaccurate from AI generation
@@ -691,7 +712,7 @@ function processMarkdownFile(filePath) {
     }
 
     // Generate table of contents and add heading IDs
-    const tocResult = generateTOC(htmlContent);
+    const tocResult = generateTOC(htmlContent, ui.contents);
     htmlContent = tocResult.content;
     toc = tocResult.toc;
   } catch (error) {
@@ -713,17 +734,22 @@ function processMarkdownFile(filePath) {
       toc: toc,
       slug: fileName,
       author: frontmatter.author,
-      lang: frontmatter.lang || 'en'
+      lang: lang,
+      prefix: prefix,
+      ui: ui,
+      hreflangHtml: entry.hreflangHtml || ''
     }
   );
 
-  // Create a separate directory for each article
-  const articleDir = path.join(distBlogDir, fileName);
+  // Create a separate directory for each article: dist[/lang]/blog/<slug>/
+  const articleDir = prefix
+    ? path.join(path.resolve(projectRoot, 'dist'), lang, 'blog', fileName)
+    : path.join(distBlogDir, fileName);
   if (!fs.existsSync(articleDir)) {
     fs.mkdirSync(articleDir, { recursive: true });
   }
 
-  // Write to dist/blog/filename/index.html
+  // Write to dist[/lang]/blog/filename/index.html
   const outputPath = path.join(articleDir, 'index.html');
   fs.writeFileSync(outputPath, html, 'utf-8');
 
@@ -733,13 +759,14 @@ function processMarkdownFile(filePath) {
     date: datePublished,
     dateModified: dateModified,
     tags: frontmatter.tags || [],
-    path: `/blog/${fileName}/`,
-    lang: frontmatter.lang || 'en'
+    path: `${prefix}/blog/${fileName}/`,
+    lang: lang,
+    prefix: prefix
   };
 }
 
-// Generate list page
-function generateListPage(articles) {
+// Generate list page for one language group (prefix '' = EN at /blog/)
+function generateListPage(articles, prefix = '') {
   // Sort by date (newest first)
   const sortedArticles = [...articles].sort((a, b) => {
     const dateA = a.date ? new Date(a.date) : new Date(0);
@@ -749,17 +776,19 @@ function generateListPage(articles) {
 
   // Use the first article's language as the list page language
   const pageLang = sortedArticles.length > 0 ? (sortedArticles[0].lang || 'en') : 'en';
+  const ui = BLOG_UI[pageLang] || BLOG_UI.en;
+  const listUrl = `${baseUrl}${prefix}/blog/`;
 
   const listHtml = `<!DOCTYPE html>
 <html lang="${pageLang}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Blog Articles List">
-  
-  <link rel="canonical" href="${baseUrl}/blog/">
-  
-  <title>Articles</title>
+  <meta name="description" content="${ui.articles} — OpenMyHEIC">
+
+  <link rel="canonical" href="${listUrl}">
+
+  <title>${ui.articles} — OpenMyHEIC</title>
   ${GA4_MEASUREMENT_ID ? `
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_MEASUREMENT_ID}"></script>
@@ -918,9 +947,9 @@ function generateListPage(articles) {
 <body>
   <div class="container">
     <div class="header">
-      <h1>Articles</h1>
-      <p class="subtitle">Thoughts, stories and ideas</p>
-      <a href="/" class="nav-btn">← Back to Home</a>
+      <h1>${ui.articles}</h1>
+      <p class="subtitle">${ui.subtitle}</p>
+      <a href="${prefix || '/'}" class="nav-btn">${ui.backToHome}</a>
     </div>
     
     <ul class="article-list">
@@ -930,7 +959,7 @@ function generateListPage(articles) {
             <a href="${article.path}">${escapeHtml(article.title)}</a>
           </h2>
           <div class="article-meta">
-            ${article.date ? `<span>${formatDate(article.date)}</span>` : ''}
+            ${article.date ? `<span>${formatDate(article.date, ui.dateLocale)}</span>` : ''}
             ${article.tags && article.tags.length > 0 ? `<span>· ${article.tags.join(' · ')}</span>` : ''}
           </div>
         </li>
@@ -938,13 +967,19 @@ function generateListPage(articles) {
     </ul>
     
     <div class="stats">
-      ${sortedArticles.length} article${sortedArticles.length !== 1 ? 's' : ''}
+      ${sortedArticles.length} ${sortedArticles.length !== 1 ? ui.articleWord[1] : ui.articleWord[0]}
     </div>
   </div>
 </body>
 </html>`;
 
-  const listPath = path.join(distBlogDir, 'index.html');
+  const listDir = prefix
+    ? path.join(path.resolve(projectRoot, 'dist'), pageLang, 'blog')
+    : distBlogDir;
+  if (!fs.existsSync(listDir)) {
+    fs.mkdirSync(listDir, { recursive: true });
+  }
+  const listPath = path.join(listDir, 'index.html');
   fs.writeFileSync(listPath, listHtml, 'utf-8');
 }
 
@@ -969,29 +1004,79 @@ function main(config = {}) {
     return [];
   }
 
-  const markdownFiles = files.filter(file => file.endsWith('.md'));
+  // Pass 1: collect all posts (root = EN at /blog/, lang subdirs at /<lang>/blog/)
+  const entries = [];
 
-  if (markdownFiles.length === 0) {
+  files.filter(f => f.endsWith('.md')).forEach(f => {
+    entries.push({ filePath: path.join(blogDir, f), lang: 'en', prefix: '' });
+  });
+
+  files.forEach(d => {
+    const full = path.join(blogDir, d);
+    if (SUPPORTED_POST_LANGS.includes(d) && fs.statSync(full).isDirectory()) {
+      fs.readdirSync(full).filter(f => f.endsWith('.md')).forEach(f => {
+        entries.push({ filePath: path.join(full, f), lang: d, prefix: `/${d}` });
+      });
+    }
+  });
+
+  if (entries.length === 0) {
     return [];
   }
+
+  // Parse frontmatter for every entry (needed for hreflang clusters)
+  entries.forEach(e => {
+    const raw = fs.readFileSync(e.filePath, 'utf-8');
+    const parsed = parseFrontmatter(raw);
+    e.frontmatter = parsed.frontmatter;
+    e.markdown = parsed.markdown;
+    e.slug = path.basename(e.filePath, '.md');
+    e.url = `${baseUrl}${e.prefix}/blog/${e.slug}/`;
+  });
+
+  // Posts sharing frontmatter `translationKey` form an hreflang cluster
+  // (x-default = the EN version if present)
+  const clusters = {};
+  entries.forEach(e => {
+    const key = e.frontmatter.translationKey;
+    if (key) {
+      (clusters[key] = clusters[key] || []).push(e);
+    }
+  });
+
+  entries.forEach(e => {
+    const key = e.frontmatter.translationKey;
+    const cluster = key ? clusters[key] : null;
+    if (cluster && cluster.length > 1) {
+      const links = cluster.map(c => `  <link rel="alternate" hreflang="${c.lang}" href="${c.url}">`);
+      const enEntry = cluster.find(c => c.lang === 'en');
+      if (enEntry) {
+        links.push(`  <link rel="alternate" hreflang="x-default" href="${enEntry.url}">`);
+      }
+      e.hreflangHtml = '\n' + links.join('\n');
+    }
+  });
 
   if (!fs.existsSync(distBlogDir)) {
     fs.mkdirSync(distBlogDir, { recursive: true });
   }
 
+  // Pass 2: render posts
   const results = [];
-
-  markdownFiles.forEach((file) => {
+  entries.forEach((entry) => {
     try {
-      const filePath = path.join(blogDir, file);
-      const result = processMarkdownFile(filePath);
-      results.push(result);
+      results.push(processMarkdownFile(entry));
     } catch (error) { }
   });
 
-  if (results.length > 0) {
-    generateListPage(results);
-  }
+  // One list page per language group
+  const groups = {};
+  results.forEach(r => {
+    (groups[r.prefix] = groups[r.prefix] || []).push(r);
+  });
+  Object.keys(groups).forEach(prefix => {
+    generateListPage(groups[prefix], prefix);
+  });
 
   return results;
 }
