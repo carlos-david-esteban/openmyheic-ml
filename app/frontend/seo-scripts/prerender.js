@@ -216,6 +216,20 @@ function footerHtml(lang) {
 </div></footer>`;
 }
 
+function toolContentHtml(lang, key) {
+  const t = locales[lang];
+  const block = t.toolContent && t.toolContent[key];
+  if (!block || !block.sections || !block.sections.length) return "";
+  return `<section class="max-w-3xl mx-auto px-4 mt-12">${block.sections
+    .map(
+      (sec) =>
+        `<div class="mb-8"><h2 class="text-2xl font-bold text-gray-900 mb-4">${escText(sec.h2)}</h2>${(sec.p || [])
+          .map((para) => `<p class="text-gray-600 leading-relaxed mb-4">${escText(para)}</p>`)
+          .join("")}</div>`
+    )
+    .join("")}</section>`;
+}
+
 function faqHtml(lang, pageKey) {
   const t = locales[lang];
   const items = (t.faq.pages && t.faq.pages[pageKey]) || t.faq.items || [];
@@ -305,7 +319,7 @@ function buildPages() {
         body: pageBody(lang, {
           h1: t.convert.h1[fmt],
           intro: `${t.convert.formatDesc[fmt]} ${t.convert.freePrivateInstant || ""}`,
-          extra: `<div class="max-w-3xl mx-auto"><p class="text-gray-600 text-sm">${escText(t.converter?.privacyBadge || "")}</p></div>`,
+          extra: `<div class="max-w-3xl mx-auto"><p class="text-gray-600 text-sm">${escText(t.converter?.privacyBadge || "")}</p></div>${toolContentHtml(lang, fmt)}`,
           excludeFormat: fmt,
           pageKey: fmt,
         }),
@@ -324,7 +338,7 @@ function buildPages() {
         canonical,
         hreflang: hreflangLinks(route),
         schemas: [webAppSchema(lang, t.meta.batch.description, canonical), faqSchema(lang, "batch")],
-        body: pageBody(lang, { h1: t.batch.title, intro: t.batch.subtitle, excludeFormat: "batch", pageKey: "batch" }),
+        body: pageBody(lang, { h1: t.batch.title, intro: t.batch.subtitle, extra: toolContentHtml(lang, "batch"), excludeFormat: "batch", pageKey: "batch" }),
       });
     }
 
@@ -343,7 +357,7 @@ function buildPages() {
         body: pageBody(lang, {
           h1: t.viewer.h1,
           intro: `${t.viewer.intro} ${t.convert.freePrivateInstant || ""}`,
-          extra: `<div class="max-w-3xl mx-auto"><h2 class="text-2xl font-bold text-gray-900 mb-4">${escText(t.viewer.aboutTitle)}</h2><p class="text-gray-600 leading-relaxed mb-4">${escText(t.viewer.aboutText1)}</p><p class="text-gray-600 leading-relaxed">${escText(t.viewer.aboutText2)}</p></div>`,
+          extra: `<div class="max-w-3xl mx-auto"><h2 class="text-2xl font-bold text-gray-900 mb-4">${escText(t.viewer.aboutTitle)}</h2><p class="text-gray-600 leading-relaxed mb-4">${escText(t.viewer.aboutText1)}</p><p class="text-gray-600 leading-relaxed">${escText(t.viewer.aboutText2)}</p></div>${toolContentHtml(lang, "viewer")}`,
           pageKey: "viewer",
         }),
       });

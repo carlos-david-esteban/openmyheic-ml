@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Upload, Download, X, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";
+import ToolContent from "@/components/ToolContent";
 import {
   getFilePreview,
   convertHeicToFormat,
@@ -216,6 +217,8 @@ export default function HeicViewer() {
         <p className="text-gray-600 leading-relaxed mb-4">{v.aboutText1}</p>
         <p className="text-gray-600 leading-relaxed">{v.aboutText2}</p>
       </section>
+
+      <ToolContent format="viewer" />
 
       {/* Internal links */}
       <section className="mb-8">

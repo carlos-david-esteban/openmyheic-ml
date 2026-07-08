@@ -366,5 +366,151 @@
     "aboutTitle": "Warum kann ich HEIC Dateien nicht öffnen?",
     "aboutText1": "HEIC ist das Standard-Fotoformat des iPhones seit iOS 11. Es spart Speicherplatz, aber Windows 10, viele Android-Geräte, ältere Programme und die meisten Websites können es ohne zusätzliche Codecs nicht anzeigen.",
     "aboutText2": "Dieser HEIC Viewer dekodiert Ihre Fotos direkt im Browser — Ihre Dateien verlassen Ihr Gerät nie. Er funktioniert auf jedem System mit modernem Browser: Windows, Mac, Linux, Chromebook. Fotos ansehen, in voller Größe prüfen und bei Bedarf als JPG herunterladen — oder ganze Ordner mit dem Batch-Konverter umwandeln."
+  },
+  "toolContent": {
+    "jpg": {
+      "sections": [
+        {
+          "h2": "HEIC in JPG umwandeln – so geht's",
+          "p": [
+            "HEIC in JPG umzuwandeln ist denkbar einfach: Zieh deine iPhone-Fotos einfach in das Feld oben, warte ein paar Sekunden, während dein Browser die Arbeit erledigt, und lade fertige JPG-Dateien herunter. Es wird nichts hochgeladen – die komplette HEIC-zu-JPG-Konvertierung läuft lokal auf deinem Gerät, sodass deine Fotos privat bleiben. Du kannst ein einzelnes Foto oder gleich mehrere Dutzend gleichzeitig umwandeln, und die JPG-Dateien lassen sich auf Windows, Android, älterer Software und in jedem sozialen Netzwerk öffnen.",
+            "JPEG (JPG) ist weltweit das am häufigsten unterstützte Bildformat. Deshalb ist HEIC in JPG umwandeln der schnellste Weg, um Fotos zu reparieren, die sich nicht öffnen, nicht hochladen lassen oder auf dem PC nur als grauer Kasten angezeigt werden. Anders als bei der Installation von Codecs oder Zusatzprogrammen funktioniert dieses Tool kostenlos und online in jedem modernen Browser – ganz ohne Anmeldung."
+          ]
+        },
+        {
+          "h2": "Warum iPhone-Fotos als HEIC gespeichert werden – und wann sich das Umwandeln lohnt",
+          "p": [
+            "Seit iOS 11 speichern iPhone und iPad Fotos standardmäßig als HEIC-Datei, weil das Format die gleiche Bildqualität bei etwa halber Dateigröße bietet. Der Nachteil ist die Kompatibilität: E-Mail-Anhänge, Windows 10, viele Android-Smartphones und die meisten Webseiten erwarten weiterhin JPG. Wandelst du HEIC in JPG um, erhältst du eine Kopie, die überall funktioniert – deine Originale bleiben dabei unverändert.",
+            "Wenn du HEIC-Dateien künftig ganz vermeiden willst, öffne auf deinem iPhone Einstellungen > Kamera > Formate > Maximal kompatibel, damit direkt im JPEG-Format fotografiert wird. Für alle Fotos, die du bereits hast, macht dieser kostenlose HEIC-zu-JPG-Konverter sie in Sekunden kompatibel."
+          ]
+        }
+      ]
+    },
+    "png": {
+      "sections": [
+        {
+          "h2": "HEIC in PNG umwandeln – verlustfrei in bester Qualität",
+          "p": [
+            "Nutze den Konverter oben, um HEIC direkt im Browser in PNG umzuwandeln – kostenlos, privat und ohne Upload. PNG verwendet eine verlustfreie Kompression, sodass jedes Pixel deines iPhone-Fotos exakt erhalten bleibt. Das macht HEIC in PNG umwandeln zur richtigen Wahl, wenn du maximale Qualität für Bearbeitung, Screenshots, Diagramme, Logos oder Bilder mit scharfem Text und feinen Details brauchst.",
+            "PNG unterstützt außerdem Transparenz (einen Alphakanal), was bei JPG nicht möglich ist. Wenn du ein Foto vor einen farbigen Hintergrund legen, eine Grafik erstellen oder das Bild in eine Design-Software laden möchtest, bietet HEIC in PNG umwandeln genau die Flexibilität, die du brauchst. Jede Konvertierung läuft lokal, sodass selbst hochauflösende Dateien auf deinem Gerät bleiben."
+          ]
+        },
+        {
+          "h2": "HEIC in PNG oder HEIC in JPG – was ist die richtige Wahl?",
+          "p": [
+            "Entscheide dich für PNG, wenn Qualität und Transparenz wichtiger sind als die Dateigröße – etwa bei Bearbeitung, Druck, Grafiken und Archivierung. Wähle JPG, wenn du die kleinstmögliche Datei zum Teilen, Hochladen oder Speichern vieler Fotos willst, denn JPG-Dateien sind bei typischen Fotos deutlich kleiner als PNG.",
+            "Du musst dich nicht blind entscheiden: Wandle dieselbe HEIC-Datei einfach in beide Formate um und vergleiche selbst. Dieses Tool unterstützt HEIC zu PNG, JPG, WebP, PDF, GIF und BMP, sodass du jedes Foto genau in das Format bringst, das du wirklich brauchst – ganz ohne Installation."
+          ]
+        }
+      ]
+    },
+    "pdf": {
+      "sections": [
+        {
+          "h2": "HEIC in PDF umwandeln und mehrere Fotos zusammenfügen",
+          "p": [
+            "Verwandle ein einzelnes HEIC-Foto – oder einen ganzen Stapel – direkt im Browser in ein einziges PDF. Füge deine Dateien oben hinzu, ordne sie an, und das Tool erstellt ein sauberes HEIC-zu-PDF-Dokument, das du sofort herunterladen kannst. Da alles lokal läuft, werden deine Bilder niemals hochgeladen – wichtig bei Belegen, Ausweisen, Verträgen und anderen sensiblen Scans.",
+            "PDF ist das universelle Dokumentformat: Es öffnet sich identisch auf jedem Smartphone, Computer oder Drucker und hält mehrere Bilder in der richtigen Reihenfolge zusammen. HEIC in PDF umwandeln eignet sich ideal, um mehrere Fotos als einen Anhang zu verschicken, zu drucken oder gescannte Dokumente einzureichen, die ursprünglich iPhone-Fotos waren."
+          ]
+        },
+        {
+          "h2": "Warum HEIC in PDF statt in JPG umwandeln",
+          "p": [
+            "Ein einzelnes PDF lässt sich leichter teilen und archivieren als ein Ordner voller Einzelbilder. Musst du fünf Fotos an ein Büro, eine Lehrkraft oder einen Kunden schicken, wirkt eine HEIC-zu-PDF-Datei professionell und kann nicht vertauscht oder verloren werden. PDFs drucken außerdem zuverlässig in der eingestellten Größe.",
+            "Nutze JPG weiterhin für das Web und soziale Netzwerke, und wähle PDF, wenn die Fotos als zusammengehörendes Dokument gedacht sind. Dieser kostenlose HEIC-zu-PDF-Konverter verarbeitet sowohl einzelne Bilder als auch mehrseitige Dokumente – ohne Wasserzeichen und ohne Seitenlimit."
+          ]
+        }
+      ]
+    },
+    "webp": {
+      "sections": [
+        {
+          "h2": "HEIC in WebP umwandeln für schnellere Webseiten",
+          "p": [
+            "WebP ist Googles modernes Bildformat, entwickelt, damit Webseiten schneller laden. Wandelst du HEIC in WebP um, erhältst du Dateien, die bei gleicher visueller Qualität deutlich kleiner sind als JPG oder PNG – perfekt für Webseiten, Blogs, Onlineshops und überall dort, wo Ladezeit und Core Web Vitals zählen. Lade deine HEIC-Dateien oben hoch und erhalte in Sekunden optimierte WebP-Bilder, ganz ohne Upload.",
+            "Mittlerweile unterstützt jeder wichtige Browser – Chrome, Firefox, Edge, Safari und Android – WebP, sodass du kleinere Bilder erhältst, ohne bei der Kompatibilität für moderne Webnutzung Abstriche zu machen. Die gesamte HEIC-zu-WebP-Konvertierung läuft in deinem Browser, sodass selbst große Fotosammlungen privat auf deinem Gerät bleiben."
+          ]
+        },
+        {
+          "h2": "Wann WebP statt JPG oder PNG die bessere Wahl ist",
+          "p": [
+            "Wähle WebP, wenn kleinere Dateien und schnelleres Laden im Web dein Ziel sind: Es kombiniert die Komprimierung von JPG mit der Transparenz von PNG in einem einzigen Format. Für Fotos, die du online veröffentlichst, reduziert HEIC in WebP umwandeln die Dateigröße meist um 25–35 % gegenüber JPG.",
+            "Bleib bei JPG, wenn du die größtmögliche Kompatibilität mit alter Software brauchst, oder bei PNG, wenn garantiert verlustfreie Qualität gefragt ist. Für alles Webbasierte ist WebP meist die klügste Wahl – und mit diesem kostenlosen Konverter kannst du alle drei Formate aus derselben HEIC-Datei direkt vergleichen."
+          ]
+        }
+      ]
+    },
+    "gif": {
+      "sections": [
+        {
+          "h2": "HEIC in GIF umwandeln und Live-Fotos animieren",
+          "p": [
+            "GIF ist das Format für einfache Animationen und kurze Loop-Clips, die überall abspielen. Wandelst du HEIC in GIF um, kannst du iPhone-Live-Fotos und ganze Bildsequenzen in teilbare Animationen verwandeln oder ein einzelnes Bild als leichte, kompakte Grafik extrahieren. Füge deine Dateien oben hinzu und lade dein fertiges GIF sofort herunter – kostenlos, privat und komplett im Browser verarbeitet, ganz ohne Installation.",
+            "Da GIFs in Nachrichten, Chats, E-Mails und sozialen Feeds automatisch abspielen, ganz ohne separaten Videoplayer, sind sie der einfachste Weg, einen bewegten Moment schnell zu teilen. Jede HEIC-zu-GIF-Konvertierung läuft vollständig lokal in deinem Browser, sodass nichts auf einen Server hochgeladen wird."
+          ]
+        },
+        {
+          "h2": "GIF oder JPG für iPhone-Fotos?",
+          "p": [
+            "Nutze GIF, wenn du eine Animation oder einen kleinen, überall abspielbaren Clip brauchst; nutze JPG für ein normales Standbild, das du hochlädst, teilst oder ausdruckst. GIF verwendet eine begrenzte Farbpalette und eignet sich daher eher für Bewegung und einfache Grafiken als für hochauflösende, detailreiche Fotos.",
+            "Brauchst du nur ein einzelnes scharfes Standbild, wandle HEIC stattdessen lieber in JPG oder PNG um. Dieses Tool unterstützt alle gängigen Formate, sodass du GIF für Bewegung und ein klassisches Fotoformat für Detailgenauigkeit wählen kannst – ganz danach, was die jeweilige Aufnahme verlangt."
+          ]
+        }
+      ]
+    },
+    "bmp": {
+      "sections": [
+        {
+          "h2": "HEIC in BMP umwandeln – vollständig unkomprimiert",
+          "p": [
+            "BMP (Bitmap) speichert jedes Pixel ohne Kompression und liefert dir so eine rohe, unkomprimierte Kopie deines Bildes. HEIC in BMP umwandeln ist nützlich, wenn ältere Windows-Software, bestimmte Bearbeitungsprogramme oder Legacy-Systeme ausdrücklich eine BMP-Datei verlangen, oder wenn du ein Bild ganz ohne Kompressionsartefakte brauchst. Lade deine HEIC-Dateien oben hoch und erhalte direkt fertige BMP-Dateien, ganz ohne Upload und ohne Anmeldung.",
+            "Da BMP alle Bilddaten unangetastet lässt, sind die Dateien groß – aber genau das ist der Sinn, wenn maximale Bildtreue oder Kompatibilität mit alten Programmen wichtiger ist als die Dateigröße. Die HEIC-zu-BMP-Konvertierung läuft lokal in deinem Browser, sodass selbst große Bitmaps auf deinem Gerät bleiben."
+          ]
+        },
+        {
+          "h2": "Wann BMP sinnvoll ist – und wann nicht",
+          "p": [
+            "Wähle BMP nur, wenn eine bestimmte Anwendung es ausdrücklich verlangt oder du eine unkomprimierte Arbeitsdatei brauchst. Für den Alltag – Teilen, Hochladen, Speichern oder Verschicken von Fotos – sind BMP-Dateien schlicht zu groß und unpraktisch.",
+            "Für solche Fälle wandle HEIC lieber in JPG um (kleinste universelle Datei), in PNG (verlustfreie Qualität bei vernünftiger Größe) oder in WebP (fürs Web). Dieses kostenlose Tool wandelt HEIC in BMP, JPG, PNG, WebP, GIF und PDF um, sodass du immer das passende Format zur Hand hast."
+          ]
+        }
+      ]
+    },
+    "viewer": {
+      "sections": [
+        {
+          "h2": "HEIC-Dateien öffnen und ansehen, ohne etwas zu installieren",
+          "p": [
+            "Mit diesem kostenlosen HEIC-Viewer kannst du HEIC-Fotos sofort online öffnen und ansehen – ohne Software, ohne Plugins, ohne Upload. Zieh deine iPhone-Fotos in das Feld oben, und sie werden direkt in deinem Browser dekodiert, sodass du endlich die Bilder siehst, die auf Windows, Android und älteren Programmen nur als grauer Kasten oder Fehlermeldung erscheinen. Deine Dateien verlassen dabei nie dein Gerät.",
+            "HEIC-Dateien auf jedem Computer öffnen zu können ist praktisch, wenn du an einem geliehenen PC, einem Arbeitsrechner, einem Chromebook oder einem Linux-Rechner sitzt, auf dem sich keine Codecs installieren lassen. Der Viewer funktioniert überall, wo ein moderner Browser läuft."
+          ]
+        },
+        {
+          "h2": "Erst ansehen, dann bei Bedarf umwandeln",
+          "p": [
+            "Sobald du deine HEIC-Fotos siehst, kannst du jedes davon mit einem Klick als JPG herunterladen oder die gesamte Auswahl an den Batch-Konverter schicken, um einen ganzen Ordner auf einmal in JPG, PNG oder PDF umzuwandeln. Ansehen und Umwandeln nutzen dieselbe private Engine direkt im Browser.",
+            "Wenn dich HEIC-Dateien ständig überraschen, denk daran: Du kannst dein iPhone unter Einstellungen > Kamera > Formate > Maximal kompatibel auf JPEG umstellen. Bis dahin öffnet dieser HEIC-Viewer einfach alles, was du bereits hast."
+          ]
+        }
+      ]
+    },
+    "batch": {
+      "sections": [
+        {
+          "h2": "HEIC-Dateien im Batch umwandeln",
+          "p": [
+            "Musst du einen ganzen Ordner voller iPhone-Fotos umwandeln? Mit diesem Batch-HEIC-Konverter kannst du viele Dateien auf einmal umwandeln – füge Dutzende HEIC-Dateien hinzu, wähle JPG, PNG oder WebP als Ausgabeformat und lade sie anschließend gesammelt als ZIP-Datei herunter. Alles wird direkt in deinem Browser verarbeitet, sodass nichts hochgeladen wird und deine Fotos privat bleiben, egal wie viele du umwandelst.",
+            "Die Batch-Konvertierung erspart dir die mühsame Arbeit, Fotos einzeln zu bearbeiten. Egal, ob du eine Kamerarolle aufräumst, Bilder für eine Webseite vorbereitest oder ein ganzes Fotoalbum kompatibel mit Windows machen willst – die Batch-HEIC-Konvertierung erledigt alles in einem einzigen Durchgang."
+          ]
+        },
+        {
+          "h2": "So funktioniert die Batch-HEIC-Konvertierung",
+          "p": [
+            "Wähle alle deine HEIC-Dateien aus oder zieh sie hinein, lege Ausgabeformat und Qualität fest und starte den Vorgang – ein Fortschrittsbalken zeigt jede fertige Datei an, und fehlgeschlagene Dateien werden markiert, damit nichts unbemerkt verloren geht. Am Ende erhältst du mit einem einzigen Download ein ZIP mit allen umgewandelten Bildern.",
+            "Da der Batch-Konverter lokal läuft, gibt es kein serverseitiges Limit für die Dateianzahl und kein Warten auf Uploads. Für einzelne Fotos kannst du weiterhin die Standard-Tools HEIC zu JPG, PNG oder PDF nutzen; für alles andere ist Batch der schnellste Weg, HEIC in großen Mengen umzuwandeln."
+          ]
+        }
+      ]
+    }
   }
 }

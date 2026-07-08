@@ -12,6 +12,7 @@ import {
   type FileWithPreview,
 } from "@/lib/converter";
 import { useLanguage } from "@/i18n/LanguageContext";
+import ToolContent from "@/components/ToolContent";
 
 type BatchState = "idle" | "previewing" | "converting" | "done" | "error";
 
@@ -338,6 +339,8 @@ export default function BatchConvert() {
         </div>
       )}
       {/* FAQ */}
+      <ToolContent format="batch" />
+
       <section className="max-w-3xl mx-auto mt-12 mb-8">
         <h2 className="text-2xl font-bold text-gray-900 text-center mb-6">{t.faq.title}</h2>
         <div className="space-y-3">

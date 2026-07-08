@@ -1,6 +1,7 @@
 import { useLocation, Link } from "react-router-dom";
 import Layout from "@/components/Layout";
 import HeicConverter from "@/components/HeicConverter";
+import ToolContent from "@/components/ToolContent";
 import { formatInfo } from "@/lib/seo";
 import { ChevronDown } from "lucide-react";
 import { useState } from "react";
@@ -81,6 +82,9 @@ export default function ConvertPage() {
       <div className="mb-12">
         <HeicConverter format={format} allowMultiple={isMultiFile} />
       </div>
+
+      {/* Enriched content */}
+      <ToolContent format={format} />
 
       {/* FAQ */}
       <section className="mb-12">
