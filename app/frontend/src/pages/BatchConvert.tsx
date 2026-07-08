@@ -32,6 +32,8 @@ export default function BatchConvert() {
   const [error, setError] = useState("");
   const fileInputRef = useRef<HTMLInputElement>(null);
   const { t } = useLanguage();
+  const faqPages = (t.faq as { pages?: Record<string, { question: string; answer: string }[]> }).pages;
+  const faqs = faqPages?.batch || t.faq.items;
 
   const handleFiles = useCallback(async (fileList: FileList | File[]) => {
     const heicFiles = Array.from(fileList).filter((f) =>
@@ -335,6 +337,18 @@ export default function BatchConvert() {
           </div>
         </div>
       )}
+      {/* FAQ */}
+      <section className="max-w-3xl mx-auto mt-12 mb-8">
+        <h2 className="text-2xl font-bold text-gray-900 text-center mb-6">{t.faq.title}</h2>
+        <div className="space-y-3">
+          {faqs.map((f, i) => (
+            <div key={i} className="border border-gray-200 rounded-xl p-4">
+              <h3 className="font-medium text-gray-900 mb-2">{f.question}</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">{f.answer}</p>
+            </div>
+          ))}
+        </div>
+      </section>
     </Layout>
   );
 }

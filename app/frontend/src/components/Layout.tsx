@@ -38,11 +38,12 @@ export default function Layout({
   const seo = customSEO || {
     title: metaData.title,
     description: metaData.description,
-    canonical: `${SITE_URL}${localizedPath(format === "home" ? "/" : `/heic-to-${format}`)}`,
+    canonical: `${SITE_URL}${localizedPath(format === "home" ? "/" : format === "batch" ? "/batch-convert" : `/heic-to-${format}`)}`,
   };
 
-  // FAQ from translations
-  const faqs = t.faq.items;
+  // FAQ from translations (per-page override with generic fallback)
+  const faqPages = (t.faq as { pages?: Record<string, { question: string; answer: string }[]> }).pages;
+  const faqs = faqPages?.[metaKey] || t.faq.items;
 
   const navLinks = [
     { href: localizedPath("/"), label: t.nav.heicToJpg },

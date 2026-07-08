@@ -1,16 +1,16 @@
 {
   "meta": {
     "home": {
-      "title": "Conversor HEIC para JPG — Grátis Online, Sem Upload | OpenMyHEIC",
-      "description": "Converta HEIC para JPG, PNG, WebP, PDF e mais — instantaneamente no seu navegador. 100% grátis, privado e rápido. Suas fotos do iPhone nunca saem do seu dispositivo."
+      "title": "Converter HEIC para JPG — Grátis, sem upload | OpenMyHEIC",
+      "description": "Converta HEIC para JPG, PNG ou PDF grátis, direto no navegador. Sem upload, sem cadastro. Abra suas fotos do iPhone em qualquer dispositivo em segundos."
     },
     "jpg": {
-      "title": "Conversor HEIC para JPG — Grátis Online, Sem Upload | OpenMyHEIC",
-      "description": "Converta HEIC para JPG instantaneamente no seu navegador. Grátis, privado, sem upload. Transforme fotos do iPhone em JPG com qualidade ajustável."
+      "title": "Converter HEIC para JPG grátis — sem upload | OpenMyHEIC",
+      "description": "Converta HEIC para JPG grátis, direto no navegador. Transforme suas fotos do iPhone em JPG em segundos — sem upload, sem cadastro, sem perda de qualidade. Funciona no Windows, Mac e Android."
     },
     "png": {
-      "title": "Conversor HEIC para PNG — Qualidade Sem Perda, Grátis | OpenMyHEIC",
-      "description": "Converta HEIC para PNG com qualidade sem perda. Conversor online grátis no seu navegador. Sem upload, sem cadastro."
+      "title": "Converter HEIC para PNG — grátis, sem perda | OpenMyHEIC",
+      "description": "Converta HEIC para PNG grátis e sem perda de qualidade. Tudo acontece no navegador: sem upload, sem cadastro. Transforme suas fotos do iPhone em PNG em segundos."
     },
     "webp": {
       "title": "Conversor HEIC para WebP — Formato Moderno, Grátis | OpenMyHEIC",
@@ -25,12 +25,12 @@
       "description": "Converta HEIC Live Photos em GIFs animados. Grátis, privado, no navegador."
     },
     "pdf": {
-      "title": "Conversor HEIC para PDF — Crie PDFs de Fotos, Grátis | OpenMyHEIC",
-      "description": "Converta uma ou várias imagens HEIC em um único documento PDF. Ferramenta online grátis sem upload."
+      "title": "Converter HEIC para PDF grátis — sem upload | OpenMyHEIC",
+      "description": "Converta HEIC para PDF grátis: transforme uma ou várias fotos do iPhone em um único documento PDF, direto no navegador. Sem upload, sem cadastro."
     },
     "batch": {
-      "title": "Conversor HEIC em Lote — Converta Vários Arquivos de Uma Vez | OpenMyHEIC",
-      "description": "Converta vários arquivos HEIC para JPG, PNG ou WebP. Baixe todos os arquivos convertidos em ZIP."
+      "title": "Conversor HEIC em lote — Vários arquivos de uma vez | OpenMyHEIC",
+      "description": "Converta vários arquivos HEIC de uma vez para JPG, PNG ou WebP — grátis, no navegador. Baixe todas as imagens convertidas em um único ZIP."
     }
   },
   "nav": {
@@ -45,10 +45,10 @@
   "hero": {
     "title": "Converter HEIC para JPG —",
     "titleHighlight": "Grátis, Privado, Instantâneo",
-    "subtitle": "Suas fotos do iPhone convertidas em segundos. Sem upload — tudo acontece no seu navegador."
+    "subtitle": "Suas fotos do iPhone convertidas em segundos — grátis, sem upload, direto no seu navegador."
   },
   "intro": {
-    "home": "Seus arquivos HEIC não abrem no PC com Windows ou no celular Android? O OpenMyHEIC converte suas fotos do iPhone para formatos universais diretamente no navegador — sem enviar nada para servidores, sem cadastro, com total privacidade. Arraste, solte e baixe."
+    "home": "Arquivos HEIC que não abrem no seu PC com Windows ou no Android? O OpenMyHEIC converte suas fotos do iPhone para JPG, PNG ou PDF direto no navegador — sem upload, sem servidores, sem riscos à sua privacidade. Arraste, solte e baixe."
   },
   "converter": {
     "privacyBadge": "Seus arquivos nunca saem do seu dispositivo. Toda a conversão acontece no seu navegador.",
@@ -73,7 +73,7 @@
   },
   "batch": {
     "title": "Conversor HEIC em Lote — Vários Arquivos de Uma Vez",
-    "subtitle": "Envie vários arquivos HEIC, escolha o formato de saída e baixe tudo como ZIP.",
+    "subtitle": "Selecione vários arquivos HEIC, escolha JPG, PNG ou WebP e baixe tudo em um ZIP. A conversão acontece totalmente no seu navegador.",
     "selectMultiple": "Selecione vários arquivos .heic ou .heif",
     "outputFormat": "Formato de Saída",
     "quality": "Qualidade",
@@ -121,42 +121,128 @@
     "items": [
       {
         "question": "Este conversor HEIC é seguro?",
-        "answer": "Sim, absolutamente. Toda a conversão acontece diretamente no seu navegador usando JavaScript. Seus arquivos nunca são enviados para nenhum servidor. Suas fotos permanecem 100% privadas no seu dispositivo."
+        "answer": "Sim, totalmente. Toda a conversão acontece diretamente no seu navegador. Seus arquivos nunca são enviados a nenhum servidor — suas fotos permanecem 100% privadas no seu dispositivo."
       },
       {
         "question": "O que é um arquivo HEIC?",
-        "answer": "HEIC (High Efficiency Image Container) é o formato padrão de fotos usado por iPhones e iPads da Apple desde o iOS 11. Oferece melhor compressão que JPEG mantendo maior qualidade de imagem, mas não é universalmente suportado."
+        "answer": "HEIC (High Efficiency Image Container) é o formato de foto padrão dos iPhones e iPads desde o iOS 11. Ele guarda fotos com metade do tamanho de um JPEG na mesma qualidade — mas muitos dispositivos e programas não conseguem abri-lo. Por isso vale a pena converter para JPG ou PNG."
+      },
+      {
+        "question": "Como abrir arquivo HEIC no Windows?",
+        "answer": "O Windows não abre arquivos HEIC nativamente. O jeito mais rápido é converter o HEIC para JPG aqui mesmo, sem instalar nada. No Windows 10/11 você também pode instalar as Extensões de Imagem HEIF da Microsoft Store."
+      },
+      {
+        "question": "Por que minhas fotos estão em formato HEIC?",
+        "answer": "Desde o iOS 11, o iPhone salva fotos em HEIC por padrão para economizar espaço. Se preferir JPEG: Ajustes > Câmera > Formatos > 'Mais compatível' — ou simplesmente converta suas fotos HEIC aqui quando precisar."
       },
       {
         "question": "Existe limite de tamanho de arquivo?",
-        "answer": "Não há limite rígido pois todo o processamento acontece no seu navegador. Porém, arquivos muito grandes (acima de 50MB) podem demorar mais dependendo da capacidade do seu dispositivo."
+        "answer": "Não há limite fixo, já que todo o processamento acontece no navegador. Arquivos muito grandes (acima de 50 MB) só demoram um pouco mais, dependendo do dispositivo."
       },
       {
         "question": "Preciso criar uma conta?",
-        "answer": "Não. Nosso conversor é completamente grátis sem cadastro, sem conta e sem limite de conversões."
-      },
-      {
-        "question": "Qual formato de saída devo escolher?",
-        "answer": "JPG é melhor para uso geral e compartilhamento. PNG é ideal para qualidade sem perda ou transparência. WebP oferece a melhor compressão para web. PDF é ótimo para criar documentos a partir de fotos."
+        "answer": "Não. O OpenMyHEIC é totalmente gratuito, sem cadastro, sem conta e sem limite de conversões."
       }
-    ]
+    ],
+    "pages": {
+      "jpg": [
+        {
+          "question": "Como converter HEIC para JPG?",
+          "answer": "Arraste seus arquivos HEIC para o conversor acima (ou clique para procurar), ajuste a qualidade se quiser e clique em Converter. O JPG é baixado na hora — tudo acontece no seu navegador."
+        },
+        {
+          "question": "Como transformar HEIC em JPG sem instalar programas?",
+          "answer": "É exatamente o que esta página faz: nada para instalar, nada para enviar. O arquivo HEIC é transformado em JPG localmente no navegador, no Windows, Mac, Android ou iPhone."
+        },
+        {
+          "question": "Converter HEIC para JPG perde qualidade?",
+          "answer": "JPG é um formato comprimido, mas no ajuste padrão de 92% a diferença é invisível a olho nu. Suba o controle para 100% para fidelidade máxima ou reduza para arquivos menores."
+        },
+        {
+          "question": "Qual a diferença entre HEIC e JPG?",
+          "answer": "O HEIC comprime cerca de 50% melhor que o JPG na mesma qualidade e suporta extras como Live Photos. A vantagem do JPG é a compatibilidade universal: qualquer dispositivo ou app abre. Por isso se converte HEIC para JPG."
+        },
+        {
+          "question": "Como converter HEIC para JPG no Windows ou Mac?",
+          "answer": "Este conversor funciona nos dois, sem instalar nada. Se preferir as ferramentas do sistema, veja nossos guias passo a passo para Windows e Mac no rodapé."
+        }
+      ],
+      "png": [
+        {
+          "question": "Como converter HEIC para PNG?",
+          "answer": "Solte seu arquivo HEIC no conversor acima e clique em Converter. O PNG é baixado na hora — sem upload e sem cadastro."
+        },
+        {
+          "question": "A conversão de HEIC para PNG é sem perda?",
+          "answer": "Sim. O PNG usa compressão sem perda: cada pixel da imagem HEIC decodificada é preservado exatamente. É a melhor escolha quando a qualidade importa."
+        },
+        {
+          "question": "O PNG mantém a transparência do HEIC?",
+          "answer": "Sim. Se a imagem HEIC tiver canal alfa (transparência), ele é mantido ao transformar em PNG — ao contrário do JPG."
+        },
+        {
+          "question": "Por que o PNG fica maior que o HEIC original?",
+          "answer": "O HEIC usa compressão com perda muito eficiente e o PNG é sem perda, então os PNG costumam ficar de 3 a 10 vezes maiores. É o preço da qualidade perfeita."
+        },
+        {
+          "question": "Este conversor de HEIC para PNG é grátis?",
+          "answer": "Totalmente grátis — sem marca d'água, sem cadastro e sem limite de arquivos."
+        }
+      ],
+      "pdf": [
+        {
+          "question": "Como converter HEIC para PDF?",
+          "answer": "Selecione uma ou várias fotos HEIC acima e clique em Converter. Você recebe um único documento PDF com suas fotos — criado inteiramente no navegador, sem upload."
+        },
+        {
+          "question": "Posso juntar várias fotos HEIC em um único PDF?",
+          "answer": "Sim. O conversor aceita vários arquivos HEIC de uma vez e os une em um PDF de várias páginas — útil para comprovantes, documentos e coleções de fotos."
+        },
+        {
+          "question": "Posso transformar documentos fotografados em PDF?",
+          "answer": "Sim. Se você fotografou documentos com o iPhone, solte esses arquivos HEIC aqui: eles serão reunidos em um PDF limpo, pronto para compartilhar ou arquivar."
+        },
+        {
+          "question": "O conversor de HEIC para PDF é grátis?",
+          "answer": "Sim — grátis, ilimitado e privado. Seus arquivos nunca saem do seu dispositivo, então até documentos sensíveis ficam seguros."
+        }
+      ],
+      "batch": [
+        {
+          "question": "Como converter vários arquivos HEIC de uma vez?",
+          "answer": "Selecione todos os seus arquivos HEIC de uma vez (Ctrl+clique ou arrastando a seleção), escolha JPG, PNG ou WebP e clique em Converter. Tudo é convertido no navegador e agrupado em um ZIP."
+        },
+        {
+          "question": "Quantos arquivos HEIC posso converter de uma vez?",
+          "answer": "Não há limite fixo — centenas de arquivos funcionam bem. Como a conversão roda no seu dispositivo, lotes muito grandes só demoram um pouco mais."
+        },
+        {
+          "question": "A conversão em lote é gratuita?",
+          "answer": "Sim, totalmente grátis — sem limite de arquivos, sem marca d'água e sem cadastro."
+        },
+        {
+          "question": "Como baixo todas as imagens convertidas?",
+          "answer": "Quando o lote terminar, clique em 'Baixar ZIP' e você recebe um único arquivo ZIP com todas as imagens convertidas."
+        }
+      ]
+    }
   },
   "convert": {
     "h1": {
-      "jpg": "Converter HEIC para JPG Online — Grátis & Privado",
+      "jpg": "Converter HEIC para JPG Online — Grátis e Privado",
       "png": "Converter HEIC para PNG — Qualidade Sem Perda",
       "webp": "Converter HEIC para WebP — Formato Web Moderno",
       "bmp": "Converter HEIC para BMP — Formato Sem Compressão",
       "gif": "Converter HEIC para GIF — Anime Suas Live Photos",
-      "pdf": "Converter HEIC para PDF — Crie PDFs a Partir de Fotos"
+      "pdf": "Converter HEIC para PDF — Transforme Fotos em PDF"
     },
     "formatDesc": {
-      "jpg": "JPEG é o formato de imagem mais amplamente suportado, perfeito para fotos e uso na web.",
-      "png": "PNG oferece compressão sem perda, ideal para imagens que precisam de transparência ou qualidade máxima.",
+      "jpg": "JPG é o formato de imagem mais compatível. Transforme seus arquivos HEIC em JPG e abra-os em qualquer lugar: Windows, Android, web e redes sociais.",
+      "png": "PNG oferece compressão sem perda, ideal quando você precisa de máxima qualidade ou transparência. Ao converter HEIC para PNG, cada detalhe da foto é preservado.",
       "webp": "WebP é um formato moderno que oferece compressão superior para imagens web.",
       "bmp": "BMP é um formato sem compressão que preserva cada pixel da sua imagem.",
       "gif": "GIF suporta animação e é perfeito para extrair frames de Live Photos.",
-      "pdf": "PDF é um formato de documento universal, ótimo para compartilhar e imprimir fotos."
+      "pdf": "PDF é o formato universal de documentos. Transforme uma ou várias fotos HEIC em um único PDF — perfeito para compartilhar, imprimir e arquivar."
     },
     "freePrivateInstant": "Grátis, privado e instantâneo — sem upload necessário."
   },

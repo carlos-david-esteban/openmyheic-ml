@@ -55,7 +55,8 @@ export default function ConvertPage() {
 
   const h1 = (t.convert.h1 as Record<string, string>)[format] || t.convert.h1.jpg;
   const formatDesc = (t.convert.formatDesc as Record<string, string>)[format] || t.convert.formatDesc.jpg;
-  const faqs = t.faq.items;
+  const faqPages = (t.faq as { pages?: Record<string, { question: string; answer: string }[]> }).pages;
+  const faqs = faqPages?.[format] || t.faq.items;
 
   const otherFormats = Object.entries(formatInfo)
     .filter(([key]) => key !== format)

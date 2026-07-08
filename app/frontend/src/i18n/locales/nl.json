@@ -1,16 +1,16 @@
 {
   "meta": {
     "home": {
-      "title": "HEIC naar JPG Converter — Gratis Online, Geen Upload | OpenMyHEIC",
-      "description": "Converteer HEIC naar JPG, PNG, WebP, PDF en meer — direct in je browser. 100% gratis, privé en snel. Je iPhone-foto's verlaten nooit je apparaat."
+      "title": "HEIC naar JPG omzetten — Gratis, zonder upload | OpenMyHEIC",
+      "description": "Zet HEIC om naar JPG, PNG of PDF — gratis en direct in je browser. Geen upload, geen registratie. Open je iPhone-foto's op elk apparaat."
     },
     "jpg": {
-      "title": "HEIC naar JPG Converter — Gratis Online, Geen Upload | OpenMyHEIC",
-      "description": "Converteer HEIC naar JPG direct in je browser. Gratis, privé, geen upload nodig. Zet iPhone-foto's om naar JPG met instelbare kwaliteit."
+      "title": "HEIC naar JPG omzetten — Gratis online converter | OpenMyHEIC",
+      "description": "HEIC omzetten naar JPG — gratis en direct in je browser. Zet je iPhone-foto's in seconden om van HEIC naar JPG, zonder upload en zonder registratie. Werkt op Windows, Mac en Android."
     },
     "png": {
-      "title": "HEIC naar PNG Converter — Verliesvrije Kwaliteit, Gratis | OpenMyHEIC",
-      "description": "Converteer HEIC naar PNG met verliesvrije kwaliteit. Gratis online converter in je browser. Geen upload, geen registratie."
+      "title": "HEIC naar PNG omzetten — Verliesvrij & gratis | OpenMyHEIC",
+      "description": "Zet HEIC om naar PNG — gratis en zonder kwaliteitsverlies, direct in je browser. Geen upload nodig, geen registratie."
     },
     "webp": {
       "title": "HEIC naar WebP Converter — Modern Formaat, Gratis | OpenMyHEIC",
@@ -25,12 +25,12 @@
       "description": "Converteer HEIC Live Photos naar geanimeerde GIF's. Gratis, privé, in je browser."
     },
     "pdf": {
-      "title": "HEIC naar PDF Converter — Maak PDF's van Foto's, Gratis | OpenMyHEIC",
-      "description": "Converteer een of meerdere HEIC-afbeeldingen naar één PDF-document. Gratis online tool zonder upload."
+      "title": "HEIC naar PDF omzetten — Gratis, zonder upload | OpenMyHEIC",
+      "description": "Zet HEIC om naar PDF — gratis in je browser. Voeg één of meerdere iPhone-foto's samen tot één PDF, zonder upload en zonder registratie."
     },
     "batch": {
-      "title": "Batch HEIC Converter — Converteer Meerdere Bestanden Tegelijk | OpenMyHEIC",
-      "description": "Converteer meerdere HEIC-bestanden naar JPG, PNG of WebP. Download alle geconverteerde bestanden als ZIP."
+      "title": "HEIC bulk omzetten naar JPG — Meerdere bestanden tegelijk | OpenMyHEIC",
+      "description": "Zet meerdere HEIC-bestanden tegelijk om naar JPG, PNG of WebP — gratis in je browser. Download alle omgezette afbeeldingen als één ZIP."
     }
   },
   "nav": {
@@ -45,10 +45,10 @@
   "hero": {
     "title": "HEIC naar JPG Converteren —",
     "titleHighlight": "Gratis, Privé, Direct",
-    "subtitle": "Je iPhone-foto's in seconden geconverteerd. Geen upload nodig — alles gebeurt in je browser."
+    "subtitle": "Je iPhone-foto's in seconden omgezet — gratis, zonder upload, direct in je browser."
   },
   "intro": {
-    "home": "Kun je HEIC-bestanden niet openen op je Windows-pc of Android-telefoon? OpenMyHEIC converteert je iPhone-foto's direct in je browser naar universeel compatibele formaten — zonder uploads, zonder servers, zonder privacyzorgen. Sleep, drop en download."
+    "home": "HEIC-bestanden die niet openen op je Windows-pc of Android-telefoon? OpenMyHEIC zet je iPhone-foto's direct in je browser om naar JPG, PNG of PDF — zonder upload, zonder servers, zonder privacyrisico. Slepen, neerzetten, downloaden."
   },
   "converter": {
     "privacyBadge": "Je bestanden verlaten nooit je apparaat. Alle conversie gebeurt in je browser.",
@@ -72,8 +72,8 @@
     "addMoreFiles": "+ Meer bestanden toevoegen"
   },
   "batch": {
-    "title": "Batch HEIC Converter — Meerdere Bestanden Tegelijk",
-    "subtitle": "Upload meerdere HEIC-bestanden, kies het uitvoerformaat en download alles als ZIP.",
+    "title": "HEIC bulk omzetten — Meerdere bestanden tegelijk",
+    "subtitle": "Selecteer meerdere HEIC-bestanden, kies JPG, PNG of WebP en download alles als ZIP. De conversie gebeurt volledig in je browser.",
     "selectMultiple": "Selecteer meerdere .heic of .heif bestanden",
     "outputFormat": "Uitvoerformaat",
     "quality": "Kwaliteit",
@@ -121,42 +121,128 @@
     "items": [
       {
         "question": "Is deze HEIC-converter veilig?",
-        "answer": "Ja, absoluut. Alle bestandsconversie gebeurt direct in je browser met JavaScript. Je bestanden worden nooit naar een server geüpload. Je foto's blijven 100% privé op je apparaat."
+        "answer": "Ja, absoluut. De volledige conversie gebeurt direct in je browser. Je bestanden worden nooit naar een server geüpload — je foto's blijven 100% privé op je apparaat."
       },
       {
         "question": "Wat is een HEIC-bestand?",
-        "answer": "HEIC (High Efficiency Image Container) is het standaard fotoformaat van Apple iPhones en iPads sinds iOS 11. Het biedt betere compressie dan JPEG met behoud van hogere beeldkwaliteit, maar wordt niet universeel ondersteund."
+        "answer": "HEIC (High Efficiency Image Container) is het standaard fotoformaat van iPhones en iPads sinds iOS 11. Het bewaart foto's op ongeveer de helft van de grootte van JPEG bij dezelfde kwaliteit — maar veel apparaten en programma's kunnen het niet openen. Daarom is omzetten naar JPG of PNG zo handig."
       },
       {
-        "question": "Is er een bestandsgroottelimiet?",
-        "answer": "Er is geen strikte limiet omdat alle verwerking in je browser plaatsvindt. Zeer grote bestanden (meer dan 50MB) kunnen echter langer duren afhankelijk van de verwerkingskracht van je apparaat."
+        "question": "Hoe open ik een HEIC-bestand op Windows of Android?",
+        "answer": "Windows en de meeste Android-toestellen openen HEIC-bestanden niet standaard. De snelste oplossing: zet het HEIC-bestand hier om naar JPG, zonder iets te installeren. Op Windows 10/11 kun je ook de HEIF-afbeeldingsextensies uit de Microsoft Store installeren."
+      },
+      {
+        "question": "Waarom staan mijn iPhone-foto's in HEIC?",
+        "answer": "Sinds iOS 11 slaat de iPhone foto's standaard op als HEIC om opslagruimte te besparen. Liever JPEG? Ga naar Instellingen > Camera > Structuren > 'Meest compatibel' — of zet je bestaande HEIC-foto's gewoon hier om."
+      },
+      {
+        "question": "Is er een limiet op de bestandsgrootte?",
+        "answer": "Nee, er is geen strikte limiet omdat alles in je browser wordt verwerkt. Heel grote bestanden (meer dan 50 MB) duren alleen iets langer."
       },
       {
         "question": "Moet ik een account aanmaken?",
-        "answer": "Nee. Onze converter is volledig gratis zonder registratie, zonder account en zonder limiet op het aantal conversies."
-      },
-      {
-        "question": "Welk uitvoerformaat moet ik kiezen?",
-        "answer": "JPG is het beste voor algemeen gebruik en delen. PNG is ideaal voor verliesvrije kwaliteit of transparantie. WebP biedt de beste compressie voor webgebruik. PDF is uitstekend voor het maken van documenten van foto's."
+        "answer": "Nee. OpenMyHEIC is volledig gratis, zonder registratie, zonder account en zonder limiet op het aantal conversies."
       }
-    ]
+    ],
+    "pages": {
+      "jpg": [
+        {
+          "question": "Hoe kan ik HEIC omzetten naar JPG?",
+          "answer": "Sleep je HEIC-bestanden naar de converter hierboven (of klik om te bladeren), pas eventueel de kwaliteit aan en klik op Omzetten. De JPG wordt direct gedownload."
+        },
+        {
+          "question": "Kan ik HEIC naar JPG omzetten zonder software te installeren?",
+          "answer": "Ja, dat is precies wat deze pagina doet. Niets installeren, niets uploaden: het HEIC-bestand wordt lokaal in je browser omgezet naar JPG — op Windows, Mac, Android of iPhone."
+        },
+        {
+          "question": "Verlies ik kwaliteit bij het omzetten van HEIC naar JPG?",
+          "answer": "JPG is een gecomprimeerd formaat, maar op de standaardinstelling van 92% is het verschil met het blote oog onzichtbaar. Zet de schuif op 100% voor maximale kwaliteit."
+        },
+        {
+          "question": "Wat is het verschil tussen HEIC en JPG?",
+          "answer": "HEIC comprimeert zo'n 50% beter dan JPG bij gelijke kwaliteit en ondersteunt extra's zoals Live Photos. Het voordeel van JPG is universele compatibiliteit — elk apparaat en elke app opent het. Daarom zet je HEIC om naar JPG."
+        },
+        {
+          "question": "Werkt dit ook op Windows?",
+          "answer": "Ja, deze converter werkt in elke browser op Windows 10 en 11, zonder installatie. Ook op Mac, Android en iPhone."
+        }
+      ],
+      "png": [
+        {
+          "question": "Hoe zet ik HEIC om naar PNG?",
+          "answer": "Sleep je HEIC-bestand naar de converter hierboven en klik op Omzetten. De PNG wordt direct gedownload — zonder upload en zonder registratie."
+        },
+        {
+          "question": "Is de conversie van HEIC naar PNG verliesvrij?",
+          "answer": "Ja. PNG gebruikt verliesvrije compressie, dus elke pixel van de gedecodeerde HEIC-afbeelding blijft exact behouden."
+        },
+        {
+          "question": "Blijft transparantie behouden in PNG?",
+          "answer": "Ja. Als je HEIC-afbeelding een alfakanaal (transparantie) bevat, blijft dat behouden in de PNG — in tegenstelling tot JPG."
+        },
+        {
+          "question": "Waarom is mijn PNG groter dan het originele HEIC-bestand?",
+          "answer": "HEIC gebruikt zeer efficiënte lossy compressie, PNG is verliesvrij. PNG-bestanden zijn daardoor meestal 3 tot 10 keer groter — de prijs voor perfecte kwaliteit."
+        },
+        {
+          "question": "Is deze HEIC naar PNG converter gratis?",
+          "answer": "Helemaal gratis — zonder watermerken, zonder registratie en zonder limiet."
+        }
+      ],
+      "pdf": [
+        {
+          "question": "Hoe zet ik HEIC om naar PDF?",
+          "answer": "Selecteer hierboven één of meerdere HEIC-bestanden en klik op Omzetten. Je krijgt één PDF-document met je foto's — volledig in je browser gemaakt, zonder upload."
+        },
+        {
+          "question": "Kan ik meerdere HEIC-foto's samenvoegen tot één PDF?",
+          "answer": "Ja. De converter accepteert meerdere HEIC-bestanden tegelijk en voegt ze samen tot één meerdere pagina's tellende PDF — handig voor bonnetjes, documenten en fotoseries."
+        },
+        {
+          "question": "Kan ik gefotografeerde documenten omzetten naar PDF?",
+          "answer": "Ja. Documenten die je met je iPhone hebt gefotografeerd (HEIC) zet je hier om tot een nette PDF om te delen of te archiveren."
+        },
+        {
+          "question": "Is de HEIC naar PDF converter gratis?",
+          "answer": "Ja — gratis, onbeperkt en privé. Je bestanden verlaten nooit je apparaat."
+        }
+      ],
+      "batch": [
+        {
+          "question": "Hoe zet ik meerdere HEIC-bestanden tegelijk om?",
+          "answer": "Selecteer al je HEIC-bestanden in één keer (Ctrl-klik of een hele selectie slepen), kies JPG, PNG of WebP en klik op Omzetten. Alles wordt in je browser omgezet en gebundeld in een ZIP."
+        },
+        {
+          "question": "Hoeveel HEIC-bestanden kan ik tegelijk omzetten?",
+          "answer": "Er is geen vaste limiet — honderden bestanden werken prima. Grote batches duren alleen iets langer omdat de conversie op je eigen apparaat draait."
+        },
+        {
+          "question": "Is bulk omzetten van HEIC naar JPG gratis?",
+          "answer": "Ja, volledig gratis — zonder limiet, zonder watermerken en zonder registratie."
+        },
+        {
+          "question": "Hoe download ik alle omgezette bestanden?",
+          "answer": "Klik na afloop op 'Download ZIP' en je krijgt één ZIP-archief met alle omgezette afbeeldingen."
+        }
+      ]
+    }
   },
   "convert": {
     "h1": {
-      "jpg": "HEIC naar JPG Online Converteren — Gratis & Privé",
-      "png": "HEIC naar PNG Converteren — Verliesvrije Kwaliteit",
+      "jpg": "HEIC naar JPG omzetten — Gratis & Privé",
+      "png": "HEIC naar PNG omzetten — Verliesvrije kwaliteit",
       "webp": "HEIC naar WebP Converteren — Modern Webformaat",
       "bmp": "HEIC naar BMP Converteren — Ongecomprimeerd Formaat",
       "gif": "HEIC naar GIF Converteren — Animeer Je Live Photos",
-      "pdf": "HEIC naar PDF Converteren — Maak PDF-documenten van Foto's"
+      "pdf": "HEIC naar PDF omzetten — Maak PDF's van je foto's"
     },
     "formatDesc": {
-      "jpg": "JPEG is het meest breed ondersteunde afbeeldingsformaat, perfect voor foto's en webgebruik.",
-      "png": "PNG biedt verliesvrije compressie, ideaal voor afbeeldingen die transparantie of maximale kwaliteit vereisen.",
+      "jpg": "JPG is het meest ondersteunde afbeeldingsformaat. Zet je HEIC-bestanden om naar JPG en open ze overal — op Windows, Android, het web en social media.",
+      "png": "PNG biedt verliesvrije compressie, ideaal voor maximale kwaliteit of transparantie. Bij het omzetten van HEIC naar PNG blijft elk detail behouden.",
       "webp": "WebP is een modern formaat dat superieure compressie biedt voor webafbeeldingen.",
       "bmp": "BMP is een ongecomprimeerd formaat dat elke pixel van je afbeelding bewaart.",
       "gif": "GIF ondersteunt animatie en is perfect voor het extraheren van Live Photo-frames.",
-      "pdf": "PDF is een universeel documentformaat, ideaal voor het delen en afdrukken van foto's."
+      "pdf": "PDF is het universele documentformaat. Zet één of meerdere HEIC-foto's om naar één PDF — perfect om te delen, printen en archiveren."
     },
     "freePrivateInstant": "Gratis, privé en direct — geen upload vereist."
   },

@@ -176,9 +176,9 @@ function footerHtml(lang) {
 </div></footer>`;
 }
 
-function faqHtml(lang) {
+function faqHtml(lang, pageKey) {
   const t = locales[lang];
-  const items = t.faq.items || [];
+  const items = (t.faq.pages && t.faq.pages[pageKey]) || t.faq.items || [];
   if (!items.length) return "";
   return `<section class="max-w-3xl mx-auto px-4 mt-12"><h2 class="text-2xl font-bold text-gray-900 mb-6">${escText(t.faq.title)}</h2>
 ${items
@@ -209,14 +209,14 @@ function formatsHtml(lang, excludeFormat) {
     .join("")}</ul></section>`;
 }
 
-function pageBody(lang, { h1, intro, extra = "", showFaq = true, excludeFormat = null, showFormats = true }) {
+function pageBody(lang, { h1, intro, extra = "", showFaq = true, excludeFormat = null, showFormats = true, pageKey = "home" }) {
   return `${navHeader(lang)}
 <main class="max-w-6xl mx-auto px-4 py-10">
 <div class="text-center mb-8"><h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">${escText(h1)}</h1>
 <p class="text-gray-500 max-w-xl mx-auto">${escText(intro)}</p></div>
 ${extra}
 ${showFormats ? formatsHtml(lang, excludeFormat) : ""}
-${showFaq ? faqHtml(lang) : ""}
+${showFaq ? faqHtml(lang, pageKey) : ""}
 </main>
 ${footerHtml(lang)}`;
 }
@@ -242,7 +242,7 @@ function buildPages() {
       description: t.meta.home.description,
       canonical: `${SITE_URL}${localizedPath("/", lang) || "/"}`,
       hreflang: hreflangLinks("/"),
-      schemas: [webAppSchema(lang, t.meta.home.description, `${SITE_URL}${localizedPath("/", lang) || "/"}`), faqSchema(lang)],
+      schemas: [webAppSchema(lang, t.meta.home.description, `${SITE_URL}${localizedPath("/", lang) || "/"}`), faqSchema(lang, "home")],
       body: pageBody(lang, {
         h1: `${t.hero.title} ${t.hero.titleHighlight}`,
         intro: t.hero.subtitle,
@@ -261,12 +261,13 @@ function buildPages() {
         description: t.meta[fmt].description,
         canonical,
         hreflang: hreflangLinks(route),
-        schemas: [webAppSchema(lang, t.meta[fmt].description, canonical), faqSchema(lang)],
+        schemas: [webAppSchema(lang, t.meta[fmt].description, canonical), faqSchema(lang, fmt)],
         body: pageBody(lang, {
           h1: t.convert.h1[fmt],
           intro: `${t.convert.formatDesc[fmt]} ${t.convert.freePrivateInstant || ""}`,
           extra: `<div class="max-w-3xl mx-auto"><p class="text-gray-600 text-sm">${escText(t.converter?.privacyBadge || "")}</p></div>`,
           excludeFormat: fmt,
+          pageKey: fmt,
         }),
       });
     }
@@ -282,8 +283,8 @@ function buildPages() {
         description: t.meta.batch.description,
         canonical,
         hreflang: hreflangLinks(route),
-        schemas: [webAppSchema(lang, t.meta.batch.description, canonical), faqSchema(lang)],
-        body: pageBody(lang, { h1: t.batch.title, intro: t.batch.subtitle, excludeFormat: "batch" }),
+        schemas: [webAppSchema(lang, t.meta.batch.description, canonical), faqSchema(lang, "batch")],
+        body: pageBody(lang, { h1: t.batch.title, intro: t.batch.subtitle, excludeFormat: "batch", pageKey: "batch" }),
       });
     }
 
@@ -352,8 +353,8 @@ function webAppSchema(lang, description, url) {
   };
 }
 
-function faqSchema(lang) {
-  const items = locales[lang].faq?.items || [];
+function faqSchema(lang, pageKey) {
+  const items = (locales[lang].faq?.pages && locales[lang].faq.pages[pageKey]) || locales[lang].faq?.items || [];
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
