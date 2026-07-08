@@ -8,6 +8,7 @@ tags:
   - Formats
 author: OpenMyHEIC Team
 lang: en
+translationKey: heic-vs-jpeg
 ---
 
 # HEIC vs JPEG: Which Format Is Better?

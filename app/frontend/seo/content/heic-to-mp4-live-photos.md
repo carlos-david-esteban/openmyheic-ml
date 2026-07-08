@@ -8,6 +8,7 @@ tags:
   - MP4
 author: OpenMyHEIC Team
 lang: en
+translationKey: heic-to-mp4
 ---
 
 # HEIC to MP4: How to Convert Live Photos to Video

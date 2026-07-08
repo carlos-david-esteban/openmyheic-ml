@@ -8,6 +8,7 @@ tags:
   - Tools
 author: OpenMyHEIC Team
 lang: en
+translationKey: copytrans-alternatives
 ---
 
 # CopyTrans HEIC Alternatives: Free Ways to Open and Convert HEIC on Windows
