@@ -1,10 +1,13 @@
+import { useEffect, useState } from "react";
 import { useLocation, Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import Layout from "@/components/Layout";
 import { blogPosts, generateHowToSchema, SITE_NAME } from "@/lib/seo";
+import type { BlogPost } from "@/lib/seo";
+import { guideLoaders, isGuideLocalized } from "@/content/guides";
 import { ArrowLeft, Calendar, Clock } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
-import { getPathWithoutLang } from "@/i18n/config";
+import { getPathWithoutLang, getLangFromPath } from "@/i18n/config";
 
 const pathToSlug: Record<string, string> = {
   "/what-is-heic": "what-is-heic",
@@ -85,8 +88,26 @@ export default function BlogPage() {
   const { t, localizedPath } = useLanguage();
 
   const cleanPath = getPathWithoutLang(location.pathname);
+  const lang = getLangFromPath(location.pathname);
   const slug = pathToSlug[cleanPath] || "";
-  const post = blogPosts[slug];
+
+  const [localizedGuides, setLocalizedGuides] = useState<Record<string, BlogPost> | null>(null);
+  useEffect(() => {
+    let cancelled = false;
+    if (isGuideLocalized(lang)) {
+      guideLoaders[lang]().then((m) => {
+        if (!cancelled) setLocalizedGuides(m.default);
+      });
+    } else {
+      setLocalizedGuides(null);
+    }
+    return () => {
+      cancelled = true;
+    };
+  }, [lang]);
+
+  const posts = (isGuideLocalized(lang) && localizedGuides) || blogPosts;
+  const post = posts[slug];
 
   if (!post) {
     return (
@@ -121,7 +142,9 @@ export default function BlogPage() {
       customSEO={{
         title: post.title,
         description: post.description,
-        canonical: `https://openmyheic.com/${post.slug}`,
+        canonical: isGuideLocalized(lang)
+          ? `https://openmyheic.com/${lang}/${post.slug}`
+          : `https://openmyheic.com/${post.slug}`,
       }}
       showSchemaWebApp={false}
       showSchemaFAQ={false}
@@ -190,7 +213,7 @@ export default function BlogPage() {
             {t.blog.relatedArticles}
           </h2>
           <div className="grid gap-3">
-            {Object.values(blogPosts)
+            {Object.values(posts)
               .filter((p) => p.slug !== post.slug)
               .map((p) => (
                 <Link

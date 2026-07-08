@@ -1323,12 +1323,183 @@
   </url>
   <url>
     <loc>https://openmyheic.com/what-is-heic</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openmyheic.com/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://openmyheic.com/de/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://openmyheic.com/ja/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://openmyheic.com/fr/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://openmyheic.com/pt/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://openmyheic.com/es/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openmyheic.com/what-is-heic" />
+  </url>
+  <url>
+    <loc>https://openmyheic.com/de/what-is-heic</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openmyheic.com/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://openmyheic.com/de/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://openmyheic.com/ja/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://openmyheic.com/fr/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://openmyheic.com/pt/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://openmyheic.com/es/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openmyheic.com/what-is-heic" />
+  </url>
+  <url>
+    <loc>https://openmyheic.com/ja/what-is-heic</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openmyheic.com/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://openmyheic.com/de/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://openmyheic.com/ja/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://openmyheic.com/fr/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://openmyheic.com/pt/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://openmyheic.com/es/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openmyheic.com/what-is-heic" />
+  </url>
+  <url>
+    <loc>https://openmyheic.com/fr/what-is-heic</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openmyheic.com/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://openmyheic.com/de/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://openmyheic.com/ja/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://openmyheic.com/fr/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://openmyheic.com/pt/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://openmyheic.com/es/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openmyheic.com/what-is-heic" />
+  </url>
+  <url>
+    <loc>https://openmyheic.com/pt/what-is-heic</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openmyheic.com/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://openmyheic.com/de/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://openmyheic.com/ja/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://openmyheic.com/fr/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://openmyheic.com/pt/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://openmyheic.com/es/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openmyheic.com/what-is-heic" />
+  </url>
+  <url>
+    <loc>https://openmyheic.com/es/what-is-heic</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openmyheic.com/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://openmyheic.com/de/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://openmyheic.com/ja/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://openmyheic.com/fr/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://openmyheic.com/pt/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://openmyheic.com/es/what-is-heic" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openmyheic.com/what-is-heic" />
   </url>
   <url>
     <loc>https://openmyheic.com/how-to-convert-heic-to-jpg-windows</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openmyheic.com/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://openmyheic.com/de/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://openmyheic.com/ja/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://openmyheic.com/fr/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://openmyheic.com/pt/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://openmyheic.com/es/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openmyheic.com/how-to-convert-heic-to-jpg-windows" />
+  </url>
+  <url>
+    <loc>https://openmyheic.com/de/how-to-convert-heic-to-jpg-windows</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openmyheic.com/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://openmyheic.com/de/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://openmyheic.com/ja/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://openmyheic.com/fr/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://openmyheic.com/pt/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://openmyheic.com/es/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openmyheic.com/how-to-convert-heic-to-jpg-windows" />
+  </url>
+  <url>
+    <loc>https://openmyheic.com/ja/how-to-convert-heic-to-jpg-windows</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openmyheic.com/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://openmyheic.com/de/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://openmyheic.com/ja/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://openmyheic.com/fr/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://openmyheic.com/pt/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://openmyheic.com/es/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openmyheic.com/how-to-convert-heic-to-jpg-windows" />
+  </url>
+  <url>
+    <loc>https://openmyheic.com/fr/how-to-convert-heic-to-jpg-windows</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openmyheic.com/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://openmyheic.com/de/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://openmyheic.com/ja/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://openmyheic.com/fr/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://openmyheic.com/pt/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://openmyheic.com/es/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openmyheic.com/how-to-convert-heic-to-jpg-windows" />
+  </url>
+  <url>
+    <loc>https://openmyheic.com/pt/how-to-convert-heic-to-jpg-windows</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openmyheic.com/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://openmyheic.com/de/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://openmyheic.com/ja/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://openmyheic.com/fr/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://openmyheic.com/pt/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://openmyheic.com/es/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openmyheic.com/how-to-convert-heic-to-jpg-windows" />
+  </url>
+  <url>
+    <loc>https://openmyheic.com/es/how-to-convert-heic-to-jpg-windows</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openmyheic.com/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://openmyheic.com/de/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://openmyheic.com/ja/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://openmyheic.com/fr/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://openmyheic.com/pt/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://openmyheic.com/es/how-to-convert-heic-to-jpg-windows" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openmyheic.com/how-to-convert-heic-to-jpg-windows" />
   </url>
   <url>
     <loc>https://openmyheic.com/how-to-convert-heic-to-jpg-mac</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openmyheic.com/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://openmyheic.com/de/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://openmyheic.com/ja/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://openmyheic.com/fr/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://openmyheic.com/pt/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://openmyheic.com/es/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openmyheic.com/how-to-convert-heic-to-jpg-mac" />
+  </url>
+  <url>
+    <loc>https://openmyheic.com/de/how-to-convert-heic-to-jpg-mac</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openmyheic.com/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://openmyheic.com/de/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://openmyheic.com/ja/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://openmyheic.com/fr/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://openmyheic.com/pt/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://openmyheic.com/es/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openmyheic.com/how-to-convert-heic-to-jpg-mac" />
+  </url>
+  <url>
+    <loc>https://openmyheic.com/ja/how-to-convert-heic-to-jpg-mac</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openmyheic.com/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://openmyheic.com/de/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://openmyheic.com/ja/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://openmyheic.com/fr/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://openmyheic.com/pt/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://openmyheic.com/es/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openmyheic.com/how-to-convert-heic-to-jpg-mac" />
+  </url>
+  <url>
+    <loc>https://openmyheic.com/fr/how-to-convert-heic-to-jpg-mac</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openmyheic.com/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://openmyheic.com/de/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://openmyheic.com/ja/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://openmyheic.com/fr/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://openmyheic.com/pt/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://openmyheic.com/es/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openmyheic.com/how-to-convert-heic-to-jpg-mac" />
+  </url>
+  <url>
+    <loc>https://openmyheic.com/pt/how-to-convert-heic-to-jpg-mac</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openmyheic.com/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://openmyheic.com/de/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://openmyheic.com/ja/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://openmyheic.com/fr/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://openmyheic.com/pt/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://openmyheic.com/es/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openmyheic.com/how-to-convert-heic-to-jpg-mac" />
+  </url>
+  <url>
+    <loc>https://openmyheic.com/es/how-to-convert-heic-to-jpg-mac</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openmyheic.com/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://openmyheic.com/de/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://openmyheic.com/ja/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://openmyheic.com/fr/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://openmyheic.com/pt/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://openmyheic.com/es/how-to-convert-heic-to-jpg-mac" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openmyheic.com/how-to-convert-heic-to-jpg-mac" />
   </url>
   <url>
     <loc>https://openmyheic.com/heic-viewer</loc>

@@ -68,6 +68,23 @@ const seoLib = await import(pathToFileURL(tmpSeo).href);
 fs.unlinkSync(tmpSeo);
 const { blogPosts, generateHowToSchema } = seoLib;
 
+// Localized guide content (DE/JA/ES/FR/PT) lives in src/content/guides/<lang>.ts.
+// Same esbuild trick as seo.ts ("import type" is stripped, so no alias needed).
+const GUIDE_LANGS = ["de", "ja", "es", "fr", "pt"];
+const localizedGuides = {};
+for (const glang of GUIDE_LANGS) {
+  const tmpGuide = path.join(os.tmpdir(), `omh-guides-${glang}-${Date.now()}.mjs`);
+  buildSync({
+    entryPoints: [path.join(root, "src/content/guides", `${glang}.ts`)],
+    outfile: tmpGuide,
+    bundle: true,
+    format: "esm",
+    platform: "neutral",
+  });
+  localizedGuides[glang] = (await import(pathToFileURL(tmpGuide).href)).default;
+  fs.unlinkSync(tmpGuide);
+}
+
 // ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------
@@ -96,6 +113,21 @@ function hreflangLinks(routePath) {
   });
   lines.push(
     `    <link rel="alternate" hreflang="x-default" href="${SITE_URL}${routePath === "/" ? "/" : routePath}" />`
+  );
+  return lines.join("\n");
+}
+
+// Guides form their own hreflang cluster: EN + the 5 localized languages only
+// (the remaining languages serve EN content with canonical -> EN, so they are
+// NOT alternates).
+function guideHreflangLinks(routePath) {
+  const cluster = LANGUAGES.filter((l) => l.code === "en" || GUIDE_LANGS.includes(l.code));
+  const lines = cluster.map((l) => {
+    const href = `${SITE_URL}${localizedPath(routePath, l.code) || "/"}`;
+    return `    <link rel="alternate" hreflang="${l.hreflang}" href="${href}" />`;
+  });
+  lines.push(
+    `    <link rel="alternate" hreflang="x-default" href="${SITE_URL}${routePath}" />`
   );
   return lines.join("\n");
 }
@@ -312,18 +344,21 @@ function buildPages() {
       });
     }
 
-    // Blog posts (EN content everywhere — canonical points to EN URL, mirrors the SPA)
+    // Guides: localized content + self-canonical for EN/DE/JA/ES/FR/PT;
+    // the other languages keep EN content with canonical -> EN (mirrors the SPA).
     for (const slug of BLOG_SLUGS) {
-      const post = blogPosts[slug];
+      const localized = localizedGuides[lang] ? localizedGuides[lang][slug] : null;
+      const post = localized || blogPosts[slug];
       if (!post) continue;
       const route = `/${slug}`;
+      const selfCanonical = localized || lang === "en";
       pages.push({
         route,
         lang,
         title: post.title,
         description: post.description,
-        canonical: `${SITE_URL}/${slug}`,
-        hreflang: hreflangLinks(route),
+        canonical: selfCanonical ? `${SITE_URL}${localizedPath(route, lang)}` : `${SITE_URL}/${slug}`,
+        hreflang: guideHreflangLinks(route),
         schemas: post.schemaSteps ? [generateHowToSchema(post.h1, post.schemaSteps)] : [],
         body: `${navHeader(lang)}
 <main class="max-w-3xl mx-auto px-4 py-10"><article>
