@@ -8,6 +8,7 @@ tags:
   - Guides
 author: OpenMyHEIC Team
 lang: en
+translationKey: convert-heic-iphone
 ---
 
 # How to Convert HEIC to JPG on iPhone
