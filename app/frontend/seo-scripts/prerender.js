@@ -263,6 +263,22 @@ function formatsHtml(lang, excludeFormat) {
     .join("")}</ul></section>`;
 }
 
+function legalBodyHtml(route, data) {
+  const parts = [];
+  if (data.lastUpdated) parts.push(`<p class="text-sm text-gray-500 mb-6">${escText(data.lastUpdated)}</p>`);
+  if (data.introText && !data.introTitle) parts.push(`<p class="text-gray-600 leading-relaxed mb-4">${escText(data.introText)}</p>`);
+  for (const k of Object.keys(data)) {
+    if (k.endsWith("Title")) {
+      const textKey = k.slice(0, -5) + "Text";
+      if (data[textKey]) {
+        parts.push(`<section class="mb-6"><h2 class="text-xl font-semibold text-gray-900 mb-2">${escText(data[k])}</h2><p class="text-gray-600 leading-relaxed">${escText(data[textKey])}</p></section>`);
+      }
+    }
+  }
+  if (route === "/contact") parts.push(`<p class="text-gray-600 mb-4"><a href="mailto:contact@openmyheic.com">contact@openmyheic.com</a></p>`);
+  return `<div class="max-w-3xl mx-auto text-left">${parts.join("\n")}</div>`;
+}
+
 function pageBody(lang, { h1, intro, extra = "", showFaq = true, excludeFormat = null, showFormats = true, pageKey = "home" }) {
   return `${navHeader(lang)}
 <main class="max-w-6xl mx-auto px-4 py-10">
@@ -408,6 +424,7 @@ ${footerHtml(lang)}`,
         body: pageBody(lang, {
           h1: data.title,
           intro: data.metaDescription,
+          extra: legalBodyHtml(route, data),
           showFaq: false,
           showFormats: false,
         }),
