@@ -1,4 +1,5 @@
 ---
+date: 2026-07-10
 title: "HEIC in JPG umwandeln auf dem iPhone (5 einfache Wege, 2026)"
 description: HEIC in JPG umwandeln auf dem iPhone: 5 einfache Methoden ohne App-Installation, plus wie du das iPhone-Fotoformat dauerhaft auf JPG umstellst.
 keywords: heic in jpg umwandeln iphone, heic zu jpg iphone, iphone heic ausschalten, iphone fotoformat ändern, maximale kompatibilität iphone

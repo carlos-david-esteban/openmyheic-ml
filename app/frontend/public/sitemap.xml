@@ -1666,4 +1666,7 @@
     <xhtml:link rel="alternate" hreflang="da" href="https://openmyheic.com/da/heic-viewer" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openmyheic.com/heic-viewer" />
   </url>
+  <url>
+    <loc>https://openmyheic.com/about</loc>
+  </url>
 </urlset>

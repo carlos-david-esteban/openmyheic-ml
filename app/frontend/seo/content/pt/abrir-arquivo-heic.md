@@ -1,4 +1,5 @@
 ---
+date: 2026-07-01
 title: Como abrir arquivo HEIC no Windows 11, Windows 10 e Mac (2026)
 description: Aprenda como abrir arquivo HEIC no Windows 11, Windows 10, Mac ou direto no navegador — grátis. Todos os métodos, e como converter HEIC para JPG quando o formato der problema.
 keywords: como abrir arquivo heic, abrir arquivo heic, como abrir arquivo heic no windows, arquivo heic, converter heic para jpg, visualizar heic

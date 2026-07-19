@@ -1,4 +1,5 @@
 ---
+date: 2026-07-16
 title: "HEIC vs JPEG: Unterschiede, Qualität und wann welches Format? (2026)"
 description: HEIC vs JPEG im Vergleich: Dateigröße, Bildqualität und Kompatibilität. Wir erklären den Unterschied zwischen HEIC und JPEG – und wann welches Format sinnvoll ist.
 keywords: heic vs jpeg, heic oder jpeg, heif vs heic, heic vs jpg qualität, unterschied heic jpeg

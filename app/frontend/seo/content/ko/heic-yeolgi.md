@@ -1,4 +1,5 @@
 ---
+date: 2026-07-15
 title: "HEIC 열기 완벽 가이드 — HEIC 뷰어로 쉽게 보는 방법 (2026)"
 description: HEIC 파일 열기가 안 될 때 해결법. 윈도우, 맥, 안드로이드에서 heic 보기부터 온라인 heic 뷰어, heic jpg 변환까지 한 번에 정리했습니다.
 keywords: heic 열기, heic 파일 열기, heic 뷰어, heic 보기, heic jpg 변환

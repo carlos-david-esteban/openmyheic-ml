@@ -1,4 +1,5 @@
 ---
+date: 2026-07-05
 title: Cómo pasar de HEIC a JPG en iPhone (5 métodos fáciles, 2026)
 description: Pasa tus fotos de HEIC a JPG directamente en el iPhone — con la app Archivos, por correo, desde Ajustes o online. Y cómo hacer que el iPhone deje de hacer fotos en HEIC.
 keywords: pasar de heic a jpg en iphone, cambiar formato heic a jpg en iphone, como cambiar de heic a jpg en iphone, quitar formato heic iphone, formato mas compatible iphone

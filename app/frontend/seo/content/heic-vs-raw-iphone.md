@@ -1,4 +1,5 @@
 ---
+date: 2026-07-07
 title: "HEIC vs RAW on iPhone: Which Should You Shoot? (2026)"
 description: "HEIC vs RAW iPhone comparison: file size, quality, and editing latitude. Learn should i shoot raw or heic and how Apple ProRAW vs HEIC really differ."
 keywords: heic vs raw, heic vs raw iphone, should i shoot raw or heic, apple proraw vs heic, heic vs raw quality

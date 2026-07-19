@@ -1,4 +1,5 @@
 ---
+date: 2026-07-16
 title: "HEICとJPEGの違いとは？画質・容量・互換性を徹底比較【2026年版】"
 description: HEICとJPEGの違いを容量・画質・互換性の観点で比較。HEICとは何か、HEIFとの違い、どっちを使うべきかを分かりやすく解説します。
 keywords: heic jpeg 違い, heic とは, heif heic 違い, heic jpeg どっち, heic 画質

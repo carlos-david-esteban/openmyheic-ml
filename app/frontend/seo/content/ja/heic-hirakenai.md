@@ -1,4 +1,5 @@
 ---
+date: 2026-07-03
 title: HEICが開けない？Windows 11・Windows 10・Macでの開き方と対処法【2026年版】
 description: HEICファイルが開けないときの対処法を全部まとめました。Windows 11・Windows 10・Macでの開き方、ブラウザで表示する方法、HEICをJPEGに変換する方法まで — すべて無料。
 keywords: heic 開けない, heic ファイル 開けない, heic 開き方, heic 表示, heic jpeg 変換, windows heic 開けない

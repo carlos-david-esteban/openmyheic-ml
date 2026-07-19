@@ -1,4 +1,5 @@
 ---
+date: 2026-06-29
 title: "HEIC vs JPEG: Which Format Is Better? Quality, Size & Compatibility Compared"
 description: HEIC vs JPEG compared — file size, image quality, compatibility, and when to use each. Plus what HEIF vs HEIC means and whether converting HEIC to JPG loses quality.
 keywords: heic vs jpeg, heic vs jpg, heif vs heic, heic vs jpeg quality, heic vs jpg file size, is heic better than jpeg

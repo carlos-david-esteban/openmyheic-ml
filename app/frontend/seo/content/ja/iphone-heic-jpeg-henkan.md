@@ -1,4 +1,5 @@
 ---
+date: 2026-07-11
 title: "iPhoneでHEICをJPEGに変換する方法【2026年最新版】"
 description: iPhoneで撮った写真がHEIC形式で開けない・共有できない…そんな悩みを解決。iPhoneでHEICをJPEGに変換する方法と、設定を変更して最初からJPEGで撮影する方法を解説します。
 keywords: iphone heic jpeg 変換, iphone heic jpg 変換, iphone heic 設定 変更, iphone 写真 形式 変更, 互換性優先

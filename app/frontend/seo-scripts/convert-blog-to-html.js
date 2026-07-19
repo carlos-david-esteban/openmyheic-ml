@@ -28,7 +28,7 @@ const SUPPORTED_POST_LANGS = ['de', 'ja', 'es', 'fr', 'pt', 'ko', 'nl', 'sv', 'n
 
 // Localized UI strings for the blog templates (fallback: en)
 const BLOG_UI = {
-  en: { allArticles: '\u2190 All Articles', home: 'Home', blog: 'Blog', contents: 'Contents', articles: 'Articles', subtitle: 'Thoughts, stories and ideas', backToHome: '\u2190 Back to Home', articleWord: ['article', 'articles'], dateLocale: 'en-US' },
+  en: { allArticles: '\u2190 All Articles', home: 'Home', blog: 'Blog', contents: 'Contents', articles: 'Articles', subtitle: 'Guides and tips for opening, converting and managing HEIC files', backToHome: '\u2190 Back to Home', articleWord: ['article', 'articles'], dateLocale: 'en-US' },
   de: { allArticles: '\u2190 Alle Artikel', home: 'Startseite', blog: 'Blog', contents: 'Inhalt', articles: 'Artikel', subtitle: 'Anleitungen und Tipps rund um HEIC-Dateien', backToHome: '\u2190 Zur Startseite', articleWord: ['Artikel', 'Artikel'], dateLocale: 'de-DE' },
   fr: { allArticles: '\u2190 Tous les articles', home: 'Accueil', blog: 'Blog', contents: 'Sommaire', articles: 'Articles', subtitle: 'Guides et astuces sur les fichiers HEIC', backToHome: "\u2190 Retour \u00e0 l'accueil", articleWord: ['article', 'articles'], dateLocale: 'fr-FR' },
   es: { allArticles: '\u2190 Todos los art\u00edculos', home: 'Inicio', blog: 'Blog', contents: 'Contenido', articles: 'Art\u00edculos', subtitle: 'Gu\u00edas y trucos sobre archivos HEIC', backToHome: '\u2190 Volver al inicio', articleWord: ['art\u00edculo', 'art\u00edculos'], dateLocale: 'es-ES' },
@@ -77,8 +77,15 @@ function getHtmlTemplate(title, content, datePublished, dateModified, meta = {})
     "datePublished": isoDatePublished,
     "dateModified": isoDateModified || isoDatePublished,
     "author": {
-      "@type": "Person",
-      "name": meta.author || "Sarah"
+      "@type": "Organization",
+      "name": "OpenMyHEIC Editorial Team",
+      "url": `${baseUrl}/about`
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OpenMyHEIC",
+      "url": baseUrl,
+      "logo": { "@type": "ImageObject", "url": `${baseUrl}/favicon.svg` }
     },
     "keywords": keywords,
     "inLanguage": lang
@@ -116,8 +123,6 @@ function getHtmlTemplate(title, content, datePublished, dateModified, meta = {})
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4206688541097867" crossorigin="anonymous"></script>
   <meta name="description" content="${description}">
-  ${keywords ? `<meta name="keywords" content="${keywords}">` : ''}
-  
   <link rel="canonical" href="${postUrl}">${hreflangHtml}
 
   <meta property="og:type" content="article">
@@ -495,6 +500,7 @@ ${JSON.stringify(breadcrumbSchema, null, 2)}
       <header>
         <h1>${escapeHtml(title)}</h1>
         <div class="meta">
+          <div class="meta-item"><a href="${baseUrl}/about" style="color:inherit;text-decoration:none;">OpenMyHEIC Editorial Team</a></div>
           ${displayDate ? `<div class="meta-item"><time datetime="${isoDate}">${formatDate(displayDate, ui.dateLocale)}</time></div>` : ''}
           ${tags.length > 0 ? `<div class="meta-item">${tags.join(' · ')}</div>` : ''}
         </div>
@@ -691,12 +697,17 @@ function processMarkdownFile(entry) {
   // Get file system dates
   // This is more reliable than markdown frontmatter date which may be inaccurate from AI generation
   const fileStat = fs.statSync(filePath);
-  // datePublished: prefer birthtime (creation time) if available, otherwise use mtime
-  const datePublished = fileStat.birthtime && fileStat.birthtime.getTime() > 0
+  // Prefer explicit frontmatter dates (git/CI checkouts reset file mtimes to
+  // build time, which made every post show the deploy date). Fall back to fs.
+  const fmDate = frontmatter.date ? new Date(frontmatter.date) : null;
+  const fmUpdated = frontmatter.updated ? new Date(frontmatter.updated) : null;
+  const fsPublished = fileStat.birthtime && fileStat.birthtime.getTime() > 0
     ? fileStat.birthtime.toISOString()
     : fileStat.mtime.toISOString();
-  // dateModified: always use mtime (modification time) - this is what lastmod should use
-  const dateModified = fileStat.mtime.toISOString();
+  const datePublished = fmDate && !isNaN(fmDate) ? fmDate.toISOString() : fsPublished;
+  const dateModified = fmUpdated && !isNaN(fmUpdated)
+    ? fmUpdated.toISOString()
+    : (fmDate && !isNaN(fmDate) ? fmDate.toISOString() : fileStat.mtime.toISOString());
 
   // Get filename (without extension) as slug
   const fileName = path.basename(filePath, '.md');

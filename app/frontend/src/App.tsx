@@ -13,6 +13,7 @@ import BlogPage from "./pages/BlogPage";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
 import Contact from "./pages/Contact";
+import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -54,6 +55,7 @@ function AppRoutes() {
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       <Route path="/terms-of-use" element={<TermsOfUse />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/about" element={<About />} />
 
       {/* Language-prefixed routes */}
       <Route path="/:lang" element={<Index />} />

@@ -50,7 +50,7 @@ function FAQSection({ faqs }: { faqs: { question: string; answer: string }[] }) 
 
 export default function HomePage() {
   const { t, localizedPath } = useLanguage();
-  const faqs = t.faq.items;
+  const faqs = (t.faq as { pages?: Record<string, { question: string; answer: string }[]>; items: { question: string; answer: string }[] }).pages?.home || t.faq.items;
 
   const formatCards = [
     {

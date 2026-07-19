@@ -1,4 +1,5 @@
 ---
+date: 2026-07-13
 title: "CopyTrans HEIC Alternativen 2026: Die besten Optionen für Windows im Vergleich"
 description: CopyTrans HEIC ist nur privat kostenlos & braucht eine Installation. Wir vergleichen Alternativen wie iMazing und zeigen, wie Sie HEIC in JPG umwandeln – ganz ohne Installation.
 keywords: copytrans heic, copytrans heic alternative, imazing heic converter, heic converter windows kostenlos, heic in jpg umwandeln windows

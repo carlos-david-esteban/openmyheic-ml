@@ -1,4 +1,5 @@
 ---
+date: 2026-07-08
 title: Convertir HEIC en JPG sur iPhone — 5 méthodes faciles (2026)
 description: Convertissez vos photos HEIC en JPG directement sur iPhone — avec l'app Fichiers, par e-mail, dans les Réglages ou en ligne. Et comment empêcher l'iPhone de prendre des photos en HEIC.
 keywords: convertir heic en jpg sur iphone, convertir photo heic en jpg sur iphone, format heic iphone, désactiver heic iphone, le plus compatible iphone

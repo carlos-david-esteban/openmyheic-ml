@@ -1,8 +1,8 @@
 {
   "meta": {
     "home": {
-      "title": "Konvertere HEIC til JPG — Gratis, ingen opplasting | OpenMyHEIC",
-      "description": "Konverter HEIC til JPG, PNG eller PDF gratis, direkte i nettleseren. Ingen opplasting, ingen registrering. Åpne iPhone-bildene dine på alle enheter."
+      "title": "Gratis HEIC-konverterer — JPG, PNG, PDF og mer | OpenMyHEIC",
+      "description": "Åpne og konverter HEIC-bildene fra iPhone direkte i nettleseren: HEIC til JPG, PNG, PDF, WebP, GIF eller BMP, massekonvertering og gratis HEIC-visning. Uten opplasting — 100 % privat."
     },
     "jpg": {
       "title": "Konvertere HEIC til JPG — Gratis online | OpenMyHEIC",
@@ -48,9 +48,9 @@
     "viewer": "Viser"
   },
   "hero": {
-    "title": "Konverter HEIC til JPG —",
-    "titleHighlight": "Gratis, Privat, Umiddelbart",
-    "subtitle": "iPhone-bildene dine konvertert på sekunder — gratis, uten opplasting, direkte i nettleseren din."
+    "title": "Gratis HEIC-konverterer —",
+    "titleHighlight": "JPG, PNG, PDF og mer",
+    "subtitle": "Åpne iPhone-bildene dine hvor som helst. Konverter HEIC til formatet du trenger på sekunder — uten opplasting, alt skjer direkte i nettleseren din."
   },
   "intro": {
     "home": "HEIC-filer som ikke åpnes på Windows-PC-en eller Android-telefonen din? OpenMyHEIC konverterer iPhone-bildene dine til JPG, PNG eller PDF direkte i nettleseren — uten opplasting, uten servere, uten personvernrisiko. Dra, slipp og last ned."
@@ -246,6 +246,98 @@
         {
           "question": "Kan jeg lagre bildene som JPG?",
           "answer": "Ja, hvert bilde har en JPG-nedlastingsknapp. For hele mapper laster batchkonvertereren ned alt som én ZIP."
+        }
+      ],
+      "home": [
+        {
+          "question": "Hva gjør OpenMyHEIC?",
+          "answer": "OpenMyHEIC er en gratis samling nettleserverktøy for HEIC-bilder tatt med iPhone og iPad. Du kan konvertere HEIC til JPG, PNG, PDF, WebP, GIF eller BMP, konvertere dusinvis av filer samtidig med masseverktøyet, eller rett og slett åpne HEIC-filer og se dem uten å konvertere. Alt kjører lokalt i nettleseren din."
+        },
+        {
+          "question": "Hvilket utdataformat bør jeg velge?",
+          "answer": "For deling av bilder og best mulig kompatibilitet, velg JPG. For skjermbilder, grafikk eller når du trenger tapsfri kvalitet, velg PNG. For å samle flere bilder i ett dokument, velg PDF. For publisering på nettet med mindre filstørrelser, velg WebP. GIF og BMP dekker eldre programvare som ikke godtar noe annet."
+        },
+        {
+          "question": "Må jeg installere noe eller opprette en konto?",
+          "answer": "Nei. OpenMyHEIC fungerer helt og holdent i nettleseren — det er ingenting å laste ned eller installere, ingen konto, ingen registrering og ingen vannmerker. Det fungerer på Windows, Mac, Linux, Chromebook, Android og iPhone."
+        },
+        {
+          "question": "Hva skiller OpenMyHEIC fra andre HEIC-konverterere?",
+          "answer": "De fleste nettbaserte konverterere laster opp bildene dine til sine servere, noe som er tregt og reiser personvernspørsmål. OpenMyHEIC dekoder og konverterer bildene på din egen enhet med kode som kjører i nettleseren, så filene dine forlater aldri datamaskinen. Det gjør det også raskere for store partier — det er ingen ventetid på opplasting eller nedlasting."
+        },
+        {
+          "question": "Er bildene mine virkelig private?",
+          "answer": "Ja. Konverteringen skjer med JavaScript og WebAssembly inne i nettleserfanen din. Bildene dine sendes aldri til oss eller til noen tredjepart — du kan til og med laste inn siden, koble fra internett, og konvertereren fortsetter å fungere."
+        },
+        {
+          "question": "Er det en grense for hvor mange bilder jeg kan konvertere?",
+          "answer": "Det finnes ingen kunstig grense og ingen betalingsmur. Den praktiske grensen er enhetens minne: på en vanlig bærbar PC kan du uten problemer konvertere hundrevis av bilder i én økt med massekonvertereren."
+        }
+      ],
+      "gif": [
+        {
+          "question": "Hvorfor skulle jeg konvertere HEIC til GIF?",
+          "answer": "GIF godtas nesten overalt, inkludert gamle forum, eldre programvare og meldingsverktøy som avviser HEIC. Det er et godt valg for enkel grafikk eller når en plattform uttrykkelig krever GIF. For vanlige bilder vil JPG eller PNG se bedre ut."
+        },
+        {
+          "question": "Mister bildet mitt kvalitet som GIF?",
+          "answer": "Fotografier gjør vanligvis det. GIF er begrenset til en palett på 256 farger, så myke overganger som himmel og hudtoner kan få synlige fargebånd. Skjermbilder, tegninger og grafikk med få farger konverteres til GIF uten merkbart tap."
+        },
+        {
+          "question": "Kan verktøyet lage en animert GIF fra et Live Photo?",
+          "answer": "Nei. En HEIC-fil fra et Live Photo inneholder et stillbilde pluss en kort video, og dette verktøyet konverterer bare stillbildet. For å gjøre et Live Photo om til en animasjon, eksporter det først som video på iPhone og bruk et video-til-GIF-verktøy."
+        },
+        {
+          "question": "Blir GIF-filen mindre enn HEIC-filen min?",
+          "answer": "Ikke nødvendigvis. For fotografier er en GIF ofte større enn den opprinnelige HEIC-filen og større enn en tilsvarende JPG, fordi GIF-komprimering ikke ble laget for fotografier. Bruk GIF for kompatibilitet, ikke for å spare plass."
+        },
+        {
+          "question": "Når bør jeg bruke PNG i stedet for GIF?",
+          "answer": "Nesten alltid, med mindre mottakerprogramvaren spesifikt krever GIF. PNG støtter millioner av farger og full gjennomsiktighet, gir bedre kvalitet og er like godt støttet i moderne programmer."
+        }
+      ],
+      "bmp": [
+        {
+          "question": "Hvorfor trenger noen fortsatt BMP-filer?",
+          "answer": "BMP lever videre i nisjer: gamle Windows-programmer, broderi- og graveringsmaskiner, etikettskrivere, industri- og medisinsk programvare, og enkelte verktøy for spillmodding godtar bare BMP. Hvis et program avviser alt som er moderne, fungerer som regel en ukomprimert BMP."
+        },
+        {
+          "question": "Er BMP-konvertering tapsfri?",
+          "answer": "Ja, i den forstand at de dekodede pikslene lagres nøyaktig som de er, uten ekstra komprimeringsartefakter. Merk at HEIC i seg selv er et format med tap, så BMP-filen bevarer det dekodede bildet perfekt, men kan ikke gjenskape detaljer som iPhonen allerede har komprimert bort."
+        },
+        {
+          "question": "Hvor store blir BMP-filene mine?",
+          "answer": "Store. BMP lagrer hver piksel ukomprimert, omtrent 3 byte per piksel: et 12-megapikslers iPhone-bilde blir en BMP på rundt 36 MB, mot 1–2 MB som HEIC. Konverter til BMP bare når målprogramvaren krever det."
+        },
+        {
+          "question": "Åpner Windows og Mac BMP uten ekstra programvare?",
+          "answer": "Ja. BMP har vært støttet i alle Windows-versjoner siden tidlig på 1990-tallet, og Forhåndsvisning på macOS åpner det også. Nettopp denne universaliteten er grunnen til at enkelte eldre arbeidsflyter fortsatt standardiserer på formatet."
+        },
+        {
+          "question": "Finnes det et bedre alternativ til BMP?",
+          "answer": "Hvis programvaren din godtar det, gir PNG deg samme tapsfrie kvalitet med en brøkdel av filstørrelsen. Bruk vår HEIC til PNG-konverterer med mindre BMP er uttrykkelig påkrevd."
+        }
+      ],
+      "webp": [
+        {
+          "question": "Hvorfor konvertere HEIC til WebP?",
+          "answer": "WebP er det beste formatet for publisering av bilder på nettet: ved samme visuelle kvalitet gir det filer som er omtrent 25–35 % mindre enn JPG, noe som gjør at sidene laster raskere. Alle moderne nettlesere støtter det, og CMS-plattformer som WordPress godtar WebP-opplastinger direkte."
+        },
+        {
+          "question": "WebP eller JPG — hva bør jeg velge?",
+          "answer": "Velg WebP når målet er et nettsted, en blogg eller en nettbutikk du styrer selv. Velg JPG når du sender bilder på e-post, skal skrive ut, eller sender filer til folk hvis programvare du ikke kjenner — JPG er fortsatt det tryggeste universelle valget."
+        },
+        {
+          "question": "Mister konverteringen kvalitet?",
+          "answer": "Konvertereren koder bildet på nytt, noe som teknisk sett gir tap, men på kvalitetsnivået som brukes er forskjellen ikke synlig ved normal visning. Du beholder hele oppløsningen fra den opprinnelige HEIC-filen."
+        },
+        {
+          "question": "Hva kan ikke åpne WebP-filer?",
+          "answer": "Svært gamle nettlesere (Internet Explorer), Photoshop-versjoner før 23.0 uten programtillegg, og noen få eldre e-postklienter og bildevisere. Hvis publikummet ditt kan bruke eldre programvare, er JPG det tryggere valget."
+        },
+        {
+          "question": "Støtter WebP gjennomsiktighet som PNG?",
+          "answer": "Ja, WebP støtter gjennomsiktighet — men iPhone-bilder har ingen gjennomsiktige områder, så for HEIC-konvertering betyr det sjelden noe. Det blir relevant hvis du senere redigerer bildet og trenger en alfakanal."
         }
       ]
     }
@@ -512,5 +604,9 @@
         }
       ]
     }
+  },
+  "common": {
+    "lastUpdated": "Sist oppdatert",
+    "byline": "Av OpenMyHEIC-redaksjonen"
   }
 }

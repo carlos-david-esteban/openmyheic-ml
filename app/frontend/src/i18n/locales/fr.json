@@ -1,8 +1,8 @@
 {
   "meta": {
     "home": {
-      "title": "Convertir HEIC en JPG — Gratuit, privé, sans envoi | OpenMyHEIC",
-      "description": "Convertissez vos fichiers HEIC en JPG, PNG ou PDF gratuitement, directement dans votre navigateur. Sans envoi de fichiers, sans inscription. Ouvrez vos photos iPhone partout."
+      "title": "Convertisseur HEIC gratuit — JPG, PNG, PDF et plus | OpenMyHEIC",
+      "description": "Ouvrez et convertissez vos photos HEIC d'iPhone directement dans votre navigateur : HEIC en JPG, PNG, PDF, WebP, GIF ou BMP, conversion par lots et visionneuse HEIC gratuite. Sans téléversement — 100 % privé."
     },
     "jpg": {
       "title": "Convertir HEIC en JPG — Convertisseur gratuit en ligne | OpenMyHEIC",
@@ -48,9 +48,9 @@
     "viewer": "Visionneuse"
   },
   "hero": {
-    "title": "Convertir HEIC en JPG —",
-    "titleHighlight": "Gratuit, Privé, Instantané",
-    "subtitle": "Vos photos iPhone converties en quelques secondes — gratuitement, sans envoi de fichiers, directement dans votre navigateur."
+    "title": "Convertisseur HEIC gratuit —",
+    "titleHighlight": "JPG, PNG, PDF et plus",
+    "subtitle": "Ouvrez vos photos iPhone partout. Convertissez vos fichiers HEIC dans le format qu'il vous faut en quelques secondes — sans téléversement, tout se passe directement dans votre navigateur."
   },
   "intro": {
     "home": "Un fichier HEIC qui ne s'ouvre pas sur votre PC Windows ou votre téléphone Android ? OpenMyHEIC convertit vos photos iPhone en JPG, PNG ou PDF directement dans votre navigateur — sans envoi, sans serveur, sans risque pour votre vie privée. Glissez, déposez, téléchargez."
@@ -246,6 +246,98 @@
         {
           "question": "Puis-je enregistrer les photos en JPG ?",
           "answer": "Oui, chaque photo dispose d'un bouton de téléchargement JPG. Pour des dossiers entiers, le convertisseur par lots télécharge tout dans un seul ZIP."
+        }
+      ],
+      "home": [
+        {
+          "question": "Que fait OpenMyHEIC ?",
+          "answer": "OpenMyHEIC est un ensemble gratuit d'outils dans le navigateur pour les photos HEIC prises avec un iPhone ou un iPad. Vous pouvez convertir HEIC en JPG, PNG, PDF, WebP, GIF ou BMP, convertir des dizaines de fichiers d'un coup avec l'outil de conversion par lots, ou simplement afficher vos fichiers HEIC sans les convertir. Tout s'exécute localement dans votre navigateur."
+        },
+        {
+          "question": "Quel format de sortie choisir ?",
+          "answer": "Pour partager des photos avec une compatibilité maximale, choisissez JPG. Pour les captures d'écran, les graphiques ou lorsque vous avez besoin d'une qualité sans perte, choisissez PNG. Pour regrouper plusieurs photos dans un seul document, choisissez PDF. Pour publier sur le web avec des fichiers plus légers, choisissez WebP. GIF et BMP couvrent les logiciels anciens qui n'acceptent rien d'autre."
+        },
+        {
+          "question": "Faut-il installer quelque chose ou créer un compte ?",
+          "answer": "Non. OpenMyHEIC fonctionne entièrement dans votre navigateur web — rien à télécharger ni à installer, pas de compte, pas d'inscription et pas de filigrane. Il fonctionne sous Windows, Mac, Linux, Chromebook, Android et iPhone."
+        },
+        {
+          "question": "En quoi OpenMyHEIC diffère-t-il des autres convertisseurs HEIC ?",
+          "answer": "La plupart des convertisseurs en ligne téléversent vos photos sur leurs serveurs, ce qui est lent et pose des questions de confidentialité. OpenMyHEIC décode et convertit vos photos sur votre propre appareil grâce à du code exécuté dans le navigateur : vos fichiers ne quittent jamais votre ordinateur. C'est aussi plus rapide pour les gros lots — aucune attente de téléversement ni de téléchargement."
+        },
+        {
+          "question": "Mes photos sont-elles vraiment privées ?",
+          "answer": "Oui. La conversion s'effectue avec JavaScript et WebAssembly dans l'onglet de votre navigateur. Vos photos ne sont jamais transmises à nous ni à un tiers — vous pouvez même charger la page, vous déconnecter d'Internet, et le convertisseur continue de fonctionner."
+        },
+        {
+          "question": "Y a-t-il une limite au nombre de photos que je peux convertir ?",
+          "answer": "Il n'y a aucune limite artificielle ni offre payante. La limite pratique est la mémoire de votre appareil : sur un ordinateur portable classique, vous pouvez convertir confortablement des centaines de photos en une seule session avec le convertisseur par lots."
+        }
+      ],
+      "gif": [
+        {
+          "question": "Pourquoi convertir HEIC en GIF ?",
+          "answer": "Le GIF est accepté presque partout, y compris par les vieux forums, les logiciels anciens et les outils de messagerie qui refusent le HEIC. C'est un bon choix pour des graphiques simples ou lorsqu'une plateforme exige explicitement le GIF. Pour des photos normales, JPG ou PNG donneront un meilleur rendu."
+        },
+        {
+          "question": "Ma photo perdra-t-elle en qualité en GIF ?",
+          "answer": "Pour les photos, généralement oui. Le GIF est limité à une palette de 256 couleurs : les dégradés doux comme les ciels et les tons de peau peuvent présenter des bandes visibles. Les captures d'écran, dessins et graphiques avec peu de couleurs se convertissent en GIF sans perte perceptible."
+        },
+        {
+          "question": "Peut-on créer un GIF animé à partir d'une Live Photo ?",
+          "answer": "Non. Un fichier HEIC issu d'une Live Photo contient une image fixe plus une courte vidéo, et cet outil ne convertit que l'image fixe. Pour transformer une Live Photo en animation, exportez-la d'abord en vidéo sur votre iPhone puis utilisez un outil vidéo vers GIF."
+        },
+        {
+          "question": "Le GIF sera-t-il plus léger que mon fichier HEIC ?",
+          "answer": "Pas forcément. Pour des photographies, un GIF est souvent plus lourd que le HEIC d'origine et qu'un JPG équivalent, car la compression GIF n'a pas été conçue pour les photos. Utilisez le GIF pour la compatibilité, pas pour gagner de la place."
+        },
+        {
+          "question": "Quand utiliser PNG plutôt que GIF ?",
+          "answer": "Presque toujours, sauf si le logiciel destinataire exige spécifiquement le GIF. Le PNG prend en charge des millions de couleurs et la transparence complète, offre une meilleure qualité et est tout aussi largement pris en charge par les applications modernes."
+        }
+      ],
+      "bmp": [
+        {
+          "question": "Pourquoi aurait-on encore besoin de fichiers BMP ?",
+          "answer": "Le BMP survit dans des niches : vieux programmes Windows, machines de broderie et de gravure, imprimantes d'étiquettes, logiciels industriels et médicaux, et certains outils de modding de jeux n'acceptent que le BMP. Si un programme rejette tout format moderne, un BMP non compressé fonctionne généralement."
+        },
+        {
+          "question": "La conversion en BMP est-elle sans perte ?",
+          "answer": "Oui, au sens où les pixels décodés sont enregistrés exactement tels quels, sans artefacts de compression supplémentaires. Notez que le HEIC est lui-même un format avec perte : le BMP préserve parfaitement l'image décodée, mais ne peut pas récupérer les détails que l'iPhone a déjà éliminés à la compression."
+        },
+        {
+          "question": "Quelle sera la taille de mes fichiers BMP ?",
+          "answer": "Ils seront volumineux. Le BMP enregistre chaque pixel sans compression, environ 3 octets par pixel : une photo iPhone de 12 mégapixels devient un BMP d'environ 36 Mo, contre 1 à 2 Mo en HEIC. Ne convertissez en BMP que si le logiciel cible l'exige."
+        },
+        {
+          "question": "Windows et Mac ouvrent-ils le BMP nativement ?",
+          "answer": "Oui. Le BMP est pris en charge par toutes les versions de Windows depuis le début des années 1990, et Aperçu sur macOS l'ouvre également. C'est justement cette universalité qui explique que certains flux de travail anciens le conservent comme standard."
+        },
+        {
+          "question": "Existe-t-il une meilleure alternative au BMP ?",
+          "answer": "Si votre logiciel l'accepte, le PNG offre la même qualité sans perte pour une fraction de la taille de fichier. Utilisez notre convertisseur HEIC en PNG, sauf si le BMP est explicitement requis."
+        }
+      ],
+      "webp": [
+        {
+          "question": "Pourquoi convertir HEIC en WebP ?",
+          "answer": "Le WebP est le meilleur format pour publier des photos sur le web : à qualité visuelle égale, il produit des fichiers environ 25 à 35 % plus légers que le JPG, ce qui accélère le chargement des pages. Tous les navigateurs modernes le prennent en charge, et les CMS comme WordPress acceptent nativement les fichiers WebP."
+        },
+        {
+          "question": "WebP ou JPG — lequel choisir ?",
+          "answer": "Choisissez WebP lorsque la destination est un site web, un blog ou une boutique en ligne que vous contrôlez. Choisissez JPG pour envoyer des photos par e-mail, imprimer, ou transmettre des fichiers à des personnes dont vous ne connaissez pas les logiciels — le JPG reste l'option universelle la plus sûre."
+        },
+        {
+          "question": "La conversion fait-elle perdre en qualité ?",
+          "answer": "Le convertisseur réencode votre photo, ce qui est techniquement une compression avec perte, mais au niveau de qualité utilisé, la différence n'est pas visible en conditions normales. Vous conservez la pleine résolution du HEIC d'origine."
+        },
+        {
+          "question": "Qu'est-ce qui ne peut pas ouvrir les fichiers WebP ?",
+          "answer": "Les très vieux navigateurs (Internet Explorer), les versions de Photoshop antérieures à 23.0 sans plugin, et quelques anciens clients e-mail et visionneuses de photos. Si votre audience utilise peut-être des logiciels anciens, le JPG est le choix le plus sûr."
+        },
+        {
+          "question": "Le WebP prend-il en charge la transparence comme le PNG ?",
+          "answer": "Oui, le WebP prend en charge la transparence — mais les photos iPhone n'ont pas de zones transparentes, donc pour une conversion HEIC cela importe rarement. Cela devient pertinent si vous éditez ensuite l'image et avez besoin d'un canal alpha."
         }
       ]
     }
@@ -512,5 +604,9 @@
         }
       ]
     }
+  },
+  "common": {
+    "lastUpdated": "Dernière mise à jour",
+    "byline": "Par l'équipe éditoriale OpenMyHEIC"
   }
 }

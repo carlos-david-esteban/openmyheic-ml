@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 title: "How to Convert HEIC to JPG on Android (Free, No App) 2026"
 description: Convert HEIC to JPG on Android right in your browser — no app, no upload. Fix Samsung Gallery and Google Photos HEIC issues, plus batch convert free.
 keywords: how to convert heic to jpg on android, heic to jpg android, open heic on android, samsung heic to jpg, heic viewer android

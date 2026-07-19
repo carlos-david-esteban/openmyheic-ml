@@ -1,4 +1,5 @@
 ---
+date: 2026-06-27
 title: Ouvrir un fichier HEIC sur Windows 11, Windows 10 et Mac — guide 2026
 description: Comment ouvrir un fichier HEIC gratuitement sur Windows 11, Windows 10, Mac ou directement dans le navigateur. Pourquoi vos photos iPhone sont en HEIC, et comment les convertir en JPG.
 keywords: ouvrir fichier heic, ouvrir un fichier heic, fichier heic, fichier heic c'est quoi, pourquoi mes photos sont en heic, convertir heic en jpg

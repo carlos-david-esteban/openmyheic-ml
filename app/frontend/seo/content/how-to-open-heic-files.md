@@ -1,4 +1,5 @@
 ---
+date: 2026-06-22
 title: How to Open HEIC Files on Windows 11, Windows 10, and Mac (2026 Guide)
 description: Learn how to open HEIC files on Windows 11, Windows 10, Mac, and online. Free HEIC viewer options, built-in tools, and how to convert HEIC to JPG when you need universal compatibility.
 keywords: how to open heic file, open heic files windows 11, open heic files windows 10, heic viewer, open heic on mac, view heic files

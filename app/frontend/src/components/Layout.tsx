@@ -46,7 +46,7 @@ export default function Layout({
   const faqs = faqPages?.[metaKey] || t.faq.items;
 
   const navLinks = [
-    { href: localizedPath("/"), label: t.nav.heicToJpg },
+    { href: localizedPath("/heic-to-jpg"), label: t.nav.heicToJpg },
     { href: localizedPath("/heic-to-png"), label: t.nav.png },
     { href: localizedPath("/heic-to-webp"), label: t.nav.webp },
     { href: localizedPath("/heic-to-pdf"), label: t.nav.pdf },
@@ -244,6 +244,14 @@ export default function Layout({
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">Legal</h3>
                 <ul className="space-y-2">
+                  <li>
+                    <Link
+                      to="/about"
+                      className="text-sm text-gray-500 hover:text-emerald-600 transition-colors"
+                    >
+                      About
+                    </Link>
+                  </li>
                   <li>
                     <Link
                       to={localizedPath("/privacy-policy")}

@@ -162,7 +162,7 @@ function md(content) {
 function navHeader(lang) {
   const t = locales[lang];
   const links = [
-    ["/", t.nav.heicToJpg],
+    ["/heic-to-jpg", t.nav.heicToJpg],
     ["/heic-to-png", t.nav.png],
     ["/heic-to-webp", t.nav.webp],
     ["/heic-to-pdf", t.nav.pdf],
@@ -209,10 +209,11 @@ function footerHtml(lang) {
   ];
   const list = (items) =>
     items.map(([p, label]) => `<li><a href="${localizedPath(p, lang)}" class="text-sm text-gray-500">${escText(label)}</a></li>`).join("");
+  const aboutLink = `<li><a href="/about" class="text-sm text-gray-500">About</a></li>`;
   return `<footer class="border-t border-gray-200 bg-gray-50 mt-16"><div class="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-8">
 <div><p class="font-bold text-gray-900 mb-2">OpenMyHEIC</p><p class="text-sm text-gray-500">${escText(t.footer.tagline || "")}</p></div>
 <div><p class="font-semibold text-gray-900 mb-3">${escText(t.footer.conversionTools || "Tools")}</p><ul class="space-y-2">${list(tools)}</ul></div>
-<div><p class="font-semibold text-gray-900 mb-3">${escText(t.footer.resources || "Resources")}</p><ul class="space-y-2">${list(resources)}${blogLink}${list(legal)}</ul></div>
+<div><p class="font-semibold text-gray-900 mb-3">${escText(t.footer.resources || "Resources")}</p><ul class="space-y-2">${list(resources)}${blogLink}${aboutLink}${list(legal)}</ul></div>
 </div></footer>`;
 }
 
@@ -279,11 +280,32 @@ function legalBodyHtml(route, data) {
   return `<div class="max-w-3xl mx-auto text-left">${parts.join("\n")}</div>`;
 }
 
+const LAST_UPDATED = "2026-07-19";
+
+const ORG_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "OpenMyHEIC",
+  url: SITE_URL,
+  logo: `${SITE_URL}/favicon.svg`,
+  email: "contact@openmyheic.com",
+  founder: { "@type": "Person", name: "Carlos Esteban" },
+};
+
+function bylineHtml(lang) {
+  const t = locales[lang];
+  const c = t.common || {};
+  const l = LANGUAGES.find((x) => x.code === lang) || LANGUAGES[0];
+  const d = new Date(`${LAST_UPDATED}T12:00:00Z`).toLocaleDateString(l.hreflang, { year: "numeric", month: "long", day: "numeric" });
+  return `<p class="text-xs text-gray-400 mt-3">${escText(c.byline || "By the OpenMyHEIC Editorial Team")} · ${escText(c.lastUpdated || "Last updated")}: ${escText(d)}</p>`;
+}
+
 function pageBody(lang, { h1, intro, extra = "", showFaq = true, excludeFormat = null, showFormats = true, pageKey = "home" }) {
   return `${navHeader(lang)}
 <main class="max-w-6xl mx-auto px-4 py-10">
 <div class="text-center mb-8"><h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">${escText(h1)}</h1>
-<p class="text-gray-500 max-w-xl mx-auto">${escText(intro)}</p></div>
+<p class="text-gray-500 max-w-xl mx-auto">${escText(intro)}</p>
+${showFormats ? bylineHtml(lang) : ""}</div>
 ${extra}
 ${showFormats ? formatsHtml(lang, excludeFormat) : ""}
 ${showFaq ? faqHtml(lang, pageKey) : ""}
@@ -398,6 +420,7 @@ function buildPages() {
         body: `${navHeader(lang)}
 <main class="max-w-3xl mx-auto px-4 py-10"><article>
 <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">${escText(post.h1)}</h1>
+${bylineHtml(lang)}
 ${md(post.content)}
 </article></main>
 ${footerHtml(lang)}`,
@@ -410,6 +433,36 @@ ${footerHtml(lang)}`,
       ["/terms-of-use", t.terms],
       ["/contact", t.contact],
     ];
+    // About page (English only, linked from every footer)
+    if (lang === "en") {
+      const aboutBody = `${navHeader("en")}
+<main class="max-w-3xl mx-auto px-4 py-10 text-left">
+<h1 class="text-3xl font-bold text-gray-900 mb-6">About OpenMyHEIC</h1>
+<section class="mb-8"><h2 class="text-xl font-semibold text-gray-900 mb-3">What this site is</h2>
+<p class="text-gray-600 leading-relaxed mb-4">OpenMyHEIC is a free set of browser-based tools for working with HEIC photos — the format iPhones and iPads use by default since iOS 11. You can convert HEIC to JPG, PNG, PDF, WebP, GIF or BMP, convert whole batches at once, or simply view HEIC files that your computer refuses to open.</p>
+<p class="text-gray-600 leading-relaxed mb-4">What makes it different is <strong>where</strong> the conversion happens: entirely on your own device. Your photos are decoded and converted by code running inside your browser tab (JavaScript and WebAssembly, based on the open-source libheif project). Nothing is uploaded, so there is no server storing your pictures, no upload wait, and no privacy trade-off. You can load the page, go offline, and it still works.</p></section>
+<section class="mb-8"><h2 class="text-xl font-semibold text-gray-900 mb-3">Who is behind it</h2>
+<p class="text-gray-600 leading-relaxed mb-4">OpenMyHEIC is an independent project built and maintained by <strong>Carlos Esteban</strong>, a web developer and publisher based in Spain, together with a small editorial team. It is not owned by a software corporation and has no app to sell you — the site is sustained by unobtrusive advertising, which is why every tool is free and unlimited.</p>
+<p class="text-gray-600 leading-relaxed mb-4">The project started from a familiar frustration: photos sent from an iPhone that would not open on a Windows PC. Most online fixes meant uploading personal photos to an unknown server. Building a converter that never sees your files felt like the right answer, and that principle still drives every tool on this site.</p></section>
+<section class="mb-8"><h2 class="text-xl font-semibold text-gray-900 mb-3">How we keep content accurate</h2>
+<p class="text-gray-600 leading-relaxed mb-4">The guides in our <a href="/blog/" class="text-emerald-600">blog</a> and resource pages are written and reviewed by the OpenMyHEIC editorial team. Steps are verified on real devices (Windows 10 and 11, macOS, iOS and Android), and articles show the date they were last updated. When Apple or Microsoft change how HEIC behaves, we update the affected guides rather than leaving stale instructions online.</p>
+<p class="text-gray-600 leading-relaxed mb-4">If you spot an error or something that no longer works, please tell us — corrections ship quickly because the site is small and independent.</p></section>
+<section class="mb-8"><h2 class="text-xl font-semibold text-gray-900 mb-3">Contact</h2>
+<p class="text-gray-600 leading-relaxed mb-4">Questions, feedback or business inquiries: <a href="mailto:contact@openmyheic.com" class="text-emerald-600">contact@openmyheic.com</a>. You can also use the details on our <a href="/contact" class="text-emerald-600">contact page</a>. We usually reply within a couple of business days.</p></section>
+</main>
+${footerHtml("en")}`;
+      pages.push({
+        route: "/about",
+        lang: "en",
+        title: "About OpenMyHEIC — Who We Are & How This Site Works",
+        description: "OpenMyHEIC is an independent, privacy-first HEIC converter built in Spain. Learn who runs it, how in-browser conversion works, and how we keep our guides accurate.",
+        canonical: `${SITE_URL}/about`,
+        hreflang: "",
+        schemas: [{ "@context": "https://schema.org", "@type": "AboutPage", name: "About OpenMyHEIC", url: `${SITE_URL}/about` }],
+        body: aboutBody,
+      });
+    }
+
     for (const [route, data] of legalDefs) {
       if (!data) continue;
       const canonical = `${SITE_URL}${localizedPath(route, lang)}`;
@@ -493,7 +546,7 @@ function renderPage(p) {
     .replace(/<meta name="twitter:description" content="[^"]*" \/>/, `<meta name="twitter:description" content="${esc(p.description)}" />`);
 
   // canonical + hreflang + JSON-LD before </head>
-  const schemaTags = p.schemas
+  const schemaTags = [...p.schemas, ORG_SCHEMA]
     .map((s) => `    <script type="application/ld+json">${JSON.stringify(s)}</script>`)
     .join("\n");
   const headExtra = `    <link rel="canonical" href="${esc(p.canonical)}" />\n${p.hreflang}\n${schemaTags}\n  </head>`;
@@ -523,6 +576,27 @@ for (const p of pages) {
   fs.mkdirSync(path.dirname(outFile), { recursive: true });
   fs.writeFileSync(outFile, renderPage(p), "utf-8");
   count++;
+}
+
+// ---------------------------------------------------------------------------
+// Real 404 page. Its presence at dist/404.html makes Cloudflare Pages return
+// HTTP 404 for unmatched paths instead of the SPA index fallback (soft-404 fix).
+// ---------------------------------------------------------------------------
+{
+  const body = `${navHeader("en")}
+<main class="max-w-3xl mx-auto px-4 py-16 text-center">
+<h1 class="text-4xl font-bold text-gray-900 mb-4">404 — Page not found</h1>
+<p class="text-gray-600 mb-8">The page you are looking for does not exist or has moved. Try one of our tools instead:</p>
+<ul class="space-y-2 mb-8"><li><a href="/heic-to-jpg" class="text-emerald-600">Convert HEIC to JPG</a></li><li><a href="/heic-to-png" class="text-emerald-600">Convert HEIC to PNG</a></li><li><a href="/heic-to-pdf" class="text-emerald-600">Convert HEIC to PDF</a></li><li><a href="/batch-convert" class="text-emerald-600">Batch convert HEIC files</a></li><li><a href="/heic-viewer" class="text-emerald-600">HEIC Viewer</a></li></ul>
+<p class="text-gray-500"><a href="/" class="text-emerald-600">← Back to the home page</a></p>
+</main>
+${footerHtml("en")}`;
+  let html = template;
+  html = html.replace(/<title>[\s\S]*?<\/title>/, `<title>Page not found — OpenMyHEIC</title>`);
+  html = html.replace(/<\/head>/, `    <meta name="robots" content="noindex" />\n  </head>`);
+  html = html.replace('<div id="root"></div>', `<div id="root">${body}</div>`);
+  fs.writeFileSync(path.join(distDir, "404.html"), html, "utf-8");
+  console.log("✓ prerender: 404.html written");
 }
 
 console.log(`✓ prerender: ${count} static pages written to dist/ (${LANGUAGES.length} languages)`);

@@ -1,4 +1,5 @@
 ---
+date: 2026-07-02
 title: "HEIC to MP4: How to Convert Live Photos to Video"
 description: Want to convert HEIC to MP4? What you actually have is a Live Photo. Here's how to save iPhone Live Photos as MP4 video on iPhone, Mac, and Windows — free.
 keywords: heic to mp4, convert heic to mp4, live photo to mp4, live photo to video, convert live photo to video iphone

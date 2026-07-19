@@ -1,4 +1,5 @@
 ---
+date: 2026-07-04
 title: "CopyTrans HEIC Alternatives: Free Ways to Open and Convert HEIC on Windows (2026)"
 description: CopyTrans HEIC is free for personal use only and requires installation. Compare the best alternatives — iMazing HEIC Converter, Microsoft's codecs, and free online converters that need no install.
 keywords: copytrans heic, copytrans heic alternative, imazing heic converter, copytrans heic for windows, heic converter windows free

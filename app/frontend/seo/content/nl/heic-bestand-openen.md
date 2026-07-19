@@ -1,4 +1,5 @@
 ---
+date: 2026-07-14
 title: "HEIC-bestand openen: complete handleiding voor Windows, Mac en Android (2026)"
 description: HEIC-bestand openen op Windows, Mac of Android? Ontdek wat een HEIC-bestand is en hoe je het eenvoudig kunt bekijken of omzetten naar JPG.
 keywords: heic bestand openen, heic openen windows, wat is een heic bestand, heic naar jpg, heic bestand bekijken
