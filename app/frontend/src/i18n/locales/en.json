@@ -386,6 +386,8 @@
   "freePrivateInstant": "Free, private, and instant — no upload required."
  },
  "blog": {
+  "sectionTitle": "From the Blog",
+  "viewAllArticles": "View all articles",
   "backToConverter": "Back to Converter",
   "updated": "Updated March 2026",
   "readTime": "5 min read",

@@ -370,6 +370,8 @@
   "freePrivateInstant": "Gratis, privado e instantáneo — sin subir archivos."
  },
  "blog": {
+  "sectionTitle": "Del blog",
+  "viewAllArticles": "Ver todos los artículos",
   "backToConverter": "Volver al Convertidor",
   "updated": "Actualizado marzo 2026",
   "readTime": "5 min de lectura",

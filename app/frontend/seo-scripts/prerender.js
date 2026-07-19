@@ -85,6 +85,23 @@ for (const glang of GUIDE_LANGS) {
   fs.unlinkSync(tmpGuide);
 }
 
+// blogManifest (per-language list of real blog posts from seo/content/*.md)
+// lives in src/lib/blogManifest.generated.ts, written by
+// seo-scripts/generate-blog-manifest.js, which MUST run before this script
+// (it does — see package.json "build"). Same esbuild trick as seo.ts, so the
+// home "From the blog" section (blogSectionHtml below) uses the exact same
+// data as the hydrated React BlogSection component.
+const tmpManifest = path.join(os.tmpdir(), `omh-blogmanifest-${Date.now()}.mjs`);
+buildSync({
+  entryPoints: [path.join(root, "src/lib/blogManifest.generated.ts")],
+  outfile: tmpManifest,
+  bundle: true,
+  format: "esm",
+  platform: "neutral",
+});
+const { blogManifest } = await import(pathToFileURL(tmpManifest).href);
+fs.unlinkSync(tmpManifest);
+
 // ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------
@@ -330,7 +347,45 @@ function bylineHtml(lang) {
   return `<p class="text-xs text-gray-400 mt-3">${escText(c.byline || "By the OpenMyHEIC Editorial Team")} · ${escText(c.lastUpdated || "Last updated")}: ${escText(d)}</p>`;
 }
 
-function pageBody(lang, { h1, intro, extra = "", showFaq = true, excludeFormat = null, showFormats = true, pageKey = "home" }) {
+const BLOG_SECTION_MAX_POSTS = 6;
+
+// "From the blog" section for the home page (all 11 languages). Mirrors
+// src/components/BlogSection.tsx exactly (same blogManifest data, same
+// fallback-to-English rule, same URL scheme) so the prerendered HTML the
+// crawler sees matches what React renders after hydration.
+function blogSectionHtml(lang) {
+  const t = locales[lang];
+  const l = LANGUAGES.find((x) => x.code === lang) || LANGUAGES[0];
+  const localized = lang !== "en" ? blogManifest[lang] || [] : blogManifest.en || [];
+  const usingFallback = lang !== "en" && localized.length === 0;
+  const posts = usingFallback ? blogManifest.en || [] : localized;
+  if (!posts.length) return "";
+
+  const indexHref = usingFallback ? "/blog/" : lang === "en" ? "/blog/" : `/${lang}/blog/`;
+  const top = posts.slice(0, BLOG_SECTION_MAX_POSTS);
+
+  const cards = top
+    .map((post) => {
+      const dateStr = post.date
+        ? new Date(`${post.date}T12:00:00Z`).toLocaleDateString(l.hreflang, { year: "numeric", month: "long", day: "numeric" })
+        : "";
+      return `<a href="${esc(post.path)}" class="block bg-white border border-gray-200 rounded-xl p-5">
+<h3 class="font-semibold text-gray-900 mb-2">${escText(post.title)}</h3>
+${dateStr ? `<p class="text-xs text-gray-400 mb-2">${escText(dateStr)}</p>` : ""}
+${post.description ? `<p class="text-sm text-gray-500">${escText(post.description)}</p>` : ""}
+</a>`;
+    })
+    .join("");
+
+  return `<section class="max-w-6xl mx-auto px-4 mt-16"><div class="flex items-center justify-between mb-8">
+<h2 class="text-2xl font-bold text-gray-900">${escText(t.blog.sectionTitle)}</h2>
+<a href="${esc(indexHref)}" class="text-sm font-medium text-emerald-600">${escText(t.blog.viewAllArticles)} \u2192</a>
+</div>
+<div class="grid md:grid-cols-3 gap-4">${cards}</div>
+</section>`;
+}
+
+function pageBody(lang, { h1, intro, extra = "", showFaq = true, excludeFormat = null, showFormats = true, pageKey = "home", afterFaq = "" }) {
   return `${navHeader(lang)}
 <main class="max-w-6xl mx-auto px-4 py-10">
 <div class="text-center mb-8"><h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">${escText(h1)}</h1>
@@ -339,6 +394,7 @@ ${showFormats ? bylineHtml(lang) : ""}</div>
 ${extra}
 ${showFormats ? formatsHtml(lang, excludeFormat) : ""}
 ${showFaq ? faqHtml(lang, pageKey) : ""}
+${afterFaq}
 </main>
 ${footerHtml(lang)}`;
 }
@@ -369,6 +425,7 @@ function buildPages() {
         h1: `${t.hero.title} ${t.hero.titleHighlight}`,
         intro: t.hero.subtitle,
         extra: `<div class="max-w-3xl mx-auto"><p class="text-gray-600 leading-relaxed mb-4">${escText(t.intro?.home || "")}</p><p class="text-gray-600 text-sm">${escText(t.converter?.privacyBadge || "")}</p></div>`,
+        afterFaq: blogSectionHtml(lang),
       }),
     });
 

@@ -370,6 +370,8 @@
   "freePrivateInstant": "無料、プライベート、即座 — アップロード不要。"
  },
  "blog": {
+  "sectionTitle": "ブログ記事",
+  "viewAllArticles": "すべての記事を見る",
   "backToConverter": "コンバーターに戻る",
   "updated": "2026年3月更新",
   "readTime": "5分で読めます",

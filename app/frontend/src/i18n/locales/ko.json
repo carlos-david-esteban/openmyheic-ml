@@ -370,6 +370,8 @@
   "freePrivateInstant": "무료, 개인정보 보호, 즉시 — 업로드 불필요."
  },
  "blog": {
+  "sectionTitle": "블로그",
+  "viewAllArticles": "모든 글 보기",
   "backToConverter": "변환기로 돌아가기",
   "updated": "2026년 3월 업데이트",
   "readTime": "5분 읽기",

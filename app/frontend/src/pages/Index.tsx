@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import Layout from "@/components/Layout";
 import HeicConverter from "@/components/HeicConverter";
+import BlogSection from "@/components/BlogSection";
 import { generateWebAppSchema, generateFAQSchema, SITE_NAME } from "@/lib/seo";
 import {
   Shield,
@@ -207,6 +208,9 @@ export default function HomePage() {
         </h2>
         <FAQSection faqs={faqs} />
       </section>
+
+      {/* From the Blog */}
+      <BlogSection />
     </Layout>
   );
 }

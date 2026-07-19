@@ -370,6 +370,8 @@
   "freePrivateInstant": "Gratis, privat og øjeblikkeligt — ingen upload nødvendig."
  },
  "blog": {
+  "sectionTitle": "Fra bloggen",
+  "viewAllArticles": "Se alle artikler",
   "backToConverter": "Tilbage til Konverteren",
   "updated": "Opdateret marts 2026",
   "readTime": "5 min læsning",
