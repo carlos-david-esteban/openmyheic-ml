@@ -16,6 +16,11 @@ translationKey: convert-heic-iphone
 
 Your iPhone saves photos as HEIC files by default — great for saving storage, annoying when a website, Windows PC, or app refuses to accept them. Here are five reliable ways to convert HEIC to JPG on iPhone, from built-in tricks that take seconds to a free online converter for big batches. At the end, you'll also see how to **stop your iPhone from shooting HEIC photos altogether**.
 
+<figure>
+<img src="/images/guides/iphone-most-compatible.svg" alt="iPhone Settings showing Camera Formats set to Most Compatible, which saves new photos as JPG instead of HEIC, plus converting existing HEIC photos to JPG" />
+<figcaption>Set Camera → Formats → Most Compatible so new photos save as JPG; convert existing HEIC photos once.</figcaption>
+</figure>
+
 ## Method 1: Copy and paste into the Files app (no apps needed)
 
 The little-known trick: when you copy a photo out of the Photos app and paste it into Files, iOS converts it to JPG automatically.

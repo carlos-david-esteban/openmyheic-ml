@@ -39,6 +39,11 @@ Some photos also need the **HEVC Video Extensions** codec (for images saved with
 - Right-click the file → **Open with** → **Photos** and set it as default.
 - Or skip the codec hassle entirely: [convert HEIC to JPG online](/heic-to-jpg) and open the JPG anywhere.
 
+<figure>
+<img src="/images/guides/heic-codec-windows-10.svg" alt="Microsoft Store paid HEVC Video Extensions codec versus converting HEIC to JPG for free in the browser on Windows 10" />
+<figcaption>Windows 10 needs a paid HEVC codec to open many HEIC files — converting to JPG avoids it entirely.</figcaption>
+</figure>
+
 ## How to open HEIC files on Windows 10
 
 Windows 10 does **not** support HEIC natively — you need to add the codecs first:
