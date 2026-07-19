@@ -1,0 +1,229 @@
+{
+ "jpg": {
+  "sections": [
+   {
+    "h2": "Convierte HEIC a JPG directamente en tu navegador",
+    "p": [
+     "Arrastra tus fotos de iPhone al recuadro de arriba y este conversor de HEIC a JPG hace el resto: tu navegador decodifica cada archivo HEIC en local y lo vuelve a codificar como un JPG estándar que puedes descargar en segundos. Nada sale de tu dispositivo. No hay paso de subida, ningún servidor procesa tus imágenes, no hay que crear cuenta y el resultado no lleva marca de agua. Y eso importa más de lo que parece: las fotos de tu familia, tus documentos o tus notas de pizarra no tienen por qué pasar por el servidor de un desconocido solo para cambiar de formato.",
+     "Esta conversión existe por un hueco de compatibilidad. Desde iOS 11 (2017), los iPhone y iPad disparan en HEIC por defecto porque guarda la misma foto en aproximadamente la mitad de espacio que un JPEG. Pero el resto del mundo no se ha puesto al día: los equipos con Windows 10 sin códecs adicionales, los Android antiguos, muchas intranets de empresa, formularios de organismos públicos, quioscos de impresión y bastantes clientes de correo siguen atragantándose con HEIC. El JPG, en cambio, es el idioma universal de la fotografía desde los años 90: lo abre cualquier dispositivo, navegador, aplicación o web. Pasar de HEIC a JPG te da una copia que funciona en todas partes mientras tus originales se quedan exactamente como estaban.",
+     "Como todo se ejecuta en el navegador, la misma página funciona en Windows, macOS, Linux, ChromeOS, Android e incluso en el propio iPhone. Convierte una sola foto antes de adjuntarla a un correo, o pasa de golpe todo un lote de fotos de las vacaciones: la herramienta procesa los archivos en paralelo y te entrega descargas individuales o un único ZIP."
+    ]
+   },
+   {
+    "h2": "Formas de pasar de HEIC a JPG, comparadas",
+    "p": [
+     "Esta herramienta no es la única manera de convertir HEIC en JPG: Apple, Microsoft y varias webs ofrecen su propio camino. Cada uno tiene sus contrapartidas en privacidad, velocidad y coste, y la respuesta honesta es que el mejor método depende de cuántas fotos tengas y de dónde estén. Así quedan las opciones realistas."
+    ],
+    "table": {
+     "caption": "Formas de pasar de HEIC a JPG, comparadas",
+     "headers": [
+      "Método",
+      "Privacidad",
+      "Velocidad con lotes",
+      "Coste",
+      "Ideal para"
+     ],
+     "rows": [
+      [
+       "Esta herramienta (en tu navegador)",
+       "Las fotos nunca salen de tu dispositivo",
+       "Rápida: arrastra docenas de una vez y descarga un ZIP",
+       "Gratis",
+       "Convertir fotos existentes en cualquier dispositivo sin instalar nada"
+      ],
+      [
+       "Ajustes del iPhone (Más compatible)",
+       "En el dispositivo",
+       "No es un conversor: solo cambia el formato de las fotos que hagas a partir de ahora",
+       "Gratis",
+       "Cortar los HEIC nuevos de raíz; no hace nada con las fotos que ya tienes"
+      ],
+      [
+       "Extensión HEIF de Windows + app Fotos",
+       "En el dispositivo",
+       "Lenta: hay que abrir y volver a guardar las fotos una a una",
+       "La extensión HEIF es gratuita, pero las Extensiones de vídeo HEVC necesarias cuestan 0,99 $ en Windows 10",
+       "Abrir archivos HEIC de vez en cuando en un PC que controlas"
+      ],
+      [
+       "Vista Previa / exportar desde Fotos en Mac",
+       "En el dispositivo",
+       "Aceptable: Vista Previa puede exportar una selección múltiple de una vez",
+       "Gratis",
+       "Usuarios de Mac que convierten carpetas ya copiadas al ordenador"
+      ],
+      [
+       "Webs de conversión en la nube",
+       "Las fotos se suben a un servidor de terceros",
+       "Depende de tu velocidad de subida y de su cola; los lotes grandes van lentos",
+       "A menudo gratis con límites, con planes de pago para volumen",
+       "Nada que esta herramienta no haga ya, y a cambio renuncias a tu privacidad"
+      ]
+     ]
+    },
+    "pAfter": [
+     "El patrón que conviene ver: todos los métodos que mantienen las fotos en tu propio equipo son de una sola plataforma, manuales o solo afectan a las fotos futuras. Un conversor en el navegador es la única opción que combina procesamiento local con velocidad de lote en cualquier sistema operativo — exactamente por eso existe esta página."
+    ]
+   },
+   {
+    "h2": "JPG frente a otros formatos de salida: ¿cuál elegir?",
+    "p": [
+     "El JPG es aquí la salida por defecto por algo — es el formato que el resto del mundo espera —, pero no siempre es la respuesta correcta. Esta web también convierte HEIC a PNG, PDF y WebP, y cada uno tiene su caso de uso legítimo. Los tamaños de abajo son cifras orientativas para una foto de iPhone típica de 12 MP; tus resultados variarán según el contenido de la imagen."
+    ],
+    "table": {
+     "caption": "JPG frente a otros formatos de salida para una foto de 12 MP",
+     "headers": [
+      "Formato",
+      "Ideal para",
+      "Calidad",
+      "Tamaño típico (foto de 12 MP)"
+     ],
+     "rows": [
+      [
+       "JPG",
+       "Compartir, subir a webs, correo, redes sociales — la opción segura para fotos",
+       "Con pérdida, pero visualmente indistinguible en ajustes de calidad altos",
+       "2–4 MB"
+      ],
+      [
+       "PNG",
+       "Capturas de pantalla, gráficos, imágenes que vas a editar una y otra vez",
+       "Sin pérdida — nunca hay artefactos de compresión",
+       "15–25 MB — enorme para fotos"
+      ],
+      [
+       "PDF",
+       "Enviar fotos como documento: recibos, documentos de identidad, formularios, escaneos de varias páginas",
+       "La misma que la imagen incrustada dentro",
+       "Similar al JPG, más la sobrecarga del documento"
+      ],
+      [
+       "WebP",
+       "Publicar imágenes en tu propia web",
+       "Con o sin pérdida; comprime mejor que JPG",
+       "1–3 MB"
+      ]
+     ]
+    },
+    "pAfter": [
+     "Si tienes dudas, elige JPG. Se abre igual en un marco de fotos digital de 2005 que en el móvil insignia del año que viene. Recurre al PNG solo cuando de verdad necesites calidad sin pérdida (y puedas asumir archivos diez veces mayores), al PDF cuando el destinatario haya pedido «un documento», y al WebP cuando controles la plataforma donde vivirá la imagen."
+    ]
+   },
+   {
+    "h2": "Solución de problemas: cuando pasar de HEIC a JPG se tuerce",
+    "p": [
+     "La conversión en el navegador es fiable, pero hay unas cuantas situaciones que despistan. Casi todas tienen una explicación sencilla — y ninguna significa que tus fotos estén dañadas."
+    ],
+    "list": [
+     "Los lotes grandes se atascan o la pestaña se cierra. Decodificar HEIC consume mucha memoria, y cada foto en proceso vive en la RAM del navegador. Si le metes 300 fotos en un portátil con muchas pestañas abiertas, el navegador puede quedarse sin memoria. Cierra las pestañas que no uses y convierte en tandas de 50–100: apenas tardas más y nunca se cae.",
+     "Una Live Photo se convierte en imagen fija. Es lo esperado. Una Live Photo es en realidad un HEIC fijo más un clip corto de vídeo guardado junto a él; el JPG conserva el fotograma clave y el movimiento se queda atrás. Si quieres la parte en movimiento, exporta la Live Photo como vídeo desde el propio iPhone.",
+     "Un .heic de un móvil Samsung o de Google Fotos no se convierte del todo bien. Algunas «fotos en movimiento» de Android son contenedores con un flujo de vídeo incrustado dentro del archivo de imagen. La mayoría se convierten sin problema a un JPG fijo, pero si alguna falla, ábrela en la app de galería del móvil, guárdala como imagen fija y convierte esa copia.",
+     "El JPG pesa más que el HEIC del que salió. Completamente normal, y no es señal de que algo haya ido mal. HEIC usa compresión HEVC, mucho más eficiente que el algoritmo de JPEG de 1992 — esa eficiencia es justo la razón por la que Apple lo adoptó. Recodificar a JPG cambia tamaño por compatibilidad; cuenta con que el JPG ocupe aproximadamente 1,5–2 veces más a calidad comparable.",
+     "Un archivo se niega a convertirse, sin más. De vez en cuando un archivo con extensión .heic no es realmente HEIC: los archivos renombrados y las descargas incompletas son los sospechosos habituales. Vuelve a exportar la foto desde su origen e inténtalo otra vez."
+    ]
+   },
+   {
+    "h2": "Cuándo NO conviene pasar de HEIC a JPG",
+    "p": [
+     "Un conversor honesto también debe decirte cuándo dejar tus fotos en paz. Si tus fotos viven por completo dentro del ecosistema Apple — iPhone, iPad, Mac, iCloud, AirDrop entre ellos —, no hay motivo para convertir nada. Todos los dispositivos Apple desde 2017 manejan HEIC de forma nativa, y las propias funciones de compartir de Apple convierten a JPEG al vuelo, sin avisar, cuando detectan un destinatario incompatible.",
+     "Piénsatelo dos veces antes de convertir en masa una fototeca entera. Convertir no sustituye tus archivos HEIC; crea copias JPG. Hazlo con una biblioteca de 50 GB y pasarás a almacenar las dos versiones — y como los JPG ocupan más que sus HEIC de origen, habrás más que duplicado el espacio que ocupan esas fotos.",
+     "Hay además una dimensión de calidad que la conversión no puede conservar. Los HEIC en modo Retrato llevan un mapa de profundidad que permite reeditar después el desenfoque del fondo; las fotos de los iPhone modernos incrustan un mapa de ganancia HDR que hace lucir las luces altas en pantallas compatibles. Ambos se pierden en la copia JPG plana. La foto sigue viéndose bien — solo pierde esos extras editables que mejoran la visualización.",
+     "La política sensata: conserva tus originales HEIC como archivo y convierte a JPG bajo demanda — para las fotos concretas que necesites enviar por correo, subir a una web o entregar a alguien fuera de la burbuja Apple. Lo mejor de los dos mundos: máxima calidad y mínimo espacio en casa, máxima compatibilidad de puertas afuera."
+    ]
+   },
+   {
+    "h2": "Un flujo que escala: de una foto a una carpeta entera",
+    "p": [
+     "Para una conversión puntual, arrastra un solo archivo y en un par de segundos está listo. Para trabajos mayores, selecciónalo todo de una vez: puedes soltar el contenido de una carpeta entera de archivos HEIC en un solo gesto y el conversor los pone en cola automáticamente. Los nombres de archivo se conservan — solo cambia la extensión de .heic a .jpg —, así que tus fotos siguen emparejadas con sus originales y se ordenan igual.",
+     "Los archivos convertidos aterrizan donde tu navegador guarde las descargas: normalmente la carpeta Descargas en un ordenador o la app Archivos en un iPhone. Cuando conviertes muchas fotos a la vez, llevarte el ZIP es la opción ordenada: una descarga, descomprimir y listo. Y si te descubres haciendo esto cada semana, plantéate arreglarlo de raíz en el iPhone una sola vez, y deja esta página en marcadores para el atasco de fotos HEIC que ya tienes."
+    ]
+   }
+  ]
+ },
+ "png": {
+  "sections": [
+   {
+    "h2": "HEIC a PNG: cuándo la opción sin pérdida es la acertada",
+    "p": [
+     "Usa el conversor de arriba para pasar de HEIC a PNG directamente en tu navegador — gratis, privado y sin subir archivos, porque cada conversión se ejecuta en local en tu dispositivo. El PNG usa compresión sin pérdida, lo que significa que la imagen decodificada se guarda píxel a píxel sin descartar nada. Eso hace de HEIC a PNG la elección correcta siempre que la calidad importe más que el tamaño: fotos que vas a editar a fondo, capturas con texto nítido, diagramas, logotipos, documentos escaneados e imágenes destinadas a impresión de alta calidad.",
+     "El caso más claro a favor del PNG es la edición repetida. Cada vez que guardas un formato con pérdida como JPG, el codificador recomprime la imagen y descarta un poco más de detalle: las texturas finas se emborronan y aparecen artefactos en bloques alrededor de los bordes. Un PNG se puede abrir, editar y volver a guardar tantas veces como quieras sin degradación añadida, porque nunca se tira nada. Si una foto va a pasar por varias rondas de recorte, corrección de color o retoque antes de su exportación final, convierte el HEIC a PNG una vez al principio y trabaja siempre desde esa copia maestra.",
+     "El PNG es también la apuesta más segura en compatibilidad. Es un estándar de la web y del software desde los años 90, así que se abre en todas partes: equipos Windows antiguos, formularios de subida corporativos, portales de la administración, clientes de correo y todos los editores de imagen que existen. Cuando una web rechaza tu foto de iPhone o un compañero dice que no puede abrirla, una versión PNG zanja la conversación."
+    ]
+   },
+   {
+    "h2": "El mito de la transparencia: qué significa de verdad el canal alfa en fotos de iPhone",
+    "p": [
+     "El PNG es famoso por la transparencia, y esa fama provoca un malentendido habitual. Sí, el PNG admite canal alfa — los píxeles pueden ser total o parcialmente transparentes, y por eso los logotipos y los gráficos de interfaz suelen ser PNG. Pero una foto hecha con la cámara del iPhone no tiene transparencia de partida: cada píxel del encuadre es una porción totalmente opaca de la escena. Convertir ese HEIC a PNG no añade por arte de magia un fondo transparente; obtienes exactamente la misma foto rectangular, solo que guardada sin pérdida.",
+     "Entonces, ¿cuándo importa de verdad el canal alfa? Después de la conversión, en tu flujo de edición. Si piensas recortar un sujeto del fondo en Photoshop, GIMP, Canva o una herramienta de eliminación de fondos, necesitas un formato capaz de guardar el resultado transparente — y ese formato es el PNG. Partir de un PNG también significa que los bordes del recorte quedarán limpios, porque no hay artefactos de compresión JPG emborronando la frontera entre sujeto y fondo. En resumen: convierte HEIC a PNG no porque la foto sea transparente, sino porque estás a punto de hacer transparente una parte de ella."
+    ]
+   },
+   {
+    "h2": "Baño de realidad con los tamaños: cuánto pesa de verdad una foto de iPhone de 12 MP",
+    "p": [
+     "La sorpresa número uno al pasar de HEIC a PNG es el tamaño del archivo. Merece la pena ver las cifras honestas, lado a lado, para una foto de iPhone típica de 12 megapíxeles:"
+    ],
+    "table": {
+     "caption": "Baño de realidad con los tamaños (foto de iPhone típica de 12 MP)",
+     "headers": [
+      "Formato",
+      "Tamaño típico",
+      "Por qué"
+     ],
+     "rows": [
+      [
+       "HEIC (original)",
+       "1,5–2 MB",
+       "Compresión con pérdida moderna (basada en HEVC), extremadamente eficiente — justo por eso la usa Apple"
+      ],
+      [
+       "JPG (calidad alta)",
+       "3–5 MB",
+       "Compresión con pérdida más antigua; aproximadamente el doble que el HEIC a calidad visual comparable"
+      ],
+      [
+       "PNG",
+       "15–25 MB",
+       "Sin pérdida — cada píxel guardado con exactitud, y el detalle fotográfico comprime mal cuando no se descarta nada"
+      ],
+      [
+       "BMP",
+       "~36 MB",
+       "Prácticamente sin comprimir; 12 millones de píxeles a 3 bytes cada uno, sin compresión alguna"
+      ]
+     ]
+    },
+    "pAfter": [
+     "Que un PNG sea 10 veces mayor que el HEIC del que salió es normal y esperable: es el coste honesto de conservar cada píxel. Ese coste merece la pena para una foto que vas a editar o archivar a máxima calidad. No lo merece para una foto que solo quieres mandar por mensaje a un amigo. Para compartir en el día a día, el JPG entrega un archivo que la mayoría no distingue del PNG con una fracción del peso — por eso esta web ofrece ambas conversiones."
+    ]
+   },
+   {
+    "h2": "Flujos de trabajo en los que convertir HEIC a PNG gana",
+    "list": [
+     "Herramientas de diseño: Figma, Canva y las apps de presentaciones manejan el PNG a la perfección, y cualquier recorte, superposición o exportación que hagas mantendrá bordes limpios y sin artefactos.",
+     "OCR y documentos: el reconocimiento de texto funciona notablemente mejor sobre imágenes sin pérdida — los artefactos del JPG alrededor de las letras son exactamente el tipo de ruido que despista a los motores de OCR, así que recibos, pizarras y páginas escaneadas deberían pasar por PNG.",
+     "Capturas de pantalla y gráficos de interfaz: los colores planos, las líneas nítidas y el texto pequeño son el peor caso para la compresión con pérdida y el mejor para el PNG, que comprime esas zonas con eficiencia y las mantiene afiladas.",
+     "Edición en varios pasos: cuando una foto pasa por varias herramientas — recortar en una app, corregir el color en otra, anotar en una tercera —, usar PNG como formato intermedio significa que solo la exportación final implica alguna pérdida de calidad.",
+     "Archivar una copia maestra: si guardas una versión definitiva de una foto importante antes de generar versiones derivadas, un máster PNG sin pérdida garantiza que las ediciones futuras siempre partan de la calidad completa."
+    ],
+    "pAfter": [
+     "El hilo común: el PNG pertenece al medio del flujo de trabajo, allí donde la imagen se vaya a procesar otra vez. Conserva la máxima información para el siguiente paso, ya sea un editor, un motor de OCR o tú mismo dentro de cinco años."
+    ]
+   },
+   {
+    "h2": "Cuándo NO usar PNG",
+    "p": [
+     "El PNG es la elección equivocada más a menudo de lo que la gente espera, y el motivo es siempre el mismo: el peso. Enviar PNG por correo es la forma rápida de chocar con los límites de adjuntos — tres o cuatro fotos de iPhone convertidas pueden superar por sí solas un tope típico de 25 MB. Las apps de mensajería como WhatsApp aceptarán el archivo, pero lo recomprimirán con dureza al entregarlo, destruyendo la calidad sin pérdida que tanto tamaño te costó. Para cualquier cosa que vayas a enviar a otra persona, pasa de HEIC a JPG en su lugar.",
+     "La misma lógica se aplica a escala. Convertir a PNG un álbum de vacaciones entero convierte una fototeca de 2 GB en 20 GB de archivos que se ven idénticos en cualquier pantalla de móvil o portátil. Para la conversión masiva usa JPG — o simplemente deja las fotos en HEIC si van a quedarse en dispositivos Apple, donde el formato funciona de forma nativa. Y si el destino es una web que administras, ni PNG ni JPG son ideales para fotografías: el WebP da tamaños de JPG con mejor calidad, y el conversor de HEIC a WebP de esta web cubre ese caso. Reserva el PNG en la web para gráficos, logotipos y capturas — el contenido para el que se diseñó."
+    ]
+   },
+   {
+    "h2": "Solución de problemas al convertir HEIC a PNG",
+    "p": [
+     "Mi PNG es enorme. Las fotos nocturnas, los paisajes y cualquier imagen llena de detalle fino producen los PNG más grandes, porque la compresión sin pérdida no puede resumir las texturas complejas como hacen los formatos con pérdida — una foto detallada de 48 MP de un iPhone reciente puede generar un PNG de bastante más de 50 MB. Es el comportamiento normal, no un error. Si el tamaño es un problema, esa foto probablemente quería ser un JPG.",
+     "Un lote grande está ralentizando mi navegador. Cada PNG se construye en la memoria del navegador antes de descargarse — es la otra cara del modelo de privacidad sin subidas. Docenas de fotos significan cientos de megas de datos de píxeles retenidos en la RAM a la vez. Si un lote grande va perezoso o la pestaña se queda sin memoria, convierte en grupos más pequeños de 10–20 archivos y deja que cada grupo termine antes de empezar el siguiente.",
+     "¿El PNG mejorará la calidad de mi foto? No — y cualquier herramienta que afirme lo contrario te está engañando. HEIC es un formato con pérdida, así que parte del detalle se descartó en el momento en que se guardó la foto. Convertir a PNG conserva a la perfección todo lo que sobrevivió a esa primera compresión, pero no puede reconstruir un detalle que ya no existe. Piensa en el PNG como una fotocopia perfecta: idéntica a lo que le diste, nunca mejor."
+    ]
+   }
+  ]
+ }
+}

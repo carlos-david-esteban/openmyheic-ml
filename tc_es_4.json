@@ -1,0 +1,209 @@
+{
+ "viewer": {
+  "sections": [
+   {
+    "h2": "Cuando solo necesitas ver las fotos",
+    "p": [
+     "Suele empezar con un lote de fotos que alguien compartió desde un iPhone — por correo, una app de mensajería o un cable USB — y una carpeta llena de archivos terminados en .heic que tu ordenador se niega a mostrar. No quieres instalar códecs, crear una cuenta ni convertir archivos que aún no has visto. Solo quieres mirar las fotos.",
+     "Para eso exactamente está este visor de HEIC. Suelta los archivos en la página y aparecen como una galería en segundos, decodificados directamente en tu navegador. No se instala nada, no se sube nada, y no tienes que convertir ni una foto salvo que tú lo decidas. Si una imagen resulta merecer la pena, un botón de un clic la guarda como JPG."
+    ]
+   },
+   {
+    "h2": "Por qué el HEIC no se abre, plataforma a plataforma",
+    "p": [
+     "Si alguna vez te has preguntado por qué la misma foto se abre bien en un dispositivo y falla en otro, la respuesta es el soporte de códecs. Las imágenes HEIC se comprimen con HEVC, un códec que no todos los sistemas operativos licencian o incluyen de serie. Así lo manejan las principales plataformas — y la vía más rápida para sortear cada hueco."
+    ],
+    "table": {
+     "headers": [
+      "Plataforma",
+      "¿Abre HEIC de forma nativa?",
+      "Por qué falla",
+      "Arreglo más rápido"
+     ],
+     "rows": [
+      [
+       "Windows 10",
+       "No, no de serie",
+       "Necesita las Extensiones de imagen HEIF más las Extensiones de vídeo HEVC de la Microsoft Store — y la de HEVC cuesta 0,99 $",
+       "Ve los archivos aquí, en tu navegador, sin códecs"
+      ],
+      [
+       "Windows 11",
+       "Parcialmente",
+       "El soporte HEIF viene incluido, pero el códec HEVC del que dependen la mayoría de las fotos de iPhone a veces falta",
+       "Abre las fotos en este visor y convierte solo las que necesites"
+      ],
+      [
+       "macOS",
+       "Sí, desde High Sierra (2017)",
+       "Solo las versiones anteriores a macOS 10.13 son previas al formato",
+       "Actualiza macOS, o ve los HEIC online desde cualquier navegador"
+      ],
+      [
+       "Android",
+       "Depende del dispositivo",
+       "El soporte varía según el fabricante y la versión de Android, y muchas apps de galería aún tropiezan con él",
+       "Abre los archivos en este visor desde cualquier navegador móvil"
+      ],
+      [
+       "Chromebook",
+       "Normalmente no",
+       "ChromeOS viene sin decodificador HEIC integrado",
+       "Este visor en el navegador funciona en Chromebooks tal cual"
+      ],
+      [
+       "Linux",
+       "Normalmente no",
+       "La mayoría de las distribuciones no incluyen las bibliotecas HEIF por defecto",
+       "Ahórrate la caza de paquetes y abre los archivos aquí mismo"
+      ]
+     ]
+    },
+    "pAfter": [
+     "El patrón se ve enseguida: el soporte nativo es inconsistente en todas partes salvo en los sistemas Apple recientes. Un visor de HEIC en el navegador esquiva el problema entero, porque la decodificación ocurre dentro de la propia página web y no en tu sistema operativo."
+    ]
+   },
+   {
+    "h2": "¿Ver o convertir? A veces con mirar basta",
+    "p": [
+     "No todos los archivos HEIC necesitan convertirse en JPG. Convertir es un medio para un fin, y si el fin es simplemente saber qué hay en las fotos, verlas es más rápido. Abrir archivos HEIC en un visor es lo acertado cuando quieres:"
+    ],
+    "list": [
+     "Comprobar qué te han enviado realmente antes de hacer nada más con ello",
+     "Repasar un conjunto grande de fotos y quedarte con el puñado que merece guardarse o convertirse",
+     "Verificar que una toma concreta — un documento, una pizarra, un recibo — está nítida y legible",
+     "Confirmar que los archivos copiados desde un móvil o una tarjeta de memoria se transfirieron correctamente"
+    ],
+    "pAfter": [
+     "La conversión se gana su sitio en cuanto necesitas hacer algo con una foto: editarla en un programa que no entiende HEIC, adjuntarla donde se espera un JPG, subirla a una web o mandarla a imprimir. Para esos casos, descarga fotos sueltas como JPG directamente desde la galería, o manda el conjunto entero al conversor por lotes y recupéralo todo como JPG, PNG o PDF de una pasada."
+    ]
+   },
+   {
+    "h2": "Cómo abre este visor los archivos HEIC en tu navegador",
+    "p": [
+     "No hay ningún servidor trabajando entre bambalinas. Cuando sueltas un archivo HEIC en esta página, tu navegador lo lee y lo decodifica en local usando JavaScript y WebAssembly — una tecnología que permite a una página web ejecutar código casi nativo. La imagen decodificada se dibuja en pantalla directamente desde la memoria de tu propio dispositivo.",
+     "Ese diseño tiene dos consecuencias prácticas. La primera: se comporta idéntico en cualquier sistema operativo — un Windows 10 sin códecs, un portátil de empresa restringido, un Chromebook, un escritorio Linux... si ejecuta un navegador moderno, puede ver HEIC online. La segunda: tus fotos no viajan a ninguna parte. No hay paso de subida, ni cola de procesado, ni copia de tus imágenes en el servidor de otro, algo que importa cuando las fotos son privadas.",
+     "Guardar como JPG funciona igual: el navegador recodifica la imagen decodificada en tu dispositivo y te entrega el archivo. Ni siquiera ese paso toca la red."
+    ]
+   },
+   {
+    "h2": "De dónde salen esos misteriosos archivos .heic",
+    "p": [
+     "Un puñado de situaciones cotidianas explica la mayoría de los momentos «el HEIC no se abre»:"
+    ],
+    "list": [
+     "Adjuntos de correo: los iPhone suelen adjuntar las fotos originales como HEIC, sobre todo cuando los archivos se envían desde la app Archivos o Fotos en lugar de pegarse en el cuerpo del mensaje",
+     "AirDrop y apps de mensajería: AirDrop transfiere originales por defecto, y algunas apps pasan los archivos sin tocarlos — así que el HEIC llega exactamente como se disparó",
+     "Tarjetas SD y transferencias por cable: leer el almacenamiento de un iPhone o una tarjeta de memoria en un PC copia los .heic en bruto, saltándose la conversión automática que iOS aplica en muchos flujos de compartir",
+     "Descargas de iCloud en Windows: bajar tu fototeca a un PC puede dejarte carpetas de archivos HEIC que la mayoría de los programas de escritorio no puede previsualizar"
+    ],
+    "pAfter": [
+     "En todos estos casos los archivos están perfectamente bien — al ordenador receptor solo le falta un decodificador. Abrirlos en este visor confirma en segundos que no se perdió nada por el camino."
+    ]
+   },
+   {
+    "h2": "Solución de problemas: cuando un archivo HEIC sigue sin mostrarse",
+    "p": [
+     "De vez en cuando un archivo se resiste incluso a un visor en el navegador. Tres causas cubren casi todos los casos:"
+    ],
+    "list": [
+     "No es realmente un archivo HEIC. Un JPG o PNG renombrado con la extensión .heic conserva su estructura original por dentro, y un decodificador HEIC no puede interpretarla. Si sospechas de un renombrado, devuélvele la extensión original — o pasa el archivo por el conversor, que inspecciona el contenido real",
+     "Es un contenedor de ráfaga o de Live Photo. Un HEIC puede contener varias imágenes, o una fija más un clip corto de vídeo, en un solo archivo. El visor muestra el fotograma clave principal; la parte en movimiento de una Live Photo vive en una pista de vídeo aparte que un visor de imágenes fijas no reproduce",
+     "El archivo está incompleto. Una transferencia interrumpida — una conexión caída, un cable desenchufado antes de tiempo, un disco lleno — puede dejar un archivo truncado que ningún visor puede decodificar del todo. Vuelve a copiar el original desde el dispositivo de origen y reinténtalo"
+    ],
+    "pAfter": [
+     "Una comprobación rápida: si una foto se abre bien en el iPhone que la hizo pero falla en todo lo demás, la transferencia es la principal sospechosa. Envíala de nuevo por una conexión fiable y evita los servicios que comprimen o reempaquetan los adjuntos por el camino."
+    ]
+   }
+  ]
+ },
+ "batch": {
+  "sections": [
+   {
+    "h2": "Convierte archivos HEIC por lotes y en masa — sin subidas y sin esperas",
+    "p": [
+     "Hay momentos en que convertir las fotos de una en una sencillamente no es una opción: estás vaciando el carrete entero de un iPhone antes de pasarte a Android, respaldando tres años de fotos familiares en un PC con Windows, o preparando cientos de tomas de una boda o unas vacaciones para compartirlas con gente cuyos dispositivos no abren HEIC. Este conversor de HEIC por lotes está hecho exactamente para ese trabajo. Añade docenas o cientos de archivos HEIC de una vez, elige JPG, PNG o WebP y descárgalo todo junto en un único archivo ZIP.",
+     "La razón por la que un conversor por lotes en el navegador puede adelantar a un servicio en la nube se reduce a una palabra: subida. Un conversor en la nube tiene que recibir tus archivos antes de poder tocarlos, y un carrete de 500 fotos HEIC son fácilmente 1-2 GB — en una conexión doméstica típica, esa subida por sí sola puede tardar más de lo que aquí tarda la conversión entera. Como esta herramienta convierte varios archivos HEIC directamente en tu propio dispositivo, el paso de subida desaparece por completo. También significa que tus fotos nunca salen de tu ordenador, que no hay límite de archivos impuesto por un servidor y que la herramienta funciona igual de bien con una conexión lenta o con datos limitados."
+    ]
+   },
+   {
+    "h2": "Cómo despachar un lote grande con eficiencia",
+    "p": [
+     "La conversión masiva de HEIC a JPG es sencilla, pero unos cuantos hábitos hacen los trabajos grandes notablemente más llevaderos — sobre todo a partir de un par de cientos de archivos:"
+    ],
+    "list": [
+     "Selecciónalo todo de una vez: abre la carpeta con tus fotos exportadas, pulsa Ctrl+A (Cmd+A en Mac) y arrastra la selección completa al conversor en lugar de escoger archivo a archivo.",
+     "Trabaja en tandas de 50-100 archivos en un ordenador medio. Varias tandas medianas terminan con más fiabilidad que una gigante, y puedes ir revisando los resultados sobre la marcha.",
+     "Mantén la pestaña del conversor en primer plano mientras corre un lote. Los navegadores frenan las pestañas en segundo plano para ahorrar energía, lo que puede ralentizar el trabajo drásticamente.",
+     "Cierra antes las apps que devoran memoria y las pestañas de sobra — las videollamadas, los juegos y los editores compiten por la misma RAM que necesita la conversión.",
+     "Usa la descarga en ZIP en lugar de guardar los archivos sueltos. Un solo archivo se guarda más rápido, se mueve más fácil y evita un aluvión de avisos de descarga.",
+     "Revisa por encima unas cuantas imágenes convertidas antes de borrar nada, para saber que el ajuste de calidad está donde quieres."
+    ]
+   },
+   {
+    "h2": "¿Cuántas fotos puedes convertir de una vez?",
+    "p": [
+     "Como todo se ejecuta en local, el tamaño práctico del lote depende de la memoria y del procesador de tu equipo, no de ninguna regla de la web. Estos son órdenes de magnitud honestos y conservadores para fotos de iPhone típicas de 12 megapíxeles:"
+    ],
+    "table": {
+     "headers": [
+      "Dispositivo",
+      "Lote cómodo",
+      "Techo práctico absoluto",
+      "Consejo"
+     ],
+     "rows": [
+      [
+       "Portátil, 8 GB de RAM",
+       "100-150 fotos",
+       "Unas 300",
+       "Divide el carrete en dos o tres tandas y descarga un ZIP tras cada una."
+      ],
+      [
+       "Portátil, 16 GB de RAM",
+       "200-300 fotos",
+       "Unas 500",
+       "Cierra antes las demás pestañas y apps; una sola tanda grande suele ir bien."
+      ],
+      [
+       "Sobremesa, 32 GB de RAM",
+       "300-500 fotos",
+       "Más de 500",
+       "Exportar carretes completos es realista en unas pocas tandas grandes."
+      ],
+      [
+       "Móvil o tablet",
+       "20-40 fotos",
+       "Unas 75",
+       "Mantén la pantalla encendida y el equipo enchufado; las tandas pequeñas son mucho más fiables."
+      ]
+     ]
+    },
+    "pAfter": [
+     "La resolución importa tanto como el número de archivos: las fotos de 48 megapíxeles de un iPhone reciente usan varias veces la memoria de las tomas estándar, así que divide estas cifras a la mitad si tu biblioteca está llena de ellas. Si un lote va perezoso, no fuerces hacia el techo — una tanda más pequeña que termina limpia siempre gana a una enorme que se atasca."
+    ]
+   },
+   {
+    "h2": "Qué esperar mientras corre un lote grande",
+    "p": [
+     "Una vez arrancas un lote, cada archivo se decodifica y se recodifica en secuencia, y el indicador de progreso avanza con cada foto completada — siempre ves por dónde va el trabajo en lugar de mirar una ruedecita girando. En un portátil moderno, cuenta con entre uno y tres segundos por foto; las máquinas más viejas y las imágenes de alta resolución tardan más, y un móvil puede necesitar varios segundos por archivo. Un lote de 200 fotos en un portátil de gama media es, por tanto, un trabajo de cinco a diez minutos que puedes dejar corriendo mientras haces otra cosa en otra ventana.",
+     "Dos comportamientos son normales y conviene conocerlos. Primero, el navegador puede pausarse brevemente entre archivos o entre grupos de archivos — es la página devolviendo tiempo al sistema para que la pestaña siga respondiendo, no un cuelgue. Segundo, si una foto concreta falla al convertirse (una descarga corrupta o un clip de vídeo mal etiquetado como imagen, por ejemplo), se marca y se salta mientras el resto del lote continúa. Nada falla en silencio, y un archivo malo nunca te cuesta los otros ciento noventa y nueve."
+    ]
+   },
+   {
+    "h2": "¿Te pasas de iPhone a Android o Windows? Conviértelo todo una sola vez",
+    "p": [
+     "El motivo más común para convertir HEIC a JPG en masa es un cambio de plataforma. Una migración típica es así: exporta tus fotos del carrete o descarga los originales de iCloud a un ordenador, arrastra el conjunto entero al conversor por lotes, conviértelo todo a JPG y luego importa el contenido del ZIP a Google Fotos, al almacenamiento de tu Android o a una carpeta de imágenes en Windows. A partir de ahí, cada foto se abre en todas partes — versiones antiguas de Windows, televisores, pantallas de coche, quioscos de fotos y formularios web incluidos.",
+     "Un consejo antes de borrar nada: conserva los archivos HEIC originales como copias maestras si tienes espacio. HEIC guarda la misma imagen en aproximadamente la mitad del tamaño de un JPG equivalente, lo que hace de los originales el archivo más barato — y convertir es un viaje solo de ida, porque un JPG recodificado desde HEIC no puede recuperar el detalle perdido por el camino. Un montaje sensato: los HEIC originales en una carpeta de respaldo o en un disco externo, y los JPG convertidos en circulación para el día a día."
+    ]
+   },
+   {
+    "h2": "Solución de problemas con lotes grandes",
+    "p": [
+     "Si la pestaña se congela o se cae con un lote muy grande — digamos que soltaste 1.000 archivos de golpe —, el arreglo es casi siempre dividir el trabajo. Recarga la página, añade la mitad de los archivos y deja que esa tanda termine antes de empezar la siguiente; en máquinas con menos memoria, los cuartos funcionan mejor que las mitades. No se pierde nada cuando una pestaña se atasca, porque tus archivos originales siguen intactos en el disco.",
+     "Si solo se descarga el primer archivo y el resto no aparece, tu navegador está bloqueando las descargas automáticas múltiples — busca un aviso junto a la barra de direcciones y permite las descargas de esta web, o usa directamente la opción ZIP, que esquiva el problema entero entregándolo todo en un solo archivo. Y si tu carrete contiene nombres duplicados (todo iPhone acaba produciendo más de un IMG_0001.HEIC), los archivos convertidos se renombran con sufijos automáticos para que nada sobrescriba a nada dentro del ZIP."
+    ]
+   }
+  ]
+ }
+}

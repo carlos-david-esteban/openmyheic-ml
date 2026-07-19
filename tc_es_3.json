@@ -1,0 +1,181 @@
+{
+ "gif": {
+  "sections": [
+   {
+    "h2": "Convertir HEIC a GIF: una mirada honesta a un formato de 1987",
+    "p": [
+     "El GIF es uno de los formatos de imagen más antiguos que siguen usándose a diario. Se publicó en 1987, cuando los ordenadores mostraban unos cientos de colores y un archivo de 100 KB se consideraba pesado. Casi cuatro décadas después, el GIF sobrevive no porque produzca imágenes bonitas, sino porque prácticamente cualquier programa jamás escrito puede abrir uno. Esa compatibilidad universal es la verdadera razón para convertir HEIC a GIF: tu iPhone guarda las fotos en un formato moderno y eficiente que muchos sistemas antiguos sencillamente se niegan a leer, mientras que un GIF pasa sin problemas por todas partes.",
+     "Este conversor transforma tus archivos HEIC en imágenes GIF directamente en tu navegador. No se sube nada a ningún servidor, no hay cola ni cuenta que crear, y tus fotos nunca salen de tu dispositivo. Suelta los archivos arriba, descarga los resultados y listo. Antes, eso sí, conviene entender qué le hace el GIF a una fotografía, porque para la mayoría de las fotos cotidianas otro formato te servirá mejor. Las secciones de abajo explican exactamente cuándo pasar de HEIC a GIF es la decisión correcta y cuándo no."
+    ]
+   },
+   {
+    "h2": "Dónde el GIF todavía gana de verdad",
+    "p": [
+     "Existe un conjunto real, aunque estrecho, de situaciones en las que el GIF no solo es aceptable, sino la respuesta correcta. Casi todas se reducen a lo mismo: el sistema receptor se construyó en una época en la que el GIF era el estándar, y nunca avanzó."
+    ],
+    "list": [
+     "Foros y software web heredado que solo acepta subidas en GIF. Algunos tablones veteranos, herramientas de intranet y sistemas corporativos aún tienen filtros de subida escritos hace décadas que rechazan cualquier otra cosa.",
+     "Avatares e iconos en plataformas antiguas. Ciertas webs de comunidades, lanzadores de juegos y sistemas de chat de los 2000 siguen esperando avatares GIF pequeños y no procesan un HEIC en absoluto.",
+     "Gráficos simples y capturas con pocos colores. Un logotipo, un diagrama o una captura de una interfaz sobria usan pocos colores, que es exactamente para lo que se diseñó la paleta del GIF. Estos se convierten con limpieza.",
+     "Sistemas embebidos, quioscos y reproductores de cartelería. Las pantallas industriales, los terminales de punto de venta y el hardware antiguo de cartelería digital suelen traer decodificadores que entienden GIF, JPG y nada más moderno."
+    ],
+    "pAfter": [
+     "Si tu situación encaja en alguna de estas, convertir HEIC a GIF aquí lleva segundos y resuelve el problema por completo. Si no, sigue leyendo antes de decidirte."
+    ]
+   },
+   {
+    "h2": "Qué le pasa a cada tipo de contenido al convertirse en GIF",
+    "p": [
+     "No todas las imágenes sufren igual al convertirse en GIF. La paleta de colores fija del formato castiga con dureza algunos contenidos y deja otros intactos. Esto es lo que cabe esperar, siendo realistas, de las cosas que más se convierten:"
+    ],
+    "table": {
+     "headers": [
+      "Tipo de contenido",
+      "Calidad del resultado",
+      "Tamaño frente a JPG",
+      "Veredicto"
+     ],
+     "rows": [
+      [
+       "Foto (retrato o paisaje)",
+       "Bandas visibles en cielos, piel y sombras",
+       "A menudo 2-4 veces mayor",
+       "Convierte solo si el GIF es obligatorio"
+      ],
+      [
+       "Captura de pantalla con texto",
+       "El texto se mantiene nítido; las zonas planas se convierten con limpieza",
+       "Similar o menor",
+       "Aceptable, aunque el PNG es más nítido"
+      ],
+      [
+       "Gráfico simple o logotipo",
+       "Prácticamente indistinguible del original",
+       "Normalmente menor",
+       "El GIF lo maneja bien"
+      ],
+      [
+       "Foto nocturna",
+       "Bandas marcadas y ruido en manchas en las zonas oscuras",
+       "A menudo mayor",
+       "El peor caso para el GIF; evítalo si puedes"
+      ]
+     ]
+    },
+    "pAfter": [
+     "El patrón es simple: cuantos menos colores distintos y degradados suaves contenga una imagen, mejor sobrevive al viaje hacia el GIF. Las fotografías detalladas están en el extremo malo de ese espectro; los gráficos y las capturas limpias, en el bueno."
+    ]
+   },
+   {
+    "h2": "Qué esperar técnicamente de la conversión",
+    "p": [
+     "Al convertir HEIC a GIF les ocurren tres cosas a los datos de la imagen, y conocerlas de antemano evita sorpresas. Primero, el espacio de color se colapsa. Una foto HEIC puede contener millones de colores distintos; un GIF guarda como mucho 256. El conversor elige la mejor paleta posible para tu imagen concreta y luego aplica dithering (difuminado), una técnica que dispersa píxeles de los colores disponibles para simular tonos que ya no existen. El dithering hace que los degradados parezcan más suaves a distancia, a costa de una leve textura granulada de cerca.",
+     "Segundo, el resultado es un único fotograma estático. Si tu HEIC procede de una Live Photo, solo se convierte la imagen fija principal; el componente de movimiento no se traslada, así que el GIF resultante no se anima. Tercero, no hay transparencia que conservar. Las fotos nunca contienen zonas transparentes, así que el canal alfa que el GIF técnicamente admite sencillamente no entra en juego aquí. Lo que obtienes es una imagen plana, totalmente opaca y basada en paleta, fiel al original dentro de los límites duros de un formato de 256 colores."
+    ]
+   },
+   {
+    "h2": "Mejores opciones en la mayoría de los casos",
+    "p": [
+     "El consejo honesto: si nada en el extremo receptor te obliga, el GIF rara vez es el mejor destino para una foto de iPhone. Para fotografías normales, pasar de HEIC a JPG te da color completo, archivos pequeños y compatibilidad con prácticamente todo lo fabricado en los últimos veinticinco años. Para capturas, documentos y gráficos donde quieras una nitidez perfecta al píxel, HEIC a PNG es la opción más sólida, con millones de colores y calidad sin pérdida. Y si la imagen va destinada a tu propia web, el WebP entrega archivos más pequeños que ambos a calidad comparable, aunque un puñado de herramientas antiguas todavía no puede abrirlo.",
+     "Quédate con el GIF cuando el requisito sea explícito: un formulario de subida que rechaza todo lo demás, un sistema heredado que no puedes cambiar o un flujo de trabajo estandarizado en GIF que no merece la pena pelear. En esos casos la compatibilidad es todo el sentido, y el sacrificio de calidad es simplemente el precio de la entrada. Todos los formatos mencionados aquí están disponibles en esta web, así que cambiar de destino está a un clic."
+    ]
+   },
+   {
+    "h2": "Solución de problemas: archivos grandes y colores sucios",
+    "p": [
+     "Dos resultados son los que más sorprenden, y ninguno es una avería. El primero es un GIF drásticamente mayor que el HEIC del que salió. Una foto detallada de 12 megapíxeles puede hincharse de un HEIC de 2 MB a un GIF varias veces mayor, porque el esquema de compresión del GIF se diseñó para zonas planas de color repetido, no para el detalle fotográfico. La conversión funciona exactamente como debe; el formato simplemente encaja mal con ese contenido. Si el tamaño importa, esa foto quiere ser un JPG.",
+     "El segundo es un color de aspecto sucio en las zonas suaves: un atardecer con franjas, una pared que parece moteada, piel con un grano ligero. Eso es el techo de 256 colores y el dithering que lo compensa, ambos parte de la propia especificación del GIF. Ningún conversor, online o de escritorio, puede producir un GIF de una foto llena de degradados sin algo de esto. Cuando lo veas, la imagen ha tocado el límite de lo que el formato puede representar, y el arreglo es elegir un formato sin ese límite."
+    ]
+   }
+  ]
+ },
+ "bmp": {
+  "sections": [
+   {
+    "h2": "El formato que se abre en todas partes: por qué el BMP sigue importando",
+    "p": [
+     "El BMP es lo más parecido que tiene la imagen digital a un mínimo común denominador. El formato es tan simple — una cabecera corta seguida de una cuadrícula plana de valores de píxel — que casi no hay nada que decodificar, y por eso prácticamente cualquier programa escrito en las últimas tres décadas puede leerlo, por viejo u oscuro que sea. Al convertir HEIC a BMP estás traduciendo el formato de foto más nuevo y más comprimido de Apple al más antiguo y universalmente entendido que sigue en uso cotidiano.",
+     "Esa simplicidad es exactamente la razón de que exista esta página. Casi nadie debería guardar su fototeca en BMP en 2026, y nunca lo recomendaríamos para compartir ni para archivar. Pero un goteo constante de software especializado — buena parte escrito mucho antes de que existiera HEIC y nunca actualizado desde entonces — sigue sin aceptar otra cosa. Si un programa testarudo rechaza tus fotos de iPhone le des el formato que le des, un bitmap sin comprimir es muy a menudo el archivo que por fin entra. Este conversor produce ese archivo en tu navegador, sin que tu foto salga jamás de tu dispositivo."
+    ]
+   },
+   {
+    "h2": "Software y dispositivos que suelen exigir BMP",
+    "p": [
+     "La demanda de conversión de HEIC a BMP se concentra en un puñado de nichos donde los equipos o el software se diseñaron alrededor de datos de píxel simples y predecibles. Estas son las situaciones que más vemos:"
+    ],
+    "table": {
+     "headers": [
+      "Caso de uso",
+      "Por qué quiere BMP",
+      "Consejos para un buen resultado"
+     ],
+     "rows": [
+      [
+       "Software de máquinas de bordado y costura",
+       "Las herramientas de digitalización que convierten imágenes en patrones de puntadas suelen ser anteriores a los formatos modernos y solo interpretan datos de bitmap básicos",
+       "Recorta ajustado al diseño antes de convertir; las imágenes contundentes y de alto contraste se digitalizan mucho mejor que las fotos recargadas"
+      ],
+      [
+       "Software de grabado láser y CNC",
+       "Las trayectorias de la herramienta se generan directamente desde una cuadrícula de píxeles en bruto, así que muchos controladores solo aceptan entrada sin comprimir",
+       "Mantén la resolución cercana a lo que la máquina puede grabar físicamente; convierte a escala de grises después, dentro del software de grabado"
+      ],
+      [
+       "Impresoras de etiquetas y tickets",
+       "El firmware de las impresoras térmicas es diminuto y normalmente solo lee las cabeceras BMP más simples",
+       "Estas impresoras son de baja resolución por diseño — reduce la imagen drásticamente antes de enviarla o la impresión será ilegible"
+      ],
+      [
+       "Aplicaciones de Windows heredadas (anteriores a 2005)",
+       "Se escribieron cuando el BMP era la única suposición segura en cualquier PC con Windows",
+       "Si el programa también dice admitir JPG, prueba antes con el JPG; cargará más rápido y usará mucha menos memoria"
+      ],
+      [
+       "Herramientas de modding de juegos",
+       "Los motores de juego antiguos guardaban las texturas como bitmaps sin comprimir, y las utilidades de modding construidas a su alrededor mantuvieron ese requisito",
+       "Consulta la documentación del mod para las dimensiones requeridas — muchos motores esperan tamaños en potencias de dos, como 512 × 512"
+      ],
+      [
+       "Equipos industriales y médicos",
+       "Los sistemas certificados rara vez se actualizan tras su aprobación, así que sus formatos admitidos quedan congelados en el momento de la certificación",
+       "Sigue exactamente la especificación de archivo del fabricante y prueba con una sola imagen antes de convertir un lote entero"
+      ]
+     ]
+    },
+    "pAfter": [
+     "Son patrones generales, no garantías — cada máquina es un mundo, así que el manual de tu dispositivo concreto siempre tiene la última palabra. Pero si tu equipo cae en una de estas categorías y rechaza los formatos modernos, convertir HEIC a BMP es el primer arreglo estándar."
+    ]
+   },
+   {
+    "h2": "La matemática simple detrás de los BMP gigantes",
+    "p": [
+     "Los tamaños de los BMP no tienen misterio: sin compresión alguna, cada píxel cuesta unos 3 bytes — uno para el rojo, otro para el verde y otro para el azul. Multiplica eso por el número de píxeles y sabrás el tamaño del archivo antes de convertir. Una foto de 12 megapíxeles sale a unos 36 MB. Una toma de la cámara principal de 48 megapíxeles de un iPhone se infla hasta alrededor de 144 MB — una sola foto varias veces mayor que la mayoría de los límites de adjuntos de correo.",
+     "Escálalo y las consecuencias prácticas son inmediatas. Diez conversiones de 48 megapíxeles rozan 1,5 GB de espacio en disco, un lote de cien no cabría en muchas memorias USB, y subirlas a la nube tarda tanto como subir un vídeo corto. Por eso el BMP es un formato de entrega para una máquina concreta, nunca un formato de almacenamiento para tu biblioteca. Los HEIC originales comprimidos guardan la misma imagen en una fracción del espacio."
+    ]
+   },
+   {
+    "h2": "Un flujo más inteligente: convierte solo lo que la máquina necesita",
+    "p": [
+     "Como cada archivo convertido es tan grande, el enfoque eficiente es quirúrgico, no al por mayor:"
+    ],
+    "list": [
+     "Selecciona solo las fotos concretas que tu máquina o programa necesita de verdad para el trabajo en curso — nunca conviertas un álbum entero a BMP.",
+     "Conviértelas aquí, pásale los archivos BMP al software o al dispositivo y confirma que el trabajo ha salido bien.",
+     "Conserva los archivos HEIC originales como copias maestras. Son la versión de mayor calidad y menor tamaño que tienes de cada foto.",
+     "Borra las copias BMP cuando el trabajo esté hecho. Puedes regenerarlas desde los originales en segundos cuando vuelvas a necesitarlas.",
+     "Si el software de destino también acepta PNG, usa PNG: los mismos píxeles sin pérdida en una fracción del tamaño."
+    ],
+    "pAfter": [
+     "Tratar el BMP como una exportación temporal y desechable mantiene tu almacenamiento bajo control sin dejar de satisfacer a la herramienta heredada que lo exigía."
+    ]
+   },
+   {
+    "h2": "Solución de problemas: cuando el programa antiguo sigue rechazando tu BMP",
+    "p": [
+     "A veces un archivo convertido es rechazado aunque el software diga admitir BMP. La causa más común es la profundidad de color. Este conversor escribe BMP estándar de 24 bits — el valor moderno por defecto que casi todo lee —, pero algunos programas muy viejos o muy especializados esperan color indexado de 8 bits o incluso blanco y negro de 1 bit. Si es tu caso, abre el BMP de 24 bits en un editor básico como Microsoft Paint y vuelve a guardarlo con la profundidad que pide el programa; el trabajo duro de salir del HEIC ya está hecho.",
+     "El segundo fallo habitual es el puro tamaño. El software de la época en que el BMP reinaba se escribió para imágenes de unos cientos de píxeles de ancho, y un bitmap de 48 megapíxeles puede congelarlo, colgarlo o hacer que rechace el archivo en silencio. El arreglo es reducir la resolución antes de convertir — recorta o redimensiona la foto en el iPhone, o exporta una copia más pequeña desde cualquier editor — para que el bitmap resultante tenga unas dimensiones que el programa antiguo pueda manejar de verdad. Un BMP más pequeño también se transfiere más rápido a impresoras y grabadoras, que a menudo tienen su propia memoria interna limitada."
+    ]
+   }
+  ]
+ }
+}

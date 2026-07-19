@@ -1,0 +1,181 @@
+{
+ "pdf": {
+  "sections": [
+   {
+    "h2": "¿Por qué convertir HEIC a PDF? De fotos de iPhone a documentos de verdad",
+    "p": [
+     "La mayor parte del tiempo, las fotos de tu iPhone son solo fotos. Pero a veces una imagen es en realidad un documento disfrazado: el recibo que fotografiaste para una nota de gastos, un contrato firmado retratado sobre la mesa de la cocina, una página de deberes, una pizarra llena de notas de reunión. Al convertir HEIC a PDF sacas esa foto del mundo «imagen» y la metes en el mundo «documento» — el formato que cualquier oficina, colegio, portal de la administración o departamento de contabilidad ya espera.",
+     "El PDF tiene tres ventajas prácticas frente a enviar la foto tal cual. Es universalmente aceptado: cualquier móvil, ordenador o impresora abre un PDF de la misma manera, sin dudas de compatibilidad. Admite varias páginas en un orden fijo, así que un conjunto de fotos relacionadas viaja como un único archivo ordenado en lugar de un montón suelto de adjuntos. Y se imprime con una maquetación predecible — el tamaño de página y los márgenes van dentro del archivo, así que lo que ves es lo que sale de la impresora.",
+     "Este conversor gratuito de HEIC a PDF hace todo eso directamente en tu navegador. Tus fotos se decodifican y se montan en el PDF en local, en tu propio dispositivo, y no se sube nada a ningún servidor — algo que importa cuando la foto en cuestión es un documento de identidad, un formulario médico o un acuerdo firmado."
+    ]
+   },
+   {
+    "h2": "Usos habituales: recibos, contratos, deberes y PDF de varias páginas",
+    "p": [
+     "El motivo más común para convertir una foto de iPhone en PDF es el flujo de cámara-como-escáner. Fotografías un documento en papel y ahora necesitas enviarlo por correo a algún sitio donde se lo tomen en serio. Adjuntar un HEIC torcido a un correo formal parece improvisado — y en Windows puede que ni se abra. Conviértelo antes a PDF y la misma foto llega como un documento en condiciones: derecho, en una página y abrible con doble clic en cualquier parte.",
+     "El segundo gran caso de uso es combinar varias fotos HEIC en un único PDF de varias páginas. Suelta todas las páginas de un contrato, cada recibo de un viaje de trabajo o las diez fotos de un trabajo escolar, y recibes un solo archivo con las páginas en el orden en que las colocaste. Un único adjunto es más fácil de enviar, más fácil de archivar e imposible de entregar incompleto — nadie puede abrir la página 3 sin tener también la 1 y la 2. Los porfolios de diseño, las liquidaciones de gastos y las entregas de deberes se benefician del mismo truco.",
+     "Por último están las plataformas que directamente no aceptan otra cosa. Los sistemas de solicitud universitarios, los portales de visados e inmigración, las reclamaciones a seguros y muchas webs de la administración solo admiten subidas en PDF. Si las pruebas que piden existen como fotos HEIC en tu iPhone, convertirlas a PDF es la única forma de atravesar el formulario."
+    ]
+   },
+   {
+    "h2": "PDF, JPG o PNG: ¿qué formato para compartir documentos?",
+    "p": [
+     "Elegir entre PDF y un formato de imagen se reduce a una pregunta sencilla: ¿el destinatario debe leer esto como un documento o usarlo como una imagen? Esta tabla resume cómo se comportan los tres formatos cuando compartes algo con pinta de documento:"
+    ],
+    "table": {
+     "headers": [
+      "Formato",
+      "Varias páginas",
+      "Impresión predecible",
+      "Aceptado como «documento»",
+      "Editable después"
+     ],
+     "rows": [
+      [
+       "PDF",
+       "Sí — muchas fotos, un archivo, orden fijo",
+       "Sí — el tamaño de página y los márgenes forman parte del archivo",
+       "Sí — el estándar en oficinas, colegios y portales",
+       "Limitado — hace falta un editor de PDF para cambiar páginas"
+      ],
+      [
+       "JPG",
+       "No — una imagen por archivo",
+       "Depende de la app y de los ajustes de impresión",
+       "A veces — a menudo se trata como «solo una foto»",
+       "Sí — se abre en cualquier editor de imagen"
+      ],
+      [
+       "PNG",
+       "No — una imagen por archivo",
+       "Depende de la app y de los ajustes de impresión",
+       "Rara vez — se percibe como una captura o un gráfico",
+       "Sí — se abre en cualquier editor de imagen"
+      ]
+     ]
+    },
+    "pAfter": [
+     "El patrón está claro: el PDF gana siempre que las fotos van juntas y deben tratarse con formalidad, mientras que JPG y PNG ganan cuando el destinatario necesita recortar, retocar o reutilizar la imagen en sí. Por eso esta web ofrece ambas rutas — convierte HEIC a PDF para el papeleo y HEIC a JPG o PNG para todo lo visual."
+    ]
+   },
+   {
+    "h2": "Calidad, tamaño de página e impresión: qué esperar",
+    "p": [
+     "Una página de PDF tiene un tamaño fijo — normalmente las proporciones de una hoja de papel —, mientras que tu foto de iPhone tiene su propia resolución y relación de aspecto. Cuando el conversor coloca una foto HEIC en una página del PDF, la imagen se escala para encajar en la página conservando sus proporciones, y la orientación de la página sigue a la foto: las fotos verticales producen páginas verticales y las horizontales, páginas horizontales. No se recorta ni se estira nada.",
+     "La calidad de impresión depende de la resolución de la foto original, no del envoltorio PDF. Una foto de iPhone de 12 megapíxeles tiene muchos más píxeles de los que puede mostrar una página impresa tamaño carta, así que las fotos de documentos hechas con cualquier iPhone reciente se imprimen nítidas. Si la foto de origen es una miniatura pequeña o una captura muy comprimida, meterla en un PDF no añadirá un detalle que nunca estuvo ahí.",
+     "El tamaño del archivo sigue la misma lógica. Un PDF hecho de fotos es en esencia un contenedor fino alrededor de imágenes comprimidas, así que pesa más o menos lo que pesarían los JPG equivalentes, más una pequeña sobrecarga por página. Un PDF de diez fotos de iPhone a resolución completa puede alcanzar fácilmente los 15–20 MB — conviene saberlo antes de enviarlo por correo, como se explica en la sección de solución de problemas de abajo."
+    ]
+   },
+   {
+    "h2": "Cuándo NO convertir HEIC a PDF",
+    "p": [
+     "El PDF es el destino correcto para el papeleo, pero el equivocado en muchas situaciones cotidianas. Sáltate la conversión a PDF cuando:"
+    ],
+    "list": [
+     "El destinatario necesita editar o recortar la imagen. Sacar una foto de dentro de un PDF es engorroso; envía un JPG o PNG y podrá abrirla directamente en cualquier editor.",
+     "La foto va a redes sociales, a una app de chat o a una web. Esas plataformas quieren archivos de imagen — usa HEIC a JPG para fotos o WebP para páginas web, donde se muestran integradas en lugar de detrás de un icono de documento.",
+     "Te importa la calidad de archivo. Un PDF construido con fotos guarda versiones comprimidas de ellas. Para conservar la mejor copia de una imagen, guarda el HEIC original (o exporta un PNG sin pérdida) y trata el PDF como la versión para compartir, no como el máster.",
+     "Vas a mandar una única foto informal a otra persona. Una instantánea suelta envuelta en un PDF añade un paso de descargar-y-abrir sin ningún beneficio — un adjunto de imagen se previsualiza al instante."
+    ],
+    "pAfter": [
+     "Una buena regla básica: convierte HEIC a PDF cuando el archivo se vaya a archivar, imprimir o presentar; quédate con un formato de imagen cuando se vaya a ver, editar o publicar."
+    ]
+   },
+   {
+    "h2": "Solución de problemas al convertir HEIC a PDF",
+    "p": [
+     "¿Un PDF grande o un PDF por foto? Si tus fotos son páginas del mismo documento, únelas en un solo PDF multipágina — es lo que el destinatario espera de un contrato o de un informe. Si son elementos sin relación, como recibos sueltos de distintas líneas de gasto, conviértelos en grupos pequeños o de uno en uno para que cada PDF se sostenga por sí mismo. Con lotes muy grandes, convertir en tandas de unas cuantas docenas de fotos también mantiene el navegador ágil, porque todo el trabajo ocurre en local, en memoria.",
+     "¿El PDF se ve borroso al hacer zoom? Es el techo de resolución de la foto original, no un defecto de la conversión. Un PDF solo puede mostrar los píxeles que contenía el HEIC, así que ampliar mucho más allá del 100 % ablandará cualquier PDF basado en fotos. Para documentos, el remedio está en el momento de la captura: llena el encuadre con la página, sujeta el móvil en paralelo al papel y asegúrate de que el texto sale nítido en la foto antes de convertir.",
+     "¿El adjunto es demasiado grande para el correo? La mayoría de los proveedores limitan los adjuntos a unos 20–25 MB, y un PDF multipágina de fotos a resolución completa puede alcanzar ese límite enseguida. El arreglo más ligero es bajar la calidad de imagen antes de convertir — las fotos de documentos siguen siendo perfectamente legibles con calidad reducida. Como alternativa, convierte antes a JPG con menos calidad, o parte el documento en dos PDF más pequeños. Si un portal rechaza tu subida, revisa su límite de tamaño declarado; recortar calidad suele bastar."
+    ]
+   }
+  ]
+ },
+ "webp": {
+  "sections": [
+   {
+    "h2": "HEIC y WebP: dos formatos modernos, dos mundos distintos",
+    "p": [
+     "HEIC y WebP son parientes más cercanos de lo que la mayoría cree. Ambos son formatos de imagen modernos y muy eficientes nacidos de la tecnología de vídeo — HEIC comprime las fotos con HEVC, el códec detrás del vídeo 4K, mientras que WebP surgió del códec VP8 usado en el streaming online. Ambos existen para guardar la misma imagen en mucho menos espacio que el estándar JPG de los años 90. La diferencia está en dónde vive cada uno. HEIC es el formato nativo del ecosistema Apple — lo que tu iPhone escribe en el carrete y lo que iCloud sincroniza entre dispositivos. WebP es el formato nativo de la web — lo que los navegadores, las CDN y las herramientas de velocidad están optimizados para servir.",
+     "Esa división es exactamente la razón para convertir HEIC a WebP. Tus fotos de iPhone ya están comprimidas con eficiencia, pero en un dialecto que la web no habla de forma nativa. Mucha gente convierte primero de HEIC a JPG y luego pasa el JPG por un optimizador WebP aparte; ir directo de HEIC a WebP se salta el paso intermedio, evita una segunda generación de pérdida por compresión y produce un archivo listo para publicar en una sola pasada — todo en tu navegador y sin subir archivos a ningún sitio."
+    ]
+   },
+   {
+    "h2": "Del carrete del iPhone a una web que carga rápido",
+    "p": [
+     "El motivo más común para convertir HEIC a WebP es publicar: hiciste fotos de producto, imágenes de blog o piezas de porfolio con un iPhone, y ahora tienen que ir a una web que administras. El flujo es corto. Exporta o pasa por AirDrop los archivos HEIC de tu fototeca al ordenador, suéltalos en el conversor de arriba y descarga archivos WebP que WordPress (compatible de forma nativa desde la versión 5.8), Shopify y prácticamente cualquier constructor de webs moderno aceptarán como una subida de imagen normal. Sin plugin, sin conversión en el servidor y sin errores de formato al subir.",
+     "La recompensa aparece en tus Core Web Vitals. El Largest Contentful Paint — la rapidez con la que se pinta el elemento más grande de la página — suele decidirlo una imagen destacada, y un hero servido como WebP llega sensiblemente antes que la misma imagen en JPG, sencillamente porque hay menos bytes que descargar. El efecto se multiplica en páginas cargadas de imágenes: una parrilla de productos o una galería de miniaturas ahorra ese margen en cada archivo, a menudo la diferencia entre una página que se siente instantánea con datos móviles y otra que se va montando a la vista. Como la experiencia de página influye en el posicionamiento, convertir las fotos de iPhone a WebP antes de subirlas es una de las victorias SEO más baratas que existen.",
+     "Un hábito práctico: redimensiona antes de servir. Una foto de iPhone de 12 MP ronda los 4000 píxeles de ancho, pero una columna de blog rara vez muestra más de 1200–1600. Convierte aquí a WebP a resolución completa, guarda ese archivo como máster de subida y deja que tu CMS genere los tamaños de visualización — WordPress y Shopify lo hacen automáticamente con las subidas WebP, así que las miniaturas y los recortes de portada heredan el formato más ligero."
+    ]
+   },
+   {
+    "h2": "La misma foto de 12 MP, tres destinos",
+    "p": [
+     "Elegir formato es en realidad preguntarse adónde va la foto. Así se comporta una foto de iPhone típica de 12 MP en los tres formatos que esta web produce más a menudo:"
+    ],
+    "table": {
+     "headers": [
+      "Formato",
+      "Tamaño típico",
+      "Impacto en la carga",
+      "Cuándo gana"
+     ],
+     "rows": [
+      [
+       "WebP (páginas web)",
+       "1–2 MB",
+       "El más rápido — descarga mínima, mejores puntuaciones LCP",
+       "Webs, blogs, tiendas online, cualquier sitio donde se mida la velocidad de página"
+      ],
+      [
+       "JPG (correo y universal)",
+       "2–3,5 MB",
+       "Bien para compartir, más pesado para servir a escala",
+       "Adjuntos de correo, impresión, destinatarios con software desconocido"
+      ],
+      [
+       "PNG (diseño y sin pérdida)",
+       "10–25 MB",
+       "El más lento — tamaños imprácticos para páginas de fotos",
+       "Entregas de diseño, capturas, gráficos que deben quedar perfectos al píxel"
+      ]
+     ]
+    },
+    "pAfter": [
+     "Los números varían con la escena — un paisaje recargado no comprime igual que un producto sobre fondo blanco —, pero la clasificación casi nunca cambia. Para todo lo que se sirva por red a visitantes, gana WebP. Para lo que se envíe a una persona y no a una página, el JPG es el mensajero más seguro. El PNG es una herramienta de especialista, no un formato de foto."
+    ]
+   },
+   {
+    "h2": "Compatibilidad de WebP en 2026: dónde funciona y dónde todavía no",
+    "p": [
+     "En la propia web, la compatibilidad dejó de ser una duda hace años: todos los navegadores actuales en todas las plataformas muestran WebP, y así es desde que Safari completó el conjunto en 2020. Las plataformas de publicación siguieron el mismo camino: WordPress acepta subidas WebP de forma nativa desde la 5.8, Shopify lo sirve automáticamente y los constructores modernos y el software de foros lo tratan como un formato de primera clase. Si el destino final de tu archivo es una URL, puedes convertir HEIC a WebP con confianza.",
+     "Las asperezas quedan todas fuera de la web. Las versiones antiguas de Photoshop (anteriores a la 23) no abren WebP sin un plugin, algunos visores de fotos incluidos en Windows todavía tropiezan con él, y los clientes de correo son inconsistentes — un WebP adjunto puede verse integrado para un destinatario y llegarle a otro como un archivo misterioso que no se abre. Nada de esto es un fallo de tu archivo convertido; es simplemente software anterior a la adopción masiva del formato.",
+     "La regla de decisión que se deduce es simple: ajusta el formato al destino, no al origen. ¿Foto que va a una página que tú publicas? WebP. ¿Foto que va a una persona, una impresora o una bandeja de entrada? Convierte esa copia a JPG — y no hay nada de malo en producir ambas desde el mismo HEIC."
+    ]
+   },
+   {
+    "h2": "Cuándo no usar WebP",
+    "p": [
+     "WebP es la respuesta correcta para la web, pero es la equivocada con la frecuencia suficiente como para tener a mano una pequeña lista:"
+    ],
+    "list": [
+     "Adjuntos de correo — la visualización integrada en los clientes de correo sigue siendo impredecible; envía JPG para que todos los destinatarios abran la foto sin fricción.",
+     "Trabajos de imprenta — las imprentas comerciales y las impresoras fotográficas domésticas giran en torno a flujos JPG, TIFF y PDF; entregar archivos WebP a un servicio de impresión invita a un paso de conversión que no controlas.",
+     "Entregas a clientes — cuando no sabes qué software usa el destinatario, el JPG elimina la posibilidad de recibir un «este archivo no se abre» como respuesta.",
+     "Tu archivo maestro — conserva el HEIC original (o una exportación PNG del trabajo editado) como fuente de verdad; WebP es un formato de distribución, generado desde el máster cuando haga falta, nunca la única copia.",
+     "Imágenes que vas a seguir reeditando — cada guardado de un WebP con pérdida recomprime los píxeles; edita sobre el original y exporta a WebP al final."
+    ],
+    "pAfter": [
+     "El patrón en los cinco casos es el mismo: WebP está optimizado para servir, no para intercambiar ni conservar. Úsalo al final de la cadena, no al principio."
+    ]
+   },
+   {
+    "h2": "Dos cosas que parecen errores y no lo son",
+    "p": [
+     "Si una plataforma rechaza tu subida .webp, resiste la tentación de renombrar el archivo a .jpg — la extensión es solo una etiqueta, y el software receptor seguirá encontrando datos WebP dentro y fallará, a veces con un error más confuso que el anterior. El arreglo real es convertir el HEIC a un JPG de verdad y subir ese; un WebP rechazado solo significa que ese servicio aún no ha añadido soporte.",
+     "La segunda sorpresa: de vez en cuando un WebP convertido sale más grande que el HEIC del que procede. Es normal, no una avería. HEVC — la compresión de dentro del HEIC — es un códec excepcionalmente potente, y en algunas imágenes simplemente comprime más que WebP. La comparación que importa para la web no es WebP contra el HEIC original, que los navegadores no pueden mostrar de todos modos, sino WebP contra el JPG que habrías servido en su lugar — y ahí WebP gana con fiabilidad. Una conversión inusualmente grande no cambia nada del flujo: el archivo se ve en todas partes y sigue cumpliendo su función en la página."
+    ]
+   }
+  ]
+ }
+}

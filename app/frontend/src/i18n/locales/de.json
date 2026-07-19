@@ -463,17 +463,140 @@
     "jpg": {
       "sections": [
         {
-          "h2": "HEIC in JPG umwandeln – so geht's",
+          "h2": "HEIC in JPG umwandeln – direkt im Browser",
           "p": [
-            "HEIC in JPG umzuwandeln ist denkbar einfach: Zieh deine iPhone-Fotos einfach in das Feld oben, warte ein paar Sekunden, während dein Browser die Arbeit erledigt, und lade fertige JPG-Dateien herunter. Es wird nichts hochgeladen – die komplette HEIC-zu-JPG-Konvertierung läuft lokal auf deinem Gerät, sodass deine Fotos privat bleiben. Du kannst ein einzelnes Foto oder gleich mehrere Dutzend gleichzeitig umwandeln, und die JPG-Dateien lassen sich auf Windows, Android, älterer Software und in jedem sozialen Netzwerk öffnen.",
-            "JPEG (JPG) ist weltweit das am häufigsten unterstützte Bildformat. Deshalb ist HEIC in JPG umwandeln der schnellste Weg, um Fotos zu reparieren, die sich nicht öffnen, nicht hochladen lassen oder auf dem PC nur als grauer Kasten angezeigt werden. Anders als bei der Installation von Codecs oder Zusatzprogrammen funktioniert dieses Tool kostenlos und online in jedem modernen Browser – ganz ohne Anmeldung."
+            "Ziehen Sie Ihre iPhone-Fotos einfach in das Feld oben, und dieser HEIC-zu-JPG-Konverter erledigt den Rest: Ihr Browser dekodiert jede HEIC Datei lokal und speichert sie als ganz normales JPG, das Sie in Sekunden herunterladen können. Dabei verlässt nichts Ihr Gerät. Es gibt keinen Upload, keinen Server, der Ihre Bilder verarbeitet, kein Konto und kein Wasserzeichen auf dem Ergebnis. Das ist wichtiger, als es klingt – Fotos Ihrer Familie, Ihrer Dokumente oder Ihrer Whiteboard-Notizen haben auf einem fremden Server nichts verloren, nur weil sich das Dateiformat ändern soll.",
+            "Dass diese Umwandlung überhaupt nötig ist, liegt an einer Kompatibilitätslücke. Seit iOS 11 (2017) fotografieren iPhones und iPads standardmäßig in HEIC, weil das Format dasselbe Bild in ungefähr der Hälfte des Speicherplatzes eines JPEG unterbringt. Der Rest der Welt hat jedoch nicht Schritt gehalten: Windows-10-Rechner ohne zusätzliche Codecs, ältere Android-Smartphones, viele Firmen-Intranets, Upload-Formulare von Behörden, Druckterminals und etliche E-Mail-Programme scheitern nach wie vor an HEIC. JPG dagegen ist seit den 1990er-Jahren die Universalsprache der Fotos – jedes Gerät, jeder Browser, jede App und jede Website öffnet es. Wer HEIC in JPG umwandelt, bekommt eine Kopie, die überall funktioniert, während die Originale exakt so bleiben, wie sie waren.",
+            "Weil alles im Browser läuft, funktioniert dieselbe Seite unter Windows, macOS, Linux, ChromeOS, Android und sogar auf dem iPhone selbst. Wandeln Sie ein einzelnes Foto um, bevor Sie es an eine E-Mail anhängen, oder gleich einen ganzen Schwung Urlaubsbilder in einem Durchgang – das Tool verarbeitet Dateien parallel und liefert Ihnen einzelne Downloads oder ein einziges ZIP."
           ]
         },
         {
-          "h2": "Warum iPhone-Fotos als HEIC gespeichert werden – und wann sich das Umwandeln lohnt",
+          "h2": "Wege, HEIC in JPG umzuwandeln – der Vergleich",
           "p": [
-            "Seit iOS 11 speichern iPhone und iPad Fotos standardmäßig als HEIC-Datei, weil das Format die gleiche Bildqualität bei etwa halber Dateigröße bietet. Der Nachteil ist die Kompatibilität: E-Mail-Anhänge, Windows 10, viele Android-Smartphones und die meisten Webseiten erwarten weiterhin JPG. Wandelst du HEIC in JPG um, erhältst du eine Kopie, die überall funktioniert – deine Originale bleiben dabei unverändert.",
-            "Wenn du HEIC-Dateien künftig ganz vermeiden willst, öffne auf deinem iPhone Einstellungen > Kamera > Formate > Maximal kompatibel, damit direkt im JPEG-Format fotografiert wird. Für alle Fotos, die du bereits hast, macht dieser kostenlose HEIC-zu-JPG-Konverter sie in Sekunden kompatibel."
+            "Dieses Tool ist nicht der einzige Weg, HEIC in JPG zu ändern – auch Apple, Microsoft und diverse Websites bieten eine Route an. Jede hat ihre Kompromisse bei Privatsphäre, Tempo und Kosten, und die ehrliche Antwort lautet: Die beste Methode hängt davon ab, wie viele Fotos Sie haben und wo sie liegen. So schneiden die realistischen Optionen ab."
+          ],
+          "table": {
+            "caption": "Wege, HEIC in JPG umzuwandeln – der Vergleich",
+            "headers": [
+              "Methode",
+              "Privatsphäre",
+              "Tempo bei vielen Dateien",
+              "Kosten",
+              "Am besten für"
+            ],
+            "rows": [
+              [
+                "Dieses Tool (in Ihrem Browser)",
+                "Fotos verlassen Ihr Gerät nie",
+                "Schnell – Dutzende auf einmal hineinziehen, als ZIP herunterladen",
+                "Kostenlos",
+                "Vorhandene Fotos auf jedem Gerät umwandeln, ohne etwas zu installieren"
+              ],
+              [
+                "iPhone-Einstellungen („Maximale Kompatibilität“, engl. Most Compatible)",
+                "Auf dem Gerät",
+                "Kein Konverter – ändert nur das Format der Fotos, die Sie ab jetzt aufnehmen",
+                "Kostenlos",
+                "Neue HEIC-Dateien an der Quelle verhindern; bringt nichts für Fotos, die Sie schon haben"
+              ],
+              [
+                "Windows-HEIF-Erweiterung + Fotos-App",
+                "Auf dem Gerät",
+                "Langsam – Fotos einzeln öffnen und neu speichern",
+                "Die HEIF-Erweiterung ist kostenlos, aber die nötigen HEVC-Videoerweiterungen kosten unter Windows 10 0,99 $",
+                "Gelegentlich HEIC-Dateien auf einem eigenen PC öffnen"
+              ],
+              [
+                "Mac: Export über Vorschau / Fotos",
+                "Auf dem Gerät",
+                "Ordentlich – die Vorschau kann eine Mehrfachauswahl in einem Rutsch exportieren",
+                "Kostenlos",
+                "Mac-Besitzer, die bereits auf den Rechner kopierte Ordner umwandeln"
+              ],
+              [
+                "Cloud-Konverter-Websites",
+                "Fotos werden auf einen fremden Server hochgeladen",
+                "Hängt von Ihrer Upload-Geschwindigkeit und deren Warteschlange ab; große Mengen sind langsam",
+                "Oft kostenlos mit Limits, Bezahlstufen für Massen",
+                "Nichts, was dieses Tool nicht ohnehin kann – und Sie geben dafür Ihre Privatsphäre auf"
+              ]
+            ]
+          },
+          "pAfter": [
+            "Das Muster, das auffällt: Jede Methode, die Ihre Fotos auf der eigenen Hardware belässt, ist entweder an eine Plattform gebunden, reine Handarbeit oder wirkt nur auf künftige Fotos. Ein browserbasierter Konverter ist die einzige Option, die lokale Verarbeitung mit Stapel-Tempo auf jedem Betriebssystem verbindet – genau deshalb gibt es diese Seite."
+          ]
+        },
+        {
+          "h2": "JPG oder ein anderes Zielformat: Was sollten Sie wählen?",
+          "p": [
+            "JPG ist hier aus gutem Grund die Standardausgabe – es ist das Format, das der Rest der Welt erwartet –, aber nicht immer die richtige Antwort. Diese Seite kann HEIC auch in PNG, PDF und WebP verwandeln, und jedes Format hat seinen berechtigten Einsatzzweck. Die Größen unten sind grobe Richtwerte für ein typisches 12-MP-iPhone-Foto; Ihre Ergebnisse variieren je nach Bildinhalt."
+          ],
+          "table": {
+            "caption": "JPG im Vergleich zu anderen Zielformaten bei einem 12-MP-Foto",
+            "headers": [
+              "Format",
+              "Am besten für",
+              "Qualität",
+              "Typische Größe (12-MP-Foto)"
+            ],
+            "rows": [
+              [
+                "JPG",
+                "Teilen, Hochladen, E-Mail, Social Media – der sichere Standard für Fotos",
+                "Verlustbehaftet, aber bei hohen Qualitätsstufen visuell nicht zu unterscheiden",
+                "2–4 MB"
+              ],
+              [
+                "PNG",
+                "Screenshots, Grafiken, Bilder, die Sie wiederholt bearbeiten wollen",
+                "Verlustfrei – niemals Kompressionsartefakte",
+                "15–25 MB – riesig für Fotos"
+              ],
+              [
+                "PDF",
+                "Fotos als Dokument verschicken: Belege, Ausweise, Formulare, mehrseitige Scans",
+                "Wie das darin eingebettete Bild",
+                "Ähnlich wie JPG, plus Dokument-Overhead"
+              ],
+              [
+                "WebP",
+                "Bilder auf der eigenen Website veröffentlichen",
+                "Verlustbehaftet oder verlustfrei; komprimiert besser als JPG",
+                "1–3 MB"
+              ]
+            ]
+          },
+          "pAfter": [
+            "Im Zweifel nehmen Sie JPG. Es öffnet sich auf einem digitalen Bilderrahmen von 2005 genauso wie auf dem Flaggschiff-Handy des nächsten Jahres. Greifen Sie nur dann zu PNG, wenn Sie wirklich verlustfrei brauchen (und zehnmal größere Dateien verkraften), zu PDF, wenn der Empfänger ausdrücklich „ein Dokument“ verlangt hat, und zu WebP, wenn Sie die Plattform kontrollieren, auf der das Bild landet."
+          ]
+        },
+        {
+          "h2": "Fehlersuche: Wenn die HEIC-zu-JPG-Umwandlung zickt",
+          "p": [
+            "Die Umwandlung im Browser ist zuverlässig, aber ein paar Situationen sorgen immer wieder für Stolperer. Fast alle haben simple Erklärungen – und keine davon bedeutet, dass Ihre Fotos beschädigt sind."
+          ],
+          "list": [
+            "Große Stapel bleiben hängen oder der Tab stürzt ab. HEIC zu dekodieren kostet viel Arbeitsspeicher, und jedes Foto in Bearbeitung liegt im RAM Ihres Browsers. Wer auf einem Laptop mit vielen offenen Tabs 300 Fotos hineinschiebt, bringt den Browser unter Umständen an seine Speichergrenze. Schließen Sie ungenutzte Tabs und arbeiten Sie in Runden von 50–100 Dateien – das dauert kaum länger und läuft nie fest.",
+            "Ein Live Photo wird zu einem Standbild. Das ist so gewollt. Ein Live Photo ist in Wirklichkeit ein HEIC-Standbild plus ein kurzer Videoclip daneben; das JPG behält das Schlüsselbild, die Bewegung bleibt zurück. Wenn Sie den bewegten Teil wollen, exportieren Sie das Live Photo auf Ihrem iPhone stattdessen als Video.",
+            "Eine .heic-Datei von einem Samsung-Handy oder aus Google Fotos lässt sich nicht sauber umwandeln. Manche Android-„Motion Photos“ sind Container mit einem Videostream in der Bilddatei. Die meisten werden problemlos zu einem JPG-Standbild, aber wenn eine scheitert: Öffnen Sie sie in der Galerie-App Ihres Handys, speichern Sie sie als Standbild und wandeln Sie dieses um.",
+            "Das JPG ist größer als das HEIC, aus dem es stammt. Völlig normal und kein Zeichen dafür, dass etwas schiefgelaufen ist. HEIC nutzt HEVC-Kompression, die weit effizienter arbeitet als der JPEG-Algorithmus aus dem Jahr 1992 – genau diese Effizienz war Apples Grund, das Format einzuführen. Beim Neucodieren zu JPG tauschen Sie Dateigröße gegen Kompatibilität; rechnen Sie bei vergleichbarer Qualität mit etwa dem 1,5- bis 2-Fachen der Größe.",
+            "Eine Datei verweigert die Umwandlung schlicht. Gelegentlich ist eine Datei mit .heic-Endung gar kein HEIC – umbenannte Dateien und unvollständige Downloads sind die üblichen Verdächtigen. Exportieren Sie das Foto neu aus seiner Quelle und versuchen Sie es noch einmal."
+          ]
+        },
+        {
+          "h2": "Wann Sie HEIC NICHT in JPG umwandeln sollten",
+          "p": [
+            "Ein ehrlicher Konverter sagt Ihnen auch, wann Sie Ihre Fotos in Ruhe lassen sollten. Wenn Ihre Fotos komplett im Apple-Ökosystem leben – iPhone, iPad, Mac, iCloud, AirDrop dazwischen –, gibt es keinen Grund, irgendetwas umzuwandeln. Jedes Apple-Gerät seit 2017 beherrscht HEIC nativ, und Apples eigene Teilen-Funktionen konvertieren im Hintergrund automatisch zu JPEG, sobald sie einen inkompatiblen Empfänger erkennen.",
+            "Überlegen Sie auch zweimal, bevor Sie eine komplette Fotomediathek in einem Rutsch umwandeln. Die Umwandlung ersetzt Ihre HEIC-Dateien nicht, sie erzeugt JPG-Kopien. Machen Sie das mit einer 50-GB-Mediathek, lagern Sie anschließend beide Versionen – und weil JPGs größer ausfallen als ihre HEIC-Quellen, hat sich der Platzbedarf dieser Fotos mehr als verdoppelt.",
+            "Dazu kommt eine Qualitätsdimension, die keine Umwandlung bewahren kann. HEIC-Dateien im Porträtmodus tragen eine Tiefenkarte in sich, mit der Sie die Hintergrundunschärfe später neu bearbeiten können; moderne iPhone-Fotos betten eine HDR-Gain-Map ein, die Lichter auf kompatiblen Displays strahlen lässt. Beides geht in der flachen JPG-Kopie verloren. Das Bild sieht weiterhin gut aus – es verliert nur diese bearbeitbaren, displayverbessernden Extras.",
+            "Die vernünftige Strategie: HEIC-Originale als Archiv behalten und bei Bedarf in JPG umwandeln – genau die Fotos, die Sie per E-Mail verschicken, hochladen oder jemandem außerhalb der Apple-Welt geben müssen. Das Beste aus beiden Welten: maximale Qualität und minimaler Speicherbedarf zu Hause, maximale Kompatibilität auf dem Weg nach draußen."
+          ]
+        },
+        {
+          "h2": "Ein Arbeitsablauf, der mitwächst: vom einzelnen Foto zum ganzen Ordner",
+          "p": [
+            "Für eine einmalige Umwandlung ziehen Sie eine einzelne Datei hinein und sind in ein paar Sekunden fertig. Für größere Jobs wählen Sie alles auf einmal aus – Sie können die HEIC-Dateien eines ganzen Ordners in einer einzigen Geste ablegen, und der Konverter reiht sie automatisch in die Warteschlange ein. Die Dateinamen bleiben erhalten, nur die Endung wechselt von .heic zu .jpg, sodass Ihre Fotos ihren Originalen zugeordnet bleiben und in derselben Reihenfolge sortieren.",
+            "Die umgewandelten Dateien landen dort, wo Ihr Browser Downloads speichert – am Computer typischerweise im Downloads-Ordner, auf einem iPhone in der Dateien-App. Wenn Sie viele Fotos auf einmal umwandeln, ist das ZIP die aufgeräumte Variante: ein Download, entpacken, fertig. Und falls Sie das jede Woche tun: Beheben Sie das Problem einmal an der Quelle auf Ihrem iPhone – und behalten Sie diese Seite als Lesezeichen für den Rückstau an HEIC-Fotos, die Sie längst haben."
           ]
         }
       ]
@@ -481,17 +604,85 @@
     "png": {
       "sections": [
         {
-          "h2": "HEIC in PNG umwandeln – verlustfrei in bester Qualität",
+          "h2": "HEIC in PNG: wann verlustfrei die richtige Wahl ist",
           "p": [
-            "Nutze den Konverter oben, um HEIC direkt im Browser in PNG umzuwandeln – kostenlos, privat und ohne Upload. PNG verwendet eine verlustfreie Kompression, sodass jedes Pixel deines iPhone-Fotos exakt erhalten bleibt. Das macht HEIC in PNG umwandeln zur richtigen Wahl, wenn du maximale Qualität für Bearbeitung, Screenshots, Diagramme, Logos oder Bilder mit scharfem Text und feinen Details brauchst.",
-            "PNG unterstützt außerdem Transparenz (einen Alphakanal), was bei JPG nicht möglich ist. Wenn du ein Foto vor einen farbigen Hintergrund legen, eine Grafik erstellen oder das Bild in eine Design-Software laden möchtest, bietet HEIC in PNG umwandeln genau die Flexibilität, die du brauchst. Jede Konvertierung läuft lokal, sodass selbst hochauflösende Dateien auf deinem Gerät bleiben."
+            "Mit dem Konverter oben wandeln Sie HEIC direkt im Browser in PNG um – kostenlos, privat und ohne Upload, denn jede Umwandlung läuft lokal auf Ihrem Gerät. PNG komprimiert verlustfrei: Das dekodierte Bild wird Pixel für Pixel gespeichert, ohne dass irgendetwas weggeworfen wird. Damit ist HEIC zu PNG immer dann die richtige Wahl, wenn Qualität wichtiger ist als Dateigröße: Fotos, die Sie intensiv bearbeiten wollen, Screenshots mit scharfem Text, Diagramme, Logos, eingescannte Dokumente und Bilder für hochwertigen Druck.",
+            "Das klarste Argument für PNG ist wiederholtes Bearbeiten. Bei jedem Speichern eines verlustbehafteten Formats wie JPG komprimiert der Encoder das Bild neu und verwirft ein bisschen mehr Detail – feine Texturen verschwimmen, an Kanten schleichen sich blockige Artefakte ein. Ein PNG lässt sich beliebig oft öffnen, bearbeiten und neu speichern, ganz ohne zusätzliche Verluste, weil nie etwas verworfen wird. Wenn ein Foto vor dem finalen Export mehrere Runden Zuschneiden, Farbkorrektur oder Retusche durchläuft, wandeln Sie das HEIC einmal zu Beginn in PNG um und arbeiten von dieser Masterkopie aus.",
+            "PNG ist außerdem die sicherste Bank in Sachen Kompatibilität. Es ist seit den 1990er-Jahren ein Web- und Software-Standard und öffnet sich überall – auf alten Windows-Rechnern, in Firmen-Upload-Formularen, Behördenportalen, E-Mail-Programmen und jedem jemals gebauten Bildbearbeitungsprogramm. Wenn eine Website Ihr iPhone-Foto ablehnt oder ein Kollege es nicht öffnen kann, beendet eine PNG-Version die Diskussion."
           ]
         },
         {
-          "h2": "HEIC in PNG oder HEIC in JPG – was ist die richtige Wahl?",
+          "h2": "Der Transparenz-Mythos: Was der Alphakanal für iPhone-Fotos wirklich bedeutet",
           "p": [
-            "Entscheide dich für PNG, wenn Qualität und Transparenz wichtiger sind als die Dateigröße – etwa bei Bearbeitung, Druck, Grafiken und Archivierung. Wähle JPG, wenn du die kleinstmögliche Datei zum Teilen, Hochladen oder Speichern vieler Fotos willst, denn JPG-Dateien sind bei typischen Fotos deutlich kleiner als PNG.",
-            "Du musst dich nicht blind entscheiden: Wandle dieselbe HEIC-Datei einfach in beide Formate um und vergleiche selbst. Dieses Tool unterstützt HEIC zu PNG, JPG, WebP, PDF, GIF und BMP, sodass du jedes Foto genau in das Format bringst, das du wirklich brauchst – ganz ohne Installation."
+            "PNG ist berühmt für Transparenz, und genau dieser Ruf führt zu einem verbreiteten Missverständnis. Ja, PNG unterstützt einen Alphakanal – Pixel können ganz oder teilweise durchsichtig sein, weshalb Logos und Interface-Grafiken meist PNGs sind. Aber ein mit der iPhone-Kamera aufgenommenes Foto enthält von vornherein keine Transparenz: Jeder Pixel im Bild ist ein voll deckender Teil der Szene. Wer dieses HEIC in PNG umwandelt, bekommt keinen magisch transparenten Hintergrund, sondern exakt dasselbe rechteckige Foto – nur verlustfrei gespeichert.",
+            "Wann zählt der Alphakanal dann wirklich? Nach der Umwandlung, in Ihrem Bearbeitungsworkflow. Wenn Sie ein Motiv in Photoshop, GIMP, Canva oder einem Freisteller-Tool vom Hintergrund lösen wollen, brauchen Sie ein Format, das das transparente Ergebnis speichern kann – und dieses Format ist PNG. Von einem PNG auszugehen bedeutet zudem saubere Schnittkanten, weil keine JPG-Kompressionsartefakte die Grenze zwischen Motiv und Hintergrund verschmieren. Kurz gesagt: Wandeln Sie HEIC in PNG um, nicht weil das Foto transparent ist, sondern weil Sie gleich einen Teil davon transparent machen werden."
+          ]
+        },
+        {
+          "h2": "Dateigrößen-Realitätscheck: Was ein 12-MP-iPhone-Foto wirklich wiegt",
+          "p": [
+            "Die größte Überraschung beim Umwandeln von HEIC in PNG ist die Dateigröße. Es lohnt sich, die ehrlichen Zahlen für ein typisches 12-Megapixel-iPhone-Foto nebeneinander zu sehen:"
+          ],
+          "table": {
+            "caption": "Dateigrößen-Realitätscheck (typisches 12-MP-iPhone-Foto)",
+            "headers": [
+              "Format",
+              "Typische Größe",
+              "Warum"
+            ],
+            "rows": [
+              [
+                "HEIC (Original)",
+                "1,5–2 MB",
+                "Moderne verlustbehaftete Kompression (HEVC-basiert), extrem effizient – genau deshalb nutzt Apple sie"
+              ],
+              [
+                "JPG (hohe Qualität)",
+                "3–5 MB",
+                "Ältere verlustbehaftete Kompression; bei vergleichbarer Bildqualität etwa doppelt so groß wie HEIC"
+              ],
+              [
+                "PNG",
+                "15–25 MB",
+                "Verlustfrei – jeder Pixel exakt gespeichert, und fotografisches Detail lässt sich ohne Verlust nur schlecht komprimieren"
+              ],
+              [
+                "BMP",
+                "~36 MB",
+                "Im Wesentlichen unkomprimiert; 12 Millionen Pixel zu je 3 Byte, gar keine Kompression"
+              ]
+            ]
+          },
+          "pAfter": [
+            "Dass ein PNG zehnmal größer ist als das HEIC, aus dem es stammt, ist normal und zu erwarten – es ist der ehrliche Preis dafür, jeden Pixel zu behalten. Diesen Preis zahlt man gern für ein Foto, das gleich bearbeitet oder in maximaler Qualität archiviert wird. Nicht aber für ein Foto, das man nur schnell einem Freund schicken will. Für den Alltag liefert JPG eine Datei, die die meisten Menschen nicht vom PNG unterscheiden können – bei einem Bruchteil des Gewichts. Genau deshalb bietet diese Seite beide Umwandlungen an."
+          ]
+        },
+        {
+          "h2": "Workflows, in denen HEIC zu PNG gewinnt",
+          "list": [
+            "Design-Tools: Figma, Canva und Präsentationsprogramme verarbeiten PNG tadellos, und alle Freisteller, Overlays oder Exporte behalten saubere, artefaktfreie Kanten.",
+            "OCR und Dokumente: Texterkennung funktioniert auf verlustfreien Bildern spürbar besser – JPG-Artefakte rund um Buchstaben sind genau die Art Rauschen, an der OCR-Engines scheitern. Belege, Whiteboards und gescannte Seiten sollten deshalb über PNG laufen.",
+            "Screenshots und UI-Grafiken: Flächige Farben, scharfe Linien und kleiner Text sind der schlimmste Fall für verlustbehaftete Kompression und der beste für PNG, das solche Bereiche effizient komprimiert und messerscharf hält.",
+            "Mehrstufiges Bearbeiten: Wenn ein Foto durch mehrere Tools wandert – zuschneiden in einer App, Farbkorrektur in der nächsten, Beschriftung in der dritten –, sorgt PNG als Zwischenformat dafür, dass überhaupt nur der finale Export mit Qualitätsverlust verbunden ist.",
+            "Eine Masterkopie archivieren: Wenn Sie von einem wichtigen Foto eine definitive Version aufbewahren, bevor abgeleitete Fassungen entstehen, garantiert ein verlustfreies PNG-Master, dass künftige Bearbeitungen immer bei voller Qualität starten."
+          ],
+          "pAfter": [
+            "Der rote Faden: PNG gehört in die Mitte eines Workflows – überall dorthin, wo das Bild noch einmal weiterverarbeitet wird. Es bewahrt maximale Information für den nächsten Schritt, egal ob der ein Editor ist, eine OCR-Engine oder Sie selbst in fünf Jahren."
+          ]
+        },
+        {
+          "h2": "Wann Sie PNG NICHT verwenden sollten",
+          "p": [
+            "PNG ist öfter die falsche Wahl, als viele denken, und der Grund ist immer derselbe: das Gewicht. PNGs per E-Mail zu verschicken ist der schnellste Weg an die Anhangsgrenze – drei, vier umgewandelte iPhone-Fotos können ein übliches 25-MB-Limit ganz allein sprengen. Messenger wie WhatsApp nehmen die Datei zwar an, komprimieren sie bei der Zustellung aber aggressiv neu und zerstören damit genau die verlustfreie Qualität, für die Sie die ganze Dateigröße bezahlt haben. Für alles, was an eine andere Person geht, wandeln Sie HEIC lieber in JPG um.",
+            "Dieselbe Logik gilt in großem Maßstab. Wer ein ganzes Urlaubsalbum in PNG umwandelt, macht aus einer 2-GB-Fotomediathek 20 GB an Dateien, die auf jedem Handy- und Laptop-Display identisch aussehen. Für Massenumwandlungen nehmen Sie JPG – oder lassen die Fotos schlicht in HEIC, wenn sie auf Apple-Geräten bleiben, wo das Format nativ funktioniert. Und wenn das Ziel eine eigene Website ist, ist für Fotografien weder PNG noch JPG ideal: WebP liefert JPG-Größen bei besserer Qualität, und der HEIC-zu-WebP-Konverter dieser Seite deckt genau diesen Fall ab. Reservieren Sie PNG im Web für Grafiken, Logos und Screenshots – die Inhalte, für die es entworfen wurde."
+          ]
+        },
+        {
+          "h2": "Fehlersuche bei HEIC-zu-PNG-Umwandlungen",
+          "p": [
+            "Mein PNG ist riesig. Nachtaufnahmen, Landschaften und alle detailreichen Fotos erzeugen die größten PNGs, weil verlustfreie Kompression komplexe Texturen nicht so zusammenfassen kann wie verlustbehaftete Formate – ein detailreiches 48-MP-Foto eines aktuellen iPhone kann ein PNG von deutlich über 50 MB ergeben. Das ist normales Verhalten, kein Fehler. Wenn die Größe zum Problem wird, wollte das Foto vermutlich ein JPG sein.",
+            "Ein großer Stapel bremst meinen Browser aus. Jedes PNG entsteht im Arbeitsspeicher Ihres Browsers, bevor es heruntergeladen wird – das ist die Kehrseite des Ohne-Upload-Privatsphäremodells. Dutzende Fotos bedeuten Hunderte Megabyte Pixeldaten gleichzeitig im RAM. Wenn ein großer Stapel zäh wird oder einem Tab der Speicher ausgeht, wandeln Sie in kleineren Gruppen von 10–20 Dateien um und lassen jede Gruppe fertig werden, bevor die nächste startet.",
+            "Verbessert PNG die Qualität meines Fotos? Nein – und jedes Tool, das etwas anderes behauptet, führt Sie in die Irre. HEIC ist ein verlustbehaftetes Format; ein Teil des Details wurde schon beim Speichern des Fotos verworfen. Die Umwandlung in PNG bewahrt alles, was diese erste Kompression überlebt hat, perfekt – aber sie kann kein Detail rekonstruieren, das nicht mehr existiert. Betrachten Sie PNG als perfekte Fotokopie: identisch mit dem, was Sie hineingeben, niemals besser."
           ]
         }
       ]
@@ -499,17 +690,91 @@
     "pdf": {
       "sections": [
         {
-          "h2": "HEIC in PDF umwandeln und mehrere Fotos zusammenfügen",
+          "h2": "Warum HEIC in PDF umwandeln? Aus iPhone-Fotos echte Dokumente machen",
           "p": [
-            "Verwandle ein einzelnes HEIC-Foto – oder einen ganzen Stapel – direkt im Browser in ein einziges PDF. Füge deine Dateien oben hinzu, ordne sie an, und das Tool erstellt ein sauberes HEIC-zu-PDF-Dokument, das du sofort herunterladen kannst. Da alles lokal läuft, werden deine Bilder niemals hochgeladen – wichtig bei Belegen, Ausweisen, Verträgen und anderen sensiblen Scans.",
-            "PDF ist das universelle Dokumentformat: Es öffnet sich identisch auf jedem Smartphone, Computer oder Drucker und hält mehrere Bilder in der richtigen Reihenfolge zusammen. HEIC in PDF umwandeln eignet sich ideal, um mehrere Fotos als einen Anhang zu verschicken, zu drucken oder gescannte Dokumente einzureichen, die ursprünglich iPhone-Fotos waren."
+            "Meistens sind die Fotos auf Ihrem iPhone einfach Fotos. Aber manchmal ist ein Bild in Wahrheit ein verkleidetes Dokument: ein Beleg für die Reisekostenabrechnung, ein unterschriebener Vertrag, den Sie auf dem Küchentisch abfotografiert haben, eine Seite Hausaufgaben, ein Whiteboard voller Meeting-Notizen. Wer HEIC in PDF umwandelt, holt dieses Foto aus der „Bild“-Welt in die „Dokument“-Welt – das Format, das jedes Büro, jede Schule, jedes Behördenportal und jede Buchhaltung ohnehin erwartet.",
+            "PDF hat gegenüber dem Versand eines rohen Fotos drei praktische Vorteile. Es wird universell akzeptiert: Jedes Handy, jeder Computer und jeder Drucker öffnet ein PDF auf dieselbe Weise, ohne Kompatibilitätsfragen. Es hält mehrere Seiten in fester Reihenfolge zusammen, sodass zusammengehörige Fotos als eine ordentliche Datei reisen statt als loser Stapel von Anhängen. Und es druckt mit vorhersehbarem Layout – Seitengröße und Ränder stecken fest in der Datei, was Sie sehen, kommt auch aus dem Drucker.",
+            "Dieser kostenlose HEIC-zu-PDF-Konverter erledigt all das direkt in Ihrem Browser. Ihre Fotos werden lokal auf Ihrem eigenen Gerät dekodiert und zum PDF zusammengesetzt, nichts wird auf einen Server hochgeladen – was zählt, wenn das fragliche Foto ein Ausweis, ein Arztformular oder eine unterschriebene Vereinbarung ist."
           ]
         },
         {
-          "h2": "Warum HEIC in PDF statt in JPG umwandeln",
+          "h2": "Typische Einsätze: Belege, Verträge, Hausaufgaben und mehrseitige PDFs",
           "p": [
-            "Ein einzelnes PDF lässt sich leichter teilen und archivieren als ein Ordner voller Einzelbilder. Musst du fünf Fotos an ein Büro, eine Lehrkraft oder einen Kunden schicken, wirkt eine HEIC-zu-PDF-Datei professionell und kann nicht vertauscht oder verloren werden. PDFs drucken außerdem zuverlässig in der eingestellten Größe.",
-            "Nutze JPG weiterhin für das Web und soziale Netzwerke, und wähle PDF, wenn die Fotos als zusammengehörendes Dokument gedacht sind. Dieser kostenlose HEIC-zu-PDF-Konverter verarbeitet sowohl einzelne Bilder als auch mehrseitige Dokumente – ohne Wasserzeichen und ohne Seitenlimit."
+            "Der mit Abstand häufigste Grund, ein iPhone-Foto in ein PDF zu verwandeln, ist der Kamera-als-Scanner-Workflow. Sie fotografieren ein Papierdokument und müssen es nun irgendwohin mailen, wo es ernst genommen werden soll. Eine schief liegende HEIC Datei an eine förmliche E-Mail zu hängen wirkt improvisiert – und unter Windows öffnet sie sich womöglich gar nicht erst. Wandeln Sie sie vorher in PDF um, und dasselbe Foto kommt als richtiges Dokument an: richtig herum, eine Seite, überall per Doppelklick zu öffnen.",
+            "Der zweite große Anwendungsfall ist das Zusammenführen mehrerer HEIC-Fotos zu einem mehrseitigen PDF. Legen Sie alle Seiten eines Vertrags hinein, sämtliche Belege einer Dienstreise oder die zehn Fotos eines Schulprojekts, und Sie bekommen eine einzige Datei mit den Seiten in Ihrer gewählten Reihenfolge zurück. Ein Anhang lässt sich leichter verschicken, leichter ablegen und kann nie unvollständig ankommen – niemand kann Seite 3 öffnen, ohne auch Seite 1 und 2 zu haben. Design-Portfolios, Spesenabrechnungen und abgegebene Hausaufgaben profitieren vom selben Trick.",
+            "Und schließlich gibt es Plattformen, die schlicht nichts anderes akzeptieren. Bewerbungssysteme von Universitäten, Visa- und Einwanderungsportale, Versicherungsfälle und viele Behörden-Websites nehmen Uploads nur als PDF an. Wenn die gewünschten Nachweise als HEIC-Fotos auf Ihrem iPhone existieren, ist die Umwandlung in PDF der einzige Weg durch das Upload-Formular."
+          ]
+        },
+        {
+          "h2": "PDF, JPG oder PNG: Welches Format zum Teilen von Dokumenten?",
+          "p": [
+            "Die Wahl zwischen PDF und einem Bildformat läuft auf eine einfache Frage hinaus: Soll der Empfänger das hier wie ein Dokument lesen oder wie ein Bild verwenden? Diese Tabelle fasst zusammen, wie sich die drei Formate verhalten, wenn Sie etwas Dokumentartiges teilen:"
+          ],
+          "table": {
+            "headers": [
+              "Format",
+              "Mehrseitig",
+              "Druckt vorhersehbar",
+              "Wird als „Dokument“ akzeptiert",
+              "Nachträglich bearbeitbar"
+            ],
+            "rows": [
+              [
+                "PDF",
+                "Ja – viele Fotos, eine Datei, feste Reihenfolge",
+                "Ja – Seitengröße und Ränder sind Teil der Datei",
+                "Ja – der Standard für Büros, Schulen und Portale",
+                "Eingeschränkt – Seitenänderungen brauchen einen PDF-Editor"
+              ],
+              [
+                "JPG",
+                "Nein – ein Bild pro Datei",
+                "Hängt von App und Druckereinstellungen ab",
+                "Manchmal – gilt oft als „nur ein Foto“",
+                "Ja – öffnet sich in jedem Bildeditor"
+              ],
+              [
+                "PNG",
+                "Nein – ein Bild pro Datei",
+                "Hängt von App und Druckereinstellungen ab",
+                "Selten – wird als Screenshot oder Grafik gesehen",
+                "Ja – öffnet sich in jedem Bildeditor"
+              ]
+            ]
+          },
+          "pAfter": [
+            "Das Muster ist eindeutig: PDF gewinnt immer dann, wenn die Fotos zusammengehören und förmlich behandelt werden sollen; JPG und PNG gewinnen, wenn der Empfänger das Bild selbst zuschneiden, retuschieren oder weiterverwenden muss. Genau deshalb bietet diese Seite beides an – HEIC in PDF für Papierkram, HEIC in JPG oder PNG für alles Visuelle."
+          ]
+        },
+        {
+          "h2": "Qualität, Seitengröße und Druck: Was Sie erwarten können",
+          "p": [
+            "Eine PDF-Seite hat eine feste Größe – typischerweise die Proportionen eines Blatts Papier –, während Ihr iPhone-Foto seine eigene Auflösung und sein eigenes Seitenverhältnis mitbringt. Wenn der Konverter ein HEIC-Foto auf eine PDF-Seite setzt, wird das Bild passend skaliert und behält dabei seine Proportionen; die Seitenausrichtung folgt dem Foto: Hochformat-Fotos ergeben Hochformat-Seiten, Querformat-Fotos Querformat-Seiten. Nichts wird beschnitten, nichts verzerrt.",
+            "Die Druckqualität hängt von der Auflösung des Originalfotos ab, nicht von der PDF-Hülle. Ein 12-Megapixel-iPhone-Foto hat weit mehr Pixel, als eine gedruckte Briefseite darstellen kann – Dokumentfotos aus jedem neueren iPhone drucken also gestochen scharf. Ist die Quelle ein kleines Vorschaubild oder ein stark komprimierter Screenshot, zaubert auch das PDF kein Detail herbei, das nie da war.",
+            "Für die Dateigröße gilt dieselbe Logik. Ein aus Fotos gebautes PDF ist im Kern eine dünne Hülle um komprimierte Bilder und wiegt daher ungefähr so viel wie die entsprechenden JPGs, plus etwas Overhead pro Seite. Ein Zehn-Foto-PDF aus iPhone-Aufnahmen in voller Auflösung erreicht leicht 15–20 MB – gut zu wissen, bevor Sie es mailen, wie im Abschnitt zur Fehlersuche unten beschrieben."
+          ]
+        },
+        {
+          "h2": "Wann Sie HEIC NICHT in PDF umwandeln sollten",
+          "p": [
+            "PDF ist das richtige Ziel für Papierkram, aber das falsche für viele Alltagssituationen. Sparen Sie sich die PDF-Umwandlung, wenn:"
+          ],
+          "list": [
+            "Der Empfänger das Bild bearbeiten oder zuschneiden muss. Ein Foto wieder aus einem PDF herauszuholen ist umständlich; schicken Sie ein JPG oder PNG, und er öffnet es direkt in jedem Editor.",
+            "Das Foto in Social Media, eine Chat-App oder auf eine Website soll. Diese Plattformen wollen Bilddateien – nehmen Sie HEIC zu JPG für Fotos oder WebP für Webseiten, dann erscheinen sie direkt im Bild statt hinter einem Dokument-Symbol.",
+            "Ihnen Archivqualität wichtig ist. Ein aus Fotos gebautes PDF speichert komprimierte Versionen davon. Um die beste Kopie eines Bildes zu bewahren, behalten Sie das HEIC-Original (oder exportieren ein verlustfreies PNG) und betrachten das PDF als die teilbare Version, nicht als Master.",
+            "Sie einer Person ein einzelnes, beiläufiges Foto schicken. Ein einsamer Schnappschuss im PDF-Mantel erzwingt einen Herunterladen-und-Öffnen-Schritt ohne jeden Nutzen – ein Bildanhang zeigt sofort eine Vorschau."
+          ],
+          "pAfter": [
+            "Eine gute Faustregel: Wandeln Sie HEIC in PDF um, wenn die Datei abgelegt, gedruckt oder eingereicht wird; bleiben Sie bei einem Bildformat, wenn die Datei angesehen, bearbeitet oder gepostet wird."
+          ]
+        },
+        {
+          "h2": "Fehlersuche bei HEIC-zu-PDF-Umwandlungen",
+          "p": [
+            "Ein großes PDF oder ein PDF pro Foto? Sind Ihre Fotos Seiten desselben Dokuments, führen Sie sie zu einem einzigen mehrseitigen PDF zusammen – genau das erwarten Empfänger von einem Vertrag oder einem Bericht. Sind es voneinander unabhängige Stücke, etwa einzelne Belege für verschiedene Spesenposten, wandeln Sie sie in kleineren Gruppen oder einzeln um, damit jedes PDF für sich steht. Bei sehr großen Mengen hält das Umwandeln in Portionen von ein paar Dutzend Fotos außerdem Ihren Browser flott, denn die gesamte Arbeit passiert lokal im Arbeitsspeicher.",
+            "Das PDF wirkt beim Hineinzoomen unscharf? Das ist die Auflösungsgrenze des Originalfotos, kein Umwandlungsfehler. Ein PDF kann nur die Pixel zeigen, die das HEIC enthielt; wer weit über 100 % hinauszoomt, sieht jedes fotobasierte PDF weich werden. Bei Dokumenten liegt die Lösung beim Aufnehmen: das Blatt formatfüllend fotografieren, das Handy parallel dazu halten und vor dem Umwandeln prüfen, dass der Text im Foto scharf ist.",
+            "Anhang zu groß für die E-Mail? Die meisten Anbieter deckeln Anhänge bei etwa 20–25 MB, und ein mehrseitiges PDF aus Fotos in voller Auflösung erreicht diese Grenze schnell. Die leichteste Abhilfe: die Bildqualität vor dem Umwandeln senken – Dokumentfotos bleiben auch bei reduzierter Qualität bestens lesbar. Alternativ erst mit niedrigerer Qualität in JPG umwandeln oder das Dokument in zwei kleinere PDFs aufteilen. Lehnt ein Portal Ihren Upload ab, prüfen Sie dessen angegebenes Größenlimit; meist genügt es, an der Qualität zu drehen."
           ]
         }
       ]
@@ -517,17 +782,86 @@
     "webp": {
       "sections": [
         {
-          "h2": "HEIC in WebP umwandeln für schnellere Webseiten",
+          "h2": "HEIC und WebP: zwei moderne Formate, zwei verschiedene Welten",
           "p": [
-            "WebP ist Googles modernes Bildformat, entwickelt, damit Webseiten schneller laden. Wandelst du HEIC in WebP um, erhältst du Dateien, die bei gleicher visueller Qualität deutlich kleiner sind als JPG oder PNG – perfekt für Webseiten, Blogs, Onlineshops und überall dort, wo Ladezeit und Core Web Vitals zählen. Lade deine HEIC-Dateien oben hoch und erhalte in Sekunden optimierte WebP-Bilder, ganz ohne Upload.",
-            "Mittlerweile unterstützt jeder wichtige Browser – Chrome, Firefox, Edge, Safari und Android – WebP, sodass du kleinere Bilder erhältst, ohne bei der Kompatibilität für moderne Webnutzung Abstriche zu machen. Die gesamte HEIC-zu-WebP-Konvertierung läuft in deinem Browser, sodass selbst große Fotosammlungen privat auf deinem Gerät bleiben."
+            "HEIC und WebP sind engere Verwandte, als die meisten ahnen. Beide sind moderne, hocheffiziente Bildformate mit Wurzeln in der Videotechnik – HEIC komprimiert Fotos mit HEVC, dem Codec hinter 4K-Video, während WebP aus dem VP8-Codec des Online-Streamings hervorging. Beide existieren, um dasselbe Bild in deutlich weniger Platz zu speichern als der JPG-Standard aus den 1990er-Jahren. Der Unterschied ist, wo die beiden zu Hause sind. HEIC ist das native Format des Apple-Ökosystems – das, was Ihr iPhone in die Fotomediathek schreibt und was iCloud zwischen Geräten synchronisiert. WebP ist das native Format des Webs – das, worauf Browser, CDNs und Ladezeit-Tools optimiert sind.",
+            "Genau diese Trennung ist der Grund, HEIC in WebP umzuwandeln. Ihre iPhone-Fotos sind bereits effizient komprimiert, aber in einem Dialekt, den das Web nicht nativ spricht. Viele wandeln HEIC erst in JPG um und jagen das JPG dann durch einen separaten WebP-Optimierer; der direkte Weg von HEIC zu WebP spart den Zwischenschritt, vermeidet eine zweite Generation von Kompressionsverlusten und liefert in einem Durchgang eine veröffentlichungsfertige Datei – komplett in Ihrem Browser, ohne dass irgendetwas hochgeladen wird."
           ]
         },
         {
-          "h2": "Wann WebP statt JPG oder PNG die bessere Wahl ist",
+          "h2": "Von der iPhone-Fotomediathek zur schnell ladenden Website",
           "p": [
-            "Wähle WebP, wenn kleinere Dateien und schnelleres Laden im Web dein Ziel sind: Es kombiniert die Komprimierung von JPG mit der Transparenz von PNG in einem einzigen Format. Für Fotos, die du online veröffentlichst, reduziert HEIC in WebP umwandeln die Dateigröße meist um 25–35 % gegenüber JPG.",
-            "Bleib bei JPG, wenn du die größtmögliche Kompatibilität mit alter Software brauchst, oder bei PNG, wenn garantiert verlustfreie Qualität gefragt ist. Für alles Webbasierte ist WebP meist die klügste Wahl – und mit diesem kostenlosen Konverter kannst du alle drei Formate aus derselben HEIC-Datei direkt vergleichen."
+            "Der häufigste Grund, heic in webp umzuwandeln, ist das Veröffentlichen: Sie haben Produktfotos, Blogbilder oder Portfolio-Aufnahmen mit dem iPhone gemacht, und jetzt sollen sie auf eine Seite, die Sie betreiben. Der Ablauf ist kurz. Exportieren oder AirDroppen Sie die HEIC-Dateien aus Ihrer Fotomediathek auf den Computer, legen Sie sie im Konverter oben ab und laden Sie WebP-Dateien herunter, die WordPress (nativ unterstützt seit Version 5.8), Shopify und praktisch jeder moderne Site-Builder als ganz normalen Bild-Upload akzeptieren. Kein Plugin, kein serverseitiger Umwandlungsschritt, keine Formatfehler beim Hochladen.",
+            "Die Belohnung zeigt sich in Ihren Core Web Vitals. Largest Contentful Paint – wie schnell das größte Element der Seite erscheint – entscheidet meist ein Hero-Bild, und ein als WebP ausgeliefertes Hero-Bild kommt spürbar schneller an als dasselbe Bild als JPG, schlicht weil weniger Bytes zu laden sind. Auf bildlastigen Seiten summiert sich der Effekt: Ein Produktraster oder eine Thumbnail-Galerie spart diese Marge bei jeder Datei – oft der Unterschied zwischen einer Seite, die sich im Mobilfunknetz sofort anfühlt, und einer, die sichtbar nachlädt. Da die Seitenerfahrung in die Suchrankings einfließt, ist das Umwandeln von iPhone-Fotos in WebP vor dem Upload einer der günstigsten SEO-Gewinne überhaupt.",
+            "Eine praktische Gewohnheit: Verkleinern Sie vor dem Ausliefern. Ein 12-MP-iPhone-Foto ist rund 4000 Pixel breit, eine Blog-Spalte zeigt aber selten mehr als 1200–1600. Wandeln Sie hier in voller Auflösung in WebP um, behalten Sie das als Upload-Master und lassen Sie Ihr CMS die Anzeigegrößen erzeugen – WordPress und Shopify machen das für WebP-Uploads automatisch, sodass Thumbnails und Hero-Ausschnitte das kleinere Format erben."
+          ]
+        },
+        {
+          "h2": "Dasselbe 12-MP-Foto, drei Ziele",
+          "p": [
+            "Die Formatwahl ist in Wahrheit die Frage, wohin das Foto geht. So verhält sich ein typisches 12-MP-iPhone-Foto in den drei Formaten, die diese Seite am häufigsten erzeugt:"
+          ],
+          "table": {
+            "headers": [
+              "Format",
+              "Typische Größe",
+              "Auswirkung auf die Ladezeit",
+              "Wann es gewinnt"
+            ],
+            "rows": [
+              [
+                "WebP (Webseiten)",
+                "1–2 MB",
+                "Am schnellsten – kleinster Download, beste LCP-Werte",
+                "Websites, Blogs, Onlineshops, überall wo Ladezeit gemessen wird"
+              ],
+              [
+                "JPG (E-Mail & universell)",
+                "2–3,5 MB",
+                "Fürs Teilen völlig okay, im großen Stil schwerer auszuliefern",
+                "E-Mail-Anhänge, Druck, Empfänger mit unbekannter Software"
+              ],
+              [
+                "PNG (Design & verlustfrei)",
+                "10–25 MB",
+                "Am langsamsten – für Fotoseiten unpraktikable Größen",
+                "Design-Übergaben, Screenshots, Grafiken, die pixelgenau bleiben müssen"
+              ]
+            ]
+          },
+          "pAfter": [
+            "Die Zahlen schwanken mit dem Motiv – eine wimmelige Landschaft komprimiert anders als ein Produktfoto auf Weiß –, aber die Rangfolge ändert sich fast nie. Für alles, was über das Netz an Besucher ausgeliefert wird, gewinnt WebP. Für alles, was an einen Menschen statt an eine Seite geht, ist JPG der sicherere Bote. PNG ist ein Spezialwerkzeug, kein Fotoformat."
+          ]
+        },
+        {
+          "h2": "WebP-Kompatibilität 2026: Wo es funktioniert und wo noch nicht",
+          "p": [
+            "Im Web selbst ist Kompatibilität seit Jahren keine Frage mehr: Jeder aktuelle Browser auf jeder Plattform stellt WebP dar, seit Safari 2020 als letzter nachzog. Die Publishing-Plattformen folgten: WordPress akzeptiert WebP-Uploads nativ seit 5.8, Shopify liefert es automatisch aus, und moderne Site-Builder und Forensoftware behandeln es als vollwertiges Bildformat. Wenn das endgültige Ziel Ihrer Datei eine URL ist, können Sie heic in webp guten Gewissens umwandeln.",
+            "Die rauen Kanten liegen alle abseits des Webs. Ältere Photoshop-Versionen (vor Version 23) öffnen WebP nur mit Plugin, manche mitgelieferten Windows-Bildbetrachter stolpern noch darüber, und E-Mail-Programme sind unberechenbar – ein per Mail verschicktes WebP erscheint beim einen Empfänger im Text, beim anderen als rätselhafte, nicht zu öffnende Datei. Nichts davon ist ein Mangel Ihrer umgewandelten Datei; es ist schlicht Software, die älter ist als die breite Verbreitung des Formats.",
+            "Die Entscheidungsregel daraus ist simpel: Richten Sie das Format nach dem Ziel, nicht nach der Quelle. Foto für eine Seite, die Sie veröffentlichen? WebP. Foto für einen Menschen, einen Drucker oder ein Postfach? Wandeln Sie diese Kopie stattdessen in JPG um – und nichts spricht dagegen, aus demselben HEIC beides zu erzeugen."
+          ]
+        },
+        {
+          "h2": "Wann Sie WebP nicht verwenden sollten",
+          "p": [
+            "WebP ist die richtige Antwort fürs Web, aber oft genug die falsche, sodass sich eine kurze Checkliste lohnt:"
+          ],
+          "list": [
+            "E-Mail-Anhänge – die Inline-Darstellung in E-Mail-Programmen ist weiterhin unberechenbar; schicken Sie JPG, damit jeder Empfänger das Foto reibungslos öffnen kann.",
+            "Druckaufträge – Druckereien und Foto-Heimdrucker sind auf JPG-, TIFF- und PDF-Workflows ausgelegt; wer einem Druckdienst WebP-Dateien übergibt, provoziert einen Umwandlungsschritt außerhalb der eigenen Kontrolle.",
+            "Lieferungen an Kunden – wenn Sie nicht wissen, welche Software der Empfänger nutzt, schließt JPG die Antwort „diese Datei geht bei mir nicht auf“ von vornherein aus.",
+            "Ihr Master-Archiv – behalten Sie das HEIC-Original (oder einen PNG-Export bei bearbeiteten Arbeiten) als Quelle der Wahrheit; WebP ist ein Verteilformat, das bei Bedarf aus dem Master erzeugt wird, niemals die einzige Kopie.",
+            "Bilder, die Sie immer wieder bearbeiten – jedes Speichern eines verlustbehafteten WebP komprimiert die Pixel neu; bearbeiten Sie am Original und exportieren Sie WebP zuletzt."
+          ],
+          "pAfter": [
+            "Das Muster ist in allen fünf Fällen dasselbe: WebP ist fürs Ausliefern optimiert, nicht fürs Austauschen oder Aufbewahren. Setzen Sie es am Ende der Pipeline ein, nicht am Anfang."
+          ]
+        },
+        {
+          "h2": "Zwei Dinge, die wie Fehler aussehen, aber keine sind",
+          "p": [
+            "Wenn eine Plattform Ihren .webp-Upload ablehnt, widerstehen Sie der Versuchung, die Datei einfach in .jpg umzubenennen – die Endung ist nur ein Etikett, und die empfangende Software findet darin weiterhin WebP-Daten und scheitert, manchmal mit einer noch verwirrenderen Fehlermeldung als zuvor. Die echte Lösung: das HEIC in ein tatsächliches JPG umwandeln und dieses hochladen; ein abgelehntes WebP heißt nur, dass der Dienst die Unterstützung noch nicht nachgerüstet hat.",
+            "Die zweite Überraschung: Gelegentlich fällt ein umgewandeltes WebP größer aus als das HEIC, aus dem es stammt. Das ist normal, keine Fehlfunktion. HEVC – die Kompression in HEIC – ist ein außergewöhnlich starker Codec und komprimiert manche Bilder schlicht besser als WebP. Der Vergleich, der fürs Web zählt, ist aber nicht WebP gegen das HEIC-Original, das Browser ohnehin nicht anzeigen können, sondern WebP gegen das JPG, das Sie sonst ausgeliefert hätten – und da liegt WebP verlässlich vorn. Eine ungewöhnlich große Umwandlung ändert am Workflow nichts: Die Datei wird überall dargestellt und erfüllt ihren Zweck auf der Seite."
           ]
         }
       ]
@@ -535,17 +869,89 @@
     "gif": {
       "sections": [
         {
-          "h2": "HEIC in GIF umwandeln und Live-Fotos animieren",
+          "h2": "HEIC in GIF umwandeln: ein ehrlicher Blick auf ein Format von 1987",
           "p": [
-            "GIF ist das Format für einfache Animationen und kurze Loop-Clips, die überall abspielen. Wandelst du HEIC in GIF um, kannst du iPhone-Live-Fotos und ganze Bildsequenzen in teilbare Animationen verwandeln oder ein einzelnes Bild als leichte, kompakte Grafik extrahieren. Füge deine Dateien oben hinzu und lade dein fertiges GIF sofort herunter – kostenlos, privat und komplett im Browser verarbeitet, ganz ohne Installation.",
-            "Da GIFs in Nachrichten, Chats, E-Mails und sozialen Feeds automatisch abspielen, ganz ohne separaten Videoplayer, sind sie der einfachste Weg, einen bewegten Moment schnell zu teilen. Jede HEIC-zu-GIF-Konvertierung läuft vollständig lokal in deinem Browser, sodass nichts auf einen Server hochgeladen wird."
+            "GIF ist eines der ältesten Bildformate, die noch täglich im Einsatz sind. Es erschien 1987, als Computer ein paar Hundert Farben darstellten und eine 100-KB-Datei als schwer galt. Fast vier Jahrzehnte später überlebt GIF nicht, weil es schöne Bilder liefert, sondern weil praktisch jede jemals geschriebene Software eines öffnen kann. Diese universelle Kompatibilität ist der eigentliche Grund, HEIC in GIF umzuwandeln: Ihr iPhone speichert Fotos in einem modernen, effizienten Format, das etliche ältere Systeme schlicht nicht lesen wollen – ein GIF dagegen kommt überall durch.",
+            "Dieser Konverter macht aus Ihren HEIC-Dateien GIF-Bilder direkt im Browser. Nichts wird auf einen Server hochgeladen, es gibt keine Warteschlange und kein Konto, und Ihre Fotos verlassen Ihr Gerät nie. Dateien oben ablegen, Ergebnisse herunterladen, fertig. Vorher lohnt sich allerdings ein Blick darauf, was GIF mit einer Fotografie anstellt, denn für die meisten Alltagsbilder ist ein anderes Format die bessere Wahl. Die Abschnitte unten erklären genau, wann eine HEIC-zu-GIF-Umwandlung richtig ist – und wann nicht."
           ]
         },
         {
-          "h2": "GIF oder JPG für iPhone-Fotos?",
+          "h2": "Wo GIF noch wirklich gewinnt",
           "p": [
-            "Nutze GIF, wenn du eine Animation oder einen kleinen, überall abspielbaren Clip brauchst; nutze JPG für ein normales Standbild, das du hochlädst, teilst oder ausdruckst. GIF verwendet eine begrenzte Farbpalette und eignet sich daher eher für Bewegung und einfache Grafiken als für hochauflösende, detailreiche Fotos.",
-            "Brauchst du nur ein einzelnes scharfes Standbild, wandle HEIC stattdessen lieber in JPG oder PNG um. Dieses Tool unterstützt alle gängigen Formate, sodass du GIF für Bewegung und ein klassisches Fotoformat für Detailgenauigkeit wählen kannst – ganz danach, was die jeweilige Aufnahme verlangt."
+            "Es gibt eine reale, wenn auch schmale Menge von Situationen, in denen GIF nicht nur akzeptabel, sondern die korrekte Antwort ist. Fast alle laufen auf dasselbe hinaus: Das empfangende System stammt aus einer Zeit, in der GIF der Standard war, und ist nie darüber hinausgekommen."
+          ],
+          "list": [
+            "Foren und alte Websoftware, die nur GIF-Uploads akzeptieren. Manche langgedienten Bulletin Boards, Intranet-Tools und Unternehmenssysteme haben Upload-Filter aus vergangenen Jahrzehnten, die alles andere ablehnen.",
+            "Avatare und Icons auf älteren Plattformen. Bestimmte Community-Seiten, Spiele-Launcher und Chat-Systeme aus den 2000ern erwarten weiterhin kleine GIF-Avatare und verarbeiten ein HEIC überhaupt nicht.",
+            "Einfache Grafiken und farbarme Screenshots. Ein Logo, ein Diagramm oder ein Screenshot einer schlichten Oberfläche nutzt wenige Farben – genau dafür wurde die GIF-Palette entworfen. Solche Bilder wandeln sich sauber um.",
+            "Embedded-Systeme, Kioske und Signage-Player. Industrie-Displays, Kassenterminals und ältere Digital-Signage-Hardware bringen oft Decoder mit, die GIF und JPG verstehen und nichts Neueres."
+          ],
+          "pAfter": [
+            "Passt Ihre Situation in eine dieser Kategorien, dauert die HEIC-zu-GIF-Umwandlung hier Sekunden und löst das Problem vollständig. Wenn nicht, lesen Sie weiter, bevor Sie sich festlegen."
+          ]
+        },
+        {
+          "h2": "Was mit verschiedenen Inhaltstypen als GIF passiert",
+          "p": [
+            "Nicht jedes Bild leidet gleich stark, wenn es zum GIF wird. Die feste Farbpalette des Formats bestraft manche Inhalte hart und lässt andere unberührt. Das können Sie bei den häufigsten Umwandlungskandidaten realistisch erwarten:"
+          ],
+          "table": {
+            "headers": [
+              "Inhaltstyp",
+              "Ergebnisqualität",
+              "Dateigröße vs. JPG",
+              "Urteil"
+            ],
+            "rows": [
+              [
+                "Foto (Porträt oder Landschaft)",
+                "Sichtbare Streifenbildung in Himmel, Haut und Schatten",
+                "Oft 2- bis 4-mal größer",
+                "Nur umwandeln, wenn GIF zwingend verlangt wird"
+              ],
+              [
+                "Screenshot mit Text",
+                "Text bleibt scharf; einfarbige Flächen wandeln sich sauber um",
+                "Ähnlich oder kleiner",
+                "Akzeptabel, PNG ist allerdings schärfer"
+              ],
+              [
+                "Einfache Grafik oder Logo",
+                "Praktisch nicht vom Original zu unterscheiden",
+                "Meist kleiner",
+                "Damit kommt GIF gut zurecht"
+              ],
+              [
+                "Nachtaufnahme",
+                "Starke Streifen und fleckiges Rauschen in dunklen Bereichen",
+                "Oft größer",
+                "Der schlimmste Fall für GIF; nach Möglichkeit vermeiden"
+              ]
+            ]
+          },
+          "pAfter": [
+            "Das Muster ist einfach: Je weniger unterschiedliche Farben und weiche Verläufe ein Bild enthält, desto besser übersteht es die Reise zum GIF. Detailreiche Fotografien liegen am falschen Ende dieses Spektrums, Grafiken und saubere Screenshots am richtigen."
+          ]
+        },
+        {
+          "h2": "Was technisch bei der Umwandlung zu erwarten ist",
+          "p": [
+            "Beim Umwandeln von HEIC in GIF passieren drei Dinge mit den Bilddaten, und wer sie vorher kennt, erspart sich Überraschungen. Erstens kollabiert der Farbraum. Ein HEIC-Foto kann Millionen unterschiedlicher Farben enthalten; ein GIF speichert höchstens 256. Der Konverter wählt für Ihr Bild die bestmögliche Palette und wendet dann Dithering an – eine Technik, die Pixel der verfügbaren Farben streut, um Töne zu simulieren, die es nicht mehr gibt. Aus der Distanz wirken Verläufe dadurch glatter, aus der Nähe zeigt sich eine leicht körnige Textur.",
+            "Zweitens ist das Ergebnis ein einzelnes statisches Bild. Stammt Ihr HEIC aus einem Live Photo, wird nur das Schlüsselbild umgewandelt; die Bewegungskomponente kommt nicht mit, das entstehende GIF animiert also nicht. Drittens gibt es keine Transparenz zu bewahren. Fotos enthalten nie durchsichtige Bereiche, der Alphakanal, den GIF technisch unterstützt, kommt hier also gar nicht ins Spiel. Was Sie bekommen, ist ein flaches, voll deckendes, palettenbasiertes Bild – dem Original so treu, wie es die harten Grenzen eines 256-Farben-Formats erlauben."
+          ]
+        },
+        {
+          "h2": "In den meisten Fällen gibt es Besseres",
+          "p": [
+            "Der ehrliche Rat: Wenn auf der Empfängerseite nichts Sie dazu zwingt, ist GIF selten das beste Ziel für ein iPhone-Foto. Für gewöhnliche Fotografien liefert die Umwandlung von HEIC in JPG volle Farben, kleine Dateien und Kompatibilität mit praktisch allem aus den letzten fünfundzwanzig Jahren. Für Screenshots, Dokumente und Grafiken, die pixelgenau scharf bleiben sollen, ist HEIC zu PNG die stärkere Wahl – Millionen Farben und verlustfreie Qualität. Und ist das Bild für die eigene Website bestimmt, liefert WebP bei vergleichbarer Qualität kleinere Dateien als beide, auch wenn eine Handvoll älterer Tools es noch nicht öffnen kann.",
+            "Bleiben Sie bei GIF, wenn die Anforderung ausdrücklich besteht: ein Upload-Formular, das alles andere ablehnt, ein Altsystem, das Sie nicht ändern können, oder ein Workflow, der sich auf GIF eingeschossen hat und den Kampf nicht wert ist. In diesen Fällen ist die Kompatibilität der ganze Sinn, und der Qualitätskompromiss schlicht der Eintrittspreis. Jedes hier erwähnte Format gibt es auf dieser Seite – das Ziel zu wechseln ist nur einen Klick entfernt."
+          ]
+        },
+        {
+          "h2": "Fehlersuche: große Dateien und raue Farben",
+          "p": [
+            "Zwei Ergebnisse überraschen am meisten, und keines ist eine Fehlfunktion. Das erste ist ein GIF, das dramatisch größer ist als das HEIC, aus dem es stammt. Ein detailreiches 12-Megapixel-Foto kann von einem 2-MB-HEIC auf ein Vielfaches davon als GIF anschwellen, denn die GIF-Kompression wurde für flächige Bereiche wiederholter Farben entworfen, nicht für fotografisches Detail. Die Umwandlung arbeitet exakt wie vorgesehen; das Format passt nur schlecht zu diesem Inhalt. Wenn die Größe zählt, will dieses Foto ein JPG sein.",
+            "Das zweite sind unsauber wirkende Farben in glatten Bereichen: ein Sonnenuntergang mit Streifen, eine Wand, die gesprenkelt aussieht, Haut, die leicht körnig wirkt. Das ist die 256-Farben-Grenze samt dem Dithering, das sie ausgleicht – beides fest in der GIF-Spezifikation verankert. Kein Konverter, online oder offline, kann aus einem verlaufsreichen Foto ein GIF ohne einen Teil davon erzeugen. Wenn Sie es sehen, hat das Bild die Grenze dessen erreicht, was das Format darstellen kann – die Lösung ist ein Format ohne diese Grenze."
           ]
         }
       ]
@@ -553,17 +959,88 @@
     "bmp": {
       "sections": [
         {
-          "h2": "HEIC in BMP umwandeln – vollständig unkomprimiert",
+          "h2": "Das Format, das sich überall öffnet: Warum BMP noch zählt",
           "p": [
-            "BMP (Bitmap) speichert jedes Pixel ohne Kompression und liefert dir so eine rohe, unkomprimierte Kopie deines Bildes. HEIC in BMP umwandeln ist nützlich, wenn ältere Windows-Software, bestimmte Bearbeitungsprogramme oder Legacy-Systeme ausdrücklich eine BMP-Datei verlangen, oder wenn du ein Bild ganz ohne Kompressionsartefakte brauchst. Lade deine HEIC-Dateien oben hoch und erhalte direkt fertige BMP-Dateien, ganz ohne Upload und ohne Anmeldung.",
-            "Da BMP alle Bilddaten unangetastet lässt, sind die Dateien groß – aber genau das ist der Sinn, wenn maximale Bildtreue oder Kompatibilität mit alten Programmen wichtiger ist als die Dateigröße. Die HEIC-zu-BMP-Konvertierung läuft lokal in deinem Browser, sodass selbst große Bitmaps auf deinem Gerät bleiben."
+            "BMP ist das, was der digitalen Bildwelt am nächsten an einen kleinsten gemeinsamen Nenner kommt. Das Format ist so simpel – ein kurzer Header, gefolgt von einem schlichten Raster aus Pixelwerten –, dass es fast nichts zu dekodieren gibt. Genau deshalb kann praktisch jedes Programm der letzten drei Jahrzehnte es lesen, egal wie alt oder obskur. Wer HEIC in BMP umwandelt, übersetzt Apples neuestes und am stärksten komprimiertes Fotoformat in das älteste und universellste, das noch täglich in Gebrauch ist.",
+            "Diese Schlichtheit ist der ganze Daseinszweck dieser Seite. Kaum jemand sollte 2026 seine Fotomediathek als BMP speichern, und zum Teilen oder Archivieren würden wir es nie empfehlen. Aber ein stetes Rinnsal an Spezialsoftware – vieles davon lange vor HEIC geschrieben und seither nie aktualisiert – akzeptiert schlicht nichts anderes. Wenn ein störrisches Programm Ihre iPhone-Fotos ablehnt, egal welches Format Sie ihm vorsetzen, ist ein unkomprimiertes Bitmap sehr oft die Datei, die endlich durchgeht. Dieser Konverter erzeugt diese Datei in Ihrem Browser, ohne dass Ihr Foto je Ihr Gerät verlässt."
           ]
         },
         {
-          "h2": "Wann BMP sinnvoll ist – und wann nicht",
+          "h2": "Software und Geräte, die häufig BMP verlangen",
           "p": [
-            "Wähle BMP nur, wenn eine bestimmte Anwendung es ausdrücklich verlangt oder du eine unkomprimierte Arbeitsdatei brauchst. Für den Alltag – Teilen, Hochladen, Speichern oder Verschicken von Fotos – sind BMP-Dateien schlicht zu groß und unpraktisch.",
-            "Für solche Fälle wandle HEIC lieber in JPG um (kleinste universelle Datei), in PNG (verlustfreie Qualität bei vernünftiger Größe) oder in WebP (fürs Web). Dieses kostenlose Tool wandelt HEIC in BMP, JPG, PNG, WebP, GIF und PDF um, sodass du immer das passende Format zur Hand hast."
+            "Die Nachfrage nach HEIC-zu-BMP-Umwandlung konzentriert sich auf eine Handvoll Nischen, in denen Geräte oder Software um einfache, vorhersehbare Pixeldaten herum entworfen wurden. Diese Situationen sehen wir am häufigsten:"
+          ],
+          "table": {
+            "headers": [
+              "Einsatzfall",
+              "Warum BMP verlangt wird",
+              "Hinweise für beste Ergebnisse"
+            ],
+            "rows": [
+              [
+                "Software für Stick- und Nähmaschinen",
+                "Digitalisierungs-Tools, die Bilder in Stichmuster übersetzen, sind oft älter als moderne Formate und lesen nur einfache Bitmap-Daten",
+                "Vor dem Umwandeln eng auf das Motiv zuschneiden; kräftige, kontrastreiche Bilder lassen sich weit besser digitalisieren als unruhige Fotos"
+              ],
+              [
+                "Lasergravur- und CNC-Software",
+                "Werkzeugwege werden direkt aus einem rohen Pixelraster erzeugt, viele Steuerungen akzeptieren daher nur unkomprimierte Eingaben",
+                "Die Auflösung nah an dem halten, was die Maschine physisch gravieren kann; die Umwandlung in Graustufen danach in der Gravursoftware erledigen"
+              ],
+              [
+                "Etiketten- und Bondrucker",
+                "Thermodrucker-Firmware ist winzig und liest typischerweise nur die einfachsten BMP-Header",
+                "Diese Drucker sind konstruktionsbedingt niedrig aufgelöst – das Bild vor dem Senden drastisch verkleinern, sonst wird der Druck unlesbar"
+              ],
+              [
+                "Alte Windows-Programme (vor 2005)",
+                "Sie entstanden, als BMP die eine sichere Annahme auf jedem Windows-PC war",
+                "Listet das Programm auch JPG-Unterstützung, probieren Sie zuerst JPG; es lädt schneller und braucht weit weniger Speicher"
+              ],
+              [
+                "Game-Modding-Tools",
+                "Ältere Spiel-Engines speicherten Texturen als unkomprimierte Bitmaps, und die darum gebauten Modding-Werkzeuge behielten diese Anforderung bei",
+                "Die Mod-Dokumentation auf geforderte Abmessungen prüfen – viele Engines erwarten Zweierpotenzen wie 512 × 512"
+              ],
+              [
+                "Industrie- und Medizingeräte",
+                "Zertifizierte Systeme werden nach der Zulassung selten aktualisiert, ihre unterstützten Formate frieren zum Zertifizierungszeitpunkt ein",
+                "Die Dateispezifikation des Herstellers exakt befolgen und erst mit einem einzelnen Bild testen, bevor ein ganzer Stapel umgewandelt wird"
+              ]
+            ]
+          },
+          "pAfter": [
+            "Das sind allgemeine Muster, keine Garantien – einzelne Maschinen unterscheiden sich, das Handbuch Ihres konkreten Geräts hat immer das letzte Wort. Aber wenn Ihr Gerät in eine dieser Kategorien fällt und moderne Formate ablehnt, ist die Umwandlung von HEIC in BMP der übliche erste Lösungsversuch."
+          ]
+        },
+        {
+          "h2": "Die simple Mathematik hinter riesigen BMP-Dateien",
+          "p": [
+            "BMP-Dateigrößen sind kein Rätsel: Ganz ohne Kompression kostet jeder Pixel rund 3 Byte – je eines für Rot, Grün und Blau. Multiplizieren Sie das mit der Pixelzahl, und Sie kennen die Dateigröße vor der Umwandlung. Ein 12-Megapixel-Foto ergibt grob 36 MB. Eine Aufnahme der 48-Megapixel-Hauptkamera eines iPhone bläht sich auf rund 144 MB auf – ein einzelnes Foto, mehrfach größer als die meisten E-Mail-Anhangsgrenzen.",
+            "Rechnen Sie das hoch, und die praktischen Folgen sind sofort da. Zehn 48-Megapixel-Umwandlungen nähern sich 1,5 GB Plattenplatz, ein Stapel von hundert passte auf viele USB-Sticks nicht mehr, und der Upload in einen Cloud-Speicher dauert so lange wie der eines kurzen Videos. Deshalb ist BMP ein Lieferformat für eine bestimmte Maschine, niemals ein Speicherformat für Ihre Mediathek. Die komprimierten HEIC-Originale halten dasselbe Bild in einem Bruchteil des Platzes."
+          ]
+        },
+        {
+          "h2": "Der klügere Workflow: Nur umwandeln, was die Maschine braucht",
+          "p": [
+            "Weil jede umgewandelte Datei so groß ist, arbeitet man am effizientesten chirurgisch statt pauschal:"
+          ],
+          "list": [
+            "Wählen Sie nur die konkreten Fotos aus, die Ihre Maschine oder Ihr Programm für den aktuellen Job wirklich braucht – niemals ein ganzes Album in BMP umwandeln.",
+            "Wandeln Sie sie hier um, geben Sie die BMP-Dateien an Software oder Gerät weiter und prüfen Sie, dass der Job funktioniert hat.",
+            "Behalten Sie die HEIC-Originale als Masterkopien. Sie sind die hochwertigste und zugleich kleinste Version jedes Ihrer Fotos.",
+            "Löschen Sie die BMP-Kopien, sobald der Job erledigt ist. Sie können sie jederzeit in Sekunden neu aus den Originalen erzeugen.",
+            "Akzeptiert die Zielsoftware auch PNG, nehmen Sie PNG – dieselben verlustfreien Pixel bei einem Bruchteil der Größe."
+          ],
+          "pAfter": [
+            "Wer BMP als temporären Wegwerf-Export behandelt, hält seinen Speicher im Zaum und stellt trotzdem jedes Alt-Tool zufrieden, das darauf bestanden hat."
+          ]
+        },
+        {
+          "h2": "Fehlersuche: Wenn das alte Programm Ihr BMP trotzdem ablehnt",
+          "p": [
+            "Gelegentlich wird eine umgewandelte Datei abgelehnt, obwohl die Software BMP-Unterstützung behauptet. Die häufigste Ursache ist die Farbtiefe. Dieser Konverter schreibt Standard-BMPs mit 24 Bit – die moderne Voreinstellung, die fast alles liest –, aber manche sehr alten oder sehr spezialisierten Programme erwarten 8-Bit-Indexfarben oder gar 1-Bit-Schwarzweiß. In dem Fall öffnen Sie das 24-Bit-BMP in einem einfachen Editor wie Microsoft Paint und speichern es in der Farbtiefe neu, die das Programm verlangt; die eigentliche Arbeit – raus aus HEIC – ist da schon erledigt.",
+            "Der zweite häufige Fehlschlag ist die schiere Größe. Software aus der BMP-Ära wurde für Bilder von ein paar Hundert Pixeln Breite geschrieben, und ein 48-Megapixel-Bitmap kann sie einfrieren, abstürzen oder die Datei stillschweigend verweigern lassen. Die Lösung: die Auflösung vor der Umwandlung reduzieren – das Foto auf dem iPhone zuschneiden oder verkleinern, oder aus einem beliebigen Editor eine kleinere Kopie exportieren –, damit das entstehende Bitmap Abmessungen hat, mit denen das alte Programm tatsächlich umgehen kann. Ein kleineres BMP wandert außerdem schneller zu Druckern und Graviermaschinen, deren eigener Speicher oft knapp ist."
           ]
         }
       ]
@@ -571,17 +1048,117 @@
     "viewer": {
       "sections": [
         {
-          "h2": "HEIC-Dateien öffnen und ansehen, ohne etwas zu installieren",
+          "h2": "Wenn Sie die Fotos einfach nur sehen wollen",
           "p": [
-            "Mit diesem kostenlosen HEIC-Viewer kannst du HEIC-Fotos sofort online öffnen und ansehen – ohne Software, ohne Plugins, ohne Upload. Zieh deine iPhone-Fotos in das Feld oben, und sie werden direkt in deinem Browser dekodiert, sodass du endlich die Bilder siehst, die auf Windows, Android und älteren Programmen nur als grauer Kasten oder Fehlermeldung erscheinen. Deine Dateien verlassen dabei nie dein Gerät.",
-            "HEIC-Dateien auf jedem Computer öffnen zu können ist praktisch, wenn du an einem geliehenen PC, einem Arbeitsrechner, einem Chromebook oder einem Linux-Rechner sitzt, auf dem sich keine Codecs installieren lassen. Der Viewer funktioniert überall, wo ein moderner Browser läuft."
+            "Meist beginnt es mit ein paar Fotos, die jemand vom iPhone geteilt hat – per E-Mail, Messenger oder USB-Kabel – und einem Ordner voller Dateien mit der Endung .heic, die Ihr Computer nicht anzeigen will. Sie wollen keine Codecs installieren, kein Konto anlegen und keine Dateien umwandeln, die Sie noch nicht einmal gesehen haben. Sie wollen sich einfach die Bilder ansehen.",
+            "Genau dafür ist dieser HEIC-Viewer da. Legen Sie die Dateien auf der Seite ab, und sie erscheinen in Sekunden als Galerie – direkt in Ihrem Browser dekodiert. Nichts wird installiert, nichts wird hochgeladen, und Sie müssen kein einziges Foto umwandeln, wenn Sie es nicht wollen. Stellt sich ein Bild als Behalten wert heraus, speichert es ein Ein-Klick-Button als JPG."
           ]
         },
         {
-          "h2": "Erst ansehen, dann bei Bedarf umwandeln",
+          "h2": "Warum sich eine HEIC Datei nicht öffnen lässt – nach Plattform",
           "p": [
-            "Sobald du deine HEIC-Fotos siehst, kannst du jedes davon mit einem Klick als JPG herunterladen oder die gesamte Auswahl an den Batch-Konverter schicken, um einen ganzen Ordner auf einmal in JPG, PNG oder PDF umzuwandeln. Ansehen und Umwandeln nutzen dieselbe private Engine direkt im Browser.",
-            "Wenn dich HEIC-Dateien ständig überraschen, denk daran: Du kannst dein iPhone unter Einstellungen > Kamera > Formate > Maximal kompatibel auf JPEG umstellen. Bis dahin öffnet dieser HEIC-Viewer einfach alles, was du bereits hast."
+            "Falls Sie sich je gefragt haben, warum sich dasselbe Foto auf einem Gerät problemlos öffnet und auf einem anderen nicht: Die Antwort heißt Codec-Unterstützung. HEIC-Bilder sind mit HEVC komprimiert, einem Codec, den nicht jedes Betriebssystem lizenziert oder ab Werk mitliefert. So gehen die großen Plattformen damit um – und der schnellste Weg um jede Lücke herum."
+          ],
+          "table": {
+            "headers": [
+              "Plattform",
+              "Öffnet HEIC nativ?",
+              "Warum es scheitert",
+              "Schnellste Lösung"
+            ],
+            "rows": [
+              [
+                "Windows 10",
+                "Nein, nicht ab Werk",
+                "Braucht die HEIF-Bilderweiterungen plus die HEVC-Videoerweiterungen aus dem Microsoft Store – und die HEVC-Erweiterung kostet 0,99 $",
+                "Die Dateien hier im Browser ansehen, ganz ohne Codecs"
+              ],
+              [
+                "Windows 11",
+                "Teilweise",
+                "HEIF-Unterstützung ist enthalten, aber der HEVC-Codec, auf den die meisten iPhone-Fotos angewiesen sind, fehlt manchmal",
+                "Die Fotos in diesem Viewer öffnen und nur die umwandeln, die Sie brauchen"
+              ],
+              [
+                "macOS",
+                "Ja, seit High Sierra (2017)",
+                "Nur Versionen älter als macOS 10.13 sind älter als das Format",
+                "macOS aktualisieren – oder HEIC aus jedem Browser online ansehen"
+              ],
+              [
+                "Android",
+                "Je nach Gerät",
+                "Die Unterstützung variiert nach Hersteller und Android-Version, und viele Galerie-Apps stolpern weiterhin darüber",
+                "Die Dateien in diesem Viewer aus jedem mobilen Browser öffnen"
+              ],
+              [
+                "Chromebook",
+                "Meist nicht",
+                "ChromeOS wird ohne eingebauten HEIC-Decoder ausgeliefert",
+                "Dieser browserbasierte Viewer funktioniert auf Chromebooks ohne Weiteres"
+              ],
+              [
+                "Linux",
+                "Meist nicht",
+                "Die meisten Distributionen bringen HEIF-Bibliotheken nicht von Haus aus mit",
+                "Die Paketsuche überspringen und die Dateien direkt hier öffnen"
+              ]
+            ]
+          },
+          "pAfter": [
+            "Das Muster ist leicht zu erkennen: Außerhalb neuerer Apple-Systeme ist native Unterstützung überall inkonsistent. Ein browserbasierter HEIC-Viewer umgeht das ganze Problem, denn das Dekodieren passiert in der Webseite selbst statt in Ihrem Betriebssystem."
+          ]
+        },
+        {
+          "h2": "Ansehen oder umwandeln? Manchmal reicht das Ansehen",
+          "p": [
+            "Nicht jede HEIC Datei muss ein JPG werden. Umwandeln ist Mittel zum Zweck – und wenn der Zweck nur ist zu wissen, was auf den Fotos ist, geht Ansehen schneller. HEIC-Dateien im Viewer zu öffnen ist die richtige Wahl, wenn Sie:"
+          ],
+          "list": [
+            "Erst prüfen wollen, was Ihnen jemand tatsächlich geschickt hat, bevor Sie irgendetwas damit tun",
+            "Eine große Fotomenge überfliegen und die Handvoll herauspicken wollen, die sich zu behalten oder umzuwandeln lohnt",
+            "Sicherstellen wollen, dass eine bestimmte Aufnahme – ein Dokument, ein Whiteboard, ein Beleg – scharf und lesbar ist",
+            "Bestätigen wollen, dass von Handy oder Speicherkarte kopierte Dateien korrekt übertragen wurden"
+          ],
+          "pAfter": [
+            "Die Umwandlung wird in dem Moment sinnvoll, in dem Sie etwas mit einem Foto tun müssen: es in einem Programm bearbeiten, das HEIC nicht versteht, es dort anhängen, wo ein JPG erwartet wird, es auf eine Website hochladen oder zum Drucken geben. Für diese Fälle laden Sie einzelne Fotos direkt aus der Galerie als JPG herunter – oder schicken den ganzen Satz an den Stapel-Konverter und bekommen alles in einem Durchgang als JPG, PNG oder PDF zurück."
+          ]
+        },
+        {
+          "h2": "Wie der Viewer HEIC-Dateien in Ihrem Browser öffnet",
+          "p": [
+            "Hinter den Kulissen arbeitet kein Server. Wenn Sie eine HEIC Datei auf dieser Seite ablegen, liest Ihr Browser sie ein und dekodiert sie lokal mit JavaScript und WebAssembly – einer Technik, mit der eine Webseite nahezu nativen Code ausführen kann. Das dekodierte Bild wird direkt aus dem Speicher Ihres eigenen Geräts auf den Bildschirm gezeichnet.",
+            "Dieses Design hat zwei praktische Konsequenzen. Erstens verhält es sich auf jedem Betriebssystem identisch: Windows 10 ohne Codecs, ein abgeriegelter Arbeitslaptop, ein Chromebook, ein Linux-Desktop – läuft dort ein moderner Browser, lässt sich HEIC online ansehen. Zweitens reisen Ihre Fotos nirgendwohin. Es gibt keinen Upload-Schritt, keine Warteschlange und keine Kopie Ihrer Bilder auf einem fremden Server – was zählt, wenn die Bilder privat sind.",
+            "Das Speichern als JPG funktioniert genauso: Der Browser codiert das dekodierte Bild auf Ihrem Gerät neu und übergibt Ihnen die Datei. Selbst dieser Schritt berührt das Netzwerk nie."
+          ]
+        },
+        {
+          "h2": "Woher diese mysteriösen .heic-Dateien kommen",
+          "p": [
+            "Eine Handvoll Alltagssituationen steht hinter den meisten „HEIC lässt sich nicht öffnen“-Momenten:"
+          ],
+          "list": [
+            "E-Mail-Anhänge: iPhones hängen Originalfotos oft als HEIC an, besonders wenn Dateien aus der Dateien- oder Fotos-App verschickt statt in den Nachrichtentext eingefügt werden",
+            "AirDrop und Messenger: AirDrop überträgt standardmäßig Originale, und manche Apps reichen Dateien unangetastet durch – das HEIC kommt also genau so an, wie es aufgenommen wurde",
+            "SD-Karten und Kabelübertragungen: Wer den Speicher eines iPhone oder eine Speicherkarte am PC ausliest, kopiert die rohen .heic-Dateien und umgeht die automatische Konvertierung, die iOS in vielen Teilen-Abläufen anwendet",
+            "iCloud-Downloads unter Windows: Wer seine Fotomediathek auf einen PC herunterlädt, kann Ordner voller HEIC-Dateien vorfinden, die die meisten Desktop-Programme nicht als Vorschau anzeigen können"
+          ],
+          "pAfter": [
+            "In all diesen Fällen sind die Dateien selbst völlig in Ordnung – dem empfangenden Computer fehlt nur ein Decoder. Sie in diesem Viewer zu öffnen bestätigt in Sekunden, dass unterwegs nichts verloren gegangen ist."
+          ]
+        },
+        {
+          "h2": "Fehlersuche: Wenn eine HEIC Datei sich immer noch nicht anzeigen lässt",
+          "p": [
+            "Gelegentlich widersetzt sich eine Datei selbst einem browserbasierten Viewer. Drei Ursachen decken fast jeden Fall ab:"
+          ],
+          "list": [
+            "Es ist gar keine echte HEIC Datei. Ein JPG oder PNG, das auf die Endung .heic umbenannt wurde, behält innen seine ursprüngliche Struktur, und ein HEIC-Decoder kann sie nicht verarbeiten. Bei Verdacht auf eine Umbenennung ändern Sie die Endung zurück – oder schicken die Datei durch den Konverter, der den tatsächlichen Inhalt untersucht",
+            "Es ist ein Serienbild- oder Live-Photo-Container. HEIC kann mehrere Bilder oder ein Standbild plus kurzen Videoclip in einer einzigen Datei halten. Der Viewer zeigt das Haupt-Schlüsselbild; der Bewegungsteil eines Live Photo liegt in einer separaten Videospur, die ein Standbild-Viewer nicht abspielt",
+            "Die Datei ist unvollständig. Eine unterbrochene Übertragung – abgebrochene Verbindung, zu früh gezogenes Kabel, volle Festplatte – kann eine gekappte Datei hinterlassen, die kein Viewer vollständig dekodieren kann. Kopieren Sie das Original erneut vom Quellgerät und versuchen Sie es noch einmal"
+          ],
+          "pAfter": [
+            "Ein schneller Plausibilitätscheck: Öffnet sich ein Foto auf dem iPhone, das es aufgenommen hat, einwandfrei, scheitert aber überall sonst, ist die Übertragung der Hauptverdächtige. Schicken Sie es über eine zuverlässige Verbindung erneut und meiden Sie Dienste, die Anhänge unterwegs komprimieren oder umpacken."
           ]
         }
       ]
@@ -589,17 +1166,88 @@
     "batch": {
       "sections": [
         {
-          "h2": "HEIC-Dateien im Batch umwandeln",
+          "h2": "HEIC-Dateien im Stapel umwandeln – ohne Upload, ohne Wartezeit",
           "p": [
-            "Musst du einen ganzen Ordner voller iPhone-Fotos umwandeln? Mit diesem Batch-HEIC-Konverter kannst du viele Dateien auf einmal umwandeln – füge Dutzende HEIC-Dateien hinzu, wähle JPG, PNG oder WebP als Ausgabeformat und lade sie anschließend gesammelt als ZIP-Datei herunter. Alles wird direkt in deinem Browser verarbeitet, sodass nichts hochgeladen wird und deine Fotos privat bleiben, egal wie viele du umwandelst.",
-            "Die Batch-Konvertierung erspart dir die mühsame Arbeit, Fotos einzeln zu bearbeiten. Egal, ob du eine Kamerarolle aufräumst, Bilder für eine Webseite vorbereitest oder ein ganzes Fotoalbum kompatibel mit Windows machen willst – die Batch-HEIC-Konvertierung erledigt alles in einem einzigen Durchgang."
+            "Es gibt Momente, in denen Fotos einzeln umzuwandeln schlicht keine Option ist: Sie leeren vor dem Wechsel zu Android eine komplette iPhone-Fotomediathek, sichern drei Jahre Familienbilder auf einen Windows-PC oder bereiten Hunderte Aufnahmen einer Hochzeit oder eines Urlaubs für Menschen auf, deren Geräte HEIC nicht öffnen können. Genau für diesen Job ist dieser Stapel-HEIC-Konverter gebaut. Fügen Sie Dutzende oder Hunderte HEIC-Dateien auf einmal hinzu, wählen Sie JPG, PNG oder WebP und laden Sie alles zusammen als ein einziges ZIP-Archiv herunter.",
+            "Warum ein browserbasierter Stapel-Konverter einem Cloud-Dienst davonzieht, liegt an einem einzigen Wort: Upload. Ein Cloud-Konverter muss Ihre Dateien erst empfangen, bevor er sie anfassen kann, und eine Fotomediathek mit 500 HEIC-Fotos umfasst leicht 1–2 GB – auf einer typischen Heimleitung dauert allein dieser Upload länger als hier die gesamte Umwandlung. Weil dieses Tool mehrere HEIC-Dateien direkt auf Ihrem eigenen Gerät umwandelt, entfällt der Upload-Schritt komplett. Das bedeutet auch: Ihre Fotos verlassen Ihren Computer nie, es gibt kein serverseitiges Dateilimit, und das Tool funktioniert auf einer langsamen oder volumenbegrenzten Verbindung genauso gut."
           ]
         },
         {
-          "h2": "So funktioniert die Batch-HEIC-Konvertierung",
+          "h2": "Wie Sie einen großen Stapel effizient abarbeiten",
           "p": [
-            "Wähle alle deine HEIC-Dateien aus oder zieh sie hinein, lege Ausgabeformat und Qualität fest und starte den Vorgang – ein Fortschrittsbalken zeigt jede fertige Datei an, und fehlgeschlagene Dateien werden markiert, damit nichts unbemerkt verloren geht. Am Ende erhältst du mit einem einzigen Download ein ZIP mit allen umgewandelten Bildern.",
-            "Da der Batch-Konverter lokal läuft, gibt es kein serverseitiges Limit für die Dateianzahl und kein Warten auf Uploads. Für einzelne Fotos kannst du weiterhin die Standard-Tools HEIC zu JPG, PNG oder PDF nutzen; für alles andere ist Batch der schnellste Weg, HEIC in großen Mengen umzuwandeln."
+            "Massenumwandlung von HEIC zu JPG ist unkompliziert, aber ein paar Gewohnheiten machen große Jobs spürbar runder – vor allem jenseits von ein paar Hundert Dateien:"
+          ],
+          "list": [
+            "Alles in einem Zug auswählen: Öffnen Sie den Ordner mit den exportierten Fotos, drücken Sie Strg+A (Cmd+A am Mac) und ziehen Sie die gesamte Auswahl in den Konverter, statt Dateien einzeln herauszupicken.",
+            "Auf einem durchschnittlichen Rechner in Runden von 50–100 Dateien arbeiten. Mehrere mittlere Runden laufen zuverlässiger durch als eine riesige, und Sie können die Ergebnisse zwischendurch prüfen.",
+            "Den Konverter-Tab im Vordergrund lassen, während ein Stapel läuft. Browser drosseln Hintergrund-Tabs, um Strom zu sparen, was den Job dramatisch verlangsamen kann.",
+            "Speicherhungrige Programme und überflüssige Browser-Tabs vorher schließen – Videocalls, Spiele und Editoren konkurrieren um denselben RAM, den die Umwandlung braucht.",
+            "Den ZIP-Download nutzen statt Dateien einzeln zu speichern. Ein Archiv ist schneller gesichert, leichter verschoben und erspart ein Dauerfeuer an Download-Abfragen.",
+            "Eine Handvoll umgewandelter Bilder stichprobenartig prüfen, bevor Sie irgendetwas löschen – so wissen Sie, dass die Qualitätseinstellung passt."
+          ]
+        },
+        {
+          "h2": "Wie viele Fotos lassen sich auf einmal umwandeln?",
+          "p": [
+            "Weil alles lokal läuft, hängt die praktische Stapelgröße vom Arbeitsspeicher und Prozessor Ihres Geräts ab, nicht von einer Regel der Seite. Das sind ehrliche, konservative Größenordnungen für typische 12-Megapixel-iPhone-Fotos:"
+          ],
+          "table": {
+            "headers": [
+              "Gerät",
+              "Komfortabler Stapel",
+              "Absolute Praxisgrenze",
+              "Tipp"
+            ],
+            "rows": [
+              [
+                "Laptop, 8 GB RAM",
+                "100–150 Fotos",
+                "Rund 300",
+                "Eine Fotomediathek in zwei, drei Runden aufteilen und nach jeder ein ZIP herunterladen."
+              ],
+              [
+                "Laptop, 16 GB RAM",
+                "200–300 Fotos",
+                "Rund 500",
+                "Vorher andere Tabs und Programme schließen; eine große Runde geht meist gut."
+              ],
+              [
+                "Desktop, 32 GB RAM",
+                "300–500 Fotos",
+                "500+",
+                "Komplette Mediathek-Exporte sind in wenigen großen Runden realistisch."
+              ],
+              [
+                "Handy oder Tablet",
+                "20–40 Fotos",
+                "Rund 75",
+                "Bildschirm wach halten und am Ladegerät lassen; kleine Runden sind deutlich zuverlässiger."
+              ]
+            ]
+          },
+          "pAfter": [
+            "Die Auflösung zählt genauso viel wie die Dateizahl: 48-Megapixel-Fotos eines aktuellen iPhone brauchen ein Mehrfaches des Speichers von Standardaufnahmen – halbieren Sie diese Werte, wenn Ihre Mediathek voll davon ist. Wird ein Stapel zäh, reizen Sie die Grenze nicht aus: Eine kleinere Runde, die sauber durchläuft, schlägt immer eine riesige, die hängen bleibt."
+          ]
+        },
+        {
+          "h2": "Was Sie erwartet, während ein großer Stapel läuft",
+          "p": [
+            "Sobald ein Stapel startet, wird jede Datei der Reihe nach dekodiert und neu codiert, und die Fortschrittsanzeige rückt mit jedem fertigen Foto vor – Sie sehen also jederzeit, wie weit der Job ist, statt auf einen Spinner zu starren. Auf einem modernen Laptop rechnen Sie mit grob ein bis drei Sekunden pro Foto; ältere Rechner und hochauflösende Bilder brauchen länger, ein Handy kann mehrere Sekunden pro Datei benötigen. Ein 200-Foto-Stapel auf einem Mittelklasse-Laptop ist damit typischerweise ein Fünf-bis-zehn-Minuten-Job, den Sie laufen lassen können, während Sie in einem anderen Fenster etwas anderes tun.",
+            "Zwei Verhaltensweisen sind normal und gut zu kennen. Erstens legt der Browser zwischen Dateien oder Dateigruppen mitunter kurze Pausen ein – da gibt die Seite dem System Zeit zurück, damit der Tab reaktionsfähig bleibt; das ist kein Absturz. Zweitens: Scheitert ein einzelnes Foto an der Umwandlung (etwa ein beschädigter Download oder ein als Bild fehletikettierter Videoclip), wird es markiert und übersprungen, während der Rest des Stapels weiterläuft. Nichts scheitert stillschweigend, und eine kaputte Datei kostet Sie nie die anderen hundertneunundneunzig."
+          ]
+        },
+        {
+          "h2": "Wechsel vom iPhone zu Android oder Windows? Einmal alles umwandeln",
+          "p": [
+            "Der häufigste Grund, HEIC massenhaft in JPG umzuwandeln, ist ein Plattformwechsel. Eine typische Migration sieht so aus: Fotos aus der Mediathek exportieren oder die Originale aus iCloud auf einen Computer laden, den kompletten Satz in den Stapel-Konverter ziehen, alles in JPG umwandeln und den Inhalt des ZIPs anschließend in Google Fotos, den Speicher des Android-Handys oder einen Bilder-Ordner unter Windows importieren. Von da an öffnet sich jedes Foto überall – alte Windows-Versionen, Smart-TVs, Auto-Displays, Fotokioske und Web-Upload-Formulare eingeschlossen.",
+            "Ein Rat, bevor Sie irgendetwas löschen: Behalten Sie die HEIC-Originale als Masterkopien, wenn der Platz es erlaubt. HEIC speichert dasselbe Bild in ungefähr der halben Größe eines vergleichbaren JPG, was die Originale zum günstigeren Archiv macht – und die Umwandlung ist eine Einbahnstraße, denn ein aus HEIC neu codiertes JPG kann unterwegs verlorenes Detail nicht zurückholen. Ein vernünftiger Aufbau: HEIC-Originale in einem Backup-Ordner oder auf einer externen Platte, umgewandelte JPGs im Umlauf für den Alltag."
+          ]
+        },
+        {
+          "h2": "Fehlersuche bei großen Stapeln",
+          "p": [
+            "Friert der Tab bei einem sehr großen Stapel ein oder stürzt ab – sagen wir, Sie haben 1.000 Dateien auf einmal hineingeworfen –, ist die Lösung fast immer, den Job zu teilen. Laden Sie die Seite neu, fügen Sie die Hälfte der Dateien hinzu und lassen Sie diese Runde fertig werden, bevor die nächste startet; auf Rechnern mit weniger Speicher funktionieren Viertel besser als Hälften. Wenn ein Tab hängen bleibt, geht nichts verloren, denn Ihre Originaldateien liegen unangetastet auf der Platte.",
+            "Wenn nur die erste Datei heruntergeladen wird und der Rest nie erscheint, blockiert Ihr Browser mehrere automatische Downloads – achten Sie auf eine Abfrage nahe der Adressleiste und erlauben Sie Downloads von dieser Seite, oder nutzen Sie einfach die ZIP-Option, die das Problem komplett umgeht, indem sie alles als eine Datei liefert. Und falls Ihre Mediathek doppelte Namen enthält (jedes iPhone produziert irgendwann mehr als ein IMG_0001.HEIC), werden umgewandelte Dateien automatisch mit Suffixen umbenannt, sodass im ZIP nichts etwas anderes überschreibt."
           ]
         }
       ]

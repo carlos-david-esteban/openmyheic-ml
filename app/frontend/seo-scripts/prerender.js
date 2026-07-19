@@ -221,14 +221,25 @@ function toolContentHtml(lang, key) {
   const t = locales[lang];
   const block = t.toolContent && t.toolContent[key];
   if (!block || !block.sections || !block.sections.length) return "";
-  return `<section class="max-w-3xl mx-auto px-4 mt-12">${block.sections
-    .map(
-      (sec) =>
-        `<div class="mb-8"><h2 class="text-2xl font-bold text-gray-900 mb-4">${escText(sec.h2)}</h2>${(sec.p || [])
-          .map((para) => `<p class="text-gray-600 leading-relaxed mb-4">${escText(para)}</p>`)
-          .join("")}</div>`
-    )
-    .join("")}</section>`;
+  const renderSection = (sec) => {
+    let out = `<div class="mb-8"><h2 class="text-2xl font-bold text-gray-900 mb-4">${escText(sec.h2)}</h2>`;
+    out += (sec.p || []).map((para) => `<p class="text-gray-600 leading-relaxed mb-4">${escText(para)}</p>`).join("");
+    if (sec.table && sec.table.headers && sec.table.rows) {
+      out += `<div class="overflow-x-auto my-6">`;
+      if (sec.table.caption) out += `<p class="text-sm font-medium text-gray-700 mb-2">${escText(sec.table.caption)}</p>`;
+      out += `<table class="w-full border-collapse text-sm"><thead><tr>${sec.table.headers
+        .map((h) => `<th class="border border-gray-200 bg-gray-50 px-3 py-2 text-left font-semibold text-gray-900">${escText(h)}</th>`)
+        .join("")}</tr></thead><tbody>${sec.table.rows
+        .map((row) => `<tr>${row.map((cell) => `<td class="border border-gray-200 px-3 py-2 text-gray-600 align-top">${escText(cell)}</td>`).join("")}</tr>`)
+        .join("")}</tbody></table></div>`;
+    }
+    if (sec.list && sec.list.length) {
+      out += `<ul class="list-disc pl-6 my-4 space-y-1 text-gray-600">${sec.list.map((it) => `<li>${escText(it)}</li>`).join("")}</ul>`;
+    }
+    out += (sec.pAfter || []).map((para) => `<p class="text-gray-600 leading-relaxed mb-4">${escText(para)}</p>`).join("");
+    return out + `</div>`;
+  };
+  return `<section class="max-w-3xl mx-auto px-4 mt-12">${block.sections.map(renderSection).join("")}</section>`;
 }
 
 function faqHtml(lang, pageKey) {
