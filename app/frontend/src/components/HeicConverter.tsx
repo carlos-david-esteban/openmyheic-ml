@@ -1,5 +1,5 @@
 import { useState, useCallback, useRef } from "react";
-import { Upload, Download, RefreshCw, Shield, Image as ImageIcon, X, AlertCircle } from "lucide-react";
+import { Upload, Download, RefreshCw, Shield, Lock, Image as ImageIcon, X, AlertCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Slider } from "@/components/ui/slider";
 import {
@@ -165,6 +165,12 @@ export default function HeicConverter({ format, allowMultiple = false }: HeicCon
         <span>{t.converter.privacyBadge}</span>
       </div>
 
+      {/* EXIF / metadata privacy note */}
+      <p className="flex items-start gap-2 mb-4 -mt-2 px-1 text-xs text-gray-500">
+        <Lock className="w-3.5 h-3.5 flex-shrink-0 mt-0.5" />
+        <span>{t.converter.exifNote}</span>
+      </p>
+
       {/* Drop Zone */}
       {state === "idle" && (
         <div
@@ -276,6 +282,26 @@ export default function HeicConverter({ format, allowMultiple = false }: HeicCon
                   {t.converter.outputQuality}
                 </label>
                 <span className="text-sm font-bold text-emerald-600">{quality}%</span>
+              </div>
+              <div className="flex gap-2 mb-4" role="group" aria-label={t.converter.qualityPresets}>
+                {([
+                  [100, t.converter.presetMax],
+                  [92, t.converter.presetBalanced],
+                  [65, t.converter.presetSmaller],
+                ] as [number, string][]).map(([value, label]) => (
+                  <button
+                    key={value}
+                    type="button"
+                    onClick={() => setQuality(value)}
+                    className={`flex-1 px-3 py-2 text-sm font-medium rounded-lg border transition-colors ${
+                      quality === value
+                        ? "bg-emerald-600 text-white border-emerald-600"
+                        : "bg-white text-gray-700 border-gray-300 hover:border-emerald-400"
+                    }`}
+                  >
+                    {label}
+                  </button>
+                ))}
               </div>
               <Slider
                 value={[quality]}

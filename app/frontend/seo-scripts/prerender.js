@@ -242,6 +242,25 @@ function toolContentHtml(lang, key) {
   return `<section class="max-w-3xl mx-auto px-4 mt-12">${block.sections.map(renderSection).join("")}</section>`;
 }
 
+const FORMAT_LABELS = { jpg: "JPG", png: "PNG", webp: "WebP", bmp: "BMP", gif: "GIF", pdf: "PDF" };
+const QUALITY_FORMATS = new Set(["jpg", "webp", "pdf"]);
+function toolOptionsHtml(lang, fmt) {
+  const t = locales[lang];
+  const c = t && t.converter;
+  if (!c || !c.optionsTitle) return "";
+  const label = FORMAT_LABELS[fmt] || (fmt || "").toUpperCase();
+  const fill = (str) => escText((str || "").replace(/\{format\}/g, label));
+  let paras = "";
+  if (QUALITY_FORMATS.has(fmt) && c.optionsQuality) {
+    paras += `<p class="text-gray-600 leading-relaxed mb-4">${fill(c.optionsQuality)}</p>`;
+  }
+  if (c.optionsPrivacy) {
+    paras += `<p class="text-gray-600 leading-relaxed mb-4">${fill(c.optionsPrivacy)}</p>`;
+  }
+  if (!paras) return "";
+  return `<section class="max-w-3xl mx-auto px-4 mt-12"><h2 class="text-2xl font-bold text-gray-900 mb-4">${fill(c.optionsTitle)}</h2>${paras}</section>`;
+}
+
 function faqHtml(lang, pageKey) {
   const t = locales[lang];
   const items = (t.faq.pages && t.faq.pages[pageKey]) || t.faq.items || [];
@@ -368,7 +387,7 @@ function buildPages() {
         body: pageBody(lang, {
           h1: t.convert.h1[fmt],
           intro: `${t.convert.formatDesc[fmt]} ${t.convert.freePrivateInstant || ""}`,
-          extra: `<div class="max-w-3xl mx-auto"><p class="text-gray-600 text-sm">${escText(t.converter?.privacyBadge || "")}</p></div>${toolContentHtml(lang, fmt)}`,
+          extra: `<div class="max-w-3xl mx-auto"><p class="text-gray-600 text-sm">${escText(t.converter?.privacyBadge || "")}</p></div>${toolContentHtml(lang, fmt)}${toolOptionsHtml(lang, fmt)}`,
           excludeFormat: fmt,
           pageKey: fmt,
         }),
