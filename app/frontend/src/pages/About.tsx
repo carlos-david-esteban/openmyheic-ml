@@ -49,10 +49,11 @@ export default function About() {
             tool is free and unlimited.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
-            The project started from a familiar frustration: photos sent from an iPhone that would
-            not open on a Windows PC. Most online fixes meant uploading personal photos to an
-            unknown server. Building a converter that never sees your files felt like the right
-            answer, and that principle still drives every tool on this site.
+            The project started at home: Carlos's girlfriend shoots everything on her iPhone,
+            while he is an Android user. Every batch of photos she shared arrived as HEIC files
+            that his phone and his PC refused to open. The online fixes he found all meant
+            uploading their personal photos to some unknown server — so he built a converter that
+            never sees your files at all. That principle still drives every tool on this site.
           </p>
         </section>
 
